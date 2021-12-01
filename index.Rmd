@@ -1,9 +1,49 @@
 ---
-title: "Tearecostat"
+title: "Learn EcoStat"
 description: |
-  Welcome to the website. I hope you enjoy it!
+    A useful list of Resources to teach and learn Ecological Statistics
 site: distill::distill_website
 ---
+
+#R Basics
+
+#Data & Visualization
+
+#Ethical EcoStats
+
+#Basics Stats
+
+#Linear Models
+
+#Mixed Models
+
+#Non Linear Models
+
+#Model Selection
+
+#Model Checking
+
+#Bayesian Approach
+
+#Multivariate Analyses
+
+#Demography
+
+#Population Dynamics
+
+#Spatial Analyses
+
+#Community 
+
+#Meta-Analysis
+
+#Machine Learning
+
+#Maths
+
+
+
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
