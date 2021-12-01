@@ -1,0 +1,19 @@
+---
+title: "R"
+description: |
+  Resources to start with R
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+##Presentation
+
+###Download and first steps
+####variables & Operations
+#### useful functions
+#### Create functions
+
+###Import Data
+
+###first graphs
+

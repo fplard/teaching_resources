@@ -1,0 +1,22 @@
+---
+title: "Basics Statistics"
+description: |
+  Descriptive and Inferentials Statistics
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+##Descriptive Stats
+###Mean, Variance, Median
+
+##Inferential Stats
+###Sampling
+###Estimation
+###Tests
+####Approach
+####Likelihood
+####Power, Robustness, Errors
+####p-value
+
+###Distributions
+
