@@ -2126,6 +2126,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans');
   @import url('https://fonts.googleapis.com/css2?family=Lora');
   @import url('https://fonts.googleapis.com/css2?family=Inconsolata');
+  @import url('https://fonts.googleapis.com/css2?family=Overlock+SC');
 
 
   html {
@@ -2144,8 +2145,8 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
     /*-- Specify custom fonts ~~~ must be imported above   --*/
     --heading-font:    "Open Sans", sans-serif;
     --mono-font:       "Inconsolata", monospace;
-    --body-font:       "Lora", sans-serif;
-    --navbar-font:     "Open Sans", sans-serif;  /* websites + blogs only */
+    --body-font:       "Lora", serif;
+    --navbar-font:     "Overlock SC", sans-serif;  /* websites + blogs only */
   }
 
   /*-- ARTICLE METADATA --*/
@@ -2174,9 +2175,10 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   /* These properties only apply to Distill sites and blogs  */
 
   .distill-site-header {
-    --title-size:       18px;
-    --text-color:       #7D8C0D;
-    --text-size:        15px;
+     padding: 10px 0px;
+    --title-size:       20px;
+    --text-color:       #88A61C;
+    --text-size:        20px;
     --hover-color:      white;
     --bkgd-color:       #222601;
   }
@@ -2375,12 +2377,9 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
 <a href="index.html" class="title">Learn EcoStat</a>
-<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
-</div>
-<div class="nav-right">
 <div class="nav-dropdown">
 <button class="nav-dropbtn">
-Basics
+BASICS
  
 <span class="down-arrow">&#x25BE;</span>
 </button>
@@ -2394,7 +2393,7 @@ Basics
 </div>
 <div class="nav-dropdown">
 <button class="nav-dropbtn">
-Modelling
+MODELLING
  
 <span class="down-arrow">&#x25BE;</span>
 </button>
@@ -2411,7 +2410,7 @@ Modelling
 </div>
 <div class="nav-dropdown">
 <button class="nav-dropbtn">
-by Field
+byFIELD
  
 <span class="down-arrow">&#x25BE;</span>
 </button>
@@ -2423,6 +2422,9 @@ by Field
 <span class="nav-dropdown-header">Meta-Analysis</span>
 </div>
 </div>
+<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
+</div>
+<div class="nav-right">
 <a href="others.html">Others</a>
 <a href="about.html">About</a>
 <a href="https://github.com/fplard/teaching_resources.git">
