@@ -3,6 +3,7 @@ title: "Learn EcoStat"
 description: |
   Resources for Ecological Statistics
 output_dir: "docs"
+theme: theme.css
 navbar:
   search: true
   right:
