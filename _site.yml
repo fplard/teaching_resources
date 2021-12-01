@@ -1,13 +1,13 @@
 name: "teaching_resources"
 title: "Learn EcoStat"
-description: |
-  Resources for Ecological Statistics
+description: Resources for Ecological Statistics
 output_dir: "docs"
 theme: theme.css
 navbar:
   search: true
-  right:
-    - text: "Basics"
+  source_url: true
+  left:
+    - text: "BASICS"
       menu:
         - text: "R"
           href: basics_r.html
@@ -16,7 +16,7 @@ navbar:
         - text: "Basics Stats"
           href: basics_stats.html
         - text: "Maths"
-    - text: "Modelling"
+    - text: "MODELLING"
       menu:
         - text: "Linear Models"
         - text: "Mixed Models"
@@ -26,17 +26,21 @@ navbar:
         - text: "Model Selection"
         - text: "Machine Learning"
         - text: "Multivariate Analyses"
-    - text: "by Field"
+    - text: "byFIELD"
       menu:
         - text: "Demography"
         - text: "Population Dynamics"
         - text: "Spatial Analyses"
         - text: "Community" 
         - text: "Meta-Analysis"
+  right:
     - text: "Others"
       href: others.html
     - text: "About"
       href: about.html
     - icon: fab fa-github
       href: https://github.com/fplard/teaching_resources.git
-output: distill::distill_article
+output: 
+  distill::distill_article:
+    highlight: rstudio
+    toc: true

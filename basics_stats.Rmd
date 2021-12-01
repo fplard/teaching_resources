@@ -6,17 +6,17 @@ date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
 
-##Descriptive Stats
-###Mean, Variance, Median
+## Descriptive Stats
+### Mean, Variance, Median
 
-##Inferential Stats
-###Sampling
-###Estimation
-###Tests
-####Approach
-####Likelihood
-####Power, Robustness, Errors
-####p-value
+## Inferential Stats
+### Sampling
+### Estimation
+### Tests
+#### Approach
+#### Likelihood
+#### Power, Robustness, Errors
+#### p-value
 
-###Distributions
+### Distributions
 

@@ -84,29 +84,32 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Learn EcoStat</title>
+  <title>Learn EcoStat: Basics Statistics</title>
 
-  <meta property="description" itemprop="description" content="A useful list of Resources to teach and learn Ecological Statistics"/>
+  <meta property="description" itemprop="description" content="Descriptive and Inferentials Statistics"/>
 
 
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2021-12-01"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-12-01"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Learn EcoStat"/>
+  <meta property="og:title" content="Learn EcoStat: Basics Statistics"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="A useful list of Resources to teach and learn Ecological Statistics"/>
+  <meta property="og:description" content="Descriptive and Inferentials Statistics"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Learn EcoStat"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Learn EcoStat"/>
-  <meta property="twitter:description" content="A useful list of Resources to teach and learn Ecological Statistics"/>
+  <meta property="twitter:title" content="Learn EcoStat: Basics Statistics"/>
+  <meta property="twitter:description" content="Descriptive and Inferentials Statistics"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site"]}},"value":[{"type":"character","attributes":{},"value":["Learn EcoStat"]},{"type":"character","attributes":{},"value":["A useful list of Resources to teach and learn Ecological Statistics"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Basics Statistics"]},{"type":"character","attributes":{},"value":["Descriptive and Inferentials Statistics\n"]},{"type":"character","attributes":{},"value":["2021-12-01"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2126,7 +2129,6 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans');
   @import url('https://fonts.googleapis.com/css2?family=Lora');
   @import url('https://fonts.googleapis.com/css2?family=Inconsolata');
-  @import url('https://fonts.googleapis.com/css2?family=Overlock+SC');
 
 
   html {
@@ -2145,8 +2147,8 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
     /*-- Specify custom fonts ~~~ must be imported above   --*/
     --heading-font:    "Open Sans", sans-serif;
     --mono-font:       "Inconsolata", monospace;
-    --body-font:       "Lora", serif;
-    --navbar-font:     "Overlock SC", sans-serif;  /* websites + blogs only */
+    --body-font:       "Lora", sans-serif;
+    --navbar-font:     "Open Sans", sans-serif;  /* websites + blogs only */
   }
 
   /*-- ARTICLE METADATA --*/
@@ -2175,10 +2177,9 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   /* These properties only apply to Distill sites and blogs  */
 
   .distill-site-header {
-     padding: 10px 0px;
-    --title-size:       20px;
-    --text-color:       #88A61C;
-    --text-size:        20px;
+    --title-size:       18px;
+    --text-color:       #7D8C0D;
+    --text-size:        15px;
     --hover-color:      white;
     --bkgd-color:       #222601;
   }
@@ -2368,7 +2369,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Learn EcoStat","description":"A useful list of Resources to teach and learn Ecological Statistics","authors":[]}
+{"title":"Basics Statistics","description":"Descriptive and Inferentials Statistics","authors":[],"publishedDate":"2021-12-01T00:00:00.000+01:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2377,9 +2378,12 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
 <a href="index.html" class="title">Learn EcoStat</a>
+<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
+</div>
+<div class="nav-right">
 <div class="nav-dropdown">
 <button class="nav-dropbtn">
-BASICS
+Basics
  
 <span class="down-arrow">&#x25BE;</span>
 </button>
@@ -2393,7 +2397,7 @@ BASICS
 </div>
 <div class="nav-dropdown">
 <button class="nav-dropbtn">
-MODELLING
+Modelling
  
 <span class="down-arrow">&#x25BE;</span>
 </button>
@@ -2410,7 +2414,7 @@ MODELLING
 </div>
 <div class="nav-dropdown">
 <button class="nav-dropbtn">
-byFIELD
+by Field
  
 <span class="down-arrow">&#x25BE;</span>
 </button>
@@ -2422,9 +2426,6 @@ byFIELD
 <span class="nav-dropdown-header">Meta-Analysis</span>
 </div>
 </div>
-<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
-</div>
-<div class="nav-right">
 <a href="others.html">Others</a>
 <a href="about.html">About</a>
 <a href="https://github.com/fplard/teaching_resources.git">
@@ -2439,10 +2440,10 @@ byFIELD
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Learn EcoStat</h1>
+<h1>Basics Statistics</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p>A useful list of Resources to teach and learn Ecological Statistics</p>
+<p><p>Descriptive and Inferentials Statistics</p></p>
 </div>
 
 
@@ -2451,33 +2452,31 @@ byFIELD
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#basics">Basics</a></li>
-<li><a href="#modelling">Modelling</a></li>
-<li><a href="#byfield">byField</a></li>
+<li><a href="#descriptive-stats">Descriptive Stats</a>
+<ul>
+<li><a href="#mean-variance-median">Mean, Variance, Median</a></li>
+</ul></li>
+<li><a href="#inferential-stats">Inferential Stats</a>
+<ul>
+<li><a href="#sampling">Sampling</a></li>
+<li><a href="#estimation">Estimation</a></li>
+<li><a href="#tests">Tests</a></li>
+<li><a href="#distributions">Distributions</a></li>
+</ul></li>
 </ul>
 </nav>
 </div>
-<h2 id="basics">Basics</h2>
-<p><a href="basics_r.html">R</a></p>
-<p>Ethical EcoStats</p>
-<p>Data &amp; Visualization</p>
-<p><a href="basics_stats.html">Basics Stats</a></p>
-<p>Maths</p>
-<h2 id="modelling">Modelling</h2>
-<p>Linear Models</p>
-<p>Mixed Models</p>
-<p>Non Linear Models</p>
-<p>Bayesian Approach</p>
-<p>Model Checking</p>
-<p>Model Selection</p>
-<p>Machine Learning</p>
-<p>Multivariate Analyses</p>
-<h2 id="byfield">byField</h2>
-<p>Demography</p>
-<p>Population Dynamics</p>
-<p>Spatial Analyses</p>
-<p>Community</p>
-<p>Meta-Analysis</p>
+<h2 id="descriptive-stats">Descriptive Stats</h2>
+<h3 id="mean-variance-median">Mean, Variance, Median</h3>
+<h2 id="inferential-stats">Inferential Stats</h2>
+<h3 id="sampling">Sampling</h3>
+<h3 id="estimation">Estimation</h3>
+<h3 id="tests">Tests</h3>
+<h4 id="approach">Approach</h4>
+<h4 id="likelihood">Likelihood</h4>
+<h4 id="power-robustness-errors">Power, Robustness, Errors</h4>
+<h4 id="p-value">p-value</h4>
+<h3 id="distributions">Distributions</h3>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

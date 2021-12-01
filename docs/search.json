@@ -6,15 +6,42 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-12-01T09:42:28+01:00"
+      "last_modified": "2021-12-01T15:55:09+01:00"
+    },
+    {
+      "path": "basics_r.html",
+      "title": "R",
+      "description": "Resources to start with R\n",
+      "author": [],
+      "date": "`r Sys.Date()`",
+      "contents": "\r\n\r\nContents\r\nPresentation\r\nDownload and first steps\r\nvariables & Operations\r\nuseful functions\r\nCreate functions\r\n\r\nImport Data\r\nFirst graphs\r\n\r\nPresentation\r\nDownload and first steps\r\nvariables & Operations\r\nuseful functions\r\nCreate functions\r\nImport Data\r\nFirst graphs\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-12-01T17:08:57+01:00"
+    },
+    {
+      "path": "basics_stats.html",
+      "title": "Basics Statistics",
+      "description": "Descriptive and Inferentials Statistics\n",
+      "author": [],
+      "date": "`r Sys.Date()`",
+      "contents": "\r\n\r\nContents\r\nDescriptive Stats\r\nMean, Variance, Median\r\n\r\nInferential Stats\r\nSampling\r\nEstimation\r\nTests\r\nDistributions\r\n\r\n\r\nDescriptive Stats\r\nMean, Variance, Median\r\nInferential Stats\r\nSampling\r\nEstimation\r\nTests\r\nApproach\r\nLikelihood\r\nPower, Robustness, Errors\r\np-value\r\nDistributions\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-12-01T16:13:01+01:00"
     },
     {
       "path": "index.html",
-      "title": "Tearecostat",
-      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "title": "Learn EcoStat",
+      "description": "A useful list of Resources to teach and learn Ecological Statistics",
       "author": [],
+      "contents": "\r\n\r\nContents\r\nBasics\r\nModelling\r\nbyField\r\n\r\nBasics\r\nR\r\nEthical EcoStats\r\nData & Visualization\r\nBasics Stats\r\nMaths\r\nModelling\r\nLinear Models\r\nMixed Models\r\nNon Linear Models\r\nBayesian Approach\r\nModel Checking\r\nModel Selection\r\nMachine Learning\r\nMultivariate Analyses\r\nbyField\r\nDemography\r\nPopulation Dynamics\r\nSpatial Analyses\r\nCommunity\r\nMeta-Analysis\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-12-01T17:25:28+01:00"
+    },
+    {
+      "path": "others.html",
+      "title": "Links",
+      "description": "A list of untidy links\n",
+      "author": [],
+      "date": "`r Sys.Date()`",
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-12-01T09:42:28+01:00"
+      "last_modified": "2021-12-01T16:16:41+01:00"
     }
   ],
   "collections": []
