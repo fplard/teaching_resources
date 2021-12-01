@@ -1,12 +1,41 @@
 name: "teaching_resources"
-title: "Tearecostat"
+title: "Learn EcoStat"
 description: |
-  Tearecostat
+  Resources for Ecological Statistics
 output_dir: "docs"
 navbar:
+  search: true
   right:
-    - text: "Home"
-      href: index.html
+    - text: "Basics"
+      menu:
+        - text: "R"
+          href: basics_r.html
+        - text: "Ethical EcoStats"
+        - text: "Data & Visualization"
+        - text: "Basics Stats"
+          href: basics_stats.html
+        - text: "Maths"
+    - text: "Modelling"
+      menu:
+        - text: "Linear Models"
+        - text: "Mixed Models"
+        - text: "Non Linear Models"
+        - text: "Bayesian Approach"
+        - text: "Model Checking"
+        - text: "Model Selection"
+        - text: "Machine Learning"
+        - text: "Multivariate Analyses"
+    - text: "by Field"
+      menu:
+        - text: "Demography"
+        - text: "Population Dynamics"
+        - text: "Spatial Analyses"
+        - text: "Community" 
+        - text: "Meta-Analysis"
+    - text: "Others"
+      href: others.html
     - text: "About"
       href: about.html
+    - icon: fab fa-github
+      href: https://github.com/fplard/teaching_resources.git
 output: distill::distill_article

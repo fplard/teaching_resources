@@ -3,43 +3,54 @@ title: "Learn EcoStat"
 description: |
     A useful list of Resources to teach and learn Ecological Statistics
 site: distill::distill_website
+
 ---
 
-#R Basics
+#Basics
+  
+##[R](basics_r.html) 
 
-#Data & Visualization
+##Ethical EcoStats
 
-#Ethical EcoStats
+##Data & Visualization
 
-#Basics Stats
+##[Basics Stats](basics_stats.html)
 
-#Linear Models
+##Maths
 
-#Mixed Models
 
-#Non Linear Models
+#Modelling
 
-#Model Selection
+##Linear Models
 
-#Model Checking
+##Mixed Models
 
-#Bayesian Approach
+##Non Linear Models
 
-#Multivariate Analyses
+##Bayesian Approach
 
-#Demography
+##Model Checking
 
-#Population Dynamics
+##Model Selection
 
-#Spatial Analyses
+##Machine Learning
 
-#Community 
+##Multivariate Analyses
 
-#Meta-Analysis
 
-#Machine Learning
+#byField
 
-#Maths
+##Demography
+
+##Population Dynamics
+
+##Spatial Analyses
+
+##Community 
+
+##Meta-Analysis
+
+
 
 
 
