@@ -2192,7 +2192,18 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
-  </style>
+  .iconlink {
+      background-color: #222601;
+      color: #88A61C;
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
+      border-radius: 5px; /* Rounded edges */
+  }
+
+  .iconlink:hover {
+      background-color: #222601;
+      color: var(--color-white);
+  }</style>
   <style type="text/css">
   /* base style */
 
@@ -2393,7 +2404,7 @@ BASICS
 </div>
 <div class="nav-dropdown">
 <button class="nav-dropbtn">
-MODELLING
+MODELING
  
 <span class="down-arrow">&#x25BE;</span>
 </button>
@@ -2401,7 +2412,7 @@ MODELLING
 <span class="nav-dropdown-header">Linear Models</span>
 <span class="nav-dropdown-header">Mixed Models</span>
 <span class="nav-dropdown-header">Non Linear Models</span>
-<span class="nav-dropdown-header">Bayesian Approach</span>
+<a href="modeling_bayesian.html">Bayesian Approach</a>
 <span class="nav-dropdown-header">Model Checking</span>
 <span class="nav-dropdown-header">Model Selection</span>
 <span class="nav-dropdown-header">Machine Learning</span>

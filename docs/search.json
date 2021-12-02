@@ -6,7 +6,7 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-12-01T18:01:43+01:00"
+      "last_modified": "2021-12-02T17:40:41+01:00"
     },
     {
       "path": "basics_r.html",
@@ -15,7 +15,7 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n\r\nContents\r\nPresentation\r\nDownload and first steps\r\nvariables & Operations\r\nuseful functions\r\nCreate functions\r\n\r\nImport Data\r\nFirst graphs\r\n\r\nPresentation\r\nDownload and first steps\r\nvariables & Operations\r\nuseful functions\r\nCreate functions\r\nImport Data\r\nFirst graphs\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-12-01T18:01:02+01:00"
+      "last_modified": "2021-12-02T17:40:42+01:00"
     },
     {
       "path": "basics_stats.html",
@@ -24,15 +24,24 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n\r\nContents\r\nDescriptive Stats\r\nMean, Variance, Median\r\n\r\nInferential Stats\r\nSampling\r\nEstimation\r\nTests\r\nDistributions\r\n\r\n\r\nDescriptive Stats\r\nMean, Variance, Median\r\nInferential Stats\r\nSampling\r\nEstimation\r\nTests\r\nApproach\r\nLikelihood\r\nPower, Robustness, Errors\r\np-value\r\nDistributions\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-12-01T18:01:25+01:00"
+      "last_modified": "2021-12-02T17:40:43+01:00"
     },
     {
       "path": "index.html",
       "title": "Learn EcoStat",
       "description": "A useful list of Resources to teach and learn Ecological Statistics",
       "author": [],
-      "contents": "\r\n\r\nContents\r\nBasics\r\nModelling\r\nbyField\r\n\r\nBasics\r\nR\r\nEthical EcoStats\r\nData & Visualization\r\nBasics Stats\r\nMaths\r\nModelling\r\nLinear Models\r\nMixed Models\r\nNon Linear Models\r\nBayesian Approach\r\nModel Checking\r\nModel Selection\r\nMachine Learning\r\nMultivariate Analyses\r\nbyField\r\nDemography\r\nPopulation Dynamics\r\nSpatial Analyses\r\nCommunity\r\nMeta-Analysis\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-12-01T18:00:56+01:00"
+      "contents": "\r\n\r\nContents\r\nBasics\r\nModeling\r\nbyField\r\n\r\nbook  course  video  exo  tuto \r\nBasics\r\nR\r\nEthical EcoStats\r\nData & Visualization\r\nBasics Stats\r\nMaths\r\nModeling\r\nLinear Models\r\nMixed Models\r\nNon Linear Models\r\nBayesian Approach\r\nModel Checking\r\nModel Selection\r\nMachine Learning\r\nMultivariate Analyses\r\nbyField\r\nDemography\r\nPopulation Dynamics\r\nSpatial Analyses\r\nCommunity\r\nMeta-Analysis\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-12-02T17:57:22+01:00"
+    },
+    {
+      "path": "modeling_bayesian.html",
+      "title": "Bayesian Approach",
+      "description": "A new article created using the Distill format.\n",
+      "author": [],
+      "date": "`r Sys.Date()`",
+      "contents": "\r\n\r\nContents\r\nIntroduction to Bayesian Inference\r\n\r\nIntroduction to Bayesian Inference\r\nName\r\nDescription\r\nLinks\r\nStatistical Rethinking\r\nA complete course about Bayesian Inference and modelling\r\n \r\nindex.Rmd\r\nWebsite home page.\r\n\r\nabout.Rmd\r\nWebsite about page.\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-12-02T17:48:35+01:00"
     },
     {
       "path": "others.html",
@@ -41,7 +50,7 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-12-01T18:01:15+01:00"
+      "last_modified": "2021-12-02T17:40:46+01:00"
     }
   ],
   "collections": []

@@ -2192,7 +2192,18 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
-  </style>
+  .iconlink {
+      background-color: #222601;
+      color: #88A61C;
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
+      border-radius: 5px; /* Rounded edges */
+  }
+
+  .iconlink:hover {
+      background-color: #222601;
+      color: var(--color-white);
+  }</style>
   <style type="text/css">
   /* base style */
 
@@ -2393,7 +2404,7 @@ BASICS
 </div>
 <div class="nav-dropdown">
 <button class="nav-dropbtn">
-MODELLING
+MODELING
  
 <span class="down-arrow">&#x25BE;</span>
 </button>
@@ -2401,7 +2412,7 @@ MODELLING
 <span class="nav-dropdown-header">Linear Models</span>
 <span class="nav-dropdown-header">Mixed Models</span>
 <span class="nav-dropdown-header">Non Linear Models</span>
-<span class="nav-dropdown-header">Bayesian Approach</span>
+<a href="modeling_bayesian.html">Bayesian Approach</a>
 <span class="nav-dropdown-header">Model Checking</span>
 <span class="nav-dropdown-header">Model Selection</span>
 <span class="nav-dropdown-header">Machine Learning</span>
@@ -2452,22 +2463,23 @@ byFIELD
 <h3>Contents</h3>
 <ul>
 <li><a href="#basics">Basics</a></li>
-<li><a href="#modelling">Modelling</a></li>
+<li><a href="#modeling">Modeling</a></li>
 <li><a href="#byfield">byField</a></li>
 </ul>
 </nav>
 </div>
+<p>book <a href="https:/xcelab.net/rm/statistical-rethinking/" class="iconlink"><i class="fas fa-book"></i></a> course <a href="https:/xcelab.net/rm/statistical-rethinking/" class="iconlink"><i class="fas fa-chalkboard-teacher"></i></a> video <a href="https:/xcelab.net/rm/statistical-rethinking/" class="iconlink"><i class="fas fa-video"></i></a> exo <a href="https:/xcelab.net/rm/statistical-rethinking/" class="iconlink"><i class="fas fa-edit"></i></a> tuto <a href="https:/xcelab.net/rm/statistical-rethinking/" class="iconlink"><i class="fas fa-list-alt"></i></a></p>
 <h2 id="basics">Basics</h2>
 <p><a href="basics_r.html">R</a></p>
 <p>Ethical EcoStats</p>
 <p>Data &amp; Visualization</p>
 <p><a href="basics_stats.html">Basics Stats</a></p>
 <p>Maths</p>
-<h2 id="modelling">Modelling</h2>
+<h2 id="modeling">Modeling</h2>
 <p>Linear Models</p>
 <p>Mixed Models</p>
 <p>Non Linear Models</p>
-<p>Bayesian Approach</p>
+<p><a href="modeling_bayesian.html">Bayesian Approach</a></p>
 <p>Model Checking</p>
 <p>Model Selection</p>
 <p>Machine Learning</p>

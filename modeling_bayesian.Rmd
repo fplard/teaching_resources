@@ -1,0 +1,26 @@
+---
+title: "Bayesian Approach"
+description: |
+  A new article created using the Distill format.
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+source(file.path("R", "functions.R"))
+```
+
+## Introduction to Bayesian Inference
+
+
+| Name        | Description                 | Links |
+|-------------|-----------------------------|-------|
+|Statistical Rethinking | A complete course about Bayesian Inference and modelling |`r ilink("course", "https://github.com/rmcelreath/statrethinking_winter2019")` `r ilink("book", "https:/xcelab.net/rm/statistical-rethinking/")`|
+| `index.Rmd` | Website home page.          |   |
+| `about.Rmd` | Website about page.         |   |
+
+
+
+
+

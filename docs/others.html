@@ -90,8 +90,8 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
 
   <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2021-12-01"/>
-  <meta property="article:created" itemprop="dateCreated" content="2021-12-01"/>
+  <meta property="article:published" itemprop="datePublished" content="2021-12-02"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-12-02"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Learn EcoStat: Links"/>
@@ -109,7 +109,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Links"]},{"type":"character","attributes":{},"value":["A list of untidy links\n"]},{"type":"character","attributes":{},"value":["2021-12-01"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Links"]},{"type":"character","attributes":{},"value":["A list of untidy links\n"]},{"type":"character","attributes":{},"value":["2021-12-02"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2195,7 +2195,18 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
-  </style>
+  .iconlink {
+      background-color: #222601;
+      color: #88A61C;
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
+      border-radius: 5px; /* Rounded edges */
+  }
+
+  .iconlink:hover {
+      background-color: #222601;
+      color: var(--color-white);
+  }</style>
   <style type="text/css">
   /* base style */
 
@@ -2371,7 +2382,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Links","description":"A list of untidy links","authors":[],"publishedDate":"2021-12-01T00:00:00.000+01:00"}
+{"title":"Links","description":"A list of untidy links","authors":[],"publishedDate":"2021-12-02T00:00:00.000+01:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2396,7 +2407,7 @@ BASICS
 </div>
 <div class="nav-dropdown">
 <button class="nav-dropbtn">
-MODELLING
+MODELING
  
 <span class="down-arrow">&#x25BE;</span>
 </button>
@@ -2404,7 +2415,7 @@ MODELLING
 <span class="nav-dropdown-header">Linear Models</span>
 <span class="nav-dropdown-header">Mixed Models</span>
 <span class="nav-dropdown-header">Non Linear Models</span>
-<span class="nav-dropdown-header">Bayesian Approach</span>
+<a href="modeling_bayesian.html">Bayesian Approach</a>
 <span class="nav-dropdown-header">Model Checking</span>
 <span class="nav-dropdown-header">Model Selection</span>
 <span class="nav-dropdown-header">Machine Learning</span>

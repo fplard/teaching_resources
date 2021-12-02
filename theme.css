@@ -79,4 +79,15 @@ d-appendix {
 
 /*-- Additional custom styles --*/
 /* Add any additional CSS rules below                      */
+.iconlink {
+    background-color: #222601;
+    color: #88A61C;
+    padding: 3px 5px 3px 5px;
+    margin: 0 2px 0 2px;
+    border-radius: 5px; /* Rounded edges */
+}
 
+.iconlink:hover {
+    background-color: #222601;
+    color: var(--color-white);
+}

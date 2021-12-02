@@ -16,12 +16,13 @@ navbar:
         - text: "Basics Stats"
           href: basics_stats.html
         - text: "Maths"
-    - text: "MODELLING"
+    - text: "MODELING"
       menu:
         - text: "Linear Models"
         - text: "Mixed Models"
         - text: "Non Linear Models"
         - text: "Bayesian Approach"
+          href: modeling_bayesian.html
         - text: "Model Checking"
         - text: "Model Selection"
         - text: "Machine Learning"

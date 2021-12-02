@@ -5,6 +5,18 @@ site: distill::distill_website
 
 
 ---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+source(file.path("R", "functions.R"))
+```
+
+book `r ilink("book", "https:/xcelab.net/rm/statistical-rethinking/")`
+course `r ilink("course", "https:/xcelab.net/rm/statistical-rethinking/")`
+video `r ilink("video", "https:/xcelab.net/rm/statistical-rethinking/")`
+exo `r ilink("exo", "https:/xcelab.net/rm/statistical-rethinking/")`
+tuto `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/")`
+
+
 
 ## Basics
   
@@ -19,7 +31,7 @@ Data & Visualization
 Maths
 
 
-## Modelling
+## Modeling
 
 Linear Models
 
@@ -27,7 +39,7 @@ Mixed Models
 
 Non Linear Models
 
-Bayesian Approach
+[Bayesian Approach](modeling_bayesian.html)
 
 Model Checking
 
@@ -53,17 +65,4 @@ Meta-Analysis
 
 
 
-
-
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
-
-# Learn more about publishing to GitHub Pages at:
-# https://rstudio.github.io/distill/publish_website.html#github-pages
-
-```
 
