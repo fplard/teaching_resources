@@ -10,11 +10,13 @@ knitr::opts_chunk$set(echo = FALSE)
 source(file.path("R", "functions.R"))
 ```
 
-book `r ilink("book", "https:/xcelab.net/rm/statistical-rethinking/")`
-course `r ilink("course", "https:/xcelab.net/rm/statistical-rethinking/")`
+book (not free) `r ilink("book", "https:/xcelab.net/rm/statistical-rethinking/")`
+full course `r ilink("course", "https:/xcelab.net/rm/statistical-rethinking/")`
 video `r ilink("video", "https:/xcelab.net/rm/statistical-rethinking/")`
 exo `r ilink("exo", "https:/xcelab.net/rm/statistical-rethinking/")`
-tuto `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/")`
+tuto (open book, tutorial, step by step manual) `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/")`
+article`r ilink("article", "https:/xcelab.net/rm/statistical-rethinking/")`
+website`r ilink("site", "https:/xcelab.net/rm/statistical-rethinking/")`
 
 
 
@@ -22,45 +24,45 @@ tuto `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/")`
   
 [R](basics_r.html) 
 
-Ethical EcoStats
+[Ethical EcoStats](basics_ethical.html)
 
-Data & Visualization
+[Data & Visualization](basics_data.html)
 
 [Basics Stats](basics_stats.html)
 
-Maths
+[Maths](basics_maths.html)
 
 
 ## Modeling
 
 Linear Models
 
-Mixed Models
+[Mixed Models](modeling_mixedmodels.html)
 
-Non Linear Models
+[Non Linear Models](modeling_nonlinear.html)
 
 [Bayesian Approach](modeling_bayesian.html)
 
 Model Checking
 
-Model Selection
+[Model Selection](modeling_modelselection.html)
 
-Machine Learning
+[Machine Learning](modeling_machinelearning.html)
 
-Multivariate Analyses
+[Multivariate Analyses](modeling_multivariate.html)
 
 
 ## byField
 
-Demography
+[Demography](byfield_demography.html)
 
 Population Dynamics
 
-Spatial Analyses
+[Spatial Analyses](byfield_spatial.html)
 
-Community 
+[Community Analyses](byfield_community.html)
 
-Meta-Analysis
+Meta-Analyses
 
 
 

@@ -6,14 +6,22 @@ date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
 
-## Presentation
 
-## Download and first steps
-### variables & Operations
-### useful functions
-### Create functions
 
-## Import Data
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+source(file.path("R", "functions.R"))
 
-## First graphs
+```
 
+To be contacted?
+
+
+
+| Name        | Description                 | Links |
+|-------------|-----------------------------|-------|
+|R for Data Science|H Wickham, G Grolemund |`r ilink("tuto", "https://r4ds.had.co.nz/")` `r ilink("exo", "https://jrnold.github.io/r4ds-exercise-solutions/")`|
+|Advanced R|H Wickham|`r ilink("tuto", "http://adv-r.had.co.nz/")`|
+|Rstudio  |youtube chain  |`r ilink("video", "https://www.youtube.com/c/RStudioPBC/playlists")`|
+|Statistics and Data Science with R| MarinStats Lectures: 5 series: Getting started, Descriptive statistics, Probability distribution, Bivariate analysis, Linearregression |`r ilink("course", "https://www.statslectures.com/r-stats-videos-tutorials")``r ilink("video", "https://www.youtube.com/c/marinstatlectures/featured")`|
+|  |  |`r ilink("site", " ")`|

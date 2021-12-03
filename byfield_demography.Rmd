@@ -1,0 +1,27 @@
+---
+title: "Demography"
+description: |
+  Everything to estimate Survival, Reproduction and Growth...
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+source(file.path("R", "functions.R"))
+```
+
+To be contacted? 
+
+## Survival Analysis
+
+###CMR
+
+| Name        | Description                 | Links |
+|-------------|-----------------------------|-------|
+|Bayesian capture-recapture inference with hidden Markov models|A two-day workshop with R and Nimble by O. Gimenez, C. R. Nater, S. Cubaynes, P. de Valpine, M. Quéroué|`r ilink("course", "https://oliviergimenez.github.io/bayesian-cr-workshop/")``r ilink("video", "")``r ilink("exo", "")`|
+
+## Reproduction
+
+## Growth
+

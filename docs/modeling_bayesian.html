@@ -90,8 +90,8 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
 
   <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2021-12-02"/>
-  <meta property="article:created" itemprop="dateCreated" content="2021-12-02"/>
+  <meta property="article:published" itemprop="datePublished" content="2021-12-03"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-12-03"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Learn EcoStat: Bayesian Approach"/>
@@ -109,7 +109,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Bayesian Approach"]},{"type":"character","attributes":{},"value":["A new article created using the Distill format.\n"]},{"type":"character","attributes":{},"value":["2021-12-02"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Bayesian Approach"]},{"type":"character","attributes":{},"value":["A new article created using the Distill format.\n"]},{"type":"character","attributes":{},"value":["2021-12-03"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2382,7 +2382,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Bayesian Approach","description":"A new article created using the Distill format.","authors":[],"publishedDate":"2021-12-02T00:00:00.000+01:00"}
+{"title":"Bayesian Approach","description":"A new article created using the Distill format.","authors":[],"publishedDate":"2021-12-03T00:00:00.000+01:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2399,10 +2399,10 @@ BASICS
 </button>
 <div class="nav-dropdown-content">
 <a href="basics_r.html">R</a>
-<span class="nav-dropdown-header">Ethical EcoStats</span>
-<span class="nav-dropdown-header">Data &amp; Visualization</span>
+<a href="basics_ethical.html">Ethical EcoStats</a>
+<a href="basics_data.html">Data &amp; Visualization</a>
 <a href="basics_stats.html">Basics Stats</a>
-<span class="nav-dropdown-header">Maths</span>
+<a href="basics_maths.html">Maths</a>
 </div>
 </div>
 <div class="nav-dropdown">
@@ -2413,13 +2413,13 @@ MODELING
 </button>
 <div class="nav-dropdown-content">
 <span class="nav-dropdown-header">Linear Models</span>
-<span class="nav-dropdown-header">Mixed Models</span>
-<span class="nav-dropdown-header">Non Linear Models</span>
+<a href="modeling_mixedmodels.html">Mixed Models</a>
+<a href="modeling_nonlinear.html">Non Linear Models</a>
 <a href="modeling_bayesian.html">Bayesian Approach</a>
 <span class="nav-dropdown-header">Model Checking</span>
-<span class="nav-dropdown-header">Model Selection</span>
-<span class="nav-dropdown-header">Machine Learning</span>
-<span class="nav-dropdown-header">Multivariate Analyses</span>
+<a href="modeling_modelselection.html">Model Selection</a>
+<a href="modeling_machinelearning.html">Machine Learning</a>
+<a href="modeling_multivariate.html">Multivariate Analyses</a>
 </div>
 </div>
 <div class="nav-dropdown">
@@ -2429,11 +2429,11 @@ byFIELD
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<span class="nav-dropdown-header">Demography</span>
+<a href="byfield_demography.html">Demography</a>
 <span class="nav-dropdown-header">Population Dynamics</span>
-<span class="nav-dropdown-header">Spatial Analyses</span>
-<span class="nav-dropdown-header">Community</span>
-<span class="nav-dropdown-header">Meta-Analysis</span>
+<a href="byfield_spatial.html">Spatial Analyses</a>
+<a href="byfield_community.html">Community Analyses</a>
+<span class="nav-dropdown-header">Meta-Analyses</span>
 </div>
 </div>
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
@@ -2466,10 +2466,16 @@ byFIELD
 <h3>Contents</h3>
 <ul>
 <li><a href="#introduction-to-bayesian-inference">Introduction to Bayesian Inference</a></li>
+<li><a href="#advanced">Advanced</a></li>
+<li><a href="#package-and-software">Package and software</a>
+<ul>
+<li><a href="#jags">JAGS</a></li>
+<li><a href="#stan">Stan</a></li>
+<li><a href="#nimble">Nimble</a></li>
+</ul></li>
 </ul>
 </nav>
 </div>
-<h2 id="introduction-to-bayesian-inference">Introduction to Bayesian Inference</h2>
 <table>
 <colgroup>
 <col style="width: 26%" />
@@ -2487,20 +2493,54 @@ byFIELD
 <tr class="odd">
 <td>Statistical Rethinking</td>
 <td>A complete course about Bayesian Inference and modelling</td>
-<td><a href="https://github.com/rmcelreath/statrethinking_winter2019" class="iconlink"><i class="fas fa-chalkboard-teacher"></i></a> <a href="https:/xcelab.net/rm/statistical-rethinking/" class="iconlink"><i class="fas fa-book"></i></a></td>
+<td><a href="https://github.com/rmcelreath/statrethinking_winter2019" class="iconlink"><i class="fas fa-chalkboard-teacher"></i></a> <a href="https://www.youtube.com/playlist?list=PLDcUM9US4XdNM4Edgs7weiyIguLSToZRI" class="iconlink"><i class="fas fa-video"></i></a><a href="https:/xcelab.net/rm/statistical-rethinking/" class="iconlink"><i class="fas fa-book"></i></a></td>
 </tr>
 <tr class="even">
-<td><code>index.Rmd</code></td>
-<td>Website home page.</td>
-<td></td>
+<td>Bayesian statistics with R</td>
+<td>O. Gimenez</td>
+<td><a href="https://oliviergimenez.github.io/bayesian-stats-with-R/" class="iconlink"><i class="fas fa-chalkboard-teacher"></i></a> <a href="" class="iconlink"><i class="fas fa-edit"></i></a> <a href="" class="iconlink"><i class="fas fa-video"></i></a></td>
 </tr>
 <tr class="odd">
-<td><code>about.Rmd</code></td>
-<td>Website about page.</td>
+<td>Bayesian Modeling for Socio-Environmental Data Short Course</td>
+<td>T. Hobbs, M Collins, C Che-Castaldo</td>
+<td><a href="https://cchecastaldo.github.io/BayesianShortCourse/index.html" class="iconlink"><i class="fas fa-chalkboard-teacher"></i></a></td>
+</tr>
+<tr class="even">
+<td>Bayesian statistics course</td>
+<td>Master course by F. Barraquand, MCMC, Anova, GLMM, non-linear, occupancy, model selection</td>
+<td><a href="https://github.com/fbarraquand/Bayesian_statistics_course" class="iconlink"><i class="fas fa-chalkboard-teacher"></i></a></td>
+</tr>
+<tr class="odd">
+<td>BiogecoBayes</td>
+<td>Workshops created by a group of researchers &amp; students who want to progress together in their learning</td>
+<td><a href="https://github.com/JulietteArchambeau/BiogecoBayes" class="iconlink"><i class="fas fa-list-alt"></i></a></td>
+</tr>
+<tr class="even">
+<td>The Markov-chain Monte Carlo Interactive Gallery</td>
+<td>view algorithms</td>
+<td><a href="https://chi-feng.github.io/mcmc-demo/" class="iconlink"><i class="fas fa-globe"></i></a></td>
+</tr>
+<tr class="odd">
+<td>Learning Bayesian Statistics</td>
+<td>podcast channel</td>
+<td><a href="https://www.learnbayesstats.com/" class="iconlink"><i class="fas fa-globe"></i></a></td>
+</tr>
+<tr class="even">
 <td></td>
+<td></td>
+<td><a href=" " class="iconlink"><i class="fas fa-globe"></i></a></td>
 </tr>
 </tbody>
 </table>
+<h2 id="introduction-to-bayesian-inference">Introduction to Bayesian Inference</h2>
+<h2 id="advanced">Advanced</h2>
+<h2 id="package-and-software">Package and software</h2>
+<h3 id="jags">JAGS</h3>
+<h3 id="stan">Stan</h3>
+<p>Become a Bayesian with R &amp; Stan, M Clark <a href="http://m-clark.github.io/workshops/bayesian/index.html#home" class="iconlink"><i class="fas fa-list-alt"></i></a></p>
+<p>Stan for Ecology <a href="https://stanecology.github.io/" class="iconlink"><i class="fas fa-globe"></i></a></p>
+<p>Stan User Guide <a href="https://mc-stan.org/docs/2_21/stan-users-guide/index.html" class="iconlink"><i class="fas fa-list-alt"></i></a></p>
+<h3 id="nimble">Nimble</h3>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

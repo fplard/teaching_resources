@@ -4,6 +4,8 @@ make_icon <- function(icon) {
 }
 ilink <- function(icon = NULL, url = NULL) {
   icon_name=switch(icon,
+         site="fas fa-globe",
+         article="far fa-sticky-note",
          course="fas fa-chalkboard-teacher",
          video="fas fa-video",
          book="fas fa-book",

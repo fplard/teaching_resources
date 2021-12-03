@@ -12,28 +12,39 @@ navbar:
         - text: "R"
           href: basics_r.html
         - text: "Ethical EcoStats"
+          href: basics_ethical.html
         - text: "Data & Visualization"
+          href: basics_data.html
         - text: "Basics Stats"
           href: basics_stats.html
         - text: "Maths"
+          href: basics_maths.html
     - text: "MODELING"
       menu:
         - text: "Linear Models"
         - text: "Mixed Models"
+          href: modeling_mixedmodels.html
         - text: "Non Linear Models"
+          href: modeling_nonlinear.html
         - text: "Bayesian Approach"
           href: modeling_bayesian.html
         - text: "Model Checking"
         - text: "Model Selection"
+          href: modeling_modelselection.html
         - text: "Machine Learning"
+          href: modeling_machinelearning.html
         - text: "Multivariate Analyses"
+          href: modeling_multivariate.html
     - text: "byFIELD"
       menu:
         - text: "Demography"
+          href: byfield_demography.html
         - text: "Population Dynamics"
         - text: "Spatial Analyses"
-        - text: "Community" 
-        - text: "Meta-Analysis"
+          href: byfield_spatial.html
+        - text: "Community Analyses" 
+          href: byfield_community.html
+        - text: "Meta-Analyses"
   right:
     - text: "Others"
       href: others.html

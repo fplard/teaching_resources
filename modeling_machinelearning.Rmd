@@ -1,0 +1,28 @@
+---
+title: "Machine Learning"
+description: |
+  A new article created using the Distill format.
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+source(file.path("R", "functions.R"))
+```
+
+To be contacted? JL Parouty, L. Jacob (plus math)
+
+Have a look also to [wikistat][https://github.com/wikistat] (Insa Toulouse, but in french)
+
+| Name        | Description                 | Links |
+|-------------|-----------------------------|-------|
+|Machine Learning for Ecology and Sustainable Natural Resource Management|Grant Humphries, Dawn R. Magness, Falk Huettmann|`r ilink("book", "https://link.springer.com/book/10.1007%2F978-3-319-96978-7")`|
+|A translucent box: interpretable machine learning in ecology|Tim C. D. Lucas|`r ilink("article", "https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecm.1422")`|
+|Applications for deep learning in ecology|Sylvain Christin, Éric Hervet, Nicolas Lecomte|`r ilink("article", "https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13256")`|
+|Deep learning as a tool for ecology and evolution|Borowiec et al.|`r ilink("article", "https://ecoevorxiv.org/nt3as/")`|
+|Machine learning to classify animal species in camera trap images: Applications in ecology|Tabac et al.|`r ilink("article", "https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13120")`|
+|A practical guide to machine learning in ecology|blog by Jon Lefcheck|`r ilink("tuto", "https://jonlefcheck.net/2015/02/06/a-practical-guide-to-machine-learning-in-ecology/")`|
+|Deep Learning for Ecology| brief overview of the applications of deep learning to ecology and remote sensing by P. Gray|`r ilink("github", "https://github.com/patrickcgray/deep_learning_ecology")`|
+|In-depth introduction to machine learning in 15 hours of expert videos|Trevor Hastie and Rob Tibshirani, 2014|`r ilink("course", "https://www.dataschool.io/15-hours-of-expert-machine-learning-videos/")``r ilink("video", "")`|
+|Machine Learning Mastery|A site including tutorial for machine  learning from beginners to advanced levels|`r ilink("site", "https://machinelearningmastery.com/start-here/")`|

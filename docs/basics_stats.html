@@ -86,30 +86,30 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   <!--radix_placeholder_meta_tags-->
   <title>Learn EcoStat: Basics Statistics</title>
 
-  <meta property="description" itemprop="description" content="Descriptive and Inferentials Statistics"/>
+  <meta property="description" itemprop="description" content="General Introdution to Statistics, Descriptive and Inferentials Statistics"/>
 
 
   <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2021-12-02"/>
-  <meta property="article:created" itemprop="dateCreated" content="2021-12-02"/>
+  <meta property="article:published" itemprop="datePublished" content="2021-12-03"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-12-03"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Learn EcoStat: Basics Statistics"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Descriptive and Inferentials Statistics"/>
+  <meta property="og:description" content="General Introdution to Statistics, Descriptive and Inferentials Statistics"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Learn EcoStat"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
   <meta property="twitter:title" content="Learn EcoStat: Basics Statistics"/>
-  <meta property="twitter:description" content="Descriptive and Inferentials Statistics"/>
+  <meta property="twitter:description" content="General Introdution to Statistics, Descriptive and Inferentials Statistics"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Basics Statistics"]},{"type":"character","attributes":{},"value":["Descriptive and Inferentials Statistics\n"]},{"type":"character","attributes":{},"value":["2021-12-02"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Basics Statistics"]},{"type":"character","attributes":{},"value":["General Introdution to Statistics, Descriptive and Inferentials Statistics\n"]},{"type":"character","attributes":{},"value":["2021-12-03"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2382,7 +2382,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Basics Statistics","description":"Descriptive and Inferentials Statistics","authors":[],"publishedDate":"2021-12-02T00:00:00.000+01:00"}
+{"title":"Basics Statistics","description":"General Introdution to Statistics, Descriptive and Inferentials Statistics","authors":[],"publishedDate":"2021-12-03T00:00:00.000+01:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2399,10 +2399,10 @@ BASICS
 </button>
 <div class="nav-dropdown-content">
 <a href="basics_r.html">R</a>
-<span class="nav-dropdown-header">Ethical EcoStats</span>
-<span class="nav-dropdown-header">Data &amp; Visualization</span>
+<a href="basics_ethical.html">Ethical EcoStats</a>
+<a href="basics_data.html">Data &amp; Visualization</a>
 <a href="basics_stats.html">Basics Stats</a>
-<span class="nav-dropdown-header">Maths</span>
+<a href="basics_maths.html">Maths</a>
 </div>
 </div>
 <div class="nav-dropdown">
@@ -2413,13 +2413,13 @@ MODELING
 </button>
 <div class="nav-dropdown-content">
 <span class="nav-dropdown-header">Linear Models</span>
-<span class="nav-dropdown-header">Mixed Models</span>
-<span class="nav-dropdown-header">Non Linear Models</span>
+<a href="modeling_mixedmodels.html">Mixed Models</a>
+<a href="modeling_nonlinear.html">Non Linear Models</a>
 <a href="modeling_bayesian.html">Bayesian Approach</a>
 <span class="nav-dropdown-header">Model Checking</span>
-<span class="nav-dropdown-header">Model Selection</span>
-<span class="nav-dropdown-header">Machine Learning</span>
-<span class="nav-dropdown-header">Multivariate Analyses</span>
+<a href="modeling_modelselection.html">Model Selection</a>
+<a href="modeling_machinelearning.html">Machine Learning</a>
+<a href="modeling_multivariate.html">Multivariate Analyses</a>
 </div>
 </div>
 <div class="nav-dropdown">
@@ -2429,11 +2429,11 @@ byFIELD
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<span class="nav-dropdown-header">Demography</span>
+<a href="byfield_demography.html">Demography</a>
 <span class="nav-dropdown-header">Population Dynamics</span>
-<span class="nav-dropdown-header">Spatial Analyses</span>
-<span class="nav-dropdown-header">Community</span>
-<span class="nav-dropdown-header">Meta-Analysis</span>
+<a href="byfield_spatial.html">Spatial Analyses</a>
+<a href="byfield_community.html">Community Analyses</a>
+<span class="nav-dropdown-header">Meta-Analyses</span>
 </div>
 </div>
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
@@ -2456,7 +2456,7 @@ byFIELD
 <h1>Basics Statistics</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Descriptive and Inferentials Statistics</p></p>
+<p><p>General Introdution to Statistics, Descriptive and Inferentials Statistics</p></p>
 </div>
 
 
@@ -2465,31 +2465,108 @@ byFIELD
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#descriptive-stats">Descriptive Stats</a>
-<ul>
-<li><a href="#mean-variance-median">Mean, Variance, Median</a></li>
-</ul></li>
-<li><a href="#inferential-stats">Inferential Stats</a>
-<ul>
-<li><a href="#sampling">Sampling</a></li>
-<li><a href="#estimation">Estimation</a></li>
-<li><a href="#tests">Tests</a></li>
+<li><a href="#descriptive-stats">Descriptive Stats</a></li>
+<li><a href="#inferential-stats">Inferential Stats</a></li>
 <li><a href="#distributions">Distributions</a></li>
-</ul></li>
+<li><a href="#general-introduction-to-statistics">General introduction to statistics</a></li>
 </ul>
 </nav>
 </div>
+<p>To be contacted?</p>
 <h2 id="descriptive-stats">Descriptive Stats</h2>
-<h3 id="mean-variance-median">Mean, Variance, Median</h3>
+<table>
+<colgroup>
+<col style="width: 26%" />
+<col style="width: 59%" />
+<col style="width: 14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Description</th>
+<th>Links</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Descriptive Statistics</td>
+<td>MarinStatsLectures, Simple plots, describing distributions, SD &amp; degree of freedom, Sampling</td>
+<td><a href="https://www.statslectures.com/general-statistics/descriptive-statistics" class="iconlink"><i class="fas fa-chalkboard-teacher"></i></a> <a href="" class="iconlink"><i class="fas fa-video"></i></a></td>
+</tr>
+<tr class="even">
+<td>Descriptive Statistics</td>
+<td>Zedstatistics: Mean, Median, Moments, SE,…</td>
+<td><a href="https://www.youtube.com/playlist?list=PLTNMv857s9WVStKLco6ZBOsfSGXzJ1L0f" class="iconlink"><i></i></a></td>
+</tr>
+</tbody>
+</table>
 <h2 id="inferential-stats">Inferential Stats</h2>
-<h3 id="sampling">Sampling</h3>
-<h3 id="estimation">Estimation</h3>
-<h3 id="tests">Tests</h3>
-<h4 id="approach">Approach</h4>
-<h4 id="likelihood">Likelihood</h4>
-<h4 id="power-robustness-errors">Power, Robustness, Errors</h4>
-<h4 id="p-value">p-value</h4>
-<h3 id="distributions">Distributions</h3>
+<table>
+<colgroup>
+<col style="width: 26%" />
+<col style="width: 59%" />
+<col style="width: 14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Description</th>
+<th>Links</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Univariate Analysis</td>
+<td>MarinStatsLectures, IC, Hypothesis Testing, Error &amp; Power</td>
+<td><a href="https://www.statslectures.com/general-statistics/univariate-analysis-statistics" class="iconlink"><i class="fas fa-chalkboard-teacher"></i></a> <a href="" class="iconlink"><i class="fas fa-video"></i></a></td>
+</tr>
+<tr class="even">
+<td>Bivariate Analysis</td>
+<td>MarinStatsLectures, T-test, Anova, chisquared, Odd-ratio</td>
+<td><a href="https://www.statslectures.com/general-statistics/univariate-analysis-statistics" class="iconlink"><i class="fas fa-chalkboard-teacher"></i></a> <a href="" class="iconlink"><i class="fas fa-video"></i></a></td>
+</tr>
+<tr class="odd">
+<td>Regression</td>
+<td>zedstatistics, basics youtube videos</td>
+<td><a href="https://www.youtube.com/playlist?list=PLTNMv857s9WUI1Nz4SssXDKAELESXz-bi" class="iconlink"><i></i></a> <a href="" class="iconlink"><i class="fas fa-video"></i></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="distributions">Distributions</h2>
+<p>The distribution zoo, View distribution, Ben Lambert and Fergus Cooper <a href="https://ben18785.shinyapps.io/distribution-zoo/" class="iconlink"><i class="fas fa-globe"></i></a></p>
+<p>Basics youtube videos from zedstatistics <a href="https://www.youtube.com/playlist?list=PLTNMv857s9WVzutwxaMb0YZKW7hoveGLS" class="iconlink"><i class="fas fa-video"></i></a></p>
+<h2 id="general-introduction-to-statistics">General introduction to statistics</h2>
+<table>
+<colgroup>
+<col style="width: 26%" />
+<col style="width: 59%" />
+<col style="width: 14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Description</th>
+<th>Links</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Statistics for ecologists</td>
+<td>O. Gimenez: Distibutions, likelihoods, Hypothesis testing, Multimodel inference, Bayesian , GLM, GLMM, GAM</td>
+<td><a href="https://github.com/oliviergimenez/statistics-for-ecologists-Master-courses" class="iconlink"><i class="fas fa-chalkboard-teacher"></i></a> <a href="" class="iconlink"><i class="fas fa-video"></i></a><a href="" class="iconlink"><i class="fas fa-edit"></i></a></td>
+</tr>
+<tr class="even">
+<td>Statistical Thinking for the 21st Century</td>
+<td>Russell A. Poldrack</td>
+<td><a href="https://statsthinking21.github.io/statsthinking21-core-site/index.html" class="iconlink"><i class="fas fa-globe"></i></a></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td><a href=" " class="iconlink"><i class="fas fa-globe"></i></a></td>
+</tr>
+</tbody>
+</table>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

@@ -1,0 +1,33 @@
+---
+title: "Ethical Statistics"
+description: |
+  Reproducible and Ethical Statistics.
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+source(file.path("R", "functions.R"))
+
+```
+
+To be contacted?
+
+##Open science
+
+| Name        | Description                 | Links |
+|-------------|-----------------------------|-------|
+|SORTEE | Society for Open, Reliable, and Transparent Ecology and Evolutionary biology|`r ilink("site", "https://www.sortee.org/")`|
+
+
+## Reproducibility 
+
+
+| Name        | Description                 | Links |
+|-------------|-----------------------------|-------|
+|Reproducible science workshop | O. Gimenez |`r ilink("course", "https://oliviergimenez.github.io/reproducible-science-workshop/")``r ilink("exo", "")``r ilink("video", "https://www.youtube.com/watch?v=xfMbzUb5iKk&list=PL5CiXbb9zgjQjAYPMdZVoawpZf2nnxyxB")`|
+|Tidy Modeling with R|M Kuhn, J Silge|`r ilink("tuto", "https://www.tmwr.org/")`|
+|  |  |`r ilink("site", " ")`|
+
+

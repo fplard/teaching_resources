@@ -1,22 +1,43 @@
 ---
 title: "Basics Statistics"
 description: |
-  Descriptive and Inferentials Statistics
+  General Introdution to Statistics, Descriptive and Inferentials Statistics
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+source(file.path("R", "functions.R"))
+```
+
+To be contacted? 
+
 ## Descriptive Stats
-### Mean, Variance, Median
+
+| Name        | Description                 | Links |
+|-------------|-----------------------------|-------|
+|Descriptive Statistics  |MarinStatsLectures, Simple plots, describing distributions, SD & degree of freedom, Sampling |`r ilink("course", "https://www.statslectures.com/general-statistics/descriptive-statistics")` `r ilink("video", "")`|
+|Descriptive Statistics| Zedstatistics: Mean, Median, Moments, SE,... |`r ilink("videos", "https://www.youtube.com/playlist?list=PLTNMv857s9WVStKLco6ZBOsfSGXzJ1L0f")`|
 
 ## Inferential Stats
-### Sampling
-### Estimation
-### Tests
-#### Approach
-#### Likelihood
-#### Power, Robustness, Errors
-#### p-value
 
-### Distributions
+| Name        | Description                 | Links |
+|-------------|-----------------------------|-------|
+|Univariate Analysis |MarinStatsLectures, IC, Hypothesis Testing, Error & Power |`r ilink("course", "https://www.statslectures.com/general-statistics/univariate-analysis-statistics")` `r ilink("video", "")`|
+|Bivariate Analysis |MarinStatsLectures, T-test, Anova, chisquared, Odd-ratio |`r ilink("course", "https://www.statslectures.com/general-statistics/univariate-analysis-statistics")` `r ilink("video", "")`|
+|Regression |zedstatistics, basics youtube videos |`r ilink("videos", "https://www.youtube.com/playlist?list=PLTNMv857s9WUI1Nz4SssXDKAELESXz-bi")` `r ilink("video", "")`|
 
+## Distributions
+
+The distribution zoo, View distribution, Ben Lambert and Fergus Cooper `r ilink("site", "https://ben18785.shinyapps.io/distribution-zoo/")` 
+
+Basics youtube videos from zedstatistics  `r ilink("video", "https://www.youtube.com/playlist?list=PLTNMv857s9WVzutwxaMb0YZKW7hoveGLS")` 
+
+## General introduction to statistics
+
+| Name        | Description                 | Links |
+|-------------|-----------------------------|-------|
+|Statistics for ecologists | O. Gimenez: Distibutions, likelihoods, Hypothesis testing, Multimodel inference, Bayesian , GLM, GLMM, GAM|`r ilink("course", "https://github.com/oliviergimenez/statistics-for-ecologists-Master-courses")` `r ilink("video", "")``r ilink("exo", "")`|
+|Statistical Thinking for the 21st Century|Russell A. Poldrack|`r ilink("site", "https://statsthinking21.github.io/statsthinking21-core-site/index.html")`|
+|  |  |`r ilink("site", " ")`|
