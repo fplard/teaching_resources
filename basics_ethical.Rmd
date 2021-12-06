@@ -30,4 +30,28 @@ To be contacted?
 |Tidy Modeling with R|M Kuhn, J Silge|`r ilink("tuto", "https://www.tmwr.org/")`|
 |  |  |`r ilink("site", " ")`|
 
+###Code
+| Name        | Description                 | Links |
+|-------------|-----------------------------|-------|
+|Efficient R programming|Colin Gillespie, computational and programmer efficiency|`r ilink("tuto", "https://csgillespie.github.io/efficientR/")`|
+|Avoid for loops||`r ilink("video", "https://www.youtube.com/watch?v=dhfM4xeHVHI&list=PLyogaPCPr32UaTp-9Fsj4tb_aIcAQ3jKb")`|
 
+
+###markdown
+
+| Name        | Description                 | Links |
+|-------------|-----------------------------|-------|
+|R Markdown: The Definitive Guide|Yihui Xie, J. J. Allaire, Garrett Grolemund|`r ilink("tuto", "https://bookdown.org/yihui/rmarkdown/")`|
+|R Markdown Cookbook|Yihui Xie, Christophe Dervieux, Emily Riederer|`r ilink("tuto", "https://bookdown.org/yihui/rmarkdown-cookbook/")`|
+|Tables generator|create a markdown table|`r ilink("site", "https://www.tablesgenerator.com/markdown_tables")`|
+
+
+
+###git
+
+| Name        | Description                 | Links |
+|-------------|-----------------------------|-------|
+|Github Docs|Documentation on github|`r ilink("tuto", "https://docs.github.com/en")`|
+|Happy Git and GitHub for the useR|start with R|`r ilink("tuto", "https://happygitwithr.com/index.html")`|
+
+##Ethics

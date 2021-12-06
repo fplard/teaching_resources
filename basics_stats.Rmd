@@ -11,7 +11,19 @@ knitr::opts_chunk$set(echo = FALSE)
 source(file.path("R", "functions.R"))
 ```
 
-To be contacted? 
+To be contacted?
+
+## General
+
+ Name        | Description                 | Links |
+|-------------|-----------------------------|-------|
+|Statistics  101|Brandon Foltz, Simple and clear videos from desccirptive statistics to regression|`r ilink("video", "https://www.bcfoltz.com/blog/")`|
+|Learning Centennial College|Definitions of useful words|`r ilink("site", "https://libraryguides.centennialcollege.ca/c.php?g=717168&p=5116851")`|
+|Biology for life|Descriptive and inferential statistics basic courses|`r ilink("site", "https://www.biologyforlife.com/statistics.html")`|
+|Simple Learning pro|A youtube channel with basics video in statistics|`r ilink("video", "https://www.youtube.com/watch?v=MXaJ7sa7q-8&list=PL0KQuRyPJoe6KjlUM6iNYgt8d0DwI-IGR")`|
+|Statistics tutorial|a guide to help you understand key concepts of statistics and how these concepts relate to the scientific method and research|`r ilink("tuto", "https://explorable.com/statistics-tutorial?gid=1589")`|
+
+
 
 ## Descriptive Stats
 
@@ -27,6 +39,8 @@ To be contacted?
 |Univariate Analysis |MarinStatsLectures, IC, Hypothesis Testing, Error & Power |`r ilink("course", "https://www.statslectures.com/general-statistics/univariate-analysis-statistics")` `r ilink("video", "")`|
 |Bivariate Analysis |MarinStatsLectures, T-test, Anova, chisquared, Odd-ratio |`r ilink("course", "https://www.statslectures.com/general-statistics/univariate-analysis-statistics")` `r ilink("video", "")`|
 |Regression |zedstatistics, basics youtube videos |`r ilink("videos", "https://www.youtube.com/playlist?list=PLTNMv857s9WUI1Nz4SssXDKAELESXz-bi")` `r ilink("video", "")`|
+|Statistical Inference for biology|Lesson material derived from the HarvardX Biomedical Data Science series|`r ilink("tuto", "https://carpentries-incubator.github.io/statistical-inference-for-biology/index.html")`|
+
 
 ## Distributions
 

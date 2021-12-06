@@ -90,8 +90,8 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
 
   <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2021-12-03"/>
-  <meta property="article:created" itemprop="dateCreated" content="2021-12-03"/>
+  <meta property="article:published" itemprop="datePublished" content="2021-12-06"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-12-06"/>
   <meta name="article:author" content="Nora Jones"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
@@ -110,7 +110,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Untitled"]},{"type":"character","attributes":{},"value":["A new article created using the Distill format.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Nora Jones"]},{"type":"character","attributes":{},"value":["https://example.com/norajones"]},{"type":"character","attributes":{},"value":["Spacely Sprockets"]},{"type":"character","attributes":{},"value":["https://example.com/spacelysprokets"]}]}]},{"type":"character","attributes":{},"value":["2021-12-03"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Untitled"]},{"type":"character","attributes":{},"value":["A new article created using the Distill format.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Nora Jones"]},{"type":"character","attributes":{},"value":["https://example.com/norajones"]},{"type":"character","attributes":{},"value":["Spacely Sprockets"]},{"type":"character","attributes":{},"value":["https://example.com/spacelysprokets"]}]}]},{"type":"character","attributes":{},"value":["2021-12-06"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2196,7 +2196,16 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
-  .iconlink {
+
+  .iconlink2 {
+      background-color: #222601;
+      color: #D5D977;
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
+      border-radius: 5px; /* Rounded edges */
+  }
+
+  .iconlink1 {
       background-color: #222601;
       color: #88A61C;
       padding: 3px 5px 3px 5px;
@@ -2204,9 +2213,25 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
       border-radius: 5px; /* Rounded edges */
   }
 
-  .iconlink:hover {
+  .iconlink3 {
       background-color: #222601;
-      color: var(--color-white);
+      color: #eb2d2d;
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
+      border-radius: 5px; /* Rounded edges */
+  }
+
+  .iconlink1:hover {
+      background-color: #D5D977;
+      color: #222601;
+  }
+  .iconlink2:hover {
+      background-color: #D5D977;
+      color: #222601;
+  }
+  .iconlink3:hover {
+      background-color: #D5D977;
+      color: #222601;
   }</style>
   <style type="text/css">
   /* base style */
@@ -2383,7 +2408,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Untitled","description":"A new article created using the Distill format.","authors":[{"author":"Nora Jones","authorURL":"https://example.com/norajones","affiliation":"Spacely Sprockets","affiliationURL":"https://example.com/spacelysprokets","orcidID":""}],"publishedDate":"2021-12-03T00:00:00.000+01:00","citationText":"Jones, 2021"}
+{"title":"Untitled","description":"A new article created using the Distill format.","authors":[{"author":"Nora Jones","authorURL":"https://example.com/norajones","affiliation":"Spacely Sprockets","affiliationURL":"https://example.com/spacelysprokets","orcidID":""}],"publishedDate":"2021-12-06T00:00:00.000+01:00","citationText":"Jones, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2413,9 +2438,7 @@ MODELING
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<span class="nav-dropdown-header">Linear Models</span>
-<a href="modeling_mixedmodels.html">Mixed Models</a>
-<a href="modeling_nonlinear.html">Non Linear Models</a>
+<a href="modeling_lmtogamm.html">LM, GLMM, GAMM</a>
 <a href="modeling_bayesian.html">Bayesian Approach</a>
 <span class="nav-dropdown-header">Model Checking</span>
 <a href="modeling_modelselection.html">Model Selection</a>
@@ -2463,7 +2486,7 @@ byFIELD
 <div class="d-byline">
   Nora Jones <a href="https://example.com/norajones" class="uri">https://example.com/norajones</a> (Spacely Sprockets)<a href="https://example.com/spacelysprokets" class="uri">https://example.com/spacelysprokets</a>
   
-<br/>2021-12-03
+<br/>2021-12-06
 </div>
 
 <div class="d-article">
@@ -2485,17 +2508,17 @@ byFIELD
 <tr class="odd">
 <td>Introduction to GIS and mapping in R using the sf package</td>
 <td>by O. Gimenez</td>
-<td><a href="https://github.com/oliviergimenez/intro_spatialR#introduction-to-gis-and-mapping-in-r-using-the-sf-package" class="iconlink"><i class="fas fa-chalkboard-teacher"></i></a></td>
+<td><a href="https://github.com/oliviergimenez/intro_spatialR#introduction-to-gis-and-mapping-in-r-using-the-sf-package" class="iconlink2"><i class="fas fa-chalkboard-teacher"></i></a></td>
 </tr>
 <tr class="even">
 <td>Data wrangling for spatial analysis</td>
 <td>R workshop Chris J. Brown, David Schoeman, Anthony J. Richardson, Bill Venables</td>
-<td><a href="https://www.seascapemodels.org/Advanced-spatial-analysis-2021/Advanced-spatial-analysis-2021.html" class="iconlink"><i class="fas fa-list-alt"></i></a></td>
+<td><a href="https://www.seascapemodels.org/Advanced-spatial-analysis-2021/Advanced-spatial-analysis-2021.html" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
 </tr>
 <tr class="odd">
 <td>Current approaches to species distribution modelling with R</td>
 <td>C. Brown</td>
-<td><a href="https://www.seascapemodels.org/SDM-fish-course-notes/" class="iconlink"><i class="fas fa-globe"></i></a></td>
+<td><a href="https://www.seascapemodels.org/SDM-fish-course-notes/" class="iconlink2"><i class="fas fa-globe"></i></a></td>
 </tr>
 </tbody>
 </table>

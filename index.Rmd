@@ -22,49 +22,83 @@ website`r ilink("site", "https:/xcelab.net/rm/statistical-rethinking/")`
 
 ## Basics
   
-[R](basics_r.html) 
+###[R](basics_r.html) 
 
-[Ethical EcoStats](basics_ethical.html)
+###[Ethical EcoStats](basics_ethical.html)
 
-[Data & Visualization](basics_data.html)
+#### Code
+Miele
 
-[Basics Stats](basics_stats.html)
+#### Ethics
+V. Amrhein, Gelman
 
-[Maths](basics_maths.html)
+###[Data & Visualization](basics_data.html)
+
+###[Basics Stats](basics_stats.html)
+
+
+###[Maths](basics_maths.html)
+
+Mathiopoulos, prof de math?
 
 
 ## Modeling
+F. Korner
 
-Linear Models
+### [LM, GLM, GLMM, GAMM, SEM](modeling_lmtogamm.html)
+Bolker, M Brooks, Hadfield,
 
-[Mixed Models](modeling_mixedmodels.html)
+SEM:
 
-[Non Linear Models](modeling_nonlinear.html)
+### [Bayesian Approach](modeling_bayesian.html)
 
-[Bayesian Approach](modeling_bayesian.html)
 
-Model Checking
+#### Nimble
+DeValpine
 
-[Model Selection](modeling_modelselection.html)
+### Model Checking
 
-[Machine Learning](modeling_machinelearning.html)
+Gelman
 
-[Multivariate Analyses](modeling_multivariate.html)
+### [Model Selection](modeling_modelselection.html)
+
+Hooten
+
+### [Machine Learning](modeling_machinelearning.html)
+
+### [Multivariate Analyses](modeling_multivariate.html)
+
 
 
 ## byField
 
-[Demography](byfield_demography.html)
+### [Demography](byfield_demography.html)
 
-Population Dynamics
+Gamelon, Coulson, Salguero Gomez, Colchero
 
-[Spatial Analyses](byfield_spatial.html)
+### Population Dynamics
 
-[Community Analyses](byfield_community.html)
+Schaub, F
 
-Meta-Analyses
+### [Spatial Analyses](byfield_spatial.html)
+
+Royle, Kéry, Zipkin
+
+### [Community Analyses](byfield_community.html)
+
+### Meta-Analyses
+
+Nakagawa, Ronget, 
+
+### Quantitative Genetics
+
+De Villemereuil, Chevin, 
 
 
+
+| Name        | Description                 | Links |
+|-------------|-----------------------------|-------|
+|Cross-Validated| The statistical forum|`r ilink("site", "https://stats.stackexchange.com/")`|
 
 
 

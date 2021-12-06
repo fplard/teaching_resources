@@ -90,8 +90,8 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
 
   <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2021-12-03"/>
-  <meta property="article:created" itemprop="dateCreated" content="2021-12-03"/>
+  <meta property="article:published" itemprop="datePublished" content="2021-12-06"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-12-06"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Learn EcoStat: R"/>
@@ -109,7 +109,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["R"]},{"type":"character","attributes":{},"value":["Resources to start with R\n"]},{"type":"character","attributes":{},"value":["2021-12-03"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["R"]},{"type":"character","attributes":{},"value":["Resources to start with R"]},{"type":"character","attributes":{},"value":["2021-12-06"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2195,7 +2195,16 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
-  .iconlink {
+
+  .iconlink2 {
+      background-color: #222601;
+      color: #D5D977;
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
+      border-radius: 5px; /* Rounded edges */
+  }
+
+  .iconlink1 {
       background-color: #222601;
       color: #88A61C;
       padding: 3px 5px 3px 5px;
@@ -2203,9 +2212,25 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
       border-radius: 5px; /* Rounded edges */
   }
 
-  .iconlink:hover {
+  .iconlink3 {
       background-color: #222601;
-      color: var(--color-white);
+      color: #eb2d2d;
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
+      border-radius: 5px; /* Rounded edges */
+  }
+
+  .iconlink1:hover {
+      background-color: #D5D977;
+      color: #222601;
+  }
+  .iconlink2:hover {
+      background-color: #D5D977;
+      color: #222601;
+  }
+  .iconlink3:hover {
+      background-color: #D5D977;
+      color: #222601;
   }</style>
   <style type="text/css">
   /* base style */
@@ -2382,7 +2407,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"R","description":"Resources to start with R","authors":[],"publishedDate":"2021-12-03T00:00:00.000+01:00"}
+{"title":"R","description":"Resources to start with R","authors":[],"publishedDate":"2021-12-06T00:00:00.000+01:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2412,9 +2437,7 @@ MODELING
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<span class="nav-dropdown-header">Linear Models</span>
-<a href="modeling_mixedmodels.html">Mixed Models</a>
-<a href="modeling_nonlinear.html">Non Linear Models</a>
+<a href="modeling_lmtogamm.html">LM, GLMM, GAMM</a>
 <a href="modeling_bayesian.html">Bayesian Approach</a>
 <span class="nav-dropdown-header">Model Checking</span>
 <a href="modeling_modelselection.html">Model Selection</a>
@@ -2456,12 +2479,56 @@ byFIELD
 <h1>R</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Resources to start with R</p></p>
+<p>Resources to start with R</p>
 </div>
 
 
 <div class="d-article">
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
+<ul>
+<li><a href="#general-resources">General resources</a>
+<ul>
+<li><a href="#course">Course</a></li>
+<li><a href="#book">Book</a></li>
+<li><a href="#basics-video">Basics video</a></li>
+</ul></li>
+<li><a href="#packages">Packages</a></li>
+</ul>
+</nav>
+</div>
 <p>To be contacted?</p>
+<h2 id="general-resources">General resources</h2>
+<h3 id="course">Course</h3>
+<h3 id="book">Book</h3>
+<table>
+<colgroup>
+<col style="width: 86%" />
+<col style="width: 14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Links</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Advanced R</strong> <em>H Wickham</em> – All you need to learn R with indications on stat and also on that, very simple</td>
+<td><a href="http://adv-r.had.co.nz/" class="iconlink1"><i class="fas fa-list-alt"></i></a></td>
+</tr>
+<tr class="even">
+<td><strong>Hands-On Programming with R</strong> <em>G Grolemund</em> – a practical guide to start programming with R</td>
+<td><a href="https://rstudio-education.github.io/hopr/" class="iconlink3"><i class="fas fa-list-alt"></i></a></td>
+</tr>
+<tr class="odd">
+<td><strong>Statistics and Data Science with R</strong> <em>MarinStats</em> – 5 series: Getting started, Descriptive statistics, Probability distribution, Bivariate analysis, Linear regression</td>
+<td><a href="https://www.statslectures.com/r-stats-videos-tutorials" class="iconlink2"><i class="fas fa-chalkboard-teacher"></i></a><a href="https://www.youtube.com/c/marinstatlectures/featured" class="iconlink2"><i class="fas fa-video"></i></a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="basics-video">Basics video</h3>
 <table>
 <colgroup>
 <col style="width: 26%" />
@@ -2477,32 +2544,94 @@ byFIELD
 </thead>
 <tbody>
 <tr class="odd">
-<td>R for Data Science</td>
-<td>H Wickham, G Grolemund</td>
-<td><a href="https://r4ds.had.co.nz/" class="iconlink"><i class="fas fa-list-alt"></i></a> <a href="https://jrnold.github.io/r4ds-exercise-solutions/" class="iconlink"><i class="fas fa-edit"></i></a></td>
+<td>Hands-On Programming with R</td>
+<td>G Grolemund</td>
+<td><a href="https://rstudio-education.github.io/hopr/" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
 </tr>
 <tr class="even">
+<td>R Programming for Data Science</td>
+<td>Roger D. Peng</td>
+<td><a href="https://bookdown.org/rdpeng/rprogdatascience/" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
+</tr>
+<tr class="odd">
 <td>Advanced R</td>
 <td>H Wickham</td>
-<td><a href="http://adv-r.had.co.nz/" class="iconlink"><i class="fas fa-list-alt"></i></a></td>
+<td><a href="http://adv-r.had.co.nz/" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
+</tr>
+<tr class="even">
+<td>Introduction to data science</td>
+<td>Rafael A. Irizarry</td>
+<td><a href="https://rafalab.github.io/dsbook/" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
 </tr>
 <tr class="odd">
 <td>Rstudio</td>
 <td>youtube chain</td>
-<td><a href="https://www.youtube.com/c/RStudioPBC/playlists" class="iconlink"><i class="fas fa-video"></i></a></td>
+<td><a href="https://www.youtube.com/c/RStudioPBC/playlists" class="iconlink2"><i class="fas fa-video"></i></a></td>
 </tr>
 <tr class="even">
 <td>Statistics and Data Science with R</td>
 <td>MarinStats Lectures: 5 series: Getting started, Descriptive statistics, Probability distribution, Bivariate analysis, Linearregression</td>
-<td><a href="https://www.statslectures.com/r-stats-videos-tutorials" class="iconlink"><i class="fas fa-chalkboard-teacher"></i></a><a href="https://www.youtube.com/c/marinstatlectures/featured" class="iconlink"><i class="fas fa-video"></i></a></td>
+<td><a href="https://www.statslectures.com/r-stats-videos-tutorials" class="iconlink2"><i class="fas fa-chalkboard-teacher"></i></a><a href="https://www.youtube.com/c/marinstatlectures/featured" class="iconlink2"><i class="fas fa-video"></i></a></td>
 </tr>
 <tr class="odd">
+<td>Intro to Programming for Analytics</td>
+<td>J Helveston, Basics programming in R and some intro to Python</td>
+<td><a href="https://p4a.seas.gwu.edu/" class="iconlink2"><i class="fas fa-list-alt"></i></a><a href="" class="iconlink2"><i class="fas fa-edit"></i></a></td>
+</tr>
+<tr class="even">
+<td>R tutorials</td>
+<td>Tech Vidan, “Dictionnary” type including the different variables but not that good, lot of adds</td>
+<td><a href="https://techvidvan.com/tutorials/r-tutorial/" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
+</tr>
+<tr class="odd">
+<td>R introduction</td>
+<td>VIB, simple explanations to start with R</td>
+<td><a href="https://material.bits.vib.be/topics/R/" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
+</tr>
+<tr class="even">
+<td>Applied Quantitative Methods</td>
+<td>A more advanced course introducing also spatial model, mutlivariate models</td>
+<td><a href="https://dmcglinn.github.io/quant_methods/lessons/" class="iconlink2"><i class="fas fa-chalkboard-teacher"></i></a></td>
+</tr>
+<tr class="odd">
+<td>First steps in R</td>
+<td>Institut Pasteur &amp; USR 3756</td>
+<td><a href="https://hub-courses.pages.pasteur.fr/R_pasteur_phd/First_steps_RStudio.html#1_Get_ready_for_the_course" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
+</tr>
+<tr class="even">
+<td>Introduction to Programming with R</td>
+<td>Reto Stauffer, Joanna Chimiak-Opoka, Luis Miguel Rodríguez-R, Thorsten Simon, Achim Zeileis</td>
+<td><a href="https://discdown.org/rprogramming/index.html#practical-exercises" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
+</tr>
+<tr class="odd">
+<td>R studio cheatsheets</td>
 <td></td>
-<td></td>
-<td><a href=" " class="iconlink"><i class="fas fa-globe"></i></a></td>
+<td><a href="https://www.rstudio.com/resources/cheatsheets/" class="iconlink2"><i class="fas fa-globe"></i></a></td>
+</tr>
+<tr class="even">
+<td>How to R</td>
+<td>A channel incuding short video on basics R, data manipulation and visualization</td>
+<td><a href="https://www.youtube.com/c/HowToR4U/videos" class="iconlink2"><i class="fas fa-video"></i></a></td>
+</tr>
+<tr class="odd">
+<td>Learning statistics with R</td>
+<td>A tutorial for psychology students and other beginners</td>
+<td><a href="https://learningstatisticswithr.com/book/" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
+</tr>
+<tr class="even">
+<td>R Reference Card</td>
+<td>Quick access &amp; definition to simple R functions</td>
+<td><a href="https://cran.r-project.org/doc/contrib/Short-refcard.pdf" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
+</tr>
+<tr class="odd">
+<td>R-Uni</td>
+<td>A List of 100 Free R Tutorials and Resources in University webpages</td>
+<td><a href="https://pairach.com/2012/02/26/r-tutorials-from-universities-around-the-world/" class="iconlink2"><i class="fas fa-globe"></i></a></td>
 </tr>
 </tbody>
 </table>
+<h2 id="packages">Packages</h2>
+<p>|R Packages|H Wickham, J Bryan |<a href="https://r-pkgs.org/index.html" class="iconlink2"><i class="fas fa-list-alt"></i></a>|</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

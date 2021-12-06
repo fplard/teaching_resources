@@ -2192,7 +2192,16 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
-  .iconlink {
+
+  .iconlink2 {
+      background-color: #222601;
+      color: #D5D977;
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
+      border-radius: 5px; /* Rounded edges */
+  }
+
+  .iconlink1 {
       background-color: #222601;
       color: #88A61C;
       padding: 3px 5px 3px 5px;
@@ -2200,9 +2209,25 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
       border-radius: 5px; /* Rounded edges */
   }
 
-  .iconlink:hover {
+  .iconlink3 {
       background-color: #222601;
-      color: var(--color-white);
+      color: #eb2d2d;
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
+      border-radius: 5px; /* Rounded edges */
+  }
+
+  .iconlink1:hover {
+      background-color: #D5D977;
+      color: #222601;
+  }
+  .iconlink2:hover {
+      background-color: #D5D977;
+      color: #222601;
+  }
+  .iconlink3:hover {
+      background-color: #D5D977;
+      color: #222601;
   }</style>
   <style type="text/css">
   /* base style */
@@ -2409,9 +2434,7 @@ MODELING
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<span class="nav-dropdown-header">Linear Models</span>
-<a href="modeling_mixedmodels.html">Mixed Models</a>
-<a href="modeling_nonlinear.html">Non Linear Models</a>
+<a href="modeling_lmtogamm.html">LM, GLMM, GAMM</a>
 <a href="modeling_bayesian.html">Bayesian Approach</a>
 <span class="nav-dropdown-header">Model Checking</span>
 <a href="modeling_modelselection.html">Model Selection</a>

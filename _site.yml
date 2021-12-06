@@ -21,11 +21,8 @@ navbar:
           href: basics_maths.html
     - text: "MODELING"
       menu:
-        - text: "Linear Models"
-        - text: "Mixed Models"
-          href: modeling_mixedmodels.html
-        - text: "Non Linear Models"
-          href: modeling_nonlinear.html
+        - text: "LM, GLMM, GAMM"
+          href: modeling_lmtogamm.html
         - text: "Bayesian Approach"
           href: modeling_bayesian.html
         - text: "Model Checking"

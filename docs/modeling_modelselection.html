@@ -89,8 +89,8 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
 
   <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2021-12-03"/>
-  <meta property="article:created" itemprop="dateCreated" content="2021-12-03"/>
+  <meta property="article:published" itemprop="datePublished" content="2021-12-06"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-12-06"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Learn EcoStat: Model Selection"/>
@@ -106,7 +106,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Model Selection"]},{"type":"NULL"},{"type":"character","attributes":{},"value":["2021-12-03"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Model Selection"]},{"type":"NULL"},{"type":"character","attributes":{},"value":["2021-12-06"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2192,7 +2192,16 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
-  .iconlink {
+
+  .iconlink2 {
+      background-color: #222601;
+      color: #D5D977;
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
+      border-radius: 5px; /* Rounded edges */
+  }
+
+  .iconlink1 {
       background-color: #222601;
       color: #88A61C;
       padding: 3px 5px 3px 5px;
@@ -2200,9 +2209,25 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
       border-radius: 5px; /* Rounded edges */
   }
 
-  .iconlink:hover {
+  .iconlink3 {
       background-color: #222601;
-      color: var(--color-white);
+      color: #eb2d2d;
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
+      border-radius: 5px; /* Rounded edges */
+  }
+
+  .iconlink1:hover {
+      background-color: #D5D977;
+      color: #222601;
+  }
+  .iconlink2:hover {
+      background-color: #D5D977;
+      color: #222601;
+  }
+  .iconlink3:hover {
+      background-color: #D5D977;
+      color: #222601;
   }</style>
   <style type="text/css">
   /* base style */
@@ -2379,7 +2404,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Model Selection","authors":[],"publishedDate":"2021-12-03T00:00:00.000+01:00"}
+{"title":"Model Selection","authors":[],"publishedDate":"2021-12-06T00:00:00.000+01:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2409,9 +2434,7 @@ MODELING
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<span class="nav-dropdown-header">Linear Models</span>
-<a href="modeling_mixedmodels.html">Mixed Models</a>
-<a href="modeling_nonlinear.html">Non Linear Models</a>
+<a href="modeling_lmtogamm.html">LM, GLMM, GAMM</a>
 <a href="modeling_bayesian.html">Bayesian Approach</a>
 <span class="nav-dropdown-header">Model Checking</span>
 <a href="modeling_modelselection.html">Model Selection</a>
@@ -2476,12 +2499,12 @@ byFIELD
 <tr class="odd">
 <td>A practical guide to selecting models for exploration, inference, and prediction in ecology</td>
 <td>Tredennick et al.</td>
-<td><a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecy.3336" class="iconlink"><i class="fas fa-memo"></i></a></td>
+<td><a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecy.3336" class="iconlink2"><i class="far fa-sticky-note"></i></a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
-<td><a href=" " class="iconlink"><i class="fas fa-list-alt"></i></a></td>
+<td><a href=" " class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
 </tr>
 </tbody>
 </table>

@@ -2,7 +2,7 @@
 make_icon <- function(icon) {
   return(htmltools::tag("i", list(class = icon)))
 }
-ilink <- function(icon = NULL, url = NULL) {
+ilink <- function(icon = NULL, url = NULL,lvl=2) {
   icon_name=switch(icon,
          site="fas fa-globe",
          article="far fa-sticky-note",
@@ -13,6 +13,8 @@ ilink <- function(icon = NULL, url = NULL) {
          exo="fas fa-edit",
          github="fab fa-github")
   text <- htmltools::HTML(paste0(make_icon(icon_name)))
-  return(htmltools::a(href = url, text, class = "iconlink"))
+  if(lvl==1) return(htmltools::a(href = url, text, class = "iconlink1"))
+  if(lvl==2) return(htmltools::a(href = url, text, class = "iconlink2"))
+  if(lvl==3) return(htmltools::a(href = url, text, class = "iconlink3"))
 }
 #

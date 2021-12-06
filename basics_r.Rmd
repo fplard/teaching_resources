@@ -1,7 +1,6 @@
 ---
 title: "R"
-description: |
-  Resources to start with R
+description: Resources to start with R
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
@@ -16,12 +15,42 @@ source(file.path("R", "functions.R"))
 
 To be contacted?
 
+## General resources
 
+### Course
+
+### Book
+
+
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**Advanced R** *H Wickham* -- All you need to learn R with indications on stat and also on that, very simple|`r ilink("tuto","http://adv-r.had.co.nz/",lvl=1)`|
+|**Hands-On Programming with R** *G Grolemund* -- a practical guide to start programming with R|`r ilink("tuto", "https://rstudio-education.github.io/hopr/",lvl=3)`|
+|**Statistics and Data Science with R** *MarinStats* -- 5 series: Getting started, Descriptive statistics, Probability distribution, Bivariate analysis, Linear regression|`r ilink("course", "https://www.statslectures.com/r-stats-videos-tutorials")``r ilink("video", "https://www.youtube.com/c/marinstatlectures/featured")`|
+
+### Basics video
 
 | Name        | Description                 | Links |
 |-------------|-----------------------------|-------|
-|R for Data Science|H Wickham, G Grolemund |`r ilink("tuto", "https://r4ds.had.co.nz/")` `r ilink("exo", "https://jrnold.github.io/r4ds-exercise-solutions/")`|
+|Hands-On Programming with R| G Grolemund |`r ilink("tuto", "https://rstudio-education.github.io/hopr/")`|
+|R Programming for Data Science|Roger D. Peng |`r ilink("tuto", "https://bookdown.org/rdpeng/rprogdatascience/")`|
 |Advanced R|H Wickham|`r ilink("tuto", "http://adv-r.had.co.nz/")`|
+|Introduction to data science|Rafael A. Irizarry|`r ilink("tuto", "https://rafalab.github.io/dsbook/")`|
 |Rstudio  |youtube chain  |`r ilink("video", "https://www.youtube.com/c/RStudioPBC/playlists")`|
 |Statistics and Data Science with R| MarinStats Lectures: 5 series: Getting started, Descriptive statistics, Probability distribution, Bivariate analysis, Linearregression |`r ilink("course", "https://www.statslectures.com/r-stats-videos-tutorials")``r ilink("video", "https://www.youtube.com/c/marinstatlectures/featured")`|
-|  |  |`r ilink("site", " ")`|
+|Intro to Programming for Analytics|J Helveston, Basics programming in R and some intro to Python |`r ilink("tuto", "https://p4a.seas.gwu.edu/")``r ilink("exo", "")`|
+|R tutorials|Tech Vidan, "Dictionnary" type including the different variables but not that good, lot of adds  |`r ilink("tuto", "https://techvidvan.com/tutorials/r-tutorial/")`|
+|R introduction|VIB, simple explanations to start with R|`r ilink("tuto", "https://material.bits.vib.be/topics/R/")`|
+|Applied Quantitative Methods |A more advanced course introducing also spatial model, mutlivariate models|`r ilink("course", "https://dmcglinn.github.io/quant_methods/lessons/")`|
+|First steps in R|Institut Pasteur & USR 3756|`r ilink("tuto", "https://hub-courses.pages.pasteur.fr/R_pasteur_phd/First_steps_RStudio.html#1_Get_ready_for_the_course")`|
+|Introduction to Programming with R|Reto Stauffer, Joanna Chimiak-Opoka, Luis Miguel Rodríguez-R, Thorsten Simon, Achim Zeileis|`r ilink("tuto", "https://discdown.org/rprogramming/index.html#practical-exercises")`|
+|R studio cheatsheets ||`r ilink("site", "https://www.rstudio.com/resources/cheatsheets/")`|
+|How to R| A channel incuding short video on basics R, data manipulation and visualization|`r ilink("video", "https://www.youtube.com/c/HowToR4U/videos")`|
+|Learning statistics with R| A tutorial for psychology students and other beginners|`r ilink("tuto", "https://learningstatisticswithr.com/book/")`|
+|R Reference Card| Quick access & definition to simple R functions|`r ilink("tuto", "https://cran.r-project.org/doc/contrib/Short-refcard.pdf")`|
+|R-Uni| A List of 100 Free R Tutorials and Resources in University webpages|`r ilink("site", "https://pairach.com/2012/02/26/r-tutorials-from-universities-around-the-world/")`|
+
+
+
+## Packages
+|R Packages|H Wickham, J Bryan |`r ilink("tuto", "https://r-pkgs.org/index.html")`|
