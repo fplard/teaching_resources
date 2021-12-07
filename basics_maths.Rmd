@@ -1,20 +1,44 @@
 ---
 title: "Mathematics"
 description: |
-  Basics mathematical concepts useful for ecological Statistics
+  Resources on mathematical concepts useful for ecological statistics
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 source(file.path("R", "functions.R"))
 ```
 
-To be contacted?
+## Calculus
+
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**Learning Centennial College** *M Cheung* -- Definitions of useful words|`r ilink("tuto", "https://libraryguides.centennialcollege.ca/c.php?g=717032&p=5119210", lvl=1)`|
+|**Derivatives of Common Functions** -- Cheatsheet|`r ilink("tuto", "http://hyperphysics.phy-astr.gsu.edu/hbase/Math/derfunc.html")`|
+
 
 ## Probability
 
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**Probability** *S Jadhav* -- Probability theory & description of main distributions, not really ecologist friendly...|`r ilink("course", "https://www.youtube.com/playlist?list=PLcBNhzAt-dF8oas8Z3Post71VF2_Khk2w", lvl=2)`|
 
-| Name        | Description                 | Links |
-|-------------|-----------------------------|-------|
-|Probability| Basics of probability theory & description of main distributions|`r ilink("video", "https://www.youtube.com/playlist?list=PLcBNhzAt-dF8oas8Z3Post71VF2_Khk2w")`|
+
+## Algebra
+
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**Learning Centennial College** *M Cheung* -- Definitions of useful words in Linear Algebra|`r ilink("tuto", "https://libraryguides.centennialcollege.ca/c.php?g=717345&p=5119504", lvl=1)`|
+
+
+
+## Teaching Mathematics in Ecology
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**What math should ecologists teach?** *B McGill* |`r ilink("site", "https://dynamicecology.wordpress.com/2014/10/20/what-math-should-ecologists-teach/")`|
+|**Lack of quantitative training among early-career ecologists: a survey of the problem and potential solutions** *F Barraquand et al.* |`r ilink("article", "https://peerj.com/articles/285/")`|
+|**Writing mathematical ecology: A guide for authors and readers** *L G Shoemaker et al* |`r ilink("article", "https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.3701")`|
+|**Mathematical Ecology: A Century of Progress, and Challenges for the Next Century** *S Levin* Lecture in 2017|`r ilink("video", "https://www.youtube.com/watch?v=m6F6MRrDtrQ")`|
+

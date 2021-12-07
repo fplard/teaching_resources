@@ -17,27 +17,29 @@ To be contacted? Hadfield, Crespin,
 
 ##General
 
-| Name        | Description                 | Links |
-|-------------|-----------------------------|-------|
+| Name                                      | Links |
+|-------------------------------------------|-------|
 |Michael Clark site|A series of open course in bayesian analysis, modeling and SEM  |`r ilink("site", "https://m-clark.github.io/documents.html")`|
 |Beyond Multiple Linear Regression|Paul Roback and Julie Legler, Applied Generalized Linear Models and Multilevel Models in R |`r ilink("tuto", "https://bookdown.org/roback/bookdown-BeyondMLR/")`|
 |  |  |`r ilink("site", " ")`|
 
-
+|Statistics for ecologists | O. Gimenez: Distibutions, likelihoods, Hypothesis testing, Multimodel inference, Bayesian , GLM, GLMM, GAM|`r ilink("course", "https://github.com/oliviergimenez/statistics-for-ecologists-Master-courses")` `r ilink("video", "")``r ilink("exo", "")`|
+|Statistical Thinking for the 21st Century|Russell A. Poldrack|`r ilink("site", "https://statsthinking21.github.io/statsthinking21-core-site/index.html")`|
+|  |  |`r ilink("site", " ")`|
 
 
 ##Mixed models
 
-| Name        | Description                 | Links |
-|-------------|-----------------------------|-------|
+| Name                                      | Links |
+|-------------------------------------------|-------|
 |Introduction to mixed models |Helen Brown,Senior Statistician, at The Roslin Institute, March 2016.|`r ilink("video", "https://www.youtube.com/playlist?list=PLbyRmcun-giuz5hW11nD64zeiJZSDV4aD")`|
 |  |  |`r ilink("site", " ")`|
 
 ## Generalized linear mixed models
 
 
-| Name        | Description                 | Links |
-|-------------|-----------------------------|-------|
+| Name                                      | Links |
+|-------------------------------------------|-------|
 |GLMM for ecologists and evolutionary biologists |start with B.Bolker and others|`r ilink("tuto", "http://glmm.wikidot.com/start")`|
 |GLMM FAQ|B.Bolker and others|`r ilink("tuto", "https://bbolker.github.io/mixedmodels-misc/glmmFAQ.html")`|
 |Rpubs B. Bolker|A list of publications on practical use of GLMM|`r ilink("site", "https://rpubs.com/bbolker")`|
@@ -56,16 +58,16 @@ Gelman, A., and J. Carlin. 2014. Beyond Power Calculations: Assessing Type S (Si
 
 ## GAMM
 
-| Name        | Description                 | Links |
-|-------------|-----------------------------|-------|
+| Name                                      | Links |
+|-------------------------------------------|-------|
 |Introduction to Generalized Additive Models with R and mgcv|Gavin Simpson|`r ilink("video", "https://www.youtube.com/watch?v=sgw4cu8hrZM")``r ilink("github", "https://github.com/gavinsimpson/gams-yorku-canada-150")`|
 |mgcv course  |G Simpson, N Ross  |`r ilink("site", "https://noamross.github.io/mgcv-esa-2018/")`|
 |  |  |`r ilink("site", " ")`|
 
 
 ## Structural Equation Modeling
-| Name        | Description                 | Links |
-|-------------|-----------------------------|-------|
+| Name                                      | Links |
+|-------------------------------------------|-------|
 |An Introduction to Structural Equation Modeling|Jon Lefcheck|`r ilink("tuto", "https://jslefche.github.io/sem_book/")`|
 
 

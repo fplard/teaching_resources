@@ -1,7 +1,7 @@
 ---
-title: "Basics Statistics"
+title: "Statistics"
 description: |
-  General Introdution to Statistics, Descriptive and Inferentials Statistics
+  Resources for a general introduction to descriptive and inferentials Statistics
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
@@ -11,47 +11,25 @@ knitr::opts_chunk$set(echo = FALSE)
 source(file.path("R", "functions.R"))
 ```
 
-To be contacted?
 
-## General
+## Overview
 
- Name        | Description                 | Links |
-|-------------|-----------------------------|-------|
-|Statistics  101|Brandon Foltz, Simple and clear videos from desccirptive statistics to regression|`r ilink("video", "https://www.bcfoltz.com/blog/")`|
-|Learning Centennial College|Definitions of useful words|`r ilink("site", "https://libraryguides.centennialcollege.ca/c.php?g=717168&p=5116851")`|
-|Biology for life|Descriptive and inferential statistics basic courses|`r ilink("site", "https://www.biologyforlife.com/statistics.html")`|
-|Simple Learning pro|A youtube channel with basics video in statistics|`r ilink("video", "https://www.youtube.com/watch?v=MXaJ7sa7q-8&list=PL0KQuRyPJoe6KjlUM6iNYgt8d0DwI-IGR")`|
-|Statistics tutorial|a guide to help you understand key concepts of statistics and how these concepts relate to the scientific method and research|`r ilink("tuto", "https://explorable.com/statistics-tutorial?gid=1589")`|
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**Statistics  101** *B Foltz* -- Complete videos for an introduction to statistics including descriptive statistics, Hypothesis testing, distributions, regression|`r ilink("course", "https://www.bcfoltz.com/blog/", lvl=1)`|
+|**MarinStatsLectures** *M Marin* -- A full course with 3 series: descriptive statistics, univariate analysis, bivariate analysis |`r ilink("course", "https://www.statslectures.com/general-statistics/descriptive-statistics", lvl=1)`|
+|**Statistical Inference for biology** *McClatchy, Churchill* --  a course about inferential statistics|`r ilink("tuto", "https://carpentries-incubator.github.io/statistical-inference-for-biology/index.html", lvl=1)`|
+|**Statistics** *Simple Learning pro* -- Basics videos to start statistics|`r ilink("video", "https://www.youtube.com/watch?v=MXaJ7sa7q-8&list=PL0KQuRyPJoe6KjlUM6iNYgt8d0DwI-IGR", lvl=1)`|
+|**Zedstatistics** *Zedstatistics* -- a youtube channel including simple playlists about Descriptive statistics, Distribution, Inferential statistics, Regression|`r ilink("video", "https://www.youtube.com/playlist?list=PLTNMv857s9WVStKLco6ZBOsfSGXzJ1L0f", lvl=1)`|
+|**Learning Centennial College** *M Cheung* -- Definitions of useful words in statistics|`r ilink("tuto", "https://libraryguides.centennialcollege.ca/c.php?g=717168&p=5116851", lvl=1)`|
+|**Biology for life** *G von Bargen* --  Descriptions of simple statistical concepts and tests used in biology |`r ilink("site", "https://www.biologyforlife.com/statistics.html", lvl=1)`|
 
 
-
-## Descriptive Stats
-
-| Name        | Description                 | Links |
-|-------------|-----------------------------|-------|
-|Descriptive Statistics  |MarinStatsLectures, Simple plots, describing distributions, SD & degree of freedom, Sampling |`r ilink("course", "https://www.statslectures.com/general-statistics/descriptive-statistics")` `r ilink("video", "")`|
-|Descriptive Statistics| Zedstatistics: Mean, Median, Moments, SE,... |`r ilink("videos", "https://www.youtube.com/playlist?list=PLTNMv857s9WVStKLco6ZBOsfSGXzJ1L0f")`|
-
-## Inferential Stats
-
-| Name        | Description                 | Links |
-|-------------|-----------------------------|-------|
-|Univariate Analysis |MarinStatsLectures, IC, Hypothesis Testing, Error & Power |`r ilink("course", "https://www.statslectures.com/general-statistics/univariate-analysis-statistics")` `r ilink("video", "")`|
-|Bivariate Analysis |MarinStatsLectures, T-test, Anova, chisquared, Odd-ratio |`r ilink("course", "https://www.statslectures.com/general-statistics/univariate-analysis-statistics")` `r ilink("video", "")`|
-|Regression |zedstatistics, basics youtube videos |`r ilink("videos", "https://www.youtube.com/playlist?list=PLTNMv857s9WUI1Nz4SssXDKAELESXz-bi")` `r ilink("video", "")`|
-|Statistical Inference for biology|Lesson material derived from the HarvardX Biomedical Data Science series|`r ilink("tuto", "https://carpentries-incubator.github.io/statistical-inference-for-biology/index.html")`|
 
 
 ## Distributions
 
-The distribution zoo, View distribution, Ben Lambert and Fergus Cooper `r ilink("site", "https://ben18785.shinyapps.io/distribution-zoo/")` 
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**The distribution zoo** *B Lambert, F Cooper* -- A ShinyApp to visualize distributions |`r ilink("site", "https://ben18785.shinyapps.io/distribution-zoo/")` |
 
-Basics youtube videos from zedstatistics  `r ilink("video", "https://www.youtube.com/playlist?list=PLTNMv857s9WVzutwxaMb0YZKW7hoveGLS")` 
-
-## General introduction to statistics
-
-| Name        | Description                 | Links |
-|-------------|-----------------------------|-------|
-|Statistics for ecologists | O. Gimenez: Distibutions, likelihoods, Hypothesis testing, Multimodel inference, Bayesian , GLM, GLMM, GAM|`r ilink("course", "https://github.com/oliviergimenez/statistics-for-ecologists-Master-courses")` `r ilink("video", "")``r ilink("exo", "")`|
-|Statistical Thinking for the 21st Century|Russell A. Poldrack|`r ilink("site", "https://statsthinking21.github.io/statsthinking21-core-site/index.html")`|
-|  |  |`r ilink("site", " ")`|

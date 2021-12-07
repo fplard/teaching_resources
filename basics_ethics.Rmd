@@ -1,0 +1,59 @@
+---
+title: "Ethical Statistics"
+description: |
+  Resources for reproducible and ethical Statistics.
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+source(file.path("R", "functions.R"))
+```
+
+
+## Reproducibility 
+
+
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**Reproducible science workshop** *O Gimenez* -- A full overview to start making your analyses reproducible |`r ilink("course", "https://oliviergimenez.github.io/reproducible-science-workshop/", lvl=1)`|
+
+### Tidyverse
+
+
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**Tidy Modeling with R** *M Kuhn, J Silge* -- Introduction to how to use Tidyverse  |`r ilink("tuto", "https://www.tmwr.org/", lvl=2)`|
+
+### Rmarkdown
+
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**R Markdown: The Definitive Guide** *Y Xie, J J Allaire, G Grolemund* -- A complete and introducing reference book to use R Markdown|`r ilink("tuto", "https://bookdown.org/yihui/rmarkdown/")`|
+|**R Markdown Cookbook** *Y Xie, C Dervieux, E Riederer* -- A practical reference book for R Markdown|`r ilink("tuto", "https://bookdown.org/yihui/rmarkdown-cookbook/", lvl=2)`|
+|**Tables generator** -- Create a markdown table|`r ilink("site", "https://www.tablesgenerator.com/markdown_tables")`|
+
+
+
+### Git
+
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**Happy Git and GitHub for the useR** -- Learn how to start and integrate git into your daily work with R and Markdown|`r ilink("tuto", "https://happygitwithr.com/index.html", lvl=1)`|
+|**Github Docs** -- Official documentation |`r ilink("site", "https://docs.github.com/en")`|
+
+
+## Ethics
+
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|   |`r ilink("site", " ")`|
+
+
+## Open science
+
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**SORTEE** *Society for Open, Reliable, and Transparent Ecology and Evolutionary biology*|`r ilink("site", "https://www.sortee.org/")`|
+

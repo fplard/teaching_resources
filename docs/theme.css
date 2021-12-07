@@ -79,7 +79,20 @@ d-appendix {
 
 /*-- Additional custom styles --*/
 /* Add any additional CSS rules below                      */
-
+.iconlink0 {
+    background-color: #222601;
+    color: #f1f2eb;
+    padding: 3px 5px 3px 5px;
+    margin: 0 2px 0 2px;
+    border-radius: 5px; /* Rounded edges */
+}
+.iconlink1 {
+    background-color: #222601;
+    color: #88A61C;
+    padding: 3px 5px 3px 5px;
+    margin: 0 2px 0 2px;
+    border-radius: 5px; /* Rounded edges */
+}
 .iconlink2 {
     background-color: #222601;
     color: #D5D977;
@@ -88,22 +101,17 @@ d-appendix {
     border-radius: 5px; /* Rounded edges */
 }
 
-.iconlink1 {
-    background-color: #222601;
-    color: #88A61C;
-    padding: 3px 5px 3px 5px;
-    margin: 0 2px 0 2px;
-    border-radius: 5px; /* Rounded edges */
-}
-
 .iconlink3 {
     background-color: #222601;
-    color: #eb2d2d;
+    color: #ad6705;
     padding: 3px 5px 3px 5px;
     margin: 0 2px 0 2px;
     border-radius: 5px; /* Rounded edges */
 }
-
+.iconlink0:hover {
+    background-color: #D5D977;
+    color: #222601;
+}
 .iconlink1:hover {
     background-color: #D5D977;
     color: #222601;
@@ -116,3 +124,4 @@ d-appendix {
     background-color: #D5D977;
     color: #222601;
 }
+

@@ -86,30 +86,30 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   <!--radix_placeholder_meta_tags-->
   <title>Learn EcoStat: Mathematics</title>
 
-  <meta property="description" itemprop="description" content="Basics mathematical concepts useful for ecological Statistics"/>
+  <meta property="description" itemprop="description" content="Resources on mathematical concepts useful for ecological statistics"/>
 
 
   <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2021-12-06"/>
-  <meta property="article:created" itemprop="dateCreated" content="2021-12-06"/>
+  <meta property="article:published" itemprop="datePublished" content="2021-12-07"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-12-07"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Learn EcoStat: Mathematics"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Basics mathematical concepts useful for ecological Statistics"/>
+  <meta property="og:description" content="Resources on mathematical concepts useful for ecological statistics"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Learn EcoStat"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
   <meta property="twitter:title" content="Learn EcoStat: Mathematics"/>
-  <meta property="twitter:description" content="Basics mathematical concepts useful for ecological Statistics"/>
+  <meta property="twitter:description" content="Resources on mathematical concepts useful for ecological statistics"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Mathematics"]},{"type":"character","attributes":{},"value":["Basics mathematical concepts useful for ecological Statistics\n"]},{"type":"character","attributes":{},"value":["2021-12-06"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Mathematics"]},{"type":"character","attributes":{},"value":["Resources on mathematical concepts useful for ecological statistics\n"]},{"type":"character","attributes":{},"value":["2021-12-07"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2195,7 +2195,20 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
-
+  .iconlink0 {
+      background-color: #222601;
+      color: #f1f2eb;
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
+      border-radius: 5px; /* Rounded edges */
+  }
+  .iconlink1 {
+      background-color: #222601;
+      color: #88A61C;
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
+      border-radius: 5px; /* Rounded edges */
+  }
   .iconlink2 {
       background-color: #222601;
       color: #D5D977;
@@ -2204,22 +2217,17 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
       border-radius: 5px; /* Rounded edges */
   }
 
-  .iconlink1 {
-      background-color: #222601;
-      color: #88A61C;
-      padding: 3px 5px 3px 5px;
-      margin: 0 2px 0 2px;
-      border-radius: 5px; /* Rounded edges */
-  }
-
   .iconlink3 {
       background-color: #222601;
-      color: #eb2d2d;
+      color: #ad6705;
       padding: 3px 5px 3px 5px;
       margin: 0 2px 0 2px;
       border-radius: 5px; /* Rounded edges */
   }
-
+  .iconlink0:hover {
+      background-color: #D5D977;
+      color: #222601;
+  }
   .iconlink1:hover {
       background-color: #D5D977;
       color: #222601;
@@ -2231,7 +2239,8 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   .iconlink3:hover {
       background-color: #D5D977;
       color: #222601;
-  }</style>
+  }
+  </style>
   <style type="text/css">
   /* base style */
 
@@ -2407,7 +2416,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Mathematics","description":"Basics mathematical concepts useful for ecological Statistics","authors":[],"publishedDate":"2021-12-06T00:00:00.000+01:00"}
+{"title":"Mathematics","description":"Resources on mathematical concepts useful for ecological statistics","authors":[],"publishedDate":"2021-12-07T00:00:00.000+01:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2424,9 +2433,9 @@ BASICS
 </button>
 <div class="nav-dropdown-content">
 <a href="basics_r.html">R</a>
-<a href="basics_ethical.html">Ethical EcoStats</a>
-<a href="basics_data.html">Data &amp; Visualization</a>
-<a href="basics_stats.html">Basics Stats</a>
+<a href="basics_ethics.html">Ethics</a>
+<a href="basics_data.html">Data</a>
+<a href="basics_stats.html">Stats</a>
 <a href="basics_maths.html">Maths</a>
 </div>
 </div>
@@ -2479,7 +2488,7 @@ byFIELD
 <h1>Mathematics</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Basics mathematical concepts useful for ecological Statistics</p></p>
+<p><p>Resources on mathematical concepts useful for ecological statistics</p></p>
 </div>
 
 
@@ -2489,29 +2498,97 @@ byFIELD
 <h3>Contents</h3>
 <ul>
 <li><a href="#probability">Probability</a></li>
+<li><a href="#linear-algebra">Linear Algebra</a></li>
+<li><a href="#calculus">Calculus</a></li>
+<li><a href="#teaching-mathematics-in-ecology">Teaching Mathematics in Ecology</a></li>
 </ul>
 </nav>
 </div>
-<p>To be contacted?</p>
 <h2 id="probability">Probability</h2>
 <table>
 <colgroup>
-<col style="width: 26%" />
-<col style="width: 59%" />
+<col style="width: 86%" />
 <col style="width: 14%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Name</th>
-<th>Description</th>
 <th>Links</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Probability</td>
-<td>Basics of probability theory &amp; description of main distributions</td>
-<td><a href="https://www.youtube.com/playlist?list=PLcBNhzAt-dF8oas8Z3Post71VF2_Khk2w" class="iconlink2"><i class="fas fa-video"></i></a></td>
+<td><strong>Probability</strong> <em>S Jadhav</em> – Probability theory &amp; description of main distributions, not really ecologist friendly…</td>
+<td><a href="https://www.youtube.com/playlist?list=PLcBNhzAt-dF8oas8Z3Post71VF2_Khk2w" class="iconlink2"><i class="fas fa-chalkboard-teacher"></i></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="linear-algebra">Linear Algebra</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Links</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Learning Centennial College</strong> <em>M Cheung</em> – Definitions of useful words</td>
+<td><a href="https://libraryguides.centennialcollege.ca/c.php?g=717345&amp;p=5119504" class="iconlink1"><i class="fas fa-list-alt"></i></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="calculus">Calculus</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Links</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Learning Centennial College</strong> <em>M Cheung</em> – Definitions of useful words</td>
+<td><a href="https://libraryguides.centennialcollege.ca/c.php?g=717032&amp;p=5119210" class="iconlink1"><i class="fas fa-list-alt"></i></a></td>
+</tr>
+<tr class="even">
+<td><strong>Derivatives of Common Functions</strong> – Cheatsheet</td>
+<td><a href="http://hyperphysics.phy-astr.gsu.edu/hbase/Math/derfunc.html" class="iconlink0"><i class="fas fa-list-alt"></i></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="teaching-mathematics-in-ecology">Teaching Mathematics in Ecology</h2>
+<table>
+<colgroup>
+<col style="width: 86%" />
+<col style="width: 14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Links</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>What math should ecologists teach?</strong> <em>B McGill</em></td>
+<td><a href="https://dynamicecology.wordpress.com/2014/10/20/what-math-should-ecologists-teach/" class="iconlink0"><i class="fas fa-globe"></i></a></td>
+</tr>
+<tr class="even">
+<td><strong>Lack of quantitative training among early-career ecologists: a survey of the problem and potential solutions</strong> <em>F Barraquand et al.</em></td>
+<td><a href="https://peerj.com/articles/285/" class="iconlink0"><i class="far fa-sticky-note"></i></a></td>
+</tr>
+<tr class="odd">
+<td><strong>Writing mathematical ecology: A guide for authors and readers</strong> <em>L G Shoemaker et al</em></td>
+<td><a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.3701" class="iconlink0"><i class="far fa-sticky-note"></i></a></td>
+</tr>
+<tr class="even">
+<td><strong>Mathematical Ecology: A Century of Progress, and Challenges for the Next Century</strong> <em>S Levin</em> Lecture in 2017</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><a href="https://www.youtube.com/watch?v=m6F6MRrDtrQ" class="iconlink0"><i class="fas fa-video"></i></a></td>
+<td></td>
 </tr>
 </tbody>
 </table>

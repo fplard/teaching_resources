@@ -1,66 +1,112 @@
 ---
 title: "Learn EcoStat"
-description: A useful list of Resources to teach and learn Ecological Statistics
+description: |
+  A useful list of Resources to teach and learn Ecological Statistics
 site: distill::distill_website
-
-
 ---
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 source(file.path("R", "functions.R"))
 ```
 
-book (not free) `r ilink("book", "https:/xcelab.net/rm/statistical-rethinking/")`
 full course `r ilink("course", "https:/xcelab.net/rm/statistical-rethinking/")`
 video `r ilink("video", "https:/xcelab.net/rm/statistical-rethinking/")`
 exo `r ilink("exo", "https:/xcelab.net/rm/statistical-rethinking/")`
-tuto (open book, tutorial, step by step manual) `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/")`
+open book, tutorial, manual `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/")`
+
+book (not free) `r ilink("book", "https:/xcelab.net/rm/statistical-rethinking/")`
 article`r ilink("article", "https:/xcelab.net/rm/statistical-rethinking/")`
 website`r ilink("site", "https:/xcelab.net/rm/statistical-rethinking/")`
 
-
+level: begin `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lvl=1)` intermediate `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lvl=2)` advanced `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lvl=3)`
 
 ## Basics
-  
-###[R](basics_r.html) 
 
-###[Ethical EcoStats](basics_ethical.html)
 
-#### Code
-Miele
+### [R](basics_r.html) 
 
+* *be in charge: V Miele?*
+* *contribute: I think there is already enough online*
+
+#### Programming in R
+#### Data science in R
+#### Packages
+
+### [Ethics](basics_ethics.html)
+
+* *be in charge: Sandra?*
+* *contribute: V Amrhein, A Gelman, S Nakagawa ([Founding Members of Sortee](https://www.sortee.org/people/)), *
+
+#### Reproducibility 
 #### Ethics
-V. Amrhein, Gelman
-
-###[Data & Visualization](basics_data.html)
-
-###[Basics Stats](basics_stats.html)
+#### Open science
 
 
-###[Maths](basics_maths.html)
+### [Data](basics_data.html)
 
-Mathiopoulos, prof de math?
+* *be in charge: Olivier?*
+* *contribute: already a lot of things to add from the net*
 
+#### Data Science
+#### Data Manipulation
+#### Data Visualization
+
+
+### [Stats](basics_stats.html)
+
+* *be in charge: Gilles?*
+* *contribute: already some stuff online*
+
+#### Overview
+#### Distributions
+
+### [Maths](basics_maths.html)
+
+* *be in charge: Fred?*
+* *contribute: Mathiopoulos, B McGill, S Otto, F Débarre, Lyon Biostat teachers, [M bonsall](https://www.zoo.ox.ac.uk/people/professor-michael-bonsall?filter_types-1860401[]=&filter_series-1860401[]=#tab-1860396)*
+
+There are things online but I did not find really ecologist friendly courses so far. Need more time to have a look.
+
+#### Calculus
+#### Probability
+#### Algebra
+#### Teaching Mathematics in Ecology
 
 ## Modeling
 F. Korner
 
 ### [LM, GLM, GLMM, GAMM, SEM](modeling_lmtogamm.html)
-Bolker, M Brooks, Hadfield,
+
+
+* *be in charge: *
+* *contribute: B Bolker, M Brooks, Hadfield,*
+
+
 
 SEM:
 
 ### [Bayesian Approach](modeling_bayesian.html)
 
+* *be in charge: *
+* *contribute: *
 
 #### Nimble
 DeValpine
 
 ### Model Checking
 
+
+* *be in charge: *
+* *contribute: *
+
 Gelman
 
 ### [Model Selection](modeling_modelselection.html)
+
+
+* *be in charge: *
+* *contribute: *
 
 Hooten
 

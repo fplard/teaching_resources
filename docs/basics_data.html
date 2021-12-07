@@ -84,32 +84,32 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Learn EcoStat: Data Manipulation and Visualization</title>
+  <title>Learn EcoStat: Data manipulation and visualization</title>
 
-  <meta property="description" itemprop="description" content="Useful ressources to learn and improve data manipulation and visualization in R."/>
+  <meta property="description" itemprop="description" content="Resources to learn and improve data manipulation, exploration and visualization in R."/>
 
 
   <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2021-12-06"/>
-  <meta property="article:created" itemprop="dateCreated" content="2021-12-06"/>
+  <meta property="article:published" itemprop="datePublished" content="2021-12-07"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-12-07"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Learn EcoStat: Data Manipulation and Visualization"/>
+  <meta property="og:title" content="Learn EcoStat: Data manipulation and visualization"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Useful ressources to learn and improve data manipulation and visualization in R."/>
+  <meta property="og:description" content="Resources to learn and improve data manipulation, exploration and visualization in R."/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Learn EcoStat"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Learn EcoStat: Data Manipulation and Visualization"/>
-  <meta property="twitter:description" content="Useful ressources to learn and improve data manipulation and visualization in R."/>
+  <meta property="twitter:title" content="Learn EcoStat: Data manipulation and visualization"/>
+  <meta property="twitter:description" content="Resources to learn and improve data manipulation, exploration and visualization in R."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Data Manipulation and Visualization"]},{"type":"character","attributes":{},"value":["Useful ressources to learn and improve data manipulation and visualization in R."]},{"type":"character","attributes":{},"value":["2021-12-06"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Data manipulation and visualization"]},{"type":"character","attributes":{},"value":["Resources to learn and improve data manipulation, exploration and visualization in R.\n"]},{"type":"character","attributes":{},"value":["2021-12-07"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2195,7 +2195,20 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
-
+  .iconlink0 {
+      background-color: #222601;
+      color: #f1f2eb;
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
+      border-radius: 5px; /* Rounded edges */
+  }
+  .iconlink1 {
+      background-color: #222601;
+      color: #88A61C;
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
+      border-radius: 5px; /* Rounded edges */
+  }
   .iconlink2 {
       background-color: #222601;
       color: #D5D977;
@@ -2204,22 +2217,17 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
       border-radius: 5px; /* Rounded edges */
   }
 
-  .iconlink1 {
-      background-color: #222601;
-      color: #88A61C;
-      padding: 3px 5px 3px 5px;
-      margin: 0 2px 0 2px;
-      border-radius: 5px; /* Rounded edges */
-  }
-
   .iconlink3 {
       background-color: #222601;
-      color: #eb2d2d;
+      color: #ad6705;
       padding: 3px 5px 3px 5px;
       margin: 0 2px 0 2px;
       border-radius: 5px; /* Rounded edges */
   }
-
+  .iconlink0:hover {
+      background-color: #D5D977;
+      color: #222601;
+  }
   .iconlink1:hover {
       background-color: #D5D977;
       color: #222601;
@@ -2231,7 +2239,8 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   .iconlink3:hover {
       background-color: #D5D977;
       color: #222601;
-  }</style>
+  }
+  </style>
   <style type="text/css">
   /* base style */
 
@@ -2407,7 +2416,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Data Manipulation and Visualization","description":"Useful ressources to learn and improve data manipulation and visualization in R.","authors":[],"publishedDate":"2021-12-06T00:00:00.000+01:00"}
+{"title":"Data manipulation and visualization","description":"Resources to learn and improve data manipulation, exploration and visualization in R.","authors":[],"publishedDate":"2021-12-07T00:00:00.000+01:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2424,9 +2433,9 @@ BASICS
 </button>
 <div class="nav-dropdown-content">
 <a href="basics_r.html">R</a>
-<a href="basics_ethical.html">Ethical EcoStats</a>
+<a href="basics_ethical.html">Ethics</a>
 <a href="basics_data.html">Data &amp; Visualization</a>
-<a href="basics_stats.html">Basics Stats</a>
+<a href="basics_stats.html">Stats</a>
 <a href="basics_maths.html">Maths</a>
 </div>
 </div>
@@ -2476,10 +2485,10 @@ byFIELD
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Data Manipulation and Visualization</h1>
+<h1>Data manipulation and visualization</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p>Useful ressources to learn and improve data manipulation and visualization in R.</p>
+<p><p>Resources to learn and improve data manipulation, exploration and visualization in R.</p></p>
 </div>
 
 
@@ -2488,132 +2497,152 @@ byFIELD
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#global">Global</a></li>
+<li><a href="#data-science">Data Science</a></li>
+<li><a href="#data-manipulation">Data Manipulation</a></li>
+<li><a href="#data-visualization">Data Visualization</a>
+<ul>
+<li><a href="#shiny">Shiny</a></li>
+</ul></li>
 </ul>
 </nav>
 </div>
-<p>To be contacted?</p>
-<h2 id="global">Global</h2>
+<h2 id="data-science">Data Science</h2>
+<p>Global resources to start data science including introductory and intermediate material on data manipulation, exploration, visualization and analysis.</p>
 <table>
 <colgroup>
-<col style="width: 26%" />
-<col style="width: 59%" />
+<col style="width: 86%" />
 <col style="width: 14%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Name</th>
-<th>Description</th>
 <th>Links</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>STAT 545</td>
-<td>Data wrangling, exploration, and analysis with R</td>
-<td><a href="https://stat545.com/" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
+<td><strong>STAT 545</strong> <em>J Bryan</em> – A course about data wrangling, exploration, and analysis with R</td>
+<td><a href="https://stat545.com/" class="iconlink1"><i class="fas fa-list-alt"></i></a></td>
 </tr>
 <tr class="even">
-<td>ModernDive</td>
-<td>Statistical Inference via Data Science, A ModernDive into R and the Tidyverse,Chester Ismay and Albert Y. Kim</td>
-<td><a href="https://moderndive.com/foreword.html" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
+<td><strong>R for Data Science</strong> <em>H Wickham, G Grolemund</em> Introduction to data science: import, transform, visualize and model data with literate programming and reproducible research</td>
+<td><a href="https://r4ds.had.co.nz/" class="iconlink1"><i class="fas fa-list-alt"></i></a> <a href="https://jrnold.github.io/r4ds-exercise-solutions/" class="iconlink1"><i class="fas fa-edit"></i></a></td>
 </tr>
 <tr class="odd">
-<td>Exploratory Data Analysis</td>
-<td>J Helveston, Basics data wrangling and visualization</td>
+<td><strong>ModernDive</strong> <em>C Ismay, A Y Kim</em> – A textbook about statistical Inference via Data Science</td>
+<td><a href="https://moderndive.com/foreword.html" class="iconlink1"><i class="fas fa-list-alt"></i></a></td>
+</tr>
+<tr class="even">
+<td><strong>Introduction to Data Science</strong> <em>R A Irizarry</em> – A textbook from R basics to an introduction to machine learning, through data manipulation and statistics in R</td>
+<td><a href="https://rafalab.github.io/dsbook/" class="iconlink1"><i class="fas fa-list-alt"></i></a></td>
+</tr>
+<tr class="odd">
+<td><strong>R Programming 101</strong> – A youtube channel about data cleaning, manipulation &amp; visualization</td>
+<td><a href="https://www.youtube.com/c/RProgramming101/videos" class="iconlink1"><i class="fas fa-video"></i></a></td>
+</tr>
+<tr class="even">
+<td><strong>Exploratory Data Analysis</strong> <em>J Helveston</em> – A course to learn how to import, manipulate, clean, explore, visualize, and export data in R</td>
 <td><a href="https://eda.seas.gwu.edu/" class="iconlink2"><i class="fas fa-chalkboard-teacher"></i></a></td>
 </tr>
-<tr class="even">
-<td>Introduction to Data Science</td>
-<td>Rafael A. Irizarry, from R to modeling</td>
-<td><a href="https://rafalab.github.io/dsbook/" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
-</tr>
-<tr class="odd">
-<td>R Programming 101</td>
-<td>A youtube channel about R, Data manipulation and visualization</td>
-<td><a href="https://www.youtube.com/c/RProgramming101/videos" class="iconlink2"><i class="fas fa-video"></i></a></td>
-</tr>
 </tbody>
 </table>
-<p>##Data Manipulation</p>
+<h2 id="data-manipulation">Data Manipulation</h2>
 <table>
 <colgroup>
-<col style="width: 26%" />
-<col style="width: 59%" />
+<col style="width: 86%" />
 <col style="width: 14%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Name</th>
-<th>Description</th>
 <th>Links</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Cleaning ecological survey data for conservation scientists</td>
-<td>CJ Brown, C Buelow</td>
-<td><a href="http://www.seascapemodels.org/RLS-data-prep-course/" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
+<td><strong>Data Wrangling with R and the Tidyverse</strong> <em>G. Grolemund</em> An introductory playlist</td>
+<td><a href="https://www.youtube.com/playlist?list=PL9HYL-VRX0oQOWAFoKHFQAsWAI3ImbNPk" class="iconlink1"><i class="fas fa-video"></i></a></td>
 </tr>
 <tr class="even">
-<td>Data Wrangling with R and the Tidyverse</td>
-<td>G. Grolemund</td>
-<td><a href="https://www.youtube.com/playlist?list=PL9HYL-VRX0oQOWAFoKHFQAsWAI3ImbNPk" class="iconlink2"><i class="fas fa-video"></i></a></td>
+<td><strong>Cleaning ecological survey data for conservation scientists</strong> <em>C J Brown, C Buelow</em> –</td>
+<td><a href="http://www.seascapemodels.org/RLS-data-prep-course/" class="iconlink1"><i class="fas fa-list-alt"></i></a></td>
 </tr>
 <tr class="odd">
-<td>dplyr</td>
-<td>intro &amp; most functiond of dplyr</td>
-<td><a href="https://www.youtube.com/watch?v=rm0BQSWoJlc&amp;list=PLyogaPCPr32W9wbszOANRJiAvUbbymcCS" class="iconlink2"><i class="fas fa-video"></i></a></td>
+<td><strong>dplyr</strong> <em>R Programming - DDS</em> – an introductory playlist to dplyr and its functions</td>
+<td><a href="https://www.youtube.com/watch?v=rm0BQSWoJlc&amp;list=PLyogaPCPr32W9wbszOANRJiAvUbbymcCS" class="iconlink1"><i class="fas fa-video"></i></a></td>
 </tr>
 </tbody>
 </table>
-<p>##Data Visualization</p>
+<h2 id="data-visualization">Data Visualization</h2>
 <table>
 <colgroup>
-<col style="width: 26%" />
-<col style="width: 59%" />
+<col style="width: 86%" />
 <col style="width: 14%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Name</th>
-<th>Description</th>
 <th>Links</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>R for Data Science</td>
-<td>H Wickham, G Grolemund</td>
-<td><a href="https://r4ds.had.co.nz/" class="iconlink2"><i class="fas fa-list-alt"></i></a> <a href="https://jrnold.github.io/r4ds-exercise-solutions/" class="iconlink2"><i class="fas fa-edit"></i></a></td>
+<td><strong>Fundamentals of Data Visualization</strong> <em>C . Wilke</em> Theory on how to make right and nice figures, not R focused</td>
+<td><a href="https://clauswilke.com/dataviz/" class="iconlink1"><i class="fas fa-list-alt"></i></a></td>
 </tr>
 <tr class="even">
-<td>R Graphics Cookbook, 2nd edition</td>
-<td>W. Chang</td>
-<td><a href="https://r-graphics.org/" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
+<td><strong>R Graphics Cookbook</strong> <em>W. Chang</em> – A practical guide to help you generate high-quality graphs</td>
+<td><a href="https://r-graphics.org/" class="iconlink1"><i class="fas fa-list-alt"></i></a></td>
 </tr>
 <tr class="odd">
-<td>Fundamentals of Data Visualization</td>
-<td>Claus O. Wilke, Theory on making figure, not R focused</td>
-<td><a href="https://clauswilke.com/dataviz/" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
+<td><strong>R for Ecologists</strong> a youtube channel including basics on R and visualization</td>
+<td><a href="https://www.youtube.com/c/RforEcologists/videos" class="iconlink1"><i class="fas fa-video"></i></a></td>
 </tr>
 <tr class="even">
-<td>Visualization</td>
-<td>R studio youtube playlist</td>
-<td><a href="https://www.youtube.com/playlist?list=PL9HYL-VRX0oQlhD34UPQq0nCR1k1-NjwE" class="iconlink2"><i class="fas fa-video"></i></a></td>
+<td><strong>ggplot2</strong> <em>H. Wickham</em> focus on explaining the grammar of graphics that ggplot2 uses, it is not a cookbook</td>
+<td><a href="https://ggplot2-book.org/index.html" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
 </tr>
 <tr class="odd">
-<td>R for Ecologists</td>
-<td>R studio youtube channel including basics on R and visualization</td>
-<td><a href="https://www.youtube.com/c/RforEcologists/videos" class="iconlink2"><i class="fas fa-video"></i></a></td>
+<td><strong>Visualization</strong> – a R studio youtube playlist</td>
+<td><a href="https://www.youtube.com/playlist?list=PL9HYL-VRX0oQlhD34UPQq0nCR1k1-NjwE" class="iconlink0"><i class="fas fa-video"></i></a></td>
 </tr>
 </tbody>
 </table>
-<p>###Shiny</p>
-<p>A shiny workshop to start, Denis Valle <a href="https://lsw5077.github.io/shiny_workshop/" class="iconlink2"><i class="fas fa-list-alt"></i></a></p>
-<p>shiny gallery <a href="https://shiny.rstudio.com/gallery/" class="iconlink2"><i class="fas fa-globe"></i></a></p>
-<p>Mastering Shiny, Hadley Wickham <a href="https://mastering-shiny.org/" class="iconlink2"><i class="fas fa-list-alt"></i></a></p>
-<p>Shiny you tube chain <a href="https://www.youtube.com/c/ShinyDeveloperSeries/videos" class="iconlink2"><i class="fas fa-video"></i></a> Engineering Production-Grade Shiny Apps, by Colin Fay, Sébastien Rochette, Vincent Guyader and Cervan Girard.the process of building an application that will later be sent to production <a href="https://engineering-shiny.org/index.html" class="iconlink2"><i class="fas fa-list-alt"></i></a></p>
+<h3 id="shiny">Shiny</h3>
+<table>
+<colgroup>
+<col style="width: 86%" />
+<col style="width: 14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Links</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Shiny gallery</strong> – Find ideas about what is possible to do</td>
+<td><a href="https://shiny.rstudio.com/gallery/" class="iconlink0"><i class="fas fa-globe"></i></a></td>
+</tr>
+<tr class="even">
+<td><strong>A shiny workshop to start</strong> <em>D Valle and others</em> – A full course to start with shiny</td>
+<td><a href="https://lsw5077.github.io/shiny_workshop/" class="iconlink1"><i class="fas fa-chalkboard-teacher"></i></a></td>
+</tr>
+<tr class="odd">
+<td><strong>Mastering Shiny</strong> <em>Hadley Wickham</em> – Designed to take you from knowing nothing about Shiny to being an expert developer</td>
+<td><a href="https://mastering-shiny.org/" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
+</tr>
+<tr class="even">
+<td><strong>Engineering Production-Grade Shiny Apps</strong> <em>C Fay, S Rochette, V Guyader, C Girard</em> – learn the process of building an application that will later be sent to production</td>
+<td><a href="https://engineering-shiny.org/index.html" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
+</tr>
+<tr class="odd">
+<td><strong>Shiny Developer Series</strong> – a youtube channel</td>
+<td><a href="https://www.youtube.com/c/ShinyDeveloperSeries/videos" class="iconlink2"><i class="fas fa-video"></i></a></td>
+</tr>
+</tbody>
+</table>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

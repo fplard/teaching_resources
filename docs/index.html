@@ -2193,6 +2193,21 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
 
+
+  .iconlink0 {
+      background-color: #222601;
+      color: #f1f2eb;
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
+      border-radius: 5px; /* Rounded edges */
+  }
+  .iconlink1 {
+      background-color: #222601;
+      color: #88A61C;
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
+      border-radius: 5px; /* Rounded edges */
+  }
   .iconlink2 {
       background-color: #222601;
       color: #D5D977;
@@ -2201,22 +2216,17 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
       border-radius: 5px; /* Rounded edges */
   }
 
-  .iconlink1 {
-      background-color: #222601;
-      color: #88A61C;
-      padding: 3px 5px 3px 5px;
-      margin: 0 2px 0 2px;
-      border-radius: 5px; /* Rounded edges */
-  }
-
   .iconlink3 {
       background-color: #222601;
-      color: #eb2d2d;
+      color: #ad6705;
       padding: 3px 5px 3px 5px;
       margin: 0 2px 0 2px;
       border-radius: 5px; /* Rounded edges */
   }
-
+  .iconlink0:hover {
+      background-color: #D5D977;
+      color: #222601;
+  }
   .iconlink1:hover {
       background-color: #D5D977;
       color: #222601;
@@ -2228,7 +2238,8 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   .iconlink3:hover {
       background-color: #D5D977;
       color: #222601;
-  }</style>
+  }
+  </style>
   <style type="text/css">
   /* base style */
 
@@ -2485,32 +2496,113 @@ byFIELD
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#basics">Basics</a></li>
-<li><a href="#modeling">Modeling</a></li>
-<li><a href="#byfield">byField</a></li>
+<li><a href="#basics">Basics</a>
+<ul>
+<li><a href="#r"><span>R</span></a></li>
+<li><a href="#ethical-ecostats"><span>Ethical EcoStats</span></a></li>
+<li><a href="#data-visualization"><span>Data &amp; Visualization</span></a></li>
+<li><a href="#basics-stats"><span>Basics Stats</span></a></li>
+<li><a href="#maths"><span>Maths</span></a></li>
+</ul></li>
+<li><a href="#modeling">Modeling</a>
+<ul>
+<li><a href="#lm-glm-glmm-gamm-sem"><span>LM, GLM, GLMM, GAMM, SEM</span></a></li>
+<li><a href="#bayesian-approach"><span>Bayesian Approach</span></a></li>
+<li><a href="#model-checking">Model Checking</a></li>
+<li><a href="#model-selection"><span>Model Selection</span></a></li>
+<li><a href="#machine-learning"><span>Machine Learning</span></a></li>
+<li><a href="#multivariate-analyses"><span>Multivariate Analyses</span></a></li>
+</ul></li>
+<li><a href="#byfield">byField</a>
+<ul>
+<li><a href="#demography"><span>Demography</span></a></li>
+<li><a href="#population-dynamics">Population Dynamics</a></li>
+<li><a href="#spatial-analyses"><span>Spatial Analyses</span></a></li>
+<li><a href="#community-analyses"><span>Community Analyses</span></a></li>
+<li><a href="#meta-analyses">Meta-Analyses</a></li>
+<li><a href="#quantitative-genetics">Quantitative Genetics</a></li>
+</ul></li>
 </ul>
 </nav>
 </div>
-<p>book (not free) <a href="https:/xcelab.net/rm/statistical-rethinking/" class="iconlink2"><i class="fas fa-book"></i></a> full course <a href="https:/xcelab.net/rm/statistical-rethinking/" class="iconlink2"><i class="fas fa-chalkboard-teacher"></i></a> video <a href="https:/xcelab.net/rm/statistical-rethinking/" class="iconlink2"><i class="fas fa-video"></i></a> exo <a href="https:/xcelab.net/rm/statistical-rethinking/" class="iconlink2"><i class="fas fa-edit"></i></a> tuto (open book, tutorial, step by step manual) <a href="https:/xcelab.net/rm/statistical-rethinking/" class="iconlink2"><i class="fas fa-list-alt"></i></a> article<a href="https:/xcelab.net/rm/statistical-rethinking/" class="iconlink2"><i class="far fa-sticky-note"></i></a> website<a href="https:/xcelab.net/rm/statistical-rethinking/" class="iconlink2"><i class="fas fa-globe"></i></a></p>
+<p>full course <a href="https:/xcelab.net/rm/statistical-rethinking/" class="iconlink0"><i class="fas fa-chalkboard-teacher"></i></a> video <a href="https:/xcelab.net/rm/statistical-rethinking/" class="iconlink0"><i class="fas fa-video"></i></a> exo <a href="https:/xcelab.net/rm/statistical-rethinking/" class="iconlink0"><i class="fas fa-edit"></i></a> tuto (open book, tutorial, step by step manual) <a href="https:/xcelab.net/rm/statistical-rethinking/" class="iconlink0"><i class="fas fa-list-alt"></i></a></p>
+<p>book (not free) <a href="https:/xcelab.net/rm/statistical-rethinking/" class="iconlink0"><i class="fas fa-book"></i></a> article<a href="https:/xcelab.net/rm/statistical-rethinking/" class="iconlink0"><i class="far fa-sticky-note"></i></a> website<a href="https:/xcelab.net/rm/statistical-rethinking/" class="iconlink0"><i class="fas fa-globe"></i></a></p>
+<p>level: begin <a href="https:/xcelab.net/rm/statistical-rethinking/" class="iconlink1"><i class="fas fa-list-alt"></i></a> intermediate <a href="https:/xcelab.net/rm/statistical-rethinking/" class="iconlink2"><i class="fas fa-list-alt"></i></a> advanced <a href="https:/xcelab.net/rm/statistical-rethinking/" class="iconlink3"><i class="fas fa-list-alt"></i></a></p>
 <h2 id="basics">Basics</h2>
-<p><a href="basics_r.html">R</a></p>
-<p><a href="basics_ethical.html">Ethical EcoStats</a></p>
-<p><a href="basics_data.html">Data &amp; Visualization</a></p>
-<p><a href="basics_stats.html">Basics Stats</a></p>
-<p><a href="basics_maths.html">Maths</a></p>
+<h3 id="r"><a href="basics_r.html">R</a></h3>
+<ul>
+<li><em>be in charge: V Miele?</em></li>
+<li><em>contribute: I think there is already enough online</em></li>
+</ul>
+<h4 id="programming-in-r">Programming in R</h4>
+<h4 id="data-science-in-r">Data science in R</h4>
+<h4 id="packages">Packages</h4>
+<h3 id="ethical-ecostats"><a href="basics_ethical.html">Ethical EcoStats</a></h3>
+<ul>
+<li><em>be in charge: Gilles, Sandra?</em></li>
+<li><em>contribute: V Amrhein, A Gelman, Nakagawa (<a href="https://www.sortee.org/people/">Founding Members of Sortee</a>), </em></li>
+</ul>
+<h4 id="reproducibility">Reproducibility</h4>
+<h4 id="ethics">Ethics</h4>
+<h4 id="open-science">Open science</h4>
+<h3 id="data-visualization"><a href="basics_data.html">Data &amp; Visualization</a></h3>
+<ul>
+<li><em>be in charge: </em></li>
+<li><em>contribute: </em></li>
+</ul>
+<h3 id="basics-stats"><a href="basics_stats.html">Basics Stats</a></h3>
+<ul>
+<li><em>be in charge: </em></li>
+<li><em>contribute: </em></li>
+</ul>
+<h3 id="maths"><a href="basics_maths.html">Maths</a></h3>
+<ul>
+<li><em>be in charge: </em></li>
+<li><em>contribute: </em></li>
+</ul>
+<p>Mathiopoulos, prof de math?</p>
 <h2 id="modeling">Modeling</h2>
-<p><a href="modeling_lmtogamm.html">LM, GLM, GLMM, GAMM, SEM</a></p>
-<p><a href="modeling_bayesian.html">Bayesian Approach</a></p>
-<p>Model Checking</p>
-<p><a href="modeling_modelselection.html">Model Selection</a></p>
-<p><a href="modeling_machinelearning.html">Machine Learning</a></p>
-<p><a href="modeling_multivariate.html">Multivariate Analyses</a></p>
+<p>F. Korner</p>
+<h3 id="lm-glm-glmm-gamm-sem"><a href="modeling_lmtogamm.html">LM, GLM, GLMM, GAMM, SEM</a></h3>
+<ul>
+<li><em>be in charge: </em></li>
+<li><em>contribute: </em></li>
+</ul>
+<p>Bolker, M Brooks, Hadfield,</p>
+<p>SEM:</p>
+<h3 id="bayesian-approach"><a href="modeling_bayesian.html">Bayesian Approach</a></h3>
+<ul>
+<li><em>be in charge: </em></li>
+<li><em>contribute: </em></li>
+</ul>
+<h4 id="nimble">Nimble</h4>
+<p>DeValpine</p>
+<h3 id="model-checking">Model Checking</h3>
+<ul>
+<li><em>be in charge: </em></li>
+<li><em>contribute: </em></li>
+</ul>
+<p>Gelman</p>
+<h3 id="model-selection"><a href="modeling_modelselection.html">Model Selection</a></h3>
+<ul>
+<li><em>be in charge: </em></li>
+<li><em>contribute: </em></li>
+</ul>
+<p>Hooten</p>
+<h3 id="machine-learning"><a href="modeling_machinelearning.html">Machine Learning</a></h3>
+<h3 id="multivariate-analyses"><a href="modeling_multivariate.html">Multivariate Analyses</a></h3>
 <h2 id="byfield">byField</h2>
-<p><a href="byfield_demography.html">Demography</a></p>
-<p>Population Dynamics</p>
-<p><a href="byfield_spatial.html">Spatial Analyses</a></p>
-<p><a href="byfield_community.html">Community Analyses</a></p>
-<p>Meta-Analyses</p>
+<h3 id="demography"><a href="byfield_demography.html">Demography</a></h3>
+<p>Gamelon, Coulson, Salguero Gomez, Colchero</p>
+<h3 id="population-dynamics">Population Dynamics</h3>
+<p>Schaub, F</p>
+<h3 id="spatial-analyses"><a href="byfield_spatial.html">Spatial Analyses</a></h3>
+<p>Royle, Kéry, Zipkin</p>
+<h3 id="community-analyses"><a href="byfield_community.html">Community Analyses</a></h3>
+<h3 id="meta-analyses">Meta-Analyses</h3>
+<p>Nakagawa, Ronget,</p>
+<h3 id="quantitative-genetics">Quantitative Genetics</h3>
+<p>De Villemereuil, Chevin,</p>
 <table>
 <thead>
 <tr class="header">
@@ -2523,7 +2615,7 @@ byFIELD
 <tr class="odd">
 <td>Cross-Validated</td>
 <td>The statistical forum</td>
-<td><a href="https://stats.stackexchange.com/" class="iconlink2"><i class="fas fa-globe"></i></a></td>
+<td><a href="https://stats.stackexchange.com/" class="iconlink0"><i class="fas fa-globe"></i></a></td>
 </tr>
 </tbody>
 </table>

@@ -28,3 +28,4 @@ Have a look also to [wikistat][https://github.com/wikistat] (Insa Toulouse, but 
 |In-depth introduction to machine learning in 15 hours of expert videos|Trevor Hastie and Rob Tibshirani, 2014|`r ilink("course", "https://www.dataschool.io/15-hours-of-expert-machine-learning-videos/")``r ilink("video", "")`|
 |Machine Learning Mastery|A site including tutorial for machine  learning from beginners to advanced levels|`r ilink("site", "https://machinelearningmastery.com/start-here/")`|
 |Awesome Machine Learning|A list of package for different softwares|`r ilink("github","https://github.com/josephmisiti/awesome-machine-learning")`| "https://machinelearningmastery.com/start-here/")`|
+|**Oxford Machine Learning** *N de Freitas, B Shillingford, M Moczulsky*|`r ilink("course","https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/")`|

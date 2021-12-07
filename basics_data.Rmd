@@ -1,6 +1,7 @@
 ---
-title: "Data Manipulation and Visualization"
-description: Useful ressources to learn and improve data manipulation and visualization in R.
+title: "Data manipulation and visualization"
+description: |
+  Resources to learn and improve data manipulation, exploration and visualization in R.
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
@@ -9,55 +10,48 @@ output: distill::distill_article
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 source(file.path("R", "functions.R"))
-
 ```
 
-To be contacted?
 
-## Global
+## Data Science
 
+Global resources to start data science including introductory and intermediate material on data manipulation, exploration, visualization and analysis.
 
-| Name        | Description                 | Links |
-|-------------|-----------------------------|-------|
-|STAT 545|Data wrangling, exploration, and analysis with R|`r ilink("tuto", "https://stat545.com/")`|
-|ModernDive|Statistical Inference via Data Science, A ModernDive into R and the Tidyverse,Chester Ismay and Albert Y. Kim |`r ilink("tuto", "https://moderndive.com/foreword.html")`|
-|Exploratory Data Analysis|J Helveston, Basics data wrangling and visualization |`r ilink("course", "https://eda.seas.gwu.edu/")`|
-|Introduction to Data Science|Rafael A. Irizarry, from R to modeling |`r ilink("tuto", "https://rafalab.github.io/dsbook/")`|
-|R Programming 101|A youtube channel about R, Data manipulation and visualization |`r ilink("video", "https://www.youtube.com/c/RProgramming101/videos")`|
-
-##Data Manipulation
-
-| Name        | Description                 | Links |
-|-------------|-----------------------------|-------|
-|Cleaning ecological survey data for conservation scientists|CJ Brown, C Buelow|`r ilink("tuto", "http://www.seascapemodels.org/RLS-data-prep-course/")`|
-|Data Wrangling with R and the Tidyverse|G. Grolemund |`r ilink("video", "https://www.youtube.com/playlist?list=PL9HYL-VRX0oQOWAFoKHFQAsWAI3ImbNPk")`|
-|dplyr|intro & most functiond of dplyr|`r ilink("video", "https://www.youtube.com/watch?v=rm0BQSWoJlc&list=PLyogaPCPr32W9wbszOANRJiAvUbbymcCS")`|
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**STAT 545** *J Bryan* -- A course about data wrangling, exploration, and analysis with R|`r ilink("tuto", "https://stat545.com/", lvl=1)`|
+|**R for Data Science** *H Wickham, G Grolemund* Introduction to data science: import, transform, visualize and model data with literate programming and reproducible research  |`r ilink("tuto", "https://r4ds.had.co.nz/", lvl=1)` `r ilink("exo", "https://jrnold.github.io/r4ds-exercise-solutions/", lvl=1)`|
+|**ModernDive** *C Ismay, A Y Kim* -- A textbook about statistical Inference via Data Science|`r ilink("tuto", "https://moderndive.com/foreword.html", lvl=1)`|
+|**Introduction to Data Science** *R A Irizarry* -- A textbook from R basics to an introduction to machine learning, through data manipulation and statistics in R|`r ilink("tuto", "https://rafalab.github.io/dsbook/", lvl=1)`|
+|**R Programming 101** -- A youtube channel about data cleaning, manipulation & visualization |`r ilink("video", "https://www.youtube.com/c/RProgramming101/videos", lvl=1)`|
+|**Exploratory Data Analysis** *J Helveston* -- A course to learn how to import, manipulate, clean, explore, visualize, and export data in R |`r ilink("course", "https://eda.seas.gwu.edu/", lvl=2)`|
 
 
-##Data Visualization
+## Data Manipulation
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**Data Wrangling with R and the Tidyverse** *G. Grolemund* An introductory playlist  |`r ilink("video", "https://www.youtube.com/playlist?list=PL9HYL-VRX0oQOWAFoKHFQAsWAI3ImbNPk", lvl=1)`|
+|**Cleaning ecological survey data for conservation scientists** *C J Brown, C Buelow* -- |`r ilink("tuto", "http://www.seascapemodels.org/RLS-data-prep-course/", lvl=1)`|
+|**dplyr** *R Programming - DDS* -- an introductory playlist to dplyr and its functions|`r ilink("video", "https://www.youtube.com/watch?v=rm0BQSWoJlc&list=PLyogaPCPr32W9wbszOANRJiAvUbbymcCS", lvl=1)`|
 
 
-| Name        | Description                 | Links |
-|-------------|-----------------------------|-------|
-|R for Data Science|H Wickham, G Grolemund |`r ilink("tuto", "https://r4ds.had.co.nz/")` `r ilink("exo", "https://jrnold.github.io/r4ds-exercise-solutions/")`|
-|R Graphics Cookbook, 2nd edition|W. Chang  |`r ilink("tuto", "https://r-graphics.org/")`|
-|Fundamentals of Data Visualization|Claus O. Wilke, Theory on making figure, not R focused |`r ilink("tuto", "https://clauswilke.com/dataviz/")`|
-|Visualization|R studio youtube playlist  |`r ilink("video", "https://www.youtube.com/playlist?list=PL9HYL-VRX0oQlhD34UPQq0nCR1k1-NjwE")`|
-|R for Ecologists| R studio youtube channel including basics on R and visualization |`r ilink("video", "https://www.youtube.com/c/RforEcologists/videos")`|
+## Data Visualization
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**Fundamentals of Data Visualization** *C . Wilke* Theory on how to make right and nice figures, not R focused|`r ilink("tuto", "https://clauswilke.com/dataviz/", lvl=1)`|
+|**R Graphics Cookbook** *W. Chang* -- A practical guide to help you generate high-quality graphs|`r ilink("tuto", "https://r-graphics.org/", lvl=1)`|
+|**R for Ecologists** a youtube channel including basics on R and visualization |`r ilink("video", "https://www.youtube.com/c/RforEcologists/videos", lvl=1)`|
+|**ggplot2** *H. Wickham* focus on explaining the grammar of graphics that ggplot2 uses, it is not a cookbook|`r ilink("tuto", "https://ggplot2-book.org/index.html", lvl=2)`|
+|**Visualization** -- a R studio youtube playlist  |`r ilink("video", "https://www.youtube.com/playlist?list=PL9HYL-VRX0oQlhD34UPQq0nCR1k1-NjwE")`|
 
 
-### ggplot2
 
-ggplot2: Elegant Graphics for Data Analysis , H. Wickham `r ilink("tuto", "https://ggplot2-book.org/index.html")`
+### Shiny
 
-
-###Shiny
-
-A shiny workshop to start, Denis Valle `r ilink("tuto", "https://lsw5077.github.io/shiny_workshop/")`
-
-shiny gallery  `r ilink("site", "https://shiny.rstudio.com/gallery/")`
-
-Mastering Shiny, Hadley Wickham `r ilink("tuto", "https://mastering-shiny.org/")`
-
-Shiny you tube chain  `r ilink("video", "https://www.youtube.com/c/ShinyDeveloperSeries/videos")`
-Engineering Production-Grade Shiny Apps, by Colin Fay, Sébastien Rochette, Vincent Guyader and Cervan Girard.the process of building an application that will later be sent to production  `r ilink("tuto", "https://engineering-shiny.org/index.html")`
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**Shiny gallery** -- Find ideas about what is possible to do |`r ilink("site", "https://shiny.rstudio.com/gallery/")`|
+|**A shiny workshop to start** *D Valle and others* -- A full course to start with shiny |`r ilink("course", "https://lsw5077.github.io/shiny_workshop/", lvl=1)`|
+|**Mastering Shiny** *Hadley Wickham* --  Designed to take you from knowing nothing about Shiny to being an expert developer|`r ilink("tuto", "https://mastering-shiny.org/", lvl=2)`|
+|**Engineering Production-Grade Shiny Apps** *C Fay, S Rochette, V Guyader, C Girard* -- learn the process of building an application that will later be sent to production  |`r ilink("tuto", "https://engineering-shiny.org/index.html", lvl=2)`|
+|**Shiny Developer Series** -- a youtube channel  |`r ilink("video", "https://www.youtube.com/c/ShinyDeveloperSeries/videos", lvl=2)`|
