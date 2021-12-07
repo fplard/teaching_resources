@@ -25,23 +25,21 @@ navbar:
           href: modeling_regression.html
         - text: "Bayesian Approach"
           href: modeling_bayesian.html
-        - text: "Model Checking"
-        - text: "Model Selection"
-          href: modeling_modelselection.html
-        - text: "Machine Learning"
-          href: modeling_machinelearning.html
         - text: "Multivariate Analyses"
           href: modeling_multivariate.html
+        - text: "Machine Learning"
+          href: modeling_machinelearning.html
     - text: "byFIELD"
       menu:
         - text: "Demography"
           href: byfield_demography.html
         - text: "Population Dynamics"
+          href: byfield_population.html
         - text: "Spatial Analyses"
           href: byfield_spatial.html
         - text: "Community Analyses" 
           href: byfield_community.html
-        - text: "Meta-Analyses"
+
   right:
     - text: "Others"
       href: others.html

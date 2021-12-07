@@ -76,75 +76,121 @@ There are things online but I did not find really ecologist friendly courses so 
 ## Modeling
 F. Korner
 
-### [LM, GLM, GLMM, GAMM, SEM](modeling_lmtogamm.html)
+### [Regression](modeling_regression.html)
 
 
 * *be in charge: *
-* *contribute: B Bolker, M Brooks, Hadfield,*
 
+#### Overview
+#### LM & GLM
+#### Mixed Models
+* *contribute: B Bolker, M Brooks, JD Hadfield, L Crespin*
 
+#### GAMM
+#### Structural Equation Modeling
+#### Plot your model
+#### Check your model
+#### Model selection
+* *contribute: M Hooten, H Hobbs*
 
-SEM:
+#### Model averaging
 
 ### [Bayesian Approach](modeling_bayesian.html)
 
 * *be in charge: *
-* *contribute: *
+* *contribute: Gelman*
 
-#### Nimble
-DeValpine
-
-### Model Checking
-
-
-* *be in charge: *
-* *contribute: *
-
-Gelman
-
-### [Model Selection](modeling_modelselection.html)
-
-
-* *be in charge: *
-* *contribute: *
-
-Hooten
-
-### [Machine Learning](modeling_machinelearning.html)
+#### Packages & Software
+* *contribute: deValpine*
 
 ### [Multivariate Analyses](modeling_multivariate.html)
 
+* *be in charge: Stéphane*
+* *contribute: S. Jadhav*
 
+
+### [Machine Learning](modeling_machinelearning.html)
+
+* *be in charge: JL Parouty, L Jacob*
+* *contribute: *
 
 ## byField
 
 ### [Demography](byfield_demography.html)
+* *be in charge: *
+* *contribute: *
 
 Gamelon, Coulson, Salguero Gomez, Colchero
 
-### Population Dynamics
+####Overview
+####Survival
+####Reproduction
+####Growth
+
+
+### [Population Dynamics](byfield_population.html)
+* *be in charge: *
+* *contribute: *
 
 Schaub, F
 
+#### Equilibrium
+#### Stochastic
+#### Transient
+#### Density-Dependent
+
+#### Integral Projection Models
+#### Integrated Population Models
+#### Individual based models
+
+#### DEB
+
+#### Epidemio
+
+
 ### [Spatial Analyses](byfield_spatial.html)
 
-Royle, Kéry, Zipkin
+* *be in charge: *
+* *contribute: *
+
+Royle, Kéry, Zipkin, Gardner
+
+#### GIS
+#### Point & Distance Sampling
+#### Occupancy
+#### Mouvement
+#### Citizen Data
+
 
 ### [Community Analyses](byfield_community.html)
+* *be in charge: *
+* *contribute: Daniel Borcard, François Gillet, David Zelený, Guillaume Blanchet, Jari Oksanen, Gavin L. Simpson, D. Roberts,*
 
-### Meta-Analyses
+#### Overview
+#### Ordination methods
+#### Vegan
 
+### Cross-species Analysis
+
+* *be in charge: *
+* *contribute: *
+ JF Lemaitre
+ 
 Nakagawa, Ronget, 
 
+#### Meta-Analysis
+#### Allometry
+#### Phylogeny
+
 ### Quantitative Genetics
+* *be in charge: *
+* *contribute: *
 
 De Villemereuil, Chevin, 
 
+### Network Analysis
 
-
-| Name        | Description                 | Links |
-|-------------|-----------------------------|-------|
-|Cross-Validated| The statistical forum|`r ilink("site", "https://stats.stackexchange.com/")`|
-
+* *be in charge: *
+* *contribute: *
 
 

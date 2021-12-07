@@ -1,0 +1,37 @@
+---
+title: "Population dynamics"
+description: |
+  Resource to model population dynamics
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+source(file.path("R", "functions.R"))
+
+```
+## Overview
+
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|** ** * * -- |`r ilink("tuto", "")`|
+
+
+
+## Equilibrium
+## Stochastic
+## Transient
+## Density-Dependent
+
+## Integral Projection Models
+## Integrated Population Models
+## Individual based models
+
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**Individual-based modeling with NetLogoR** *S Bauduin, O Gimenez, O Grente, N Santostasi* -- |`r ilink("course", "https://sarahbauduin.github.io/formation_IBM_NetLogoR/")``r ilink("exo", "https://sarahbauduin.github.io/formation_IBM_NetLogoR/")`|
+
+## DEB
+
+## Epidemio

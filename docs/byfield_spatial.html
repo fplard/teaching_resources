@@ -84,33 +84,32 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Learn EcoStat: Untitled</title>
+  <title>Learn EcoStat: Spatial Analysis</title>
 
-  <meta property="description" itemprop="description" content="A new article created using the Distill format."/>
+  <meta property="description" itemprop="description" content="Resources for spatial &amp; occupancy analysis"/>
 
 
   <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2021-12-06"/>
-  <meta property="article:created" itemprop="dateCreated" content="2021-12-06"/>
-  <meta name="article:author" content="Nora Jones"/>
+  <meta property="article:published" itemprop="datePublished" content="2021-12-07"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-12-07"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Learn EcoStat: Untitled"/>
+  <meta property="og:title" content="Learn EcoStat: Spatial Analysis"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="A new article created using the Distill format."/>
+  <meta property="og:description" content="Resources for spatial &amp; occupancy analysis"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Learn EcoStat"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Learn EcoStat: Untitled"/>
-  <meta property="twitter:description" content="A new article created using the Distill format."/>
+  <meta property="twitter:title" content="Learn EcoStat: Spatial Analysis"/>
+  <meta property="twitter:description" content="Resources for spatial &amp; occupancy analysis"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Untitled"]},{"type":"character","attributes":{},"value":["A new article created using the Distill format.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Nora Jones"]},{"type":"character","attributes":{},"value":["https://example.com/norajones"]},{"type":"character","attributes":{},"value":["Spacely Sprockets"]},{"type":"character","attributes":{},"value":["https://example.com/spacelysprokets"]}]}]},{"type":"character","attributes":{},"value":["2021-12-06"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Spatial Analysis"]},{"type":"character","attributes":{},"value":["Resources for spatial & occupancy analysis\n"]},{"type":"character","attributes":{},"value":["2021-12-07"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2196,7 +2195,20 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
-
+  .iconlink0 {
+      background-color: #222601;
+      color: #f1f2eb;
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
+      border-radius: 5px; /* Rounded edges */
+  }
+  .iconlink1 {
+      background-color: #222601;
+      color: #88A61C;
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
+      border-radius: 5px; /* Rounded edges */
+  }
   .iconlink2 {
       background-color: #222601;
       color: #D5D977;
@@ -2205,22 +2217,17 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
       border-radius: 5px; /* Rounded edges */
   }
 
-  .iconlink1 {
-      background-color: #222601;
-      color: #88A61C;
-      padding: 3px 5px 3px 5px;
-      margin: 0 2px 0 2px;
-      border-radius: 5px; /* Rounded edges */
-  }
-
   .iconlink3 {
       background-color: #222601;
-      color: #eb2d2d;
+      color: #ad6705;
       padding: 3px 5px 3px 5px;
       margin: 0 2px 0 2px;
       border-radius: 5px; /* Rounded edges */
   }
-
+  .iconlink0:hover {
+      background-color: #D5D977;
+      color: #222601;
+  }
   .iconlink1:hover {
       background-color: #D5D977;
       color: #222601;
@@ -2232,7 +2239,8 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   .iconlink3:hover {
       background-color: #D5D977;
       color: #222601;
-  }</style>
+  }
+  </style>
   <style type="text/css">
   /* base style */
 
@@ -2408,7 +2416,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Untitled","description":"A new article created using the Distill format.","authors":[{"author":"Nora Jones","authorURL":"https://example.com/norajones","affiliation":"Spacely Sprockets","affiliationURL":"https://example.com/spacelysprokets","orcidID":""}],"publishedDate":"2021-12-06T00:00:00.000+01:00","citationText":"Jones, 2021"}
+{"title":"Spatial Analysis","description":"Resources for spatial & occupancy analysis","authors":[],"publishedDate":"2021-12-07T00:00:00.000+01:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2425,9 +2433,9 @@ BASICS
 </button>
 <div class="nav-dropdown-content">
 <a href="basics_r.html">R</a>
-<a href="basics_ethical.html">Ethical EcoStats</a>
-<a href="basics_data.html">Data &amp; Visualization</a>
-<a href="basics_stats.html">Basics Stats</a>
+<a href="basics_ethics.html">Ethics</a>
+<a href="basics_data.html">Data</a>
+<a href="basics_stats.html">Stats</a>
 <a href="basics_maths.html">Maths</a>
 </div>
 </div>
@@ -2438,12 +2446,10 @@ MODELING
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<a href="modeling_lmtogamm.html">LM, GLMM, GAMM</a>
+<a href="modeling_regression.html">Regression</a>
 <a href="modeling_bayesian.html">Bayesian Approach</a>
-<span class="nav-dropdown-header">Model Checking</span>
-<a href="modeling_modelselection.html">Model Selection</a>
-<a href="modeling_machinelearning.html">Machine Learning</a>
 <a href="modeling_multivariate.html">Multivariate Analyses</a>
+<a href="modeling_machinelearning.html">Machine Learning</a>
 </div>
 </div>
 <div class="nav-dropdown">
@@ -2454,10 +2460,9 @@ byFIELD
 </button>
 <div class="nav-dropdown-content">
 <a href="byfield_demography.html">Demography</a>
-<span class="nav-dropdown-header">Population Dynamics</span>
+<a href="byfield_population.html">Population Dynamics</a>
 <a href="byfield_spatial.html">Spatial Analyses</a>
 <a href="byfield_community.html">Community Analyses</a>
-<span class="nav-dropdown-header">Meta-Analyses</span>
 </div>
 </div>
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
@@ -2477,48 +2482,37 @@ byFIELD
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Untitled</h1>
+<h1>Spatial Analysis</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>A new article created using the Distill format.</p></p>
+<p><p>Resources for spatial &amp; occupancy analysis</p></p>
 </div>
 
-<div class="d-byline">
-  Nora Jones <a href="https://example.com/norajones" class="uri">https://example.com/norajones</a> (Spacely Sprockets)<a href="https://example.com/spacelysprokets" class="uri">https://example.com/spacelysprokets</a>
-  
-<br/>2021-12-06
-</div>
 
 <div class="d-article">
-<p>To be contacted? S. Jadhav,</p>
 <table>
 <colgroup>
-<col style="width: 26%" />
-<col style="width: 59%" />
+<col style="width: 86%" />
 <col style="width: 14%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Name</th>
-<th>Description</th>
 <th>Links</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Introduction to GIS and mapping in R using the sf package</td>
-<td>by O. Gimenez</td>
-<td><a href="https://github.com/oliviergimenez/intro_spatialR#introduction-to-gis-and-mapping-in-r-using-the-sf-package" class="iconlink2"><i class="fas fa-chalkboard-teacher"></i></a></td>
+<td><strong>Introduction to GIS and mapping in R using the sf package</strong> <em>O. Gimenez</em> –</td>
+<td><a href="https://github.com/oliviergimenez/intro_spatialR#introduction-to-gis-and-mapping-in-r-using-the-sf-package" class="iconlink0"><i class="fas fa-chalkboard-teacher"></i></a></td>
 </tr>
 <tr class="even">
-<td>Data wrangling for spatial analysis</td>
-<td>R workshop Chris J. Brown, David Schoeman, Anthony J. Richardson, Bill Venables</td>
-<td><a href="https://www.seascapemodels.org/Advanced-spatial-analysis-2021/Advanced-spatial-analysis-2021.html" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
+<td><strong>Data wrangling for spatial analysis</strong> <em>C J Brown, D Schoeman, A J Richardson, B Venables</em> –</td>
+<td><a href="https://www.seascapemodels.org/Advanced-spatial-analysis-2021/Advanced-spatial-analysis-2021.html" class="iconlink0"><i class="fas fa-list-alt"></i></a></td>
 </tr>
 <tr class="odd">
-<td>Current approaches to species distribution modelling with R</td>
-<td>C. Brown</td>
-<td><a href="https://www.seascapemodels.org/SDM-fish-course-notes/" class="iconlink2"><i class="fas fa-globe"></i></a></td>
+<td><strong>Current approaches to species distribution modelling with R</strong> <em>C. Brown</em></td>
+<td><a href="https://www.seascapemodels.org/SDM-fish-course-notes/" class="iconlink0"><i class="fas fa-globe"></i></a></td>
 </tr>
 </tbody>
 </table>

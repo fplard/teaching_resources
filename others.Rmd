@@ -5,25 +5,17 @@ description: |
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
-
-
-
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 source(file.path("R", "functions.R"))
 ```
 
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**Cross-Validated** -- The statistical forum|`r ilink("site", "https://stats.stackexchange.com/")`|
+|**Ourcodingclub** -- Many different tutorial made by a group of student and researcher from the University of Edinburgh |`r ilink("site", "https://ourcodingclub.github.io/tutorials.html")`|
+|**Ecological Applications in R** -- a youtube channel creating for the Covid |`r ilink("video", "https://www.youtube.com/channel/UCLBUT7zCp6wW_BXvc8094dA")`|
+|**Conservation hackers** -- forum, blog and courses for conservation scientists  |`r ilink("site", "https://www.conservationhackers.org/")``r ilink("video", "https://www.youtube.com/channel/UCSH4ctGD-waPSI_4w6PlTBg")`|
+|**R4DS** -- a community of R learners at all skill levels working together to improve their skills  |`r ilink("video", "https://www.youtube.com/c/R4DSOnlineLearningCommunity/featured")`|
+|**Discdown** -- regrouping courses such as Data Analytic, programming in R and Flexible Regressions  |`r ilink("site", "https://discdown.org/index.php")`|
 
-
-
-
-| Name        | Description                 | Links |
-|-------------|-----------------------------|-------|
-|Ourcodingclub | Many different tutorial made by a group of student and researcher from the University of Edinburgh |`r ilink("site", "https://ourcodingclub.github.io/tutorials.html")`|
-|Ecological Applications in R | a youtube chain creatind for the Covid |`r ilink("video", "https://www.youtube.com/channel/UCLBUT7zCp6wW_BXvc8094dA")`|
-|Individual-based modeling with NetLogoR | by S. Bauduin, O. Gimenez, O. Grente, N Santostasi |`r ilink("course", "https://sarahbauduin.github.io/formation_IBM_NetLogoR/")``r ilink("exo", "https://sarahbauduin.github.io/formation_IBM_NetLogoR/")`|
-|Conservation hackers|forum, blog and courses for conservation scientists  |`r ilink("site", "https://www.conservationhackers.org/")``r ilink("video", "https://www.youtube.com/channel/UCSH4ctGD-waPSI_4w6PlTBg")`|
-|R4DS  |a community of R learners at all skill levels working together to improve their skills  |`r ilink("video", "https://www.youtube.com/c/R4DSOnlineLearningCommunity/featured")`|
-|Discdown|regrouping courses such as Data Analytic, programming in R and Flexible Regressions  |`r ilink("site", "https://discdown.org/index.php")`|
-|  |  |`r ilink("site", " ")`|

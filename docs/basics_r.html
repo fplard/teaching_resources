@@ -109,7 +109,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["R"]},{"type":"character","attributes":{},"value":["Resources to start programming and statistics with R"]},{"type":"character","attributes":{},"value":["2021-12-07"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["R"]},{"type":"character","attributes":{},"value":["Resources to start programming and statistics with R\n"]},{"type":"character","attributes":{},"value":["2021-12-07"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2195,7 +2195,20 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
-
+  .iconlink0 {
+      background-color: #222601;
+      color: #f1f2eb;
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
+      border-radius: 5px; /* Rounded edges */
+  }
+  .iconlink1 {
+      background-color: #222601;
+      color: #88A61C;
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
+      border-radius: 5px; /* Rounded edges */
+  }
   .iconlink2 {
       background-color: #222601;
       color: #D5D977;
@@ -2204,30 +2217,17 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
       border-radius: 5px; /* Rounded edges */
   }
 
-  .iconlink1 {
-      background-color: #222601;
-      color: #88A61C;
-      padding: 3px 5px 3px 5px;
-      margin: 0 2px 0 2px;
-      border-radius: 5px; /* Rounded edges */
-  }
-
-  .iconlink4 {
-      background-color: #222601;
-      color: #f1f2eb;
-      padding: 3px 5px 3px 5px;
-      margin: 0 2px 0 2px;
-      border-radius: 5px; /* Rounded edges */
-  }
-
   .iconlink3 {
       background-color: #222601;
-      color: #eb2d2d;
+      color: #ad6705;
       padding: 3px 5px 3px 5px;
       margin: 0 2px 0 2px;
       border-radius: 5px; /* Rounded edges */
   }
-
+  .iconlink0:hover {
+      background-color: #D5D977;
+      color: #222601;
+  }
   .iconlink1:hover {
       background-color: #D5D977;
       color: #222601;
@@ -2240,10 +2240,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
       background-color: #D5D977;
       color: #222601;
   }
-  .iconlink4:hover {
-      background-color: #D5D977;
-      color: #222601;
-  }</style>
+  </style>
   <style type="text/css">
   /* base style */
 
@@ -2436,9 +2433,9 @@ BASICS
 </button>
 <div class="nav-dropdown-content">
 <a href="basics_r.html">R</a>
-<a href="basics_ethical.html">Ethical EcoStats</a>
-<a href="basics_data.html">Data &amp; Visualization</a>
-<a href="basics_stats.html">Basics Stats</a>
+<a href="basics_ethics.html">Ethics</a>
+<a href="basics_data.html">Data</a>
+<a href="basics_stats.html">Stats</a>
 <a href="basics_maths.html">Maths</a>
 </div>
 </div>
@@ -2449,12 +2446,10 @@ MODELING
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<a href="modeling_lmtogamm.html">LM, GLMM, GAMM</a>
+<a href="modeling_regression.html">Regression</a>
 <a href="modeling_bayesian.html">Bayesian Approach</a>
-<span class="nav-dropdown-header">Model Checking</span>
-<a href="modeling_modelselection.html">Model Selection</a>
-<a href="modeling_machinelearning.html">Machine Learning</a>
 <a href="modeling_multivariate.html">Multivariate Analyses</a>
+<a href="modeling_machinelearning.html">Machine Learning</a>
 </div>
 </div>
 <div class="nav-dropdown">
@@ -2465,10 +2460,9 @@ byFIELD
 </button>
 <div class="nav-dropdown-content">
 <a href="byfield_demography.html">Demography</a>
-<span class="nav-dropdown-header">Population Dynamics</span>
+<a href="byfield_population.html">Population Dynamics</a>
 <a href="byfield_spatial.html">Spatial Analyses</a>
 <a href="byfield_community.html">Community Analyses</a>
-<span class="nav-dropdown-header">Meta-Analyses</span>
 </div>
 </div>
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
@@ -2491,7 +2485,7 @@ byFIELD
 <h1>R</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p>Resources to start programming and statistics with R</p>
+<p><p>Resources to start programming and statistics with R</p></p>
 </div>
 
 
@@ -2572,7 +2566,7 @@ byFIELD
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Statistics and Data Science with R</strong> <em>MarinStats</em> – A complete course to start statistics with R. 5 series: getting started, descriptive statistics, probability distribution, bivariate analysis, linear regression with R</td>
+<td><strong>Statistics and Data Science with R</strong> <em>M Marin</em> – A complete course to start statistics with R. 5 series: getting started, descriptive statistics, probability distribution, bivariate analysis, linear regression with R</td>
 <td><a href="https://www.statslectures.com/r-stats-videos-tutorials" class="iconlink1"><i class="fas fa-chalkboard-teacher"></i></a></td>
 </tr>
 <tr class="even">
@@ -2623,19 +2617,19 @@ byFIELD
 <tbody>
 <tr class="odd">
 <td><strong>R studio cheatsheets</strong> – Very useful synthetic sheets to find the function you need</td>
-<td><a href="https://www.rstudio.com/resources/cheatsheets/" class="iconlink4"><i class="fas fa-globe"></i></a></td>
+<td><a href="https://www.rstudio.com/resources/cheatsheets/" class="iconlink0"><i class="fas fa-globe"></i></a></td>
 </tr>
 <tr class="even">
 <td><strong>Rstudio youtube channel</strong></td>
-<td><a href="https://www.youtube.com/c/RStudioPBC/playlists" class="iconlink4"><i class="fas fa-video"></i></a></td>
+<td><a href="https://www.youtube.com/c/RStudioPBC/playlists" class="iconlink0"><i class="fas fa-video"></i></a></td>
 </tr>
 <tr class="odd">
 <td><strong>R Reference Card</strong> – Quick access &amp; definition to simple R functions</td>
-<td><a href="https://cran.r-project.org/doc/contrib/Short-refcard.pdf" class="iconlink4"><i class="fas fa-list-alt"></i></a></td>
+<td><a href="https://cran.r-project.org/doc/contrib/Short-refcard.pdf" class="iconlink0"><i class="fas fa-list-alt"></i></a></td>
 </tr>
 <tr class="even">
 <td><strong>R-Uni</strong> – A list of R tutorials and resources in university webpages</td>
-<td><a href="https://pairach.com/2012/02/26/r-tutorials-from-universities-around-the-world/" class="iconlink4"><i class="fas fa-globe"></i></a></td>
+<td><a href="https://pairach.com/2012/02/26/r-tutorials-from-universities-around-the-world/" class="iconlink0"><i class="fas fa-globe"></i></a></td>
 </tr>
 </tbody>
 </table>

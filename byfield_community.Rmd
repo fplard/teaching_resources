@@ -1,6 +1,7 @@
 ---
 title: "Community Analysis"
 description: |
+  Resources for community analyses
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
@@ -11,39 +12,30 @@ source(file.path("R", "functions.R"))
 
 ```
 
-To be contacted? Daniel Borcard, François Gillet, David Zelený, Guillaume Blanchet, Jari Oksanen, Gavin L. Simpson
-D. Roberts,
+## Overview
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**Analysis of community ecology data in R** *D Zelený*|`r ilink("tuto", "https://www.davidzeleny.net/anadat-r/doku.php/en:start")`|
+|**Numerical Ecology** *P Legendre, L Legendre* --     | `r ilink("book", "https://www.elsevier.com/books/numerical-ecology/legendre/978-0-444-53868-0")` |
+|**Numerical Ecology with R** *D Borcard, F Gillet, P Legendre*|  `r ilink("book", "https://link.springer.com/book/10.1007/978-1-4419-7976-6")` |
 
-
-## General resources
-
-
-| Name        | Description                 | Links |
-|-------------|-----------------------------|-------|
-|Analysis of community ecology data in R | a website by David Zelený |`r ilink("tuto", "https://www.davidzeleny.net/anadat-r/doku.php/en:start")`|
-|Numerical Ecology| P. Legendre, L. Legendre         | `r ilink("book", "https://www.elsevier.com/books/numerical-ecology/legendre/978-0-444-53868-0")` |
-| Numerical Ecology with R |D. Borcard, F. Gillet, P. Legendre|  `r ilink("book", "https://link.springer.com/book/10.1007/978-1-4419-7976-6")` |
-
-##Ordination Methods
-
-| Name        | Description                 | Links |
-|-------------|-----------------------------|-------|
-|Ordination Methods for Ecologists | a website M. Palmer |`r ilink("tuto", "http://ordination.okstate.edu/")`|
+## Ordination Methods
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**Ordination Methods for Ecologists** *M. Palmer* -- |`r ilink("tuto", "http://ordination.okstate.edu/")`|
 
 related links: <http://ordination.okstate.edu/otherlinks.html>
 
 
-###Vegan
-
+## Vegan
 A R package for community analysis
 
-| Name        | Description                 | Links |
-|-------------|-----------------------------|-------|
-|Multivariate Analysis of Ecological
-Communities in R: vegan tutorial| by J. Oksanen|`r ilink("tuto", "https://www.mooreecology.com/uploads/2/4/2/1/24213970/vegantutor.pdf")`|
-|A Vegan Tutorial |by P.Clark  |`r ilink("tuto", "https://peat-clark.github.io/BIO381/veganTutorial.html")`|
-|Vegan cheat sheet|by A.Bui|`r ilink("tuto", "https://rpubs.com/an-bui/vegan-cheat-sheet")`|
-|Introduction to multivariate data analysis using vegan|by G.Simpson|`r ilink("course", "https://github.com/gavinsimpson/intro-vegan-webinar-july-2020")``r ilink("video", "https://www.youtube.com/watch?v=tVnnG7mFeqA")`|
-|Advanced community data analysis using the vegan package in R|by G.Simpson|`r ilink("course", "https://github.com/gavinsimpson/esa-advanced-vegan")``r ilink("video", "https://www.youtube.com/watch?v=PR1B_JkO49s")`|
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**Multivariate Analysis of Ecological Communities in R: vegan tutorial** *J. Oksanen*|`r ilink("tuto", "https://www.mooreecology.com/uploads/2/4/2/1/24213970/vegantutor.pdf")`|
+|**A Vegan Tutorial** *P Clark* --  |`r ilink("tuto", "https://peat-clark.github.io/BIO381/veganTutorial.html")`|
+|**Vegan cheat sheet** *A Bui*|`r ilink("tuto", "https://rpubs.com/an-bui/vegan-cheat-sheet")`|
+|**Introduction to multivariate data analysis using vegan** *G.Simpson*|`r ilink("course", "https://github.com/gavinsimpson/intro-vegan-webinar-july-2020")``r ilink("video", "https://www.youtube.com/watch?v=tVnnG7mFeqA")`|
+|**Advanced community data analysis using the vegan package in R** *G.Simpson*|`r ilink("course", "https://github.com/gavinsimpson/esa-advanced-vegan")``r ilink("video", "https://www.youtube.com/watch?v=PR1B_JkO49s")`|
 
 

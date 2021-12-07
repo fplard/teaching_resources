@@ -1,7 +1,7 @@
 ---
 title: "Bayesian Approach"
 description: |
-  A new article created using the Distill format.
+  Resources for Bayesian modeling
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
@@ -12,34 +12,55 @@ source(file.path("R", "functions.R"))
 ```
 
 
+## Overview
 
-| Name        | Description                 | Links |
-|-------------|-----------------------------|-------|
-|Statistical Rethinking | A complete course about Bayesian Inference and modelling |`r ilink("course", "https://github.com/rmcelreath/statrethinking_winter2019")` `r ilink("video", "https://www.youtube.com/playlist?list=PLDcUM9US4XdNM4Edgs7weiyIguLSToZRI")``r ilink("book", "https:/xcelab.net/rm/statistical-rethinking/")`|
-| Bayesian statistics with R| O. Gimenez          | `r ilink("course", "https://oliviergimenez.github.io/bayesian-stats-with-R/")` `r ilink("exo", "")` `r ilink("video", "")`  |
-|Bayesian Modeling for Socio-Environmental Data Short Course| T. Hobbs, M Collins, C Che-Castaldo |`r ilink("course", "https://cchecastaldo.github.io/BayesianShortCourse/index.html")`|
-|Bayesian statistics course|Master course by F. Barraquand, MCMC, Anova, GLMM, non-linear, occupancy, model selection  |`r ilink("course", "https://github.com/fbarraquand/Bayesian_statistics_course")`|
-|BiogecoBayes|Workshops created by a group of researchers & students who want to progress together in their learning|`r ilink("tuto", "https://github.com/JulietteArchambeau/BiogecoBayes")`|
-|The Markov-chain Monte Carlo Interactive Gallery|view algorithms|`r ilink("site", "https://chi-feng.github.io/mcmc-demo/")`|
-|Learning Bayesian Statistics|podcast channel  |`r ilink("site", "https://www.learnbayesstats.com/")`|
-|  |  |`r ilink("site", " ")`|
-
-
-## Introduction to Bayesian Inference
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**Statistical Rethinking** ** -- A complete course about Bayesian Inference and modelling |`r ilink("course", "https://github.com/rmcelreath/statrethinking_winter2019")` `r ilink("video", "https://www.youtube.com/playlist?list=PLDcUM9US4XdNM4Edgs7weiyIguLSToZRI")``r ilink("book", "https:/xcelab.net/rm/statistical-rethinking/")`|
+|**Bayesian statistics with R** *O. Gimenez* --          | `r ilink("course", "https://oliviergimenez.github.io/bayesian-stats-with-R/")` `r ilink("exo", "")` `r ilink("video", "")`  |
+|**Bayesian Modeling for Socio-Environmental Data** *T Hobbs, M Collins, C Che-Castaldo* -- |`r ilink("course", "https://cchecastaldo.github.io/BayesianShortCourse/index.html")`|
+|**Bayesian statistics course** *F. Barraquand* -- Master course including MCMC, Anova, GLMM, non-linear, occupancy, model selection  |`r ilink("course", "https://github.com/fbarraquand/Bayesian_statistics_course")`|
+|**BiogecoBayes** -- Workshops created by a group of researchers & students who want to progress together in their learning|`r ilink("tuto", "https://github.com/JulietteArchambeau/BiogecoBayes")`|
+|**Learning Bayesian Statistics** -- podcast channel  |`r ilink("site", "https://www.learnbayesstats.com/")`|
 
 
-## Advanced
+## Priors
+
+| Name                                      | Links |
+|-------------------------------------------|-------|
+
+## MCMC
+
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**The Markov-chain Monte Carlo Interactive Gallery** -- view algorithms|`r ilink("site", "https://chi-feng.github.io/mcmc-demo/")`|
 
 
-## Package and software
+## Convergence & Identifiability
+
+| Name                                      | Links |
+|-------------------------------------------|-------|
+
+
+## Hierarchical Models
+
+| Name                                      | Links |
+|-------------------------------------------|-------|
+
+
+## Packages and softwares
 ### JAGS
 ### Stan
 
-Become a Bayesian with R & Stan, M Clark `r ilink("tuto", "http://m-clark.github.io/workshops/bayesian/index.html#home")`
-
-Stan for Ecology `r ilink("site", "https://stanecology.github.io/")`
-
-Stan User Guide `r ilink("tuto", "https://mc-stan.org/docs/2_21/stan-users-guide/index.html")`
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**Become a Bayesian with R & Stan** *M Clark* -- |`r ilink("tuto", "http://m-clark.github.io/workshops/bayesian/index.html#home")`|
+|**Stan for Ecology** -- |`r ilink("site", "https://stanecology.github.io/")`|
+|**Stan User Guide** -- |`r ilink("tuto", "https://mc-stan.org/docs/2_21/stan-users-guide/index.html")`|
 
 
 ### Nimble
+
+| Name                                      | Links |
+|-------------------------------------------|-------|
+

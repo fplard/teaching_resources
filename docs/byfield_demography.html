@@ -86,30 +86,30 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   <!--radix_placeholder_meta_tags-->
   <title>Learn EcoStat: Demography</title>
 
-  <meta property="description" itemprop="description" content="Everything to estimate Survival, Reproduction and Growth..."/>
+  <meta property="description" itemprop="description" content="Resources to model survival, reproduction and growth"/>
 
 
   <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2021-12-06"/>
-  <meta property="article:created" itemprop="dateCreated" content="2021-12-06"/>
+  <meta property="article:published" itemprop="datePublished" content="2021-12-07"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-12-07"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Learn EcoStat: Demography"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Everything to estimate Survival, Reproduction and Growth..."/>
+  <meta property="og:description" content="Resources to model survival, reproduction and growth"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Learn EcoStat"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
   <meta property="twitter:title" content="Learn EcoStat: Demography"/>
-  <meta property="twitter:description" content="Everything to estimate Survival, Reproduction and Growth..."/>
+  <meta property="twitter:description" content="Resources to model survival, reproduction and growth"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Demography"]},{"type":"character","attributes":{},"value":["Everything to estimate Survival, Reproduction and Growth...\n"]},{"type":"character","attributes":{},"value":["2021-12-06"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Demography"]},{"type":"character","attributes":{},"value":["Resources to model survival, reproduction and growth\n"]},{"type":"character","attributes":{},"value":["2021-12-07"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2195,7 +2195,20 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
-
+  .iconlink0 {
+      background-color: #222601;
+      color: #f1f2eb;
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
+      border-radius: 5px; /* Rounded edges */
+  }
+  .iconlink1 {
+      background-color: #222601;
+      color: #88A61C;
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
+      border-radius: 5px; /* Rounded edges */
+  }
   .iconlink2 {
       background-color: #222601;
       color: #D5D977;
@@ -2204,22 +2217,17 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
       border-radius: 5px; /* Rounded edges */
   }
 
-  .iconlink1 {
-      background-color: #222601;
-      color: #88A61C;
-      padding: 3px 5px 3px 5px;
-      margin: 0 2px 0 2px;
-      border-radius: 5px; /* Rounded edges */
-  }
-
   .iconlink3 {
       background-color: #222601;
-      color: #eb2d2d;
+      color: #ad6705;
       padding: 3px 5px 3px 5px;
       margin: 0 2px 0 2px;
       border-radius: 5px; /* Rounded edges */
   }
-
+  .iconlink0:hover {
+      background-color: #D5D977;
+      color: #222601;
+  }
   .iconlink1:hover {
       background-color: #D5D977;
       color: #222601;
@@ -2231,7 +2239,8 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   .iconlink3:hover {
       background-color: #D5D977;
       color: #222601;
-  }</style>
+  }
+  </style>
   <style type="text/css">
   /* base style */
 
@@ -2407,7 +2416,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Demography","description":"Everything to estimate Survival, Reproduction and Growth...","authors":[],"publishedDate":"2021-12-06T00:00:00.000+01:00"}
+{"title":"Demography","description":"Resources to model survival, reproduction and growth","authors":[],"publishedDate":"2021-12-07T00:00:00.000+01:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2424,9 +2433,9 @@ BASICS
 </button>
 <div class="nav-dropdown-content">
 <a href="basics_r.html">R</a>
-<a href="basics_ethical.html">Ethical EcoStats</a>
-<a href="basics_data.html">Data &amp; Visualization</a>
-<a href="basics_stats.html">Basics Stats</a>
+<a href="basics_ethics.html">Ethics</a>
+<a href="basics_data.html">Data</a>
+<a href="basics_stats.html">Stats</a>
 <a href="basics_maths.html">Maths</a>
 </div>
 </div>
@@ -2437,12 +2446,10 @@ MODELING
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<a href="modeling_lmtogamm.html">LM, GLMM, GAMM</a>
+<a href="modeling_regression.html">Regression</a>
 <a href="modeling_bayesian.html">Bayesian Approach</a>
-<span class="nav-dropdown-header">Model Checking</span>
-<a href="modeling_modelselection.html">Model Selection</a>
-<a href="modeling_machinelearning.html">Machine Learning</a>
 <a href="modeling_multivariate.html">Multivariate Analyses</a>
+<a href="modeling_machinelearning.html">Machine Learning</a>
 </div>
 </div>
 <div class="nav-dropdown">
@@ -2453,10 +2460,9 @@ byFIELD
 </button>
 <div class="nav-dropdown-content">
 <a href="byfield_demography.html">Demography</a>
-<span class="nav-dropdown-header">Population Dynamics</span>
+<a href="byfield_population.html">Population Dynamics</a>
 <a href="byfield_spatial.html">Spatial Analyses</a>
 <a href="byfield_community.html">Community Analyses</a>
-<span class="nav-dropdown-header">Meta-Analyses</span>
 </div>
 </div>
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
@@ -2479,7 +2485,7 @@ byFIELD
 <h1>Demography</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Everything to estimate Survival, Reproduction and Growth…</p></p>
+<p><p>Resources to model survival, reproduction and growth</p></p>
 </div>
 
 
@@ -2488,33 +2494,34 @@ byFIELD
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#survival-analysis">Survival Analysis</a></li>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#survival">Survival</a>
+<ul>
+<li><a href="#cmr">CMR</a></li>
+</ul></li>
 <li><a href="#reproduction">Reproduction</a></li>
 <li><a href="#growth">Growth</a></li>
 </ul>
 </nav>
 </div>
-<p>To be contacted?</p>
-<h2 id="survival-analysis">Survival Analysis</h2>
-<p>###CMR</p>
+<h2 id="overview">Overview</h2>
+<h2 id="survival">Survival</h2>
+<h3 id="cmr">CMR</h3>
 <table>
 <colgroup>
-<col style="width: 26%" />
-<col style="width: 59%" />
+<col style="width: 86%" />
 <col style="width: 14%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Name</th>
-<th>Description</th>
 <th>Links</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Bayesian capture-recapture inference with hidden Markov models</td>
-<td>A two-day workshop with R and Nimble by O. Gimenez, C. R. Nater, S. Cubaynes, P. de Valpine, M. Quéroué</td>
-<td><a href="https://oliviergimenez.github.io/bayesian-cr-workshop/" class="iconlink2"><i class="fas fa-chalkboard-teacher"></i></a><a href="" class="iconlink2"><i class="fas fa-video"></i></a><a href="" class="iconlink2"><i class="fas fa-edit"></i></a></td>
+<td><strong>Bayesian capture-recapture inference with hidden Markov models</strong> <em>O Gimenez, C R Nater, S Cubaynes, P de Valpine, M Quéroué</em> – A two-day workshop with R and Nimble</td>
+<td><a href="https://oliviergimenez.github.io/bayesian-cr-w|orkshop/" class="iconlink0"><i class="fas fa-chalkboard-teacher"></i></a></td>
 </tr>
 </tbody>
 </table>

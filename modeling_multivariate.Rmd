@@ -1,7 +1,7 @@
 ---
-title: "Untitled"
+title: "Multivariate Analysis"
 description: |
-  A new article created using the Distill format.
+  Resources to learn and develop multivariate analyses
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
@@ -11,14 +11,13 @@ knitr::opts_chunk$set(echo = FALSE)
 source(file.path("R", "functions.R"))
 ```
 
-To be contacted? S. Jadhav,
 
 
 
-| Name        | Description                 | Links |
-|-------------|-----------------------------|-------|
-|Multivariate Analysis|Master course by S. Dray: PCA, Correspondance Analysis & two-table analysis|`r ilink("course", "https://github.com/sdray/INSAcourse")`|
-|Multivariate Analysis|Introduction by S. Jadhav|`r ilink("video", "https://www.youtube.com/playlist?list=PLcBNhzAt-dF_7oBNpuSDsVAur0s7MwM2v")`|
-|Gusta Me | a website describing range of analysis techniques used in microbial ecology |`r ilink("tuto", "https://sites.google.com/site/mb3gustame/")`|
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**Multivariate Analysis** *S Dray* -- Master course including PCA, Correspondance Analysis & two-table analysis|`r ilink("course", "https://github.com/sdray/INSAcourse")`|
+|**Multivariate Analysis** *S. Jadhav*|`r ilink("video", "https://www.youtube.com/playlist?list=PLcBNhzAt-dF_7oBNpuSDsVAur0s7MwM2v")`|
+|**Gusta Me** -- a website describing range of analysis techniques used in microbial ecology |`r ilink("tuto", "https://sites.google.com/site/mb3gustame/")`|
 
 

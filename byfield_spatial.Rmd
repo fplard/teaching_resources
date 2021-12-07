@@ -1,30 +1,20 @@
 ---
-title: "Untitled"
+title: "Spatial Analysis"
 description: |
-  A new article created using the Distill format.
-author:
-  - name: Nora Jones 
-    url: https://example.com/norajones
-    affiliation: Spacely Sprockets
-    affiliation_url: https://example.com/spacelysprokets
+  Resources for spatial & occupancy analysis
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 source(file.path("R", "functions.R"))
 ```
 
-To be contacted? S. Jadhav,
-
-
-
-| Name        | Description                 | Links |
-|-------------|-----------------------------|-------|
-|Introduction to GIS and mapping in R using the sf package| by O. Gimenez|`r ilink("course", "https://github.com/oliviergimenez/intro_spatialR#introduction-to-gis-and-mapping-in-r-using-the-sf-package")`|
-|Data wrangling for spatial analysis| R workshop  Chris J. Brown, David Schoeman, Anthony J. Richardson, Bill Venables  |`r ilink("tuto", "https://www.seascapemodels.org/Advanced-spatial-analysis-2021/Advanced-spatial-analysis-2021.html")`|
-|Current approaches to species distribution modelling with R|C. Brown|`r ilink("site", "https://www.seascapemodels.org/SDM-fish-course-notes/")`|
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**Introduction to GIS and mapping in R using the sf package** *O. Gimenez* -- |`r ilink("course", "https://github.com/oliviergimenez/intro_spatialR#introduction-to-gis-and-mapping-in-r-using-the-sf-package")`|
+|**Data wrangling for spatial analysis** *C J Brown, D Schoeman, A J Richardson, B Venables* --  |`r ilink("tuto", "https://www.seascapemodels.org/Advanced-spatial-analysis-2021/Advanced-spatial-analysis-2021.html")`|
+|**Current approaches to species distribution modelling with R** *C. Brown* |`r ilink("site", "https://www.seascapemodels.org/SDM-fish-course-notes/")`|
 
 
 

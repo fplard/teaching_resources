@@ -86,27 +86,30 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   <!--radix_placeholder_meta_tags-->
   <title>Learn EcoStat: Community Analysis</title>
 
+  <meta property="description" itemprop="description" content="Resources for community analyses"/>
 
 
   <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2021-12-06"/>
-  <meta property="article:created" itemprop="dateCreated" content="2021-12-06"/>
+  <meta property="article:published" itemprop="datePublished" content="2021-12-07"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-12-07"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Learn EcoStat: Community Analysis"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="Resources for community analyses"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Learn EcoStat"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
   <meta property="twitter:title" content="Learn EcoStat: Community Analysis"/>
+  <meta property="twitter:description" content="Resources for community analyses"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Community Analysis"]},{"type":"NULL"},{"type":"character","attributes":{},"value":["2021-12-06"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Community Analysis"]},{"type":"character","attributes":{},"value":["Resources for community analyses\n"]},{"type":"character","attributes":{},"value":["2021-12-07"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2192,7 +2195,20 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
-
+  .iconlink0 {
+      background-color: #222601;
+      color: #f1f2eb;
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
+      border-radius: 5px; /* Rounded edges */
+  }
+  .iconlink1 {
+      background-color: #222601;
+      color: #88A61C;
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
+      border-radius: 5px; /* Rounded edges */
+  }
   .iconlink2 {
       background-color: #222601;
       color: #D5D977;
@@ -2201,22 +2217,17 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
       border-radius: 5px; /* Rounded edges */
   }
 
-  .iconlink1 {
-      background-color: #222601;
-      color: #88A61C;
-      padding: 3px 5px 3px 5px;
-      margin: 0 2px 0 2px;
-      border-radius: 5px; /* Rounded edges */
-  }
-
   .iconlink3 {
       background-color: #222601;
-      color: #eb2d2d;
+      color: #ad6705;
       padding: 3px 5px 3px 5px;
       margin: 0 2px 0 2px;
       border-radius: 5px; /* Rounded edges */
   }
-
+  .iconlink0:hover {
+      background-color: #D5D977;
+      color: #222601;
+  }
   .iconlink1:hover {
       background-color: #D5D977;
       color: #222601;
@@ -2228,7 +2239,8 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   .iconlink3:hover {
       background-color: #D5D977;
       color: #222601;
-  }</style>
+  }
+  </style>
   <style type="text/css">
   /* base style */
 
@@ -2404,7 +2416,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Community Analysis","authors":[],"publishedDate":"2021-12-06T00:00:00.000+01:00"}
+{"title":"Community Analysis","description":"Resources for community analyses","authors":[],"publishedDate":"2021-12-07T00:00:00.000+01:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2421,9 +2433,9 @@ BASICS
 </button>
 <div class="nav-dropdown-content">
 <a href="basics_r.html">R</a>
-<a href="basics_ethical.html">Ethical EcoStats</a>
-<a href="basics_data.html">Data &amp; Visualization</a>
-<a href="basics_stats.html">Basics Stats</a>
+<a href="basics_ethics.html">Ethics</a>
+<a href="basics_data.html">Data</a>
+<a href="basics_stats.html">Stats</a>
 <a href="basics_maths.html">Maths</a>
 </div>
 </div>
@@ -2434,12 +2446,10 @@ MODELING
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<a href="modeling_lmtogamm.html">LM, GLMM, GAMM</a>
+<a href="modeling_regression.html">Regression</a>
 <a href="modeling_bayesian.html">Bayesian Approach</a>
-<span class="nav-dropdown-header">Model Checking</span>
-<a href="modeling_modelselection.html">Model Selection</a>
-<a href="modeling_machinelearning.html">Machine Learning</a>
 <a href="modeling_multivariate.html">Multivariate Analyses</a>
+<a href="modeling_machinelearning.html">Machine Learning</a>
 </div>
 </div>
 <div class="nav-dropdown">
@@ -2450,10 +2460,9 @@ byFIELD
 </button>
 <div class="nav-dropdown-content">
 <a href="byfield_demography.html">Demography</a>
-<span class="nav-dropdown-header">Population Dynamics</span>
+<a href="byfield_population.html">Population Dynamics</a>
 <a href="byfield_spatial.html">Spatial Analyses</a>
 <a href="byfield_community.html">Community Analyses</a>
-<span class="nav-dropdown-header">Meta-Analyses</span>
 </div>
 </div>
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
@@ -2476,7 +2485,7 @@ byFIELD
 <h1>Community Analysis</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-
+<p><p>Resources for community analyses</p></p>
 </div>
 
 
@@ -2485,101 +2494,84 @@ byFIELD
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#general-resources">General resources</a></li>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#ordination-methods">Ordination Methods</a></li>
+<li><a href="#vegan">Vegan</a></li>
 </ul>
 </nav>
 </div>
-<p>To be contacted? Daniel Borcard, François Gillet, David Zelený, Guillaume Blanchet, Jari Oksanen, Gavin L. Simpson D. Roberts,</p>
-<h2 id="general-resources">General resources</h2>
+<h2 id="overview">Overview</h2>
 <table>
 <thead>
 <tr class="header">
 <th>Name</th>
-<th>Description</th>
 <th>Links</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Analysis of community ecology data in R</td>
-<td>a website by David Zelený</td>
-<td><a href="https://www.davidzeleny.net/anadat-r/doku.php/en:start" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
+<td><strong>Analysis of community ecology data in R</strong> <em>D Zelený</em></td>
+<td><a href="https://www.davidzeleny.net/anadat-r/doku.php/en:start" class="iconlink0"><i class="fas fa-list-alt"></i></a></td>
 </tr>
 <tr class="even">
-<td>Numerical Ecology</td>
-<td>P. Legendre, L. Legendre</td>
-<td><a href="https://www.elsevier.com/books/numerical-ecology/legendre/978-0-444-53868-0" class="iconlink2"><i class="fas fa-book"></i></a></td>
+<td><strong>Numerical Ecology</strong> <em>P Legendre, L Legendre</em> –</td>
+<td><a href="https://www.elsevier.com/books/numerical-ecology/legendre/978-0-444-53868-0" class="iconlink0"><i class="fas fa-book"></i></a></td>
 </tr>
 <tr class="odd">
-<td>Numerical Ecology with R</td>
-<td>D. Borcard, F. Gillet, P. Legendre</td>
-<td><a href="https://link.springer.com/book/10.1007/978-1-4419-7976-6" class="iconlink2"><i class="fas fa-book"></i></a></td>
+<td><strong>Numerical Ecology with R</strong> <em>D Borcard, F Gillet, P Legendre</em></td>
+<td><a href="https://link.springer.com/book/10.1007/978-1-4419-7976-6" class="iconlink0"><i class="fas fa-book"></i></a></td>
 </tr>
 </tbody>
 </table>
-<p>##Ordination Methods</p>
+<h2 id="ordination-methods">Ordination Methods</h2>
 <table>
 <thead>
 <tr class="header">
 <th>Name</th>
-<th>Description</th>
 <th>Links</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Ordination Methods for Ecologists</td>
-<td>a website M. Palmer</td>
-<td><a href="http://ordination.okstate.edu/" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
+<td><strong>Ordination Methods for Ecologists</strong> <em>M. Palmer</em> –</td>
+<td><a href="http://ordination.okstate.edu/" class="iconlink0"><i class="fas fa-list-alt"></i></a></td>
 </tr>
 </tbody>
 </table>
 <p>related links: <a href="http://ordination.okstate.edu/otherlinks.html" class="uri">http://ordination.okstate.edu/otherlinks.html</a></p>
-<p>###Vegan</p>
+<h2 id="vegan">Vegan</h2>
 <p>A R package for community analysis</p>
 <table>
 <colgroup>
-<col style="width: 26%" />
-<col style="width: 59%" />
+<col style="width: 86%" />
 <col style="width: 14%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Name</th>
-<th>Description</th>
 <th>Links</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Multivariate Analysis of Ecological</td>
-<td></td>
-<td></td>
+<td><strong>Multivariate Analysis of Ecological Communities in R: vegan tutorial</strong> <em>J. Oksanen</em></td>
+<td><a href="https://www.mooreecology.com/uploads/2/4/2/1/24213970/vegantutor.pdf" class="iconlink0"><i class="fas fa-list-alt"></i></a></td>
 </tr>
 <tr class="even">
-<td>Communities in R: vegan tutorial</td>
-<td>by J. Oksanen</td>
-<td><a href="https://www.mooreecology.com/uploads/2/4/2/1/24213970/vegantutor.pdf" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
+<td><strong>A Vegan Tutorial</strong> <em>P Clark</em> –</td>
+<td><a href="https://peat-clark.github.io/BIO381/veganTutorial.html" class="iconlink0"><i class="fas fa-list-alt"></i></a></td>
 </tr>
 <tr class="odd">
-<td>A Vegan Tutorial</td>
-<td>by P.Clark</td>
-<td><a href="https://peat-clark.github.io/BIO381/veganTutorial.html" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
+<td><strong>Vegan cheat sheet</strong> <em>A Bui</em></td>
+<td><a href="https://rpubs.com/an-bui/vegan-cheat-sheet" class="iconlink0"><i class="fas fa-list-alt"></i></a></td>
 </tr>
 <tr class="even">
-<td>Vegan cheat sheet</td>
-<td>by A.Bui</td>
-<td><a href="https://rpubs.com/an-bui/vegan-cheat-sheet" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
+<td><strong>Introduction to multivariate data analysis using vegan</strong> <em>G.Simpson</em></td>
+<td><a href="https://github.com/gavinsimpson/intro-vegan-webinar-july-2020" class="iconlink0"><i class="fas fa-chalkboard-teacher"></i></a><a href="https://www.youtube.com/watch?v=tVnnG7mFeqA" class="iconlink0"><i class="fas fa-video"></i></a></td>
 </tr>
 <tr class="odd">
-<td>Introduction to multivariate data analysis using vegan</td>
-<td>by G.Simpson</td>
-<td><a href="https://github.com/gavinsimpson/intro-vegan-webinar-july-2020" class="iconlink2"><i class="fas fa-chalkboard-teacher"></i></a><a href="https://www.youtube.com/watch?v=tVnnG7mFeqA" class="iconlink2"><i class="fas fa-video"></i></a></td>
-</tr>
-<tr class="even">
-<td>Advanced community data analysis using the vegan package in R</td>
-<td>by G.Simpson</td>
-<td><a href="https://github.com/gavinsimpson/esa-advanced-vegan" class="iconlink2"><i class="fas fa-chalkboard-teacher"></i></a><a href="https://www.youtube.com/watch?v=PR1B_JkO49s" class="iconlink2"><i class="fas fa-video"></i></a></td>
+<td><strong>Advanced community data analysis using the vegan package in R</strong> <em>G.Simpson</em></td>
+<td><a href="https://github.com/gavinsimpson/esa-advanced-vegan" class="iconlink0"><i class="fas fa-chalkboard-teacher"></i></a><a href="https://www.youtube.com/watch?v=PR1B_JkO49s" class="iconlink0"><i class="fas fa-video"></i></a></td>
 </tr>
 </tbody>
 </table>
