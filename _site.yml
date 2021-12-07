@@ -21,8 +21,8 @@ navbar:
           href: basics_maths.html
     - text: "MODELING"
       menu:
-        - text: "LM, GLMM, GAMM"
-          href: modeling_lmtogamm.html
+        - text: "Regression"
+          href: modeling_regression.html
         - text: "Bayesian Approach"
           href: modeling_bayesian.html
         - text: "Model Checking"

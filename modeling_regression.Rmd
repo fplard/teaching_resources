@@ -1,7 +1,7 @@
 ---
-title: "Mixed Models"
+title: "Regression"
 description: |
-  Hierarchic models, Generalized and linear mixed models.
+  Resources for modeling: from linear models to non linear models .
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = FALSE)
 source(file.path("R", "functions.R"))
 ```
 
-To be contacted? Hadfield, Crespin, 
+To be contacted? , 
 
 
 
