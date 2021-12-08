@@ -144,9 +144,12 @@ But already some very good courses in this part and a lot of resources that can 
 * *in charge: ???? *
 
 * *contribute: JL Parouty, L Jacob? *
-   *wrote a book: Grant Humphries, Dawn R. Magness, Falk Huettmann, Pablo Casas* 
-   *wrote scientifc articles as first or last author about application in Ecology: [Tim C D Lucas](https://timcdlucas.github.io/), André C Ferreira, Sylvain Christin, Nicolas Lecomte, Marek Borowiec, Alexander E white, Michael A Tabak, Ryan S. Miller*
-   *wrote blog about deep learning for Ecology: Patrick Gray, [J Lefneck](https://jonlefcheck.net/)*
+   
+   wrote a book: *Grant Humphries, Dawn R. Magness, Falk Huettmann, Pablo Casas* 
+
+   wrote scientific articles as first or last author about application in Ecology: *[Tim C D Lucas](https://timcdlucas.github.io/), André C Ferreira, Sylvain Christin, Nicolas Lecomte, Marek Borowiec, Alexander E white, Michael A Tabak, Ryan S. Miller*
+ 
+   wrote blog about deep learning for Ecology: *Patrick Gray, [J Lefneck](https://jonlefcheck.net/)*
 
 
 
@@ -252,8 +255,6 @@ Already [courses](https://www.youtube.com/watch?v=U-MTfNw7IvM) from B Walsh that
 
 
 ### Network Analysis
-
-* *be in charge: *
 * *contribute: *
 
 
