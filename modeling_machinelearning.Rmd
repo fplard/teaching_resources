@@ -14,18 +14,20 @@ source(file.path("R", "functions.R"))
 
 | Name                                      | Links |
 |-------------------------------------------|-------|
-|**Machine Learning for Ecology and Sustainable Natural Resource Management** *G Humphries, D R Magness, F Huettmann* -- |`r ilink("book", "https://link.springer.com/book/10.1007%2F978-3-319-96978-7")`|
-|**Data Science Live Book** *P Casas* -- Common issues in data analysis and machine learning|`r ilink("tuto", "https://livebook.datascienceheroes.com/")`|
+|**A practical guide to machine learning in ecology** *J Lefcheck* -- blog introducing machine learning to ecologists|`r ilink("tuto", "https://jonlefcheck.net/2015/02/06/a-practical-guide-to-machine-learning-in-ecology/", lvl=1)`|
+|**Deep Learning for Ecology** *P Gray* -- a brief overview of the applications of deep learning to ecology and remote sensing|`r ilink("github", "https://github.com/patrickcgray/deep_learning_ecology", lvl=1)`|
+|**Data Science Live Book** *P Casas* -- a book about data preparation, data analysis and machine learning|`r ilink("tuto", "https://livebook.datascienceheroes.com/", lvl=1)`|
+|**Machine Learning for Ecology and Sustainable Natural Resource Management** *G Humphries, D R Magness, F Huettmann* -- Shows ecologists cutting-edge methods that can help in understanding complex systems with multiple interacting variables to form predictive hypotheses from large datasets, including practical examples|`r ilink("book", "https://link.springer.com/book/10.1007%2F978-3-319-96978-7", lvl=2)`|
+|**Machine Learning Mastery** -- A site including tutorials for machine learning from beginners to advanced levels|`r ilink("site", "https://machinelearningmastery.com/start-here/")`|
+|**In-depth introduction to machine learning** *T Hastie and R Tibshirani* -- 2014, A full introduction to start Machine Learning|`r ilink("course", "https://www.dataschool.io/15-hours-of-expert-machine-learning-videos/", lvl=2)`|
+|**Oxford Machine Learning** *N de Freitas, B Shillingford, M Moczulsky* a Maths course to introduce numerical computation, statistics and optimization to be able to design and implement machine learning algorithms, prerequisites in maths and programming|`r ilink("course","https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/", lvl=3)`|
 |**A translucent box: interpretable machine learning in ecology** *T C D Lucas*|`r ilink("article", "https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecm.1422")`|
 |**Applications for deep learning in ecology** *S Christin, E Hervet, N Lecomte* -- |`r ilink("article", "https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13256")`|
 |**Deep learning as a tool for ecology and evolution** *Borowiec et al.* |`r ilink("article", "https://ecoevorxiv.org/nt3as/")`|
 |**Machine learning to classify animal species in camera trap images: Applications in ecology** *Tabac et al.* |`r ilink("article", "https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13120")`|
-|**A practical guide to machine learning in ecology** *J Lefcheck* -- blog|`r ilink("tuto", "https://jonlefcheck.net/2015/02/06/a-practical-guide-to-machine-learning-in-ecology/")`|
-|**Deep Learning for Ecology** *P Gray* -- brief overview of the applications of deep learning to ecology and remote sensing|`r ilink("github", "https://github.com/patrickcgray/deep_learning_ecology")`|
-|**In-depth introduction to machine learning** *T Hastie and R Tibshirani* -- 15 hours of expert videos, 2014|`r ilink("course", "https://www.dataschool.io/15-hours-of-expert-machine-learning-videos/")``r ilink("video", "")`|
-|**Machine Learning Mastery** -- A site including tutorials for machine  learning from beginners to advanced levels|`r ilink("site", "https://machinelearningmastery.com/start-here/")`|
-|**Awesome Machine Learning** -- A list of package for different software|`r ilink("github","https://github.com/josephmisiti/awesome-machine-learning")`| 
-|**Oxford Machine Learning** *N de Freitas, B Shillingford, M Moczulsky*|`r ilink("course","https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/")`|
+|**Awesome Machine Learning** -- A list of machine learning frameworks, libraries and software|`r ilink("github","https://github.com/josephmisiti/awesome-machine-learning")`| 
 
 
-Have a look also to [wikistat][https://github.com/wikistat] (Insa Toulouse, but in french)
+
+
+Have a look also to [wikistat](https://github.com/wikistat) (Insa Toulouse, but in french)

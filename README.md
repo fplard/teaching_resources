@@ -11,12 +11,6 @@ There are three main parts (Basics, Modeling, byField) containing each a number 
 
 I also created the [others.Rmd](others.Rmd) file to add interesting links that we do not know where to include.
 
-## To be done:
-- a simple way to update home (index.Rmd) or add links...
-- search bar does not work
-- make a template page if needed
-- update read me to contribute
-
 ## Questions to be discussed
 - General organization: Who update what, who check what? what do you want (or you think you will have time) to do?
     - ***Floriane***: I included some possibilities to add one person in charge for each page that should check what is uploaded on it, organize the page and solicit people to contribute to the page. We need also someone to coordinate the global site and check that pages are coherent and not repetitive. I can do that but Sandra or Gilles you might also want to do it?
@@ -27,5 +21,14 @@ I also created the [others.Rmd](others.Rmd) file to add interesting links that w
     - ***Olivier***: I like the idea of trees. I guess we can stick to it for now and see how it goes, and what folks think about it, like do they find it easy to navigate, to walk around, or find something specific. 
 
 - How do we present scientific articles (using full references or not)? 
-    - ***Floriane***: For now I only copy title and first author but this might be optimized using cite. And related to that how far do you want to add functions doing the page layout directly (such as the ilink() function I did). I like to have this kind of functions but it will make life harder I guess for contributors, so maybe not a good idea. My opinion is to keep basic markdown tables for the layout.
+    - ***Floriane***: For now I only copy title and first author but this might be optimized using cite. And related to that how far do you want to add functions doing the page layout directly (such as the ilink() function I included for icons with links). I like to have this kind of functions but it will make life harder I guess for contributors, so maybe not a good idea. My opinion is to keep basic markdown tables for the layout.
     - ***Olivier***: I agree, keep it simple so that others can contribute easily. Also, full ref would be great. 
+
+## To be done:
+- a simple way to update home (index.Rmd) or add links...
+- search bar does not work
+- update read me to contribute & formulaire to fill /template
+- update general organization of folders (cf Stephane mail but what other think?)
+- update/standardize presentation of articles and others: date, journal/publisher?
+
+

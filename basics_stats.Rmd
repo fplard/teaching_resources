@@ -23,6 +23,7 @@ source(file.path("R", "functions.R"))
 |**Zedstatistics** *Zedstatistics* -- a youtube channel including simple playlists about Descriptive statistics, Distribution, Inferential statistics, Regression|`r ilink("video", "https://www.youtube.com/playlist?list=PLTNMv857s9WVStKLco6ZBOsfSGXzJ1L0f", lvl=1)`|
 |**Learning Centennial College** *M Cheung* -- Definitions of useful words in statistics|`r ilink("tuto", "https://libraryguides.centennialcollege.ca/c.php?g=717168&p=5116851", lvl=1)`|
 |**Biology for life** *G von Bargen* --  Descriptions of simple statistical concepts and tests used in biology |`r ilink("site", "https://www.biologyforlife.com/statistics.html", lvl=1)`|
+|**STAT506 Penn State College** *Penn State College* -- a full course  about Sampling design|`r ilink("tuto", "https://online.stat.psu.edu/stat506/", lvl=1)`|
 
 
 

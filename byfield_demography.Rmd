@@ -11,15 +11,13 @@ knitr::opts_chunk$set(echo = FALSE)
 source(file.path("R", "functions.R"))
 ```
 
-## Overview
-
 ## Survival
 
 ### CMR
 
 | Name                                      | Links |
 |-------------------------------------------|-------|
-|**Bayesian capture-recapture inference with hidden Markov models** *O Gimenez, C R Nater, S Cubaynes, P de Valpine, M Quéroué* -- A two-day workshop with R and Nimble |`r ilink("course", "https://oliviergimenez.github.io/bayesian-cr-w|orkshop/")`|
+|**Bayesian capture-recapture inference with hidden Markov models** *O Gimenez, C R Nater, S Cubaynes, P de Valpine, M Quéroué* -- A two-day workshop with R and Nimble to learn about how to infer demographic parameters (e.g. survival, dispersal)|`r ilink("course", "https://oliviergimenez.github.io/bayesian-cr-workshop/", lvl=1)`|
 
 ## Reproduction
 

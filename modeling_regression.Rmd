@@ -15,47 +15,50 @@ source(file.path("R", "functions.R"))
 
 | Name                                      | Links |
 |-------------------------------------------|-------|
-|**Michael Clark site** -- A series of open course in bayesian analysis, modeling and SEM  |`r ilink("site", "https://m-clark.github.io/documents.html")`|
-|**Beyond Multiple Linear Regression** *P Roback, J Legler* -- Applied Generalized Linear Models and Multilevel Models in R |`r ilink("tuto", "https://bookdown.org/roback/bookdown-BeyondMLR/")`|
-|**Statistics for ecologists** *O. Gimenez* -- Distibutions, likelihoods, Hypothesis testing, Multimodel inference, Bayesian, GLM, GLMM, GAM|`r ilink("course", "https://github.com/oliviergimenez/statistics-for-ecologists-Master-courses")`|
-|**Statistical Thinking for the 21st Century** *R A Poldrack* |`r ilink("site", "https://statsthinking21.github.io/statsthinking21-core-site/index.html")`|
-|   |`r ilink("site", " ")`| 
+|**Statistics for ecologists** *O. Gimenez* -- A master course introducing likelihoods, hypothesis testing, Bayesian inference, GLM, GLMM, GAM|`r ilink("course", "https://github.com/oliviergimenez/statistics-for-ecologists-Master-courses", lvl=1)`|
+|**Statistical Thinking for the 21st Century** *R A Poldrack* -- focuses on understanding the basic ideas of statistical thinking, about how we describe the world and use data make decisions and predictions, in the context of the inherent uncertainty that exists in the real world|`r ilink("site", "https://statsthinking21.github.io/statsthinking21-core-site/index.html", lvl=2)`|
+|**Michael Clark site** -- A series of open introductory workshop in bayesian analysis, mixed models, GAM, SEM and machine learning |`r ilink("site", "https://m-clark.github.io/documents.html", lvl=1)`|
+|**Beyond Multiple Linear Regression** *P Roback, J Legler* -- A full textbook to apply Generalized Linear Models and Multilevel Models in R |`r ilink("tuto", "https://bookdown.org/roback/bookdown-BeyondMLR/", lvl=1)`|
+
 
 ## Linear models LM, GLM
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**Regression Methods** *I Pardoe from Penn State College* -- a full course on Linear regression, also introducing Generalized linear regression|`r ilink("tuto", "https://online.stat.psu.edu/stat501/", lvl=1)`|
 
 
 ## Mixed models LMM, GLMM
 
 | Name                                      | Links |
 |-------------------------------------------|-------|
-|**Introduction to mixed models** *H Brown*, March 2016.|`r ilink("video", "https://www.youtube.com/playlist?list=PLbyRmcun-giuz5hW11nD64zeiJZSDV4aD")`|
-|**GLMM for ecologists and evolutionary biologists* ** *B.Bolker et al.*|`r ilink("tuto", "http://glmm.wikidot.com/start")`|
-|**GLMM FAQ** *B.Bolker et al.*|`r ilink("tuto", "https://bbolker.github.io/mixedmodels-misc/glmmFAQ.html")`|
-|**Rpubs** *B. Bolker* -- A list of publications on practical use of GLMM|`r ilink("site", "https://rpubs.com/bbolker")`|
+|**GLMM course** *S. Anderson*-- a 2 day workshop including a full introduction: regression, random intercepts and slopes, spatial and temporal autocorrelation, including practical|`r ilink("tuto", "https://github.com/seananderson/glmm-course", lvl=1)`|
+|**GLMM FAQ** *B.Bolker et al.*|`r ilink("tuto", "https://bbolker.github.io/mixedmodels-misc/glmmFAQ.html", lvl=2)`|
+|**Rpubs** *B. Bolker* -- "blog form", A collection of short tuto on specific subjects|`r ilink("site", "https://rpubs.com/bbolker", lvl=2)`|
 |**Generalized linear mixed models: a practical guide for ecology and evolution** *B.Bolker et al.*|`r ilink("article", "https://www.cell.com/trends/ecology-evolution/fulltext/S0169-5347(09)00019-6?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0169534709000196%3Fshowall%3Dtrue")`|
 |**How to Make Models Add Up — A Primer on GLMMs** *R O'Hara* |`r ilink("article", "https://bioone.org/journals/annales-zoologici-fennici/volume-46/issue-2/086.046.0205/How-to-Make-Models-Add-Up--A-Primer-on/10.5735/086.046.0205.short")`|
-|**GLMM course** *S. Anderson*--|`r ilink("tuto", "https://github.com/seananderson/glmm-course")`|
 |**SIMR: an R package for power analysis of generalized linear mixed models by simulation** *P Greenet al.* -- 2016|`r ilink("article", "https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.12504")`| 
-|**Beyond Power Calculations: Assessing Type S (Sign) and Type M (Magnitude) Errors** A Gelman, J Carlin* -- 2014|`r ilink("article", "https://journals.sagepub.com/doi/10.1177/1745691614551642?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed")`| 
+|**Beyond Power Calculations: Assessing Type S (Sign) and Type M (Magnitude) Errors** *A Gelman, J Carlin* -- 2014|`r ilink("article", "https://journals.sagepub.com/doi/10.1177/1745691614551642?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed")`| 
+|**Introduction to mixed models** *H Brown* -- March 2016. Series of videos giving a general but quick & unfriendly introduction|`r ilink("video", "https://www.youtube.com/playlist?list=PLbyRmcun-giuz5hW11nD64zeiJZSDV4aD", lvl=2)`|
+|**GLMM for ecologists and evolutionary biologists* ** *B.Bolker et al.* a wiki including resources on the practical use of GLMM |`r ilink("tuto", "http://glmm.wikidot.com/start")`|
 
-### p-value
 
-### R2
 
 
 ## GAMM
 
 | Name                                      | Links |
 |-------------------------------------------|-------|
-|**Introduction to Generalized Additive Models with R and mgcv** *G Simpson*|`r ilink("video", "https://www.youtube.com/watch?v=sgw4cu8hrZM")``r ilink("github", "https://github.com/gavinsimpson/gams-yorku-canada-150")`|
-|**mgcv course** *G Simpson, N Ross*  |`r ilink("site", "https://noamross.github.io/mgcv-esa-2018/")`|
+|**Introduction to Generalized Additive Models with R and mgcv** *G Simpson* a 3h course introducing how to fit and check GAM|`r ilink("video", "https://www.youtube.com/watch?v=sgw4cu8hrZM", lvl=1)``r ilink("github", "https://github.com/gavinsimpson/gams-yorku-canada-150", lvl=1)`|
+|**mgcv course** *G Simpson, N Ross*, Slides and exercices from a day workshop introducing how to fit and check GAM  |`r ilink("site", "https://noamross.github.io/mgcv-esa-2018/", lvl=1)`|
 
 
 
 ## Structural Equation Modeling
 | Name                                      | Links |
 |-------------------------------------------|-------|
-|**An Introduction to Structural Equation Modeling** *J Lefcheck* |`r ilink("tuto", "https://jslefche.github.io/sem_book/")`|
+|**An Introduction to Structural Equation Modeling** *J Lefcheck* -- A complete book introducing SEM and the piecewiseSEM package|`r ilink("tuto", "https://jslefche.github.io/sem_book/", lvl=1)`|
+|**Structural equation modeling and natural systems** *JB Grace* -- 2006|`r ilink("book", "https://www.cambridge.org/core/books/structural-equation-modeling-and-natural-systems/D05B2328107F91AF772182F3AF88EB12", lvl=1)`|
+|**Cause and Correlation in Biology: A User's Guide to Path Analysis, Structural Equations and Causal Inference with R** *B Shipley* -- 2016|`r ilink("book", "https://www.cambridge.org/fr/academic/subjects/life-sciences/ecology-and-conservation/cause-and-correlation-biology-users-guide-path-analysis-structural-equations-and-causal-inference-r-2nd-edition?format=PB&isbn=9781107442597", lvl=1)`|
 
 ## Plot your model
 | Name                                      | Links |

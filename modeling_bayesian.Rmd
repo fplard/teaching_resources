@@ -16,12 +16,13 @@ source(file.path("R", "functions.R"))
 
 | Name                                      | Links |
 |-------------------------------------------|-------|
-|**Statistical Rethinking** ** -- A complete course about Bayesian Inference and modelling |`r ilink("course", "https://github.com/rmcelreath/statrethinking_winter2019")` `r ilink("video", "https://www.youtube.com/playlist?list=PLDcUM9US4XdNM4Edgs7weiyIguLSToZRI")``r ilink("book", "https:/xcelab.net/rm/statistical-rethinking/")`|
-|**Bayesian statistics with R** *O. Gimenez* --          | `r ilink("course", "https://oliviergimenez.github.io/bayesian-stats-with-R/")` `r ilink("exo", "")` `r ilink("video", "")`  |
-|**Bayesian Modeling for Socio-Environmental Data** *T Hobbs, M Collins, C Che-Castaldo* -- |`r ilink("course", "https://cchecastaldo.github.io/BayesianShortCourse/index.html")`|
-|**Bayesian statistics course** *F. Barraquand* -- Master course including MCMC, Anova, GLMM, non-linear, occupancy, model selection  |`r ilink("course", "https://github.com/fbarraquand/Bayesian_statistics_course")`|
-|**BiogecoBayes** -- Workshops created by a group of researchers & students who want to progress together in their learning|`r ilink("tuto", "https://github.com/JulietteArchambeau/BiogecoBayes")`|
-|**Learning Bayesian Statistics** -- podcast channel  |`r ilink("site", "https://www.learnbayesstats.com/")`|
+|**Bayesian statistics with R** *O. Gimenez* -- A clear introduction to Bayesian Analysis using R and jags, including practical| `r ilink("course", "https://oliviergimenez.github.io/bayesian-stats-with-R/", lvl=1)`|
+|**Statistical Rethinking** *R McElreath* -- A complete course about Bayesian inference and regression, including covariance structure, using stan |`r ilink("course", "https://github.com/rmcelreath/statrethinking_winter2019", lvl=1)` `r ilink("book", "https:/xcelab.net/rm/statistical-rethinking/")`|
+|**Bayesian Modeling for Socio-Environmental Data** *T Hobbs, M Collins, C Che-Castaldo* -- A course with r and jags providing an understanding to Bayesian methods, statistical concepts and methodology|`r ilink("course", "https://cchecastaldo.github.io/BayesianShortCourse/index.html", lvl=1)`|
+|**Bayesian statistics course** *F. Barraquand* -- A full Master course to learn Baysian statistics including MCMC, Anova, GLMM, non-linear models, occupancy models and model selection|`r ilink("course", "https://github.com/fbarraquand/Bayesian_statistics_course", lvl=2)`|
+|**BiogecoBayes** -- A collection of useful Workshops created by a group of researchers & students who want to progress together in their learning|`r ilink("tuto", "https://github.com/JulietteArchambeau/BiogecoBayes", lvl=1)`|
+|**Bayesian Models: A Statistical Primer for Ecologists** *T Hobbs, M Hooten* -- Presents the mathematical and statistical foundations of Bayesian modeling in language accessible to non-statisticians|`r ilink("book", "https://www.amazon.com/Bayesian-Models-Statistical-Primer-Ecologists/dp/0691159289", lvl=1)`|
+|**Learning Bayesian Statistics** -- a podcast channel presenting scientists, their approach and thinking in Bayesian statistics|`r ilink("site", "https://www.learnbayesstats.com/", lvl=2)`|
 
 
 ## Priors
@@ -42,25 +43,24 @@ source(file.path("R", "functions.R"))
 |-------------------------------------------|-------|
 
 
-## Hierarchical Models
-
-| Name                                      | Links |
-|-------------------------------------------|-------|
 
 
-## Packages and softwares
+## Packages & software
 ### JAGS
 ### Stan
 
 | Name                                      | Links |
 |-------------------------------------------|-------|
-|**Become a Bayesian with R & Stan** *M Clark* -- |`r ilink("tuto", "http://m-clark.github.io/workshops/bayesian/index.html#home")`|
-|**Stan for Ecology** -- |`r ilink("site", "https://stanecology.github.io/")`|
-|**Stan User Guide** -- |`r ilink("tuto", "https://mc-stan.org/docs/2_21/stan-users-guide/index.html")`|
+|**Become a Bayesian with R & Stan** *M Clark* -- a basic introduction to the probabilistic programming language Stan|`r ilink("tuto", "http://m-clark.github.io/workshops/bayesian/index.html#home", lvl=1)`|
+|**Stan for Ecology** -- location for all types of work in ecology that use the software Stan for Bayesian inference|`r ilink("site", "https://stanecology.github.io/")`|
+|**Stan User Guide** *Stan Development Team* -- |`r ilink("tuto", "https://mc-stan.org/docs/2_21/stan-users-guide/index.html")`|
 
 
 ### Nimble
 
 | Name                                      | Links |
 |-------------------------------------------|-------|
-
+|**nimble-training** *C Paciorek, D Turek, P de Valpine* -- several workshops to learn programming with nimble|`r ilink("course", "https://mc-stan.org/docs/2_21/stan-users-guide/index.html")`|
+|**nimble manual** *NIMBLE Development Team* -- official & useful manual |`r ilink("tuto", "https://r-nimble.org/manuals/NimbleUserManual.pdf")`|
+|**nimble cheatsheet** |`r ilink("tuto", "https://r-nimble.org/cheatsheets/NimbleCheatSheet.pdf")`|
+|**nimble** *NIMBLE Development Team* -- nimble website, download, find examples and documentation |`r ilink("site", "https://r-nimble.org/")`|

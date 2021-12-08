@@ -10,11 +10,20 @@ knitr::opts_chunk$set(echo = FALSE)
 source(file.path("R", "functions.R"))
 ```
 
+## GIS & Data
 | Name                                      | Links |
 |-------------------------------------------|-------|
-|**Introduction to GIS and mapping in R using the sf package** *O. Gimenez* -- |`r ilink("course", "https://github.com/oliviergimenez/intro_spatialR#introduction-to-gis-and-mapping-in-r-using-the-sf-package")`|
-|**Data wrangling for spatial analysis** *C J Brown, D Schoeman, A J Richardson, B Venables* --  |`r ilink("tuto", "https://www.seascapemodels.org/Advanced-spatial-analysis-2021/Advanced-spatial-analysis-2021.html")`|
-|**Current approaches to species distribution modelling with R** *C. Brown* |`r ilink("site", "https://www.seascapemodels.org/SDM-fish-course-notes/")`|
+|**Introduction to GIS and mapping in R using the sf package** *O. Gimenez* -- Helpful slides to start mapping in R|`r ilink("course", "https://github.com/oliviergimenez/intro_spatialR#introduction-to-gis-and-mapping-in-r-using-the-sf-package", lvl=1)`|
+|**Data wrangling for spatial analysis** *C J Brown, D Schoeman, A J Richardson, B Venables* -- Introduction to spatial analysis with sf |`r ilink("tuto", "https://www.seascapemodels.org/Advanced-spatial-analysis-2021/Advanced-spatial-analysis-2021.html", lvl=1)`|
 
 
 
+## Distribution & Abundance
+
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**Current approaches to species distribution modelling with R** *C. Brown* Introduction to build, run and visualize species distribution models|`r ilink("tuto", "https://www.seascapemodels.org/SDM-fish-course-notes/", lvl=1)`|
+
+
+## Habitat Selection
+## Movement

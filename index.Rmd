@@ -21,13 +21,21 @@ website`r ilink("site", "https:/xcelab.net/rm/statistical-rethinking/")`
 
 level: begin `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lvl=1)` intermediate `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lvl=2)` advanced `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lvl=3)`
 
+
+
+### People to be contacted at first:
+people that we know and that might be interested to be in charge of some parts:
+S Cubaynes, M Gamelon, V Miele, Y vindenes, A Lee, C Nater, P de Villemeureuil, AB Dufour, F Husson
+
+
+
 ## Basics
 
 
 ### [R](basics_r.html) 
 
 * *be in charge: V Miele?*
-* *contribute: I think there is already enough online*
+* *contribute: I think there is already enough online on basics stuff but we need more advanced resources about coding*
 
 #### Programming in R
 #### Data science in R
@@ -64,7 +72,7 @@ level: begin `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lv
 ### [Maths](basics_maths.html)
 
 * *be in charge: Fred?*
-* *contribute: Mathiopoulos, B McGill, S Otto, F Débarre, Lyon Biostat teachers, [M bonsall](https://www.zoo.ox.ac.uk/people/professor-michael-bonsall?filter_types-1860401[]=&filter_series-1860401[]=#tab-1860396)*
+* *contribute: Mathiopoulos, B McGill, S Otto, F Débarre, Lyon teachers?, [M bonsall](https://www.zoo.ox.ac.uk/people/professor-michael-bonsall?filter_types-1860401[]=&filter_series-1860401[]=#tab-1860396)*
 
 There are things online but I did not find really ecologist friendly courses so far. Need more time to have a look.
 
@@ -74,7 +82,7 @@ There are things online but I did not find really ecologist friendly courses so 
 #### Teaching Mathematics in Ecology
 
 ## Modeling
-F. Korner
+
 
 ### [Regression](modeling_regression.html)
 
@@ -82,111 +90,166 @@ F. Korner
 * *be in charge: *
 
 #### Overview
+* *contribute: RA Poldrack, Mickael Clark, William A Link, [Peter Adler](https://qcnr.usu.edu/directory/adler_peter)*
+
 #### LM & GLM
+
 #### Mixed Models
-* *contribute: B Bolker, M Brooks, JD Hadfield, L Crespin*
+* *contribute: B Bolker, M Brooks, JD Hadfield, L Crespin, D Westneat*
 
 #### GAMM
+* *contribute: G Simpson*
+
 #### Structural Equation Modeling
+* *contribute: B Shipley, J Lefcheck*
+
 #### Plot your model
 #### Check your model
+* *contribute: PB Conn*
+
 #### Model selection
-* *contribute: M Hooten, H Hobbs*
+* *contribute: M Hooten, N T Hobbs*
 
 #### Model averaging
+* *contribute: C Dormann, F Hartig*
+
 
 ### [Bayesian Approach](modeling_bayesian.html)
 
 * *be in charge: *
-* *contribute: Gelman*
 
+* *contribute: R McElreath, F. Korner, P deValpine, T Hobbs*
+
+But already some very good courses in this part and a lot of resources that can be indexed in the more specific folders from these courses & the web.
+
+#### Overview
+#### Priors
+#### Convergence & Identifiability
+#### MCMC
 #### Packages & Software
-* *contribute: deValpine*
+
 
 ### [Multivariate Analyses](modeling_multivariate.html)
 
 * *be in charge: Stéphane*
-* *contribute: S. Jadhav*
+* *contribute: S Jadhav, M Palmer, F Husson, AB Dufour, J Thioulouse, P Legendre, P Peres-Neto, M Anderson, S Holmes, C ter Braak *
+
+#### Overview
+#### Ordination methods
+#### Clustering
 
 
 ### [Machine Learning](modeling_machinelearning.html)
 
-* *be in charge: JL Parouty, L Jacob*
-* *contribute: *
+* *in charge: ???? *
+
+* *contribute: JL Parouty, L Jacob? *
+   *wrote a book: Grant Humphries, Dawn R. Magness, Falk Huettmann, Pablo Casas* 
+   *wrote scientifc articles as first or last author about application in Ecology: [Tim C D Lucas](https://timcdlucas.github.io/), André C Ferreira, Sylvain Christin, Nicolas Lecomte, Marek Borowiec, Alexander E white, Michael A Tabak, Ryan S. Miller*
+   *wrote blog about deep learning for Ecology: Patrick Gray, [J Lefneck](https://jonlefcheck.net/)*
+
+
 
 ## byField
 
 ### [Demography](byfield_demography.html)
 * *be in charge: *
-* *contribute: *
 
-Gamelon, Coulson, Salguero Gomez, Colchero
+* *contribute: M Gamelon, C Bonenfant, S Bouwhuis, O Jones*
 
-####Overview
 ####Survival
+
+* *contribute: [E. Matechou](https://www.kent.ac.uk/mathematics-statistics-actuarial-science/people/1039/matechou-eleni), F. colchero*
+
+##### CMR
+* *contribute: R Chandler, M Schaub, G Péron, B Morgan, RS McCrea, D Fletcher, J Rotella*
+
 ####Reproduction
+
 ####Growth
 
 
 ### [Population Dynamics](byfield_population.html)
 * *be in charge: *
-* *contribute: *
 
-Schaub, F
+* *contribute: S Cubaynes, C Nater, E Simmonds, [Evan Cooch](http://canuck.dnr.cornell.edu/teaching/)*
 
 #### Equilibrium
+* *contribute: H Caswell, Y Vindenes*
+
 #### Stochastic
+* *contribute: S Engen, A Lee, V Grotan, B O'Hara*
+
 #### Transient
+* *contribute: D Koons*
+
 #### Density-Dependent
+* *contribute: BE Saether*
 
 #### Integral Projection Models
-#### Integrated Population Models
-#### Individual based models
+* *contribute: T Coulson, S Ellner, D Childs*
 
-#### DEB
+
+#### Integrated Population Models
+* *contribute: M Schaub, T Besbeas, E Zipkin*
+
+#### Individual based models
+* *contribute: V Radchuk, A. Kuparinen*
+
+#### Social species
+* *contribute: M Paniw, C Coste*
 
 #### Epidemio
+* *contribute: P Klepac, CJ Metcalf*
+
+#### DEB
+* *contribute: A de Roos, T van Dooren*
 
 
 ### [Spatial Analyses](byfield_spatial.html)
 
 * *be in charge: *
-* *contribute: *
 
-Royle, Kéry, Zipkin, Gardner
+* *contribute: G Péron*
 
-#### GIS
-#### Point & Distance Sampling
-#### Occupancy
-#### Mouvement
-#### Citizen Data
+#### GIS & Data
+* *contribute: CJ Brown*
+
+#### Distribution & Abundance
+* *contribute: A Royle, M Kéry, E Zipkin, B Gardner, J Lahoz-Monfort*
+
+#### Habitat Selection
+* *contribute: [J Fieberg](https://fieberg-lab.cfans.umn.edu/people/john-fieberg)*
+
+#### Movement
+* *contribute: R Kays, R. [Langrock](https://www.uni-bielefeld.de/fakultaeten/wirtschaftswissenschaften/lehrbereiche/stats/team/prof.-dr.-roland-langrock/), B McClintock, N Ranc*
+
+
+
 
 
 ### [Community Analyses](byfield_community.html)
-* *be in charge: *
-* *contribute: Daniel Borcard, François Gillet, David Zelený, Guillaume Blanchet, Jari Oksanen, Gavin L. Simpson, D. Roberts,*
+
+* *be in charge: Stéphane*
+* *contribute: D Borcard, F Gillet, D Zelený, G Blanchet, J Oksanen, GL Simpson, D. Roberts, Otso ovoskainen, Francis Hui, David Warton*
 
 #### Overview
-#### Ordination methods
+#### Hierarchical Models
 #### Vegan
 
 ### Cross-species Analysis
 
-* *be in charge: *
-* *contribute: *
- JF Lemaitre
- 
-Nakagawa, Ronget, 
+* *contribute: JF Lemaitre, S Nakagawa, V Ronget*
 
-#### Meta-Analysis
-#### Allometry
-#### Phylogeny
+Meta-Analysis, Allometric models, Phylogeny
+
 
 ### Quantitative Genetics
-* *be in charge: *
-* *contribute: *
 
-De Villemereuil, Chevin, 
+* *contribute: De Villemereuil, LM Chevin, A Kuparinen, B Walsh, M Morrissey, T Bonnet*
+
+Already [courses](https://www.youtube.com/watch?v=U-MTfNw7IvM) from B Walsh that can be added
+
 
 ### Network Analysis
 
