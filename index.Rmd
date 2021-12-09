@@ -23,9 +23,6 @@ level: begin `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lv
 
 
 
-### People to be contacted at first:
-people that we know and that might be interested to be in charge of some parts:
-S Cubaynes, M Gamelon, V Miele, Y vindenes, A Lee, C Nater, P de Villemeureuil, AB Dufour, F Husson
 
 
 

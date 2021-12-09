@@ -23,9 +23,16 @@ I also created the [others.Rmd](others.Rmd) file to add interesting links that w
 - How do we present scientific articles (using full references or not)? 
     - ***Floriane***: For now I only copy title and first author but this might be optimized using cite. And related to that how far do you want to add functions doing the page layout directly (such as the ilink() function I included for icons with links). I like to have this kind of functions but it will make life harder I guess for contributors, so maybe not a good idea. My opinion is to keep basic markdown tables for the layout.
     - ***Olivier***: I agree, keep it simple so that others can contribute easily. Also, full ref would be great. 
+    
+## People to be contacted:
+To be edited
+
+People that we know and that might be interested to be in charge of some parts:
+S Cubaynes, M Gamelon, V Miele, Y vindenes, A Lee, C Nater, P de Villemeureuil, AB Dufour, F Husson
+
 
 ## To be done:
-- a simple way to update home (index.Rmd) or add links...
+- a simple way to update home (index.Rmd) or add links.../ How to HIDE some parts
 - search bar does not work
 - update read me to contribute & formulaire to fill /template
 - update general organization of folders (cf Stephane mail but what other think?)
