@@ -40,10 +40,11 @@ S Cubaynes, M Gamelon, V Miele, Y vindenes, A Lee, C Nater, P de Villemeureuil, 
 
 
 ## To be done:
-- To update home (index.Rmd): for now we have to add pages and sections "by hand"
+- add sections link in index "by hand"
 - search bar does not work
 - update read me to contribute & formulaire to fill /template
 - update general organization of folders (cf Stephane mail but what other think?)
 - update/standardize presentation of articles and others
+- automatically update index page once we have the organisation: for now we have to add pages and sections "by hand"
 
 

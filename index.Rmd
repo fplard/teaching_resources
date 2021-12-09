@@ -23,11 +23,7 @@ level: begin `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lv
 
 
 
-
-
-
 ## Basics
-
 
 ### [R](basics_r.html) 
 
@@ -35,9 +31,9 @@ level: begin `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lv
 * *contribute: I think there is already enough online on basics stuff but we need more advanced resources about coding*
 
 
-#### Programming in R
-#### Data science in R
-#### Packages
+#### [Programming in R](basics_r.html#Programming in R) 
+#### [Data science in R](basics_r.html#Data science in R)
+#### [Packages](basics_r.html#Packages)
 
 ### [Ethics](basics_ethics.html)
 
@@ -79,8 +75,9 @@ There are things online but I did not find really ecologist friendly courses so 
 #### Algebra
 #### Teaching Mathematics in Ecology
 
-## Modeling
 
+
+## Modeling
 
 ### [Regression](modeling_regression.html)
 
@@ -148,6 +145,8 @@ But already some very good courses in this part and a lot of resources that can 
    wrote scientific articles as first or last author about application in Ecology: *[Tim C D Lucas](https://timcdlucas.github.io/), André C Ferreira, Sylvain Christin, Nicolas Lecomte, Marek Borowiec, Alexander E white, Michael A Tabak, Ryan S. Miller*
  
    wrote blog about deep learning for Ecology: *Patrick Gray, [J Lefneck](https://jonlefcheck.net/)*
+
+
 
 
 
@@ -238,10 +237,6 @@ But already some very good courses in this part and a lot of resources that can 
 #### Hierarchical Models
 #### Vegan
 
-
-<!---
-Everything in here will not be displayed
-
 ### Cross-species Analysis
 
 * *contribute: JF Lemaitre, S Nakagawa, V Ronget*
@@ -260,5 +255,9 @@ Already [courses](https://www.youtube.com/watch?v=U-MTfNw7IvM) from B Walsh that
 * *contribute: *
 
 
+
+
+<!---
+Everything in here will not be displayed
 
 -->
