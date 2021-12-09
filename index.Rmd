@@ -34,6 +34,7 @@ level: begin `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lv
 * *be in charge: V Miele?*
 * *contribute: I think there is already enough online on basics stuff but we need more advanced resources about coding*
 
+
 #### Programming in R
 #### Data science in R
 #### Packages
@@ -237,6 +238,10 @@ But already some very good courses in this part and a lot of resources that can 
 #### Hierarchical Models
 #### Vegan
 
+
+<!---
+Everything in here will not be displayed
+
 ### Cross-species Analysis
 
 * *contribute: JF Lemaitre, S Nakagawa, V Ronget*
@@ -255,3 +260,5 @@ Already [courses](https://www.youtube.com/watch?v=U-MTfNw7IvM) from B Walsh that
 * *contribute: *
 
 
+
+-->

@@ -20,9 +20,17 @@ I also created the [others.Rmd](others.Rmd) file to add interesting links that w
     - ***Floriane***: #Overview courses #then more specific tree with specific resources? Do we add more guidelines sentences and with which structure?
     - ***Olivier***: I like the idea of trees. I guess we can stick to it for now and see how it goes, and what folks think about it, like do they find it easy to navigate, to walk around, or find something specific. 
 
-- How do we present scientific articles (using full references or not)? 
-    - ***Floriane***: For now I only copy title and first author but this might be optimized using cite. And related to that how far do you want to add functions doing the page layout directly (such as the ilink() function I included for icons with links). I like to have this kind of functions but it will make life harder I guess for contributors, so maybe not a good idea. My opinion is to keep basic markdown tables for the layout.
-    - ***Olivier***: I agree, keep it simple so that others can contribute easily. Also, full ref would be great. 
+- Standardization of tables of resources and automatisation of the site? Do we want to add resources in a database and then include code function to do the resources table in each part?
+    - ***Floriane***: PRO: 1) it will be more standardized, 2) easier to include a friendly formulaire to fill-in for short and quick contribution, 3) easier and quicker to make functions that automatically update trees and main table of contents if the site became very popular. CON: 1) take a bit of time to set up the functions 2) will make the collaboration harder for new contributors, more time to learn how the website works... So maybe not a good idea. For now my opinion is to keep simple markdown tables but if the site grow it can became hard to handle it.
+    - ***Olivier***: I agree, keep it simple so that others can contribute easily. 
+    
+- Information to be presented per resource?
+    - ***Floriane***: - book: Name, Author, year?, a short description
+                      - article: Name, first Author, year? journal? vol-pages?,
+                      - course: Name, Author, a short description
+                      - website including blog and others: Name, author?, a short description
+    - ***Olivier***: for article: Also, full ref would be great. 
+
     
 ## People to be contacted:
 To be edited
@@ -32,10 +40,10 @@ S Cubaynes, M Gamelon, V Miele, Y vindenes, A Lee, C Nater, P de Villemeureuil, 
 
 
 ## To be done:
-- a simple way to update home (index.Rmd) or add links.../ How to HIDE some parts
+- To update home (index.Rmd): for now we have to add pages and sections "by hand"
 - search bar does not work
 - update read me to contribute & formulaire to fill /template
 - update general organization of folders (cf Stephane mail but what other think?)
-- update/standardize presentation of articles and others: date, journal/publisher?
+- update/standardize presentation of articles and others
 
 
