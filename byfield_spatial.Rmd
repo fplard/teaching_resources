@@ -18,7 +18,7 @@ source(file.path("R", "functions.R"))
 
 
 
-## Distribution & Abundance
+## Distribution and Abundance
 
 | Name                                      | Links |
 |-------------------------------------------|-------|

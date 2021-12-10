@@ -1,7 +1,7 @@
 ---
 title: "Learn EcoStat"
 description: |
-  A useful list of Resources to teach and learn Ecological Statistics
+  A useful list of resources to teach and learn ecological statistics
 site: distill::distill_website
 ---
 
@@ -28,21 +28,22 @@ level: begin `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lv
 ### [R](basics_r.html) 
 
 * *be in charge: V Miele?*
-* *contribute: I think there is already enough online on basics stuff but we need more advanced resources about coding*
+* *contribute: I think there is already enough online on basic stuff but we need more advanced resources about coding*
 
 
-#### [Programming in R](basics_r.html#Programming in R) 
-#### [Data science in R](basics_r.html#Data science in R)
-#### [Packages](basics_r.html#Packages)
+#### [Programming in R](basics_r.html#programming-in-r) 
+#### [Data science in R](basics_r.html#data-science-in-r)
+#### [Packages](basics_r.html#packages)
+#### [Others](basics_r.html#others)
 
 ### [Ethics](basics_ethics.html)
 
 * *be in charge: Sandra?*
 * *contribute: V Amrhein, A Gelman, S Nakagawa ([Founding Members of Sortee](https://www.sortee.org/people/)), *
 
-#### Reproducibility 
-#### Ethics
-#### Open science
+#### [Reproducibility](basics_ethics.html#reproducibility)
+#### [Ethics](basics_ethics.html#ethics)
+#### [Open science](basics_ethics.html#open-science)
 
 
 ### [Data](basics_data.html)
@@ -50,9 +51,9 @@ level: begin `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lv
 * *be in charge: Olivier?*
 * *contribute: already a lot of things to add from the net*
 
-#### Data Science
-#### Data Manipulation
-#### Data Visualization
+#### [Data Science](basics_data.html#data-science)
+#### [Data Manipulation](basics_data.html#data-manipulation)
+#### [Data Visualization](basics_data.html#data-visualization)
 
 
 ### [Stats](basics_stats.html)
@@ -60,20 +61,22 @@ level: begin `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lv
 * *be in charge: Gilles?*
 * *contribute: already some stuff online*
 
-#### Overview
-#### Distributions
+#### [Overview](basics_stats.html#overview)
+#### [Distributions](basics_stats.html#distributions)
 
 ### [Maths](basics_maths.html)
 
 * *be in charge: Fred?*
-* *contribute: Mathiopoulos, B McGill, S Otto, F Débarre, Lyon teachers?, [M bonsall](https://www.zoo.ox.ac.uk/people/professor-michael-bonsall?filter_types-1860401[]=&filter_series-1860401[]=#tab-1860396)*
+* *contribute: J Matthiopoulos, B McGill, S Otto, F Débarre, Lyon teachers?, [M Bonsall](https://www.zoo.ox.ac.uk/people/professor-michael-bonsall?filter_types-1860401[]=&filter_series-1860401[]=#tab-1860396)*
 
 There are things online but I did not find really ecologist friendly courses so far. Need more time to have a look.
 
-#### Calculus
-#### Probability
-#### Algebra
-#### Teaching Mathematics in Ecology
+#### [Calculus](basics_maths.html#calculus)
+#### [Probability](basics_maths.html#probability)
+#### [Algebra](basics_maths.html#algebra)
+#### [Teaching Mathematics in Ecology](basics_maths.html#teaching-mathematics-in-ecology)
+
+
 
 
 
@@ -84,28 +87,28 @@ There are things online but I did not find really ecologist friendly courses so 
 
 * *be in charge: *
 
-#### Overview
+#### [Overview](modeling_regression.html#overview)
 * *contribute: RA Poldrack, Mickael Clark, William A Link, [Peter Adler](https://qcnr.usu.edu/directory/adler_peter)*
 
-#### LM & GLM
+#### [Linear models](modeling_regression.html#linear-models)
 
-#### Mixed Models
+#### [Mixed models](modeling_regression.html#mixed-models)
 * *contribute: B Bolker, M Brooks, JD Hadfield, L Crespin, D Westneat*
 
-#### GAMM
+#### [GAMM](modeling_regression.html#gamm)
 * *contribute: G Simpson*
 
-#### Structural Equation Modeling
+#### [Structural Equation Modeling](modeling_regression.html#structural-equation-modeling)
 * *contribute: B Shipley, J Lefcheck*
 
-#### Plot your model
-#### Check your model
+#### [Plot your model](modeling_regression.html#plot-your-model)
+#### [Check your model](modeling_regression.html#check-your-model)
 * *contribute: PB Conn*
 
-#### Model selection
+#### [Model selection](modeling_regression.html#model-selection)
 * *contribute: M Hooten, N T Hobbs*
 
-#### Model averaging
+#### [Model averaging](modeling_regression.html#model-averaging)
 * *contribute: C Dormann, F Hartig*
 
 
@@ -115,13 +118,13 @@ There are things online but I did not find really ecologist friendly courses so 
 
 * *contribute: R McElreath, F. Korner, P deValpine, T Hobbs*
 
-But already some very good courses in this part and a lot of resources that can be indexed in the more specific folders from these courses & the web.
+Already some very good courses in this part and a lot of resources that can be indexed in the more specific folders from these courses & the web.
 
-#### Overview
-#### Priors
-#### Convergence & Identifiability
-#### MCMC
-#### Packages & Software
+#### [Overview](modeling_bayesian.html#overview)
+#### [Priors](modeling_bayesian.html#priors)
+#### [Convergence and Identifiability](modeling_bayesian.html#convergence-and-identifiability)
+#### [MCMC](modeling_bayesian.html#mcmc)
+#### [Packages and Software](modeling_bayesian.html#packages-and-software)
 
 
 ### [Multivariate Analyses](modeling_multivariate.html)
@@ -129,9 +132,9 @@ But already some very good courses in this part and a lot of resources that can 
 * *be in charge: Stéphane*
 * *contribute: S Jadhav, M Palmer, F Husson, AB Dufour, J Thioulouse, P Legendre, P Peres-Neto, M Anderson, S Holmes, C ter Braak *
 
-#### Overview
-#### Ordination methods
-#### Clustering
+#### [Overview](modeling_multivariate.html#overview)
+#### [Ordination methods](modeling_multivariate.html#ordination-methods)
+#### [Clustering](modeling_multivariate.html#clustering)
 
 
 ### [Machine Learning](modeling_machinelearning.html)
@@ -150,6 +153,8 @@ But already some very good courses in this part and a lot of resources that can 
 
 
 
+
+
 ## byField
 
 ### [Demography](byfield_demography.html)
@@ -157,16 +162,16 @@ But already some very good courses in this part and a lot of resources that can 
 
 * *contribute: M Gamelon, C Bonenfant, S Bouwhuis, O Jones*
 
-####Survival
+#### [Survival](byfield_demography.html#survival)
 
 * *contribute: [E. Matechou](https://www.kent.ac.uk/mathematics-statistics-actuarial-science/people/1039/matechou-eleni), F. colchero*
 
-##### CMR
+##### [CMR](byfield_demography.html#cmr)
 * *contribute: R Chandler, M Schaub, G Péron, B Morgan, RS McCrea, D Fletcher, J Rotella*
 
-####Reproduction
+#### [Reproduction](byfield_demography.html#reproduction)
 
-####Growth
+#### [Growth](byfield_demography.html#growth)
 
 
 ### [Population Dynamics](byfield_population.html)
@@ -174,35 +179,35 @@ But already some very good courses in this part and a lot of resources that can 
 
 * *contribute: S Cubaynes, C Nater, E Simmonds, [Evan Cooch](http://canuck.dnr.cornell.edu/teaching/)*
 
-#### Equilibrium
+#### [Equilibrium](byfield_population.html#equilibrium)
 * *contribute: H Caswell, Y Vindenes*
 
-#### Stochastic
+#### [Stochastic](byfield_population.html#stochastic)
 * *contribute: S Engen, A Lee, V Grotan, B O'Hara*
 
-#### Transient
+#### [Transient](byfield_population.html#transient)
 * *contribute: D Koons*
 
-#### Density-Dependent
+#### [Density-Dependent](byfield_population.html#density-dependent)
 * *contribute: BE Saether*
 
-#### Integral Projection Models
+#### [Integral Projection Models](byfield_population.html#integral-projection-models)
 * *contribute: T Coulson, S Ellner, D Childs*
 
 
-#### Integrated Population Models
+#### [Integrated Population Models](byfield_population.html#integrated-population-models)
 * *contribute: M Schaub, T Besbeas, E Zipkin*
 
-#### Individual based models
+#### [Individual Based Models](byfield_population.html#individual-based-models)
 * *contribute: V Radchuk, A. Kuparinen*
 
-#### Social species
+#### [Social species](byfield_population.html#social-species)
 * *contribute: M Paniw, C Coste*
 
-#### Epidemio
+#### [Epidemio](byfield_population.html#epidemio)
 * *contribute: P Klepac, CJ Metcalf*
 
-#### DEB
+#### [DEB](byfield_population.html#deb)
 * *contribute: A de Roos, T van Dooren*
 
 
@@ -212,16 +217,16 @@ But already some very good courses in this part and a lot of resources that can 
 
 * *contribute: G Péron*
 
-#### GIS & Data
+#### [GIS & Data](byfield_spatial.html#gis-data)
 * *contribute: CJ Brown*
 
-#### Distribution & Abundance
+#### [Distribution and Abundance](byfield_spatial.html#distribution-and-abundance)
 * *contribute: A Royle, M Kéry, E Zipkin, B Gardner, J Lahoz-Monfort*
 
-#### Habitat Selection
+#### [Habitat Selection](byfield_spatial.html#habitat-selection)
 * *contribute: [J Fieberg](https://fieberg-lab.cfans.umn.edu/people/john-fieberg)*
 
-#### Movement
+#### [Movement](byfield_spatial.html#movement)
 * *contribute: R Kays, R. [Langrock](https://www.uni-bielefeld.de/fakultaeten/wirtschaftswissenschaften/lehrbereiche/stats/team/prof.-dr.-roland-langrock/), B McClintock, N Ranc*
 
 
@@ -231,11 +236,11 @@ But already some very good courses in this part and a lot of resources that can 
 ### [Community Analyses](byfield_community.html)
 
 * *be in charge: Stéphane*
-* *contribute: D Borcard, F Gillet, D Zelený, G Blanchet, J Oksanen, GL Simpson, D. Roberts, Otso ovoskainen, Francis Hui, David Warton*
+* *contribute: D Borcard, F Gillet, D Zelený, G Blanchet, J Oksanen, GL Simpson, D. Roberts, Otso Ovoskainen, Francis Hui, David Warton*
 
-#### Overview
-#### Hierarchical Models
-#### Vegan
+#### [Overview](byfield_community.html#overview)
+#### [Hierarchical Models](byfield_community.html#hierarchical-models)
+#### [Vegan](byfield_community.html#vegan)
 
 ### Cross-species Analysis
 

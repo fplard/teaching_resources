@@ -15,7 +15,7 @@ source(file.path("R", "functions.R"))
 
 | Name                                      | Links |
 |-------------------------------------------|-------|
-|**Learning Centennial College** *M Cheung* -- Definitions of useful words|`r ilink("tuto", "https://libraryguides.centennialcollege.ca/c.php?g=717032&p=5119210", lvl=1)`|
+|**Learning Centennial College** *M Cheung* -- Definitions of useful words|`r ilink("tuto", "https://libraryguides.centennialcollege.ca/c.php?g=717032&p=5115303", lvl=1)`|
 |**Derivatives of Common Functions** -- Cheatsheet|`r ilink("tuto", "http://hyperphysics.phy-astr.gsu.edu/hbase/Math/derfunc.html")`|
 
 
@@ -30,15 +30,15 @@ source(file.path("R", "functions.R"))
 
 | Name                                      | Links |
 |-------------------------------------------|-------|
-|**Learning Centennial College** *M Cheung* -- Definitions of useful words in Linear Algebra|`r ilink("tuto", "https://libraryguides.centennialcollege.ca/c.php?g=717345&p=5119504", lvl=1)`|
+|**Learning Centennial College** *M Cheung* -- Definitions of useful words in linear algebra|`r ilink("tuto", "https://libraryguides.centennialcollege.ca/c.php?g=717345&p=5119504", lvl=1)`|
 
 
 
 ## Teaching Mathematics in Ecology
 | Name                                      | Links |
 |-------------------------------------------|-------|
-|**What math should ecologists teach?** *B McGill* |`r ilink("site", "https://dynamicecology.wordpress.com/2014/10/20/what-math-should-ecologists-teach/")`|
-|**Lack of quantitative training among early-career ecologists: a survey of the problem and potential solutions** *F Barraquand et al.* |`r ilink("article", "https://peerj.com/articles/285/")`|
-|**Writing mathematical ecology: A guide for authors and readers** *L G Shoemaker et al* |`r ilink("article", "https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.3701")`|
-|**Mathematical Ecology: A Century of Progress, and Challenges for the Next Century** *S Levin* Lecture in 2017|`r ilink("video", "https://www.youtube.com/watch?v=m6F6MRrDtrQ")`|
+|**What math should ecologists teach?** *B McGill* -- Opinion in a blog, 2014 |`r ilink("site", "https://dynamicecology.wordpress.com/2014/10/20/what-math-should-ecologists-teach/")`|
+|**Lack of quantitative training among early-career ecologists: a survey of the problem and potential solutions** *F Barraquand et al.* 2014 |`r ilink("article", "https://peerj.com/articles/285/")`|
+|**Writing mathematical ecology: A guide for authors and readers** *L G Shoemaker et al* 2021 |`r ilink("article", "https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.3701")`|
+|**Mathematical Ecology: A Century of Progress, and Challenges for the Next Century** *S Levin* -- a lecture in 2017|`r ilink("video", "https://www.youtube.com/watch?v=m6F6MRrDtrQ")`|
 

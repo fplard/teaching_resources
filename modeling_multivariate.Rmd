@@ -21,7 +21,7 @@ source(file.path("R", "functions.R"))
 |**Exploratory Multivariate Data Analysis** *F Husson, J Pagès, M Houée-Bigot* -- a MOOC including PCA, CA, MCA and clustering|`r ilink("course", "https://www.fun-mooc.fr/en/courses/exploratory-multivariate-data-analysis/", lvl=1)`|
 |**Gusta Me** -- a website describing range of analysis techniques used in microbial ecology including data preparation, ordination and clustering methods |`r ilink("tuto", "https://sites.google.com/site/mb3gustame/", lvl=1)``r ilink("github", "https://github.com/pbuttigieg/masame", lvl=1)`|
 |**Applied Multivariate Statistical Analysis** *Penn State College* -- a full course  examining a variety of statistical methods for multivariate data, including multivariate extensions of t-tests and analysis of variance, dimension reduction techniques such as principal component analysis, factor analysis, canonical correlation analysis, and classification and clustering methods.|`r ilink("tuto", "https://online.stat.psu.edu/stat505/", lvl=2)`|
-|**Multivariate Analysis** *S Dray* -- Slides from a Master course including PCA, Correspondance Analysis & two-table analysis|`r ilink("course", "https://github.com/sdray/INSAcourse", lvl=2)`|
+|**Multivariate Analysis** *S Dray* -- Slides from a Master course including PCA, correspondance analysis & two-table analysis|`r ilink("course", "https://github.com/sdray/INSAcourse", lvl=2)`|
 
 
 

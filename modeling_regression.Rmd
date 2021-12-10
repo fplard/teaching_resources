@@ -1,7 +1,7 @@
 ---
 title: "Regression"
 description: |
-  Resources for modeling: from linear models to non linear models .
+  Resources for modeling: from linear models to non linear models
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
@@ -16,22 +16,22 @@ source(file.path("R", "functions.R"))
 | Name                                      | Links |
 |-------------------------------------------|-------|
 |**Statistics for ecologists** *O. Gimenez* -- A master course introducing likelihoods, hypothesis testing, Bayesian inference, GLM, GLMM, GAM|`r ilink("course", "https://github.com/oliviergimenez/statistics-for-ecologists-Master-courses", lvl=1)`|
-|**Statistical Thinking for the 21st Century** *R A Poldrack* -- focuses on understanding the basic ideas of statistical thinking, about how we describe the world and use data make decisions and predictions, in the context of the inherent uncertainty that exists in the real world|`r ilink("site", "https://statsthinking21.github.io/statsthinking21-core-site/index.html", lvl=2)`|
-|**Michael Clark site** -- A series of open introductory workshop in bayesian analysis, mixed models, GAM, SEM and machine learning |`r ilink("site", "https://m-clark.github.io/documents.html", lvl=1)`|
-|**Beyond Multiple Linear Regression** *P Roback, J Legler* -- A full textbook to apply Generalized Linear Models and Multilevel Models in R |`r ilink("tuto", "https://bookdown.org/roback/bookdown-BeyondMLR/", lvl=1)`|
+|**Statistical Thinking for the 21st Century** *R A Poldrack* -- focuses on understanding the basic ideas of statistical thinking, about how we describe the world and use data in the context of the inherent uncertainty that exists in the real world|`r ilink("site", "https://statsthinking21.github.io/statsthinking21-core-site/index.html", lvl=2)`|
+|**Michael Clark site** -- A series of open introductory workshops in bayesian analysis, mixed models, GAM, SEM and machine learning |`r ilink("site", "https://m-clark.github.io/documents.html", lvl=1)`|
+|**Beyond Multiple Linear Regression** *P Roback, J Legler* -- A full textbook to apply generalized linear models and multilevel models in R |`r ilink("tuto", "https://bookdown.org/roback/bookdown-BeyondMLR/", lvl=1)`|
 
 
-## Linear models LM, GLM
+## Linear models
 | Name                                      | Links |
 |-------------------------------------------|-------|
-|**Regression Methods** *I Pardoe from Penn State College* -- a full course on Linear regression, also introducing Generalized linear regression|`r ilink("tuto", "https://online.stat.psu.edu/stat501/", lvl=1)`|
+|**Regression Methods** *I Pardoe, Penn State College* -- a full course on linear regression, also introducing generalized linear regression|`r ilink("tuto", "https://online.stat.psu.edu/stat501/", lvl=1)`|
 
 
-## Mixed models LMM, GLMM
+## Mixed models
 
 | Name                                      | Links |
 |-------------------------------------------|-------|
-|**GLMM course** *S. Anderson*-- a 2 day workshop including a full introduction: regression, random intercepts and slopes, spatial and temporal autocorrelation, including practical|`r ilink("tuto", "https://github.com/seananderson/glmm-course", lvl=1)`|
+|**GLMM course** *S. Anderson* -- a 2 day workshop including a full introduction, regression, random intercepts and slopes, spatial and temporal autocorrelation|`r ilink("tuto", "https://github.com/seananderson/glmm-course", lvl=1)`|
 |**GLMM FAQ** *B.Bolker et al.*|`r ilink("tuto", "https://bbolker.github.io/mixedmodels-misc/glmmFAQ.html", lvl=2)`|
 |**Rpubs** *B. Bolker* -- "blog form", A collection of short tuto on specific subjects|`r ilink("site", "https://rpubs.com/bbolker", lvl=2)`|
 |**Generalized linear mixed models: a practical guide for ecology and evolution** *B.Bolker et al.*|`r ilink("article", "https://www.cell.com/trends/ecology-evolution/fulltext/S0169-5347(09)00019-6?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0169534709000196%3Fshowall%3Dtrue")`|
@@ -39,7 +39,7 @@ source(file.path("R", "functions.R"))
 |**SIMR: an R package for power analysis of generalized linear mixed models by simulation** *P Greenet al.* -- 2016|`r ilink("article", "https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.12504")`| 
 |**Beyond Power Calculations: Assessing Type S (Sign) and Type M (Magnitude) Errors** *A Gelman, J Carlin* -- 2014|`r ilink("article", "https://journals.sagepub.com/doi/10.1177/1745691614551642?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed")`| 
 |**Introduction to mixed models** *H Brown* -- March 2016. Series of videos giving a general but quick & unfriendly introduction|`r ilink("video", "https://www.youtube.com/playlist?list=PLbyRmcun-giuz5hW11nD64zeiJZSDV4aD", lvl=2)`|
-|**GLMM for ecologists and evolutionary biologists* ** *B.Bolker et al.* a wiki including resources on the practical use of GLMM |`r ilink("tuto", "http://glmm.wikidot.com/start")`|
+|**GLMM for ecologists and evolutionary biologists** *B.Bolker et al.* -- a wiki including resources on the practical use of GLMM |`r ilink("tuto", "http://glmm.wikidot.com/start")`|
 
 
 

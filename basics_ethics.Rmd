@@ -1,7 +1,7 @@
 ---
 title: "Ethical Statistics"
 description: |
-  Resources for reproducible and ethical Statistics.
+  Resources for reproducible and ethical statistics.
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---

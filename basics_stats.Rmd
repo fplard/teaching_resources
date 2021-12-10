@@ -1,7 +1,7 @@
 ---
 title: "Statistics"
 description: |
-  Resources for a general introduction to descriptive and inferentials Statistics
+  Resources for a general introduction to descriptive and inferentials statistics
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
@@ -16,14 +16,14 @@ source(file.path("R", "functions.R"))
 
 | Name                                      | Links |
 |-------------------------------------------|-------|
-|**Statistics  101** *B Foltz* -- Complete videos for an introduction to statistics including descriptive statistics, Hypothesis testing, distributions, regression|`r ilink("course", "https://www.bcfoltz.com/blog/", lvl=1)`|
+|**Stats  101** *B Foltz* -- Complete videos for an introduction to statistics including descriptive statistics, hypothesis testing, distributions, regression|`r ilink("course", "https://www.bcfoltz.com/blog/", lvl=1)`|
 |**MarinStatsLectures** *M Marin* -- A full course with 3 series: descriptive statistics, univariate analysis, bivariate analysis |`r ilink("course", "https://www.statslectures.com/general-statistics/descriptive-statistics", lvl=1)`|
 |**Statistical Inference for biology** *McClatchy, Churchill* --  a course about inferential statistics|`r ilink("tuto", "https://carpentries-incubator.github.io/statistical-inference-for-biology/index.html", lvl=1)`|
 |**Statistics** *Simple Learning pro* -- Basics videos to start statistics|`r ilink("video", "https://www.youtube.com/watch?v=MXaJ7sa7q-8&list=PL0KQuRyPJoe6KjlUM6iNYgt8d0DwI-IGR", lvl=1)`|
-|**Zedstatistics** *Zedstatistics* -- a youtube channel including simple playlists about Descriptive statistics, Distribution, Inferential statistics, Regression|`r ilink("video", "https://www.youtube.com/playlist?list=PLTNMv857s9WVStKLco6ZBOsfSGXzJ1L0f", lvl=1)`|
+|**Zedstatistics** -- a youtube channel including simple playlists about descriptive statistics, distribution, inferential statistics, regression|`r ilink("video", "https://www.youtube.com/c/zedstatistics/playlists", lvl=1)`|
 |**Learning Centennial College** *M Cheung* -- Definitions of useful words in statistics|`r ilink("tuto", "https://libraryguides.centennialcollege.ca/c.php?g=717168&p=5116851", lvl=1)`|
 |**Biology for life** *G von Bargen* --  Descriptions of simple statistical concepts and tests used in biology |`r ilink("site", "https://www.biologyforlife.com/statistics.html", lvl=1)`|
-|**STAT506 Penn State College** *Penn State College* -- a full course  about Sampling design|`r ilink("tuto", "https://online.stat.psu.edu/stat506/", lvl=1)`|
+|**STAT506** *Penn State College* -- a full course  about sampling design|`r ilink("tuto", "https://online.stat.psu.edu/stat506/", lvl=1)`|
 
 
 

@@ -17,9 +17,9 @@ source(file.path("R", "functions.R"))
 |-------------------------------------------|-------|
 |**Analysis of community ecology data in R** *D Zelený* -- A wiki giving an introductory overview of relevant theory, real community datasets and example R scripts|`r ilink("tuto", "https://www.davidzeleny.net/anadat-r/doku.php/en:start", lvl=1)`|
 |**Numerical Ecology** *P Legendre, L Legendre* -- Reference textbook   | `r ilink("book", "https://www.elsevier.com/books/numerical-ecology/legendre/978-0-444-53868-0")` |
-|**Numerical Ecology with R** *D Borcard, F Gillet, P Legendre*-- Exploration of the methods by means of applied and extensively commented examples|  `r ilink("book", "https://link.springer.com/book/10.1007/978-1-4419-7976-6")` |
+|**Numerical Ecology with R** *D Borcard, F Gillet, P Legendre* -- Exploration of the methods by means of applied and extensively commented examples|  `r ilink("book", "https://link.springer.com/book/10.1007/978-1-4419-7976-6")` |
 
-## Hierarchical Model
+## Hierarchical Models
 
 ## Vegan
 A R package for community analysis
@@ -27,10 +27,10 @@ A R package for community analysis
 | Name                                      | Links |
 |-------------------------------------------|-------|
 |**Introduction to multivariate data analysis using vegan** *G Simpson* --  a practical introduction to some of the most useful functions in vegan|`r ilink("course", "https://github.com/gavinsimpson/intro-vegan-webinar-july-2020", lvl=1)``r ilink("video", "https://www.youtube.com/watch?v=tVnnG7mFeqA",lvl=1)`|
-|**Multivariate Analysis of Ecological Communities in R: vegan tutorial** *J. Oksanen* -- demostrates the use of ordination methods in Rpackage vegan, assumes familiarity both with R andwith community ordination |`r ilink("tuto", "https://www.mooreecology.com/uploads/2/4/2/1/24213970/vegantutor.pdf", lvl=2)`|
+|**Multivariate Analysis of Ecological Communities in R: vegan tutorial** *J. Oksanen* -- demostrates the use of ordination methods in Rpackage vegan, assumes familiarity both with R and with community ordination |`r ilink("tuto", "https://www.mooreecology.com/uploads/2/4/2/1/24213970/vegantutor.pdf", lvl=2)`|
 |**A Vegan Tutorial** *P Clark* -- Quick introduction to useful functions  |`r ilink("tuto", "https://peat-clark.github.io/BIO381/veganTutorial.html", lvl=2)`|
-|**Advanced community data analysis using the vegan package in R** *G Simpson N Zimmerman* -- a follow-up to the "Introduction to vegan" session teaching when and how to use multivariate methods including constrained ordinatio as well as between-group tests|`r ilink("course", "https://github.com/gavinsimpson/esa-advanced-vegan",lvl=2)``r ilink("video", "https://www.youtube.com/watch?v=PR1B_JkO49s", lvl=2)`|
-|**Vegan cheat sheet** *A Bui*|`r ilink("tuto", "https://rpubs.com/an-bui/vegan-cheat-sheet")`|
+|**Advanced community data analysis using the vegan package in R** *G Simpson N Zimmerman* -- a follow-up to the "Introduction to vegan" session teaching when and how to use multivariate methods including constrained ordination as well as between-group tests|`r ilink("course", "https://github.com/gavinsimpson/esa-advanced-vegan",lvl=2)``r ilink("video", "https://www.youtube.com/watch?v=PR1B_JkO49s", lvl=2)`|
+|**Vegan cheat sheet** *A Bui* -- an introductory workshop to useful functions in vegan|`r ilink("tuto", "https://rpubs.com/an-bui/vegan-cheat-sheet")`|
 
 
 

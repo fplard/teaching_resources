@@ -18,10 +18,10 @@ source(file.path("R", "functions.R"))
 
 | Name                                      | Links |
 |-------------------------------------------|-------|
-|**First steps in R** *Institut Pasteur & USR 3756* -- A very bascis tutorial to start R |`r ilink("tuto", "https://hub-courses.pages.pasteur.fr/R_pasteur_phd/First_steps_RStudio.html", lvl=1)`|
+|**First steps in R** *Institut Pasteur & USR 3756* -- A very basic tutorial to start R |`r ilink("tuto", "https://hub-courses.pages.pasteur.fr/R_pasteur_phd/First_steps_RStudio.html", lvl=1)`|
 |**Hands-On Programming with R** *G Grolemund* -- A practical guide to start programming with R|`r ilink("tuto", "https://rstudio-education.github.io/hopr/",lvl=1)`|
-|**Introduction to Programming with R** *R Stauffer et al.* -- Basics R, writing, coding & manipulating data |`r ilink("tuto", "https://discdown.org/rprogramming/index.html#practical-exercises", lvl=1)`|
-|**Intro to Programming for Analytics** *J Helveston* -- Basics in R, include an introduction to Python |`r ilink("course", "https://p4a.seas.gwu.edu/",lvl=1)``r ilink("exo", "",lvl=1)`|
+|**Introduction to Programming with R** *R Stauffer et al.* -- Basics R, writing, coding & manipulating data |`r ilink("tuto", "https://discdown.org/rprogramming/index.html", lvl=1)`|
+|**Intro to Programming for Analytics** *J Helveston* -- Basics in R, include an introduction to Python |`r ilink("course", "https://p4a.seas.gwu.edu/",lvl=1)`|
 |**R introduction** *J Mathys VIB* -- A simple tutorial to start with R, only|`r ilink("tuto", "https://material.bits.vib.be/topics/R/", lvl=1)`|
 |**How to R** -- A youtube channel incuding short videos on basics R, data manipulation and visualization|`r ilink("video", "https://www.youtube.com/c/HowToR4U/videos", lvl=1)`|
 |**Advanced R** *H Wickham* --|`r ilink("tuto","http://adv-r.had.co.nz/",lvl=2)`|
@@ -34,7 +34,7 @@ source(file.path("R", "functions.R"))
 | Name                                      | Links |
 |-------------------------------------------|-------|
 |**Statistics and Data Science with R** *M Marin* -- A complete course to start statistics with R. 5 series: getting started, descriptive statistics, probability distribution, bivariate analysis, linear regression with R|`r ilink("course", "https://www.statslectures.com/r-stats-videos-tutorials",lvl=1)`|
-|**Introduction to data science** *R A Irizarry* -- A complete guide including R basics, data wrangling, data visualisation, statistics and machine learning|`r ilink("tuto", "https://rafalab.github.io/dsbook/",lvl=1)`|
+|**Introduction to Data Science** *R A Irizarry* -- A complete guide including R basics, data wrangling, data visualisation, statistics and machine learning|`r ilink("tuto", "https://rafalab.github.io/dsbook/",lvl=1)`|
 |**R Programming for Data Science** *R D Peng* -- Start with R, load and manipulate your data  |`r ilink("tuto", "https://bookdown.org/rdpeng/rprogdatascience/", lvl=1)`|
 |**Learning statistics with R** *D Navarro* -- A tutorial for beginners to start statistics and simple tests with R|`r ilink("tuto", "https://learningstatisticswithr.com/book/", lvl=1)`|
 |**Applied Quantitative Methods** *D McGlinn* -- A more advanced course introducing R programming, version control, SQL, GIS, spatial statistics, multivariate statistics|`r ilink("course", "https://dmcglinn.github.io/quant_methods/lessons/", lvl=2)`|

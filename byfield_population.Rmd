@@ -26,11 +26,13 @@ source(file.path("R", "functions.R"))
 
 ## Integral Projection Models
 ## Integrated Population Models
-## Individual based models
+## Individual Based Models
 
 | Name                                      | Links |
 |-------------------------------------------|-------|
 |**Individual-based modeling with NetLogoR** *S Bauduin, O Gimenez, O Grente, N Santostasi* -- A 2 Day workshop giving an introduction to individual based models |`r ilink("course", "https://sarahbauduin.github.io/formation_IBM_NetLogoR/", lvl=1)`|
+
+## Social Species
 
 ## DEB
 
