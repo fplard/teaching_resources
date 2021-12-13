@@ -30,7 +30,7 @@ I also created the [others.Rmd](others.Rmd) file to add interesting links that w
                       - course: Name, Author, a short description
                       - website including blog and others: Name, author?, a short description
     - ***Olivier***: for article: Also, full ref would be great. 
-
+    - ***Floriane & Sandra***: Keep it sample as it is title, author, description
     
 ## People to be contacted:
 To be edited
@@ -40,9 +40,10 @@ S Cubaynes, M Gamelon, V Miele, Y vindenes, A Lee, C Nater, P de Villemeureuil, 
 
 
 ## To be done:
-- update read me to contribute & formulaire to fill /template
+- update read me to contribute for the in charge person and then for others & formulaire to fill /template
+- send an email/
 - update general organization of folders (cf Stephane mail but what other think?)
 - update/standardize presentation of articles and others
 - automatically update index page once we have the organisation: for now we have to add pages and sections "by hand"
-
+- add levels/icons in each page at the top or in the legend
 
