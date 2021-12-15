@@ -38,7 +38,8 @@ level: begin `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lv
 
 ### [Ethics](basics_ethics.html)
 
-* *be in charge: Sandra?*
+* *be in charge: Sandra*
+
 * *contribute: V Amrhein, A Gelman, S Nakagawa ([Founding Members of Sortee](https://www.sortee.org/people/)), *
 
 #### [Reproducibility](basics_ethics.html#reproducibility)
@@ -48,7 +49,7 @@ level: begin `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lv
 
 ### [Data](basics_data.html)
 
-* *be in charge: Olivier?*
+* *be in charge: *
 * *contribute: already a lot of things to add from the net*
 
 #### [Data Science](basics_data.html#data-science)
@@ -58,8 +59,7 @@ level: begin `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lv
 
 ### [Stats](basics_stats.html)
 
-* *be in charge: Gilles?*
-* *contribute: already some stuff online*
+* *be in charge: Gilles*
 
 #### [Overview](basics_stats.html#overview)
 #### [Distributions](basics_stats.html#distributions)
@@ -85,7 +85,7 @@ There are things online but I did not find really ecologist friendly courses so 
 ### [Regression](modeling_regression.html)
 
 
-* *be in charge: *
+* *be in charge: Gilles*
 
 #### [Overview](modeling_regression.html#overview)
 * *contribute: RA Poldrack, Mickael Clark, William A Link, [Peter Adler](https://qcnr.usu.edu/directory/adler_peter)*
@@ -114,7 +114,7 @@ There are things online but I did not find really ecologist friendly courses so 
 
 ### [Bayesian Approach](modeling_bayesian.html)
 
-* *be in charge: *
+* *be in charge: Olivier*
 
 * *contribute: R McElreath, F. Korner, P deValpine, T Hobbs*
 
@@ -139,7 +139,7 @@ Already some very good courses in this part and a lot of resources that can be i
 
 ### [Machine Learning](modeling_machinelearning.html)
 
-* *in charge: ???? *
+* *in charge: *
 
 * *contribute: JL Parouty, L Jacob? *
    
@@ -158,7 +158,7 @@ Already some very good courses in this part and a lot of resources that can be i
 ## byField
 
 ### [Demography](byfield_demography.html)
-* *be in charge: *
+* *be in charge: Sarah?*
 
 * *contribute: M Gamelon, C Bonenfant, S Bouwhuis, O Jones*
 
@@ -175,9 +175,9 @@ Already some very good courses in this part and a lot of resources that can be i
 
 
 ### [Population Dynamics](byfield_population.html)
-* *be in charge: *
+* *be in charge: Olivier*
 
-* *contribute: S Cubaynes, C Nater, E Simmonds, [Evan Cooch](http://canuck.dnr.cornell.edu/teaching/)*
+* *contribute: C Nater, E Simmonds, [Evan Cooch](http://canuck.dnr.cornell.edu/teaching/)*
 
 #### [Equilibrium](byfield_population.html#equilibrium)
 * *contribute: H Caswell, Y Vindenes*
@@ -235,7 +235,7 @@ Already some very good courses in this part and a lot of resources that can be i
 
 ### [Community Analyses](byfield_community.html)
 
-* *be in charge: Stéphane*
+* *be in charge: D Zeleny*
 * *contribute: D Borcard, F Gillet, D Zelený, G Blanchet, J Oksanen, GL Simpson, D. Roberts, Otso Ovoskainen, Francis Hui, David Warton*
 
 #### [Overview](byfield_community.html#overview)
@@ -251,7 +251,9 @@ Meta-Analysis, Allometric models, Phylogeny
 
 ### Quantitative Genetics
 
-* *contribute: De Villemereuil, LM Chevin, A Kuparinen, B Walsh, M Morrissey, T Bonnet*
+* *be in charge: P De Villemereuil*
+
+* *contribute: LM Chevin, A Kuparinen, B Walsh, M Morrissey, T Bonnet*
 
 Already [courses](https://www.youtube.com/watch?v=U-MTfNw7IvM) from B Walsh that can be added
 
