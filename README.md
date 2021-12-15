@@ -12,16 +12,11 @@ There are three main parts (Basics, Modeling, byField) containing each a number 
 I also created the [others.Rmd](others.Rmd) file to add interesting links that we do not know where to include.
 
 ## Questions to be discussed
-- General organization: Who update what, who check what? what do you want (or you think you will have time) to do?
-    - ***Floriane***: I included some possibilities to add one person in charge for each page that should check what is uploaded on it, organize the page and solicit people to contribute to the page. We need also someone to coordinate the global site and check that pages are coherent and not repetitive. I can do that but Sandra or Gilles you might also want to do it?
-    - ***Olivier***: Pull requests would be great, and for those who're not familiar with Git, a formulaire to fill in to add stuff. On my side, happy to keep an eye on things, but I guess we'll have to come up w/ an editorial policy. My experience with our Facebook page <https://www.facebook.com/groups/464518943663021> is that when the place gets some visibility, you start getting unsollicitated contributions of poor and/or irrelevant quality
-
-- General presentation and tree of each page?
-    - ***Floriane***: #Overview courses #then more specific tree with specific resources? Do we add more guidelines sentences and with which structure?
-    - ***Olivier***: I like the idea of trees. I guess we can stick to it for now and see how it goes, and what folks think about it, like do they find it easy to navigate, to walk around, or find something specific. 
+- General organization: Contributions?
+    - ***Olivier***: Pull requests would be great, and for those who're not familiar with Git, a formulaire to fill in to add stuff. 
 
 - Standardization of tables of resources and automatisation of the site? Do we want to add resources in a database and then include code function to do the resources table in each part?
-    - ***Floriane***: PRO: 1) it will be more standardized, 2) easier to include a friendly formulaire to fill-in for short and quick contribution, 3) easier and quicker to make functions that automatically update trees and main table of contents if the site became very popular. CON: 1) take a bit of time to set up the functions 2) will make the collaboration harder for new contributors, more time to learn how the website works... So maybe not a good idea. For now my opinion is to keep simple markdown tables but if the site grow it can became hard to handle it.
+    - ***Floriane***: PRO: 1) it will be more standardized, 2) easier to include a friendly formulaire to fill-in for short and quick contribution, 3) easier and quicker to make functions that automatically update trees and main table of contents if the site become very popular. CON: 1) take a bit of time to set up the functions 2) will make the collaboration harder for new contributors, more time to learn how the website works... So maybe not a good idea. For now my opinion is to keep simple markdown tables but if the site grow it can become hard to handle it.
     - ***Olivier***: I agree, keep it simple so that others can contribute easily. 
     
 - Information to be presented per resource?
@@ -33,16 +28,14 @@ I also created the [others.Rmd](others.Rmd) file to add interesting links that w
     - ***Floriane & Sandra***: Keep it sample as it is title, author, description
     
 ## People to be contacted:
-To be edited
 
 People that we know and that might be interested to be in charge of some parts:
-S Cubaynes, M Gamelon, V Miele, Y vindenes, A Lee, C Nater, P de Villemeureuil, AB Dufour, F Husson
+S Cubaynes, V Miele, P de Villemeureuil, D Zeleny
 
 
 ## To be done:
 - update read me to contribute for the in charge person and then for others & formulaire to fill /template
-- send an email/
-- update general organization of folders (cf Stephane mail but what other think?)
+- send an email/- update general organization of folders (cf Stephane mail but what other think?)
 - update/standardize presentation of articles and others
 - automatically update index page once we have the organisation: for now we have to add pages and sections "by hand"
 - add levels/icons in each page at the top or in the legend
