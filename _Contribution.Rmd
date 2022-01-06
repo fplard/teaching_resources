@@ -1,0 +1,246 @@
+---
+title: "Contribution"
+author: "floriane Plard"
+date: "06/01/2022"
+output: pdf
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+If you are in charge of a page, you should appear in the first section of this document and should have been granted with access to the source code. If this nis not the case you can send an email to floriane.c.plard@gmail.com.
+
+# Organisation of the website
+
+## site plan & people in charge
+
+
+#####Basics
+
+###### [R](basics_r.html) 
+
+in charge: Vincent Miele?
+
+*contribute: I think there is already enough online on basic stuff but we need more advanced resources about coding*
+
+###### [Ethics](basics_ethics.html)
+
+in charge: **Sandra Hamel**
+
+*contribute: V Amrhein, A Gelman, S Nakagawa ([Founding Members of Sortee](https://www.sortee.org/people/)), *
+
+###### [Data](basics_data.html)
+
+in charge: 
+*contribute: already a lot of things to add from the net*
+
+
+###### [Stats](basics_stats.html)
+
+in charge: **Gilles Yoccoz**
+
+###### [Maths](basics_maths.html)
+
+be in charge: Fred?
+*contribute: J Matthiopoulos, B McGill, S Otto, F Débarre, Lyon teachers?, [M Bonsall](https://www.zoo.ox.ac.uk/people/professor-michael-bonsall?filter_types-1860401[]=&filter_series-1860401[]=#tab-1860396)*
+
+There are things online but I did not find really ecologist friendly courses so far. 
+
+
+##### Modeling
+
+###### [Regression](modeling_regression.html)
+
+
+in charge: **Gilles Yoccoz**
+
+ *contribute: RA Poldrack, Mickael Clark, William A Link, [Peter Adler](https://qcnr.usu.edu/directory/adler_peter), B Bolker, M Brooks, JD Hadfield, L Crespin, D Westneat, G Simpson, B Shipley, J Lefcheck, PB Conn, M Hooten, N T Hobbs, C Dormann, F Hartig*
+
+
+###### [Bayesian Approach](modeling_bayesian.html)
+
+in charge: **Olivier Gimenez**
+
+* *contribute: R McElreath, F. Korner, P deValpine, T Hobbs*
+
+Already some very good courses in this part and a lot of resources that can be indexed in the more specific folders from these courses & the web.
+
+
+###### [Multivariate Analyses](modeling_multivariate.html)
+
+be in charge: **Stéphane Dray**
+*contribute: S Jadhav, M Palmer, F Husson, AB Dufour, J Thioulouse, P Legendre, P Peres-Neto, M Anderson, S Holmes, C ter Braak *
+
+
+###### [Machine Learning](modeling_machinelearning.html)
+
+in charge: 
+
+*contribute: JL Parouty, L Jacob? *
+   
+   wrote a book: *Grant Humphries, Dawn R. Magness, Falk Huettmann, Pablo Casas* 
+
+   wrote scientific articles as first or last author about application in Ecology: *[Tim C D Lucas](https://timcdlucas.github.io/), André C Ferreira, Sylvain Christin, Nicolas Lecomte, Marek Borowiec, Alexander E white, Michael A Tabak, Ryan S. Miller*
+ 
+   wrote blog about deep learning for Ecology: *Patrick Gray, [J Lefneck](https://jonlefcheck.net/)*
+
+
+
+##### byField
+
+###### [Demography](byfield_demography.html)
+be in charge: **Sarah Cubaynes**
+
+* *contribute: M Gamelon, C Bonenfant, S Bouwhuis, O Jones, [E. Matechou](https://www.kent.ac.uk/mathematics-statistics-actuarial-science/people/1039/matechou-eleni), F. colchero, R Chandler, M Schaub, G Péron, B Morgan, RS McCrea, D Fletcher, J Rotella*
+
+
+###### [Population Dynamics](byfield_population.html)
+be in charge: **Olivier Gimenez**
+
+*contribute: C Nater, E Simmonds, [Evan Cooch](http://canuck.dnr.cornell.edu/teaching/), H Caswell, Y Vindenes, S Engen, A Lee, V Grotan, B O'Hara, D Koons, BE Saether, T Coulson, S Ellner, D Childs, M Schaub, T Besbeas, E Zipkin, V Radchuk, A. Kuparinen,  M Paniw, C Coste, P Klepac, CJ Metcalf, A de Roos, T van Dooren*
+
+
+###### [Spatial Analyses](byfield_spatial.html)
+
+be in charge: 
+
+*contribute: G Péron, CJ Brown, A Royle, M Kéry, E Zipkin, B Gardner, J Lahoz-Monfort, [J Fieberg](https://fieberg-lab.cfans.umn.edu/people/john-fieberg), R Kays, R. [Langrock](https://www.uni-bielefeld.de/fakultaeten/wirtschaftswissenschaften/lehrbereiche/stats/team/prof.-dr.-roland-langrock/), B McClintock, N Ranc*
+
+
+###### [Community Analyses](byfield_community.html)
+
+in charge: D Zeleny ? 
+*contribute: D Borcard, F Gillet, D Zelený, G Blanchet, J Oksanen, GL Simpson, D. Roberts, Otso Ovoskainen, Francis Hui, David Warton*
+
+######  Cross-species Analysis
+
+in charge:
+
+* *contribute: JF Lemaitre, S Nakagawa, V Ronget*
+Meta-Analysis, Allometric models, Phylogeny
+
+
+######  Quantitative Genetics
+
+in charge: P De Villemereuil ?
+
+*contribute: LM Chevin, A Kuparinen, B Walsh, M Morrissey, T Bonnet*
+
+Already [courses](https://www.youtube.com/watch?v=U-MTfNw7IvM) from B Walsh that can be added
+
+
+###### Network Analysis
+
+in charge: 
+
+* *contribute: *
+
+
+## General organisation of the website
+
+Resources are classified using three main parts in the website: Basics, Modeling, and byField. Each part contains several pages, one per topic. 
+
+The website was created using distill website and Rmarkdown. Each page is a Rmarkdown page named "partname_topicname.Rmd". For instance, the page R in the part Basics can be edited from [basics_r.Rmd](basics_r.Rmd). you can open it and use it as an example.
+
+There is one page named [others.Rmd](others.Rmd). This page can be used to add interesting links that we do not know where to include.
+
+## Organisation of each page
+
+Each page is written in Rmarkdown and rendered into a webpage using render_site() from the package rmarkdown.
+
+Each page must be divided into informative sections. Sections are separated by the title of each section using markdown headings (# ## ### ...)
+You can introduce the section using short sentences. Then resources are presented in simple markdown tables as in [the example page: useful resources to use R](docs/basics_r.html).
+
+quick example of a table:
+
+
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**First steps in R** *Institut Pasteur & USR 3756* -- A very basic tutorial to start R |`r ilink("tuto", "https://hub-courses.pages.pasteur.fr/R_pasteur_phd/First_steps_RStudio.html", lvl=1)`|
+|**Hands-On Programming with R** *G Grolemund* -- A practical guide to start programming with R|`r ilink("tuto", "https://rstudio-education.github.io/hopr/",lvl=1)`|
+|**Introduction to Programming with R** *R Stauffer et al.* -- Basics R, writing, coding & manipulating data |`r ilink("tuto", 
+|**R studio cheatsheets** -- Very useful synthetic sheets to find the function you need|`r ilink("site", "https://www.rstudio.com/resources/cheatsheets/")`|
+|**Rstudio youtube channel** |`r ilink("video", "https://www.youtube.com/c/RStudioPBC/playlists")`|
+
+
+
+
+## Heading
+
+The yaml (or heading) of each .Rmd file includes title and description of the page that can be edited.
+
+---
+title: "**TITLE OF THE PAGE**"
+description: |
+  **DESCRIPTION OF THE PAGE**
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+
+## Resources
+
+In each section or sub-section, resources are included in markdown tables included two columns: Name & Links. the Name column include the description of the resources. This description should include the minimum information listed here. In the link column, resources are classified by type (course, book, website...) and level (begin, intermediate, expert, everyone) in order to guide readers towards what they are looking for faster.
+
+
+##### Type
+
+Type are classified according to the following table. Links to resources can be included using the function ilink(type,adresslink,lvl=0).
+
+| Name                       |code           | Links |
+|----------------------------|---------------|-------|
+|full course| |`r ilink("course", "")`|
+|video|| `r ilink("video", "")`|
+|open book, tutorial, manual| |`r ilink("tuto", "")`|
+|book (not free)| |`r ilink("book", "")`|
+|article||`r ilink("article", "")`|
+|website||`r ilink("site", "")`|
+|practical|| `r ilink("exo", "")`|
+
+
+##### level
+
+Level are defined by color and can be attributed to any type of resources, using the argument "lvl" of the function ilink(). 
+
+Example to link resources to different levels for open tutorial
+| level  | i.e.           |code example   | Link example |
+|--------|----------------|---------------|--------------|
+|begin| resources to start with||`r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lvl=1)`|
+|intermediate|resources to progress in the field|  |`r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lvl=2)`|
+|advanced | resources for researchers already in the field| |`r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lvl=3)`|
+|everyone| resources for everyone      |  |`r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/")`|
+ 
+##### Information per resource
+
+
+
+# Manage and modify the page you are in charge of
+
+
+## Modify your page
+ 
+ 1- Pull the repository from github
+ 2- Create a branch to work on for your page, so you can work on it before it appears online
+ 3- Open and edit the .Rmd file of your page. You never need to open the .html file.
+ 5- render_site("your page") to update the associated .html file in the docs folder.
+ 6- save, commit and push on your branch
+ 7- When your page is ready to be published online or has new modifications that you want to appear online, ask for merging your branch with the master branch.
+
+## Manage your page
+
+Other contributors will probably ask you to add some resources on your page. For this, they have two solutions: Use pull request or Fill the online formulaire.
+
+### Using pull request
+
+First you will need to open a new pull request for your page. You have to do it to be sure that all requests on this branch go directly to you.
+
+go in the pull_request page.................
+
+When someone will 
+
+### Using formulaire
+
+If people use the formulaire online, you will receive an email including the suggested resource to add on your page (only one by one). This email should already include all needed information and appear in the right format. So eventually, you will only have to check the resource and copy-paste the row to one of the tables of your page.
+
