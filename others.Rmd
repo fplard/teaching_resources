@@ -18,4 +18,5 @@ source(file.path("R", "functions.R"))
 |**Conservation hackers** -- forum, blog and courses for conservation scientists  |`r ilink("site", "https://www.conservationhackers.org/")``r ilink("video", "https://www.youtube.com/channel/UCSH4ctGD-waPSI_4w6PlTBg")`|
 |**R4DS** -- a community of R learners at all skill levels working together to improve their skills  |`r ilink("video", "https://www.youtube.com/c/R4DSOnlineLearningCommunity/featured")`|
 |**Discdown** -- regrouping courses such as Data Analytic, programming in R and Flexible Regressions  |`r ilink("site", "https://discdown.org/index.php")`|
+|**Discdown** -- regrouping courses such as Data Analytic, programming in R and Flexible Regressions  |`r ilink("site", "https://discdown.org/index.php")`|
 
