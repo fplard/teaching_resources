@@ -155,7 +155,7 @@ output: distill::distill_article
 
 ## Resources
 
-In each section or sub-section, resources are included in markdown tables included two columns: Name & Links. the Name column include the description of the resources. This description should include the minimum information listed below. In the Links column, resources are classified by type (course, book, website...) and level (begin, intermediate, expert, everyone) in order to guide readers towards what they are looking for faster.
+In each section or sub-section, resources are included in markdown tables. Each includes two columns: Name & Links. the Name column include the description of the resources. This description should include the minimum information listed below. In the Links column, resources are classified by type (course, book, website...) and level (begin, intermediate, expert, everyone) in order to guide readers towards what they are looking for faster.
 
 
 #### Type
@@ -194,7 +194,7 @@ Levels are defined by color and can be attributed to any type of resources, usin
  
  1- Pull the repository from github. ([see here for help](https://happygitwithr.com/rstudio-git-github.html#clone-the-test-github-repository-to-your-computer-via-rstudio))
  
- 2- Create a branch to work on for your page, so you can work on it before it appears online. ([see section 2.4.2 here for help](https://aberdeenstudygroup.github.io/studyGroup/lessons/SG-T1-GitHubVersionControl/VersionControl/#2.3.))
+ 2- Create a branch to work on for your page, so you can work on it before it appears online ([see section 2.4.2 here for help](https://aberdeenstudygroup.github.io/studyGroup/lessons/SG-T1-GitHubVersionControl/VersionControl/#2.3.)).
  
  3- Install and source the package distill (and rmarkdown).
  
@@ -205,22 +205,19 @@ Levels are defined by color and can be attributed to any type of resources, usin
  5- Save, commit and push on your branch ([see section 2.4.3 here for help](https://aberdeenstudygroup.github.io/studyGroup/lessons/SG-T1-GitHubVersionControl/VersionControl/#2.3.))
  
  6- When your page is ready to be published online or has new modifications that you want to appear online, ask for merging your branch with the master branch using pull request. ([see section 2.4.4 here for help](https://aberdeenstudygroup.github.io/studyGroup/lessons/SG-T1-GitHubVersionControl/VersionControl/#2.3.))
+ 
+ 7- Do not delete your branch as it will be used by others to suggest modifications/new resources on your page.
 
 ### Manage your page
-This part is not ready yet!!!
 
 Other contributors will probably ask you to add some resources on your page. For this, they have two solutions: Use pull request or Fill the online formulaire.
 
 #### Using pull request
 
-
-First you will need to open a new pull request for your page. You have to do it to be sure that all requests on this branch go directly to you.
-
-go in the pull_request page.................
-
-When someone will 
+If other contributors use pull requests, they should make pull requests on your branch (names after the name of your page) and you will be automatically notified by email. In the pull request, you will directly see the modifications suggested on your page. Please check the relevance, suitability and link of the resources suggested before accepting the suggested changes. See here for documentation about how to [review](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews) and [accept](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges) a pull request.
 
 #### Using formulaire
+This part is not ready yet!!!
 
-If people use the formulaire online, you will receive an email including the suggested resource to add on your page (only one by one). This email should already include all needed information and appear in the right format. So eventually, you will only have to check the resource and copy-paste the row to one of the tables in your page.
+If people use the formulaire online, you will receive an email including the suggested resource to add on your page (only one by one). This email should already include all needed information and appear in the right format. So eventually, you will only have to check the resource and modify your page by copy-paste the line to one of the tables in your page.
 
