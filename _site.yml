@@ -43,6 +43,8 @@ navbar:
   right:
     - text: "Others"
       href: others.html
+    - text: "Contribute"
+      href: forms.html
     - text: "About"
       href: about.html
     - icon: fab fa-github

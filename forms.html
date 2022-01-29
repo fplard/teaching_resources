@@ -84,29 +84,32 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Learn EcoStat: Contribution</title>
+  <title>Learn EcoStat: Links</title>
 
-  <meta property="description" itemprop="description" content="How to manage the page you are in charge of"/>
+  <meta property="description" itemprop="description" content="A list of untidy links"/>
 
 
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2022-01-29"/>
+  <meta property="article:created" itemprop="dateCreated" content="2022-01-29"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Learn EcoStat: Contribution"/>
+  <meta property="og:title" content="Learn EcoStat: Links"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="How to manage the page you are in charge of"/>
+  <meta property="og:description" content="A list of untidy links"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Learn EcoStat"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Learn EcoStat: Contribution"/>
-  <meta property="twitter:description" content="How to manage the page you are in charge of"/>
+  <meta property="twitter:title" content="Learn EcoStat: Links"/>
+  <meta property="twitter:description" content="A list of untidy links"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Contribution"]},{"type":"character","attributes":{},"value":["How to manage the page you are in charge of"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Links"]},{"type":"character","attributes":{},"value":["A list of untidy links\n"]},{"type":"character","attributes":{},"value":["2022-01-29"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2391,7 +2394,82 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
   .distill-site-footer a:hover {
     color: var(--hover-color, white);
-  }</style>
+  }
+      /*-- FORM --*/
+  form div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 83px;
+  margin-top: 25px;
+  }
+  
+  form div > label {
+  margin-bottom: 7px;
+  font-weight: 600;
+  }
+  
+  form div > input, form div > select, form div > textarea {
+  background: #88A61C;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Montserrat, "sans-serif";
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+  }
+  
+  form div > input, form div > select {
+  height: 50px;
+  padding-left: 10px;
+  }
+  
+  form div > select {
+  appearance: none;
+  background-size: 15px;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDIxMy4zMzMgMjEzLjMzMyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgY2xhc3M9IiI+PGc+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cgk8Zz4KCQk8cG9seWdvbiBwb2ludHM9IjAsNTMuMzMzIDEwNi42NjcsMTYwIDIxMy4zMzMsNTMuMzMzICAgIiBmaWxsPSIjMzAzMDMwIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BvbHlnb24+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPC9nPjwvc3ZnPg==');
+  background-position: right 10px top 50%;
+  background-repeat: no-repeat;
+  }
+  
+  form div > textarea {
+  height: 150px;
+  padding: 10px 0px 0px 5px;
+  }
+  
+  form div > input::placeholder, form div > textarea::placeholder {
+  color: #222601;
+  }
+  
+  form div > select:invalid {
+  color: white;
+  }
+  
+  form div > select option {
+  background: white;
+  color: #303030;
+  }
+  
+  form div:last-child {
+  align-items:center;
+  margin-top: 20px;
+  }
+  
+  form button {
+  width: 200px;
+  max-width: 300px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 28px;
+  background: white;
+  border: rgba(48, 48, 48, 0.5) solid 1px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+  color: #303030;
+  }
+  
+  
+  </style>
   <!--/radix_placeholder_distill-->
   <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
@@ -2413,7 +2491,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Contribution","description":"How to manage the page you are in charge of","authors":[]}
+{"title":"Links","description":"A list of untidy links","authors":[],"publishedDate":"2022-01-29T00:00:00.000+01:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2466,6 +2544,7 @@ byFIELD
 </div>
 <div class="nav-right">
 <a href="others.html">Others</a>
+<a href="forms.html">Contribute</a>
 <a href="about.html">About</a>
 <a href="https://github.com/fplard/teaching_resources.git">
 <i class="fab fa-github" aria-hidden="true"></i>
@@ -2478,254 +2557,94 @@ byFIELD
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
 
+
 <div class="d-title">
-<h1>Contribution</h1>
+<h1>Contribute</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>How to manage the page you are in charge of</p></p>
+<p><p>If you want to suggest new resources</p></p>
 </div>
-
 
 <div class="d-article">
-<div class="d-contents d-contents-float">
-<nav class="l-text toc figcaption" id="TOC">
-<h3>Contents</h3>
-<ul>
-<li><a href="#organisation-of-the-website">Organisation of the website</a>
-<ul>
-<li><a href="#site-plan">site plan</a>
-<ul>
-<li><a href="#basics">Basics</a></li>
-<li><a href="#modeling">Modeling</a></li>
-<li><a href="#byfield">byField</a></li>
-</ul></li>
-<li><a href="#organisation-of-the-website-1">Organisation of the website</a></li>
-<li><a href="#organisation-of-each-page">Organisation of each page</a></li>
-<li><a href="#heading">Heading</a></li>
-<li><a href="#resources">Resources</a></li>
-</ul></li>
-<li><a href="#manage-and-modify-your-page">Manage and modify your page</a>
-<ul>
-<li><a href="#modify-your-page">Modify your page</a></li>
-<li><a href="#manage-your-page">Manage your page</a></li>
-</ul></li>
-</ul>
-</nav>
+  
+  
+<p> If you want to propose new resources to add in the website, you can directly send a pull request on our github. Alternatively, you can fill the form at the bottom of the page to propose a new resource. </p>
+
+<h2>Pull-request</h2>
+
+<p> 1- Go on our repository and fork the project<p> 
+<p> 2- Create a new branch<p> 
+<p> 3- Add the new suggested resources on the correct page<p> 
+<p> 4- Save, commit and push on your branch<p> 
+<p> 5- PULL REQUEST your changes on the BRANCH that has the SAME NAME as the page you want to modify<p> 
+
+
+
+<h2>Fill the form</h2>
+
+<div class="contribute">
+<form action="/page-traitement-donnees" method="post">
+<div>
+<label for="page">Page where to add the resource</label>
+<input type="text" id="page" name="page" placeholder="Demography" required>
 </div>
-<p>If you are in charge of a page, you should appear in the first section of this document and should have been granted with access to the source code. If not, please send an email to <a href="mailto:floriane.c.plard@gmail.com" class="email">floriane.c.plard@gmail.com</a>.</p>
-<h1 id="organisation-of-the-website">Organisation of the website</h1>
-<h2 id="site-plan">site plan</h2>
-<h3 id="basics">Basics</h3>
-<h5 id="r-vincent-miele"><a href="basics_r.html">R</a>: Vincent Miele?</h5>
-<p><em>contribute: I think there is already enough online on basic stuff but we need more advanced resources about coding</em></p>
-<h5 id="ethics-sandra-hamel"><a href="basics_ethics.html">Ethics</a>: <strong>Sandra Hamel</strong></h5>
-<p><em>contribute: V Amrhein, A Gelman, S Nakagawa (<a href="https://www.sortee.org/people/">Founding Members of Sortee</a>), </em></p>
-<h5 id="data"><a href="basics_data.html">Data</a>:</h5>
-<p><em>contribute: already a lot of things to add from the web</em></p>
-<h5 id="stats-gilles-yoccoz"><a href="basics_stats.html">Stats</a>: <strong>Gilles Yoccoz</strong></h5>
-<h5 id="maths-fred"><a href="basics_maths.html">Maths</a>: Fred?</h5>
-<p><em>contribute: J Matthiopoulos, B McGill, S Otto, F Débarre, Lyon teachers?, <a href="https://www.zoo.ox.ac.uk/people/professor-michael-bonsall?filter_types-1860401%5B%5D=&amp;filter_series-1860401%5B%5D=#tab-1860396">M Bonsall</a></em></p>
-<p>There are things online but I did not find really ecologist friendly courses so far.</p>
-<h3 id="modeling">Modeling</h3>
-<h5 id="regression-gilles-yoccoz"><a href="modeling_regression.html">Regression</a>: <strong>Gilles Yoccoz</strong></h5>
-<p><em>contribute: RA Poldrack, Mickael Clark, William A Link, <a href="https://qcnr.usu.edu/directory/adler_peter">Peter Adler</a>, B Bolker, M Brooks, JD Hadfield, L Crespin, D Westneat, G Simpson, B Shipley, J Lefcheck, PB Conn, M Hooten, N T Hobbs, C Dormann, F Hartig</em></p>
-<h5 id="bayesian-approach-olivier-gimenez"><a href="modeling_bayesian.html">Bayesian Approach</a>: <strong>Olivier Gimenez</strong></h5>
-<p><em>contribute: R McElreath, F. Korner, P deValpine, T Hobbs</em></p>
-<p>Already some very good courses in this part and a lot of resources that can be indexed in the more specific folders from these courses &amp; the web.</p>
-<h5 id="multivariate-analyses-stéphane-dray"><a href="modeling_multivariate.html">Multivariate Analyses</a>: <strong>Stéphane Dray</strong></h5>
-<p><em>contribute: S Jadhav, M Palmer, F Husson, AB Dufour, J Thioulouse, P Legendre, P Peres-Neto, M Anderson, S Holmes, C ter Braak </em></p>
-<h5 id="machine-learning"><a href="modeling_machinelearning.html">Machine Learning</a>:</h5>
-<p><em>contribute: JL Parouty, L Jacob? </em></p>
-<p>wrote a book: <em>Grant Humphries, Dawn R. Magness, Falk Huettmann, Pablo Casas</em></p>
-<p>wrote scientific articles as first or last author about application in Ecology: <em><a href="https://timcdlucas.github.io/">Tim C D Lucas</a>, André C Ferreira, Sylvain Christin, Nicolas Lecomte, Marek Borowiec, Alexander E white, Michael A Tabak, Ryan S. Miller</em></p>
-<p>wrote blog about deep learning for Ecology: <em>Patrick Gray, <a href="https://jonlefcheck.net/">J Lefneck</a></em></p>
-<h3 id="byfield">byField</h3>
-<h5 id="demography-sarah-cubaynes"><a href="byfield_demography.html">Demography</a>: <strong>Sarah Cubaynes</strong></h5>
-<p><em>contribute: M Gamelon, C Bonenfant, S Bouwhuis, O Jones, <a href="https://www.kent.ac.uk/mathematics-statistics-actuarial-science/people/1039/matechou-eleni">E. Matechou</a>, F. colchero, R Chandler, M Schaub, G Péron, B Morgan, RS McCrea, D Fletcher, J Rotella</em></p>
-<h5 id="population-dynamics-olivier-gimenez"><a href="byfield_population.html">Population Dynamics</a>: <strong>Olivier Gimenez</strong></h5>
-<p><em>contribute: C Nater, E Simmonds, <a href="http://canuck.dnr.cornell.edu/teaching/">Evan Cooch</a>, H Caswell, Y Vindenes, S Engen, A Lee, V Grotan, B O’Hara, D Koons, BE Saether, T Coulson, S Ellner, D Childs, M Schaub, T Besbeas, E Zipkin, V Radchuk, A. Kuparinen, M Paniw, C Coste, P Klepac, CJ Metcalf, A de Roos, T van Dooren</em></p>
-<h5 id="spatial-analyses"><a href="byfield_spatial.html">Spatial Analyses</a>:</h5>
-<p><em>contribute: G Péron, CJ Brown, A Royle, M Kéry, E Zipkin, B Gardner, J Lahoz-Monfort, <a href="https://fieberg-lab.cfans.umn.edu/people/john-fieberg">J Fieberg</a>, R Kays, R. <a href="https://www.uni-bielefeld.de/fakultaeten/wirtschaftswissenschaften/lehrbereiche/stats/team/prof.-dr.-roland-langrock/">Langrock</a>, B McClintock, N Ranc</em></p>
-<h5 id="community-analyses-d-zeleny"><a href="byfield_community.html">Community Analyses</a>: D Zeleny ?</h5>
-<p><em>contribute: D Borcard, F Gillet, D Zelený, G Blanchet, J Oksanen, GL Simpson, D. Roberts, Otso Ovoskainen, Francis Hui, David Warton</em></p>
-<h5 id="cross-species-analysis">Cross-species Analysis:</h5>
-<p><em>contribute: JF Lemaitre, S Nakagawa, V Ronget</em> Meta-Analysis, Allometric models, Phylogeny</p>
-<h5 id="quantitative-genetics-p-de-villemereuil">Quantitative Genetics: P De Villemereuil ?</h5>
-<p><em>contribute: LM Chevin, A Kuparinen, B Walsh, M Morrissey, T Bonnet</em></p>
-<p>Already <a href="https://www.youtube.com/watch?v=U-MTfNw7IvM">courses</a> from B Walsh that can be added</p>
-<h5 id="network-analysis">Network Analysis:</h5>
-<p><em>contribute: </em></p>
-<h2 id="organisation-of-the-website-1">Organisation of the website</h2>
-<p>Resources are classified using three main parts in the website: Basics, Modeling, and byField. Each part contains several pages, one per topic.</p>
-<p>The website was created using distill website and Rmarkdown. Each page is a Rmarkdown page named “partname_topicname.Rmd”. For instance, the page R in the part Basics can be edited from <em>basics_r.Rmd</em>. You can open this file and use it as an example.</p>
-<p>There is one page named <a href="others.html">others</a>. This page can be used to add interesting links that we do not know where to include.</p>
-<h2 id="organisation-of-each-page">Organisation of each page</h2>
-<p>Each page is written in Rmarkdown and rendered into a webpage using <em>render_site()</em> from the package rmarkdown.</p>
-<p>Each page must be divided into informative sections. Sections are separated by the title of each section using markdown headings (# ## ### …). You can introduce each section using short sentences. Then resources are presented in simple markdown tables as in <a href="basics_r.html">the example page: useful resources to use R</a>.</p>
-<p>Example of resources in a table:</p>
-<table>
-<colgroup>
-<col style="width: 87%" />
-<col style="width: 12%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Links</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>First steps in R</strong> <em>Institut Pasteur &amp; USR 3756</em> – A very basic tutorial to start R</td>
-<td><a href="https://hub-courses.pages.pasteur.fr/R_pasteur_phd/First_steps_RStudio.html" class="iconlink1"><i class="fas fa-list-alt"></i></a></td>
-</tr>
-<tr class="even">
-<td><strong>Hands-On Programming with R</strong> <em>G Grolemund</em> – A practical guide to start programming with R</td>
-<td><a href="https://rstudio-education.github.io/hopr/" class="iconlink1"><i class="fas fa-list-alt"></i></a></td>
-</tr>
-<tr class="odd">
-<td><strong>R studio cheatsheets</strong> – Very useful synthetic sheets to find the function you need</td>
-<td><a href="https://www.rstudio.com/resources/cheatsheets/" class="iconlink0"><i class="fas fa-globe"></i></a></td>
-</tr>
-<tr class="even">
-<td><strong>Rstudio youtube channel</strong></td>
-<td><a href="https://www.youtube.com/c/RStudioPBC/playlists" class="iconlink0"><i class="fas fa-video"></i></a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="heading">Heading</h2>
-<p>The yaml (or heading) of each .Rmd file includes title and description of the page that can be edited.</p>
-<p>title: “TITLE OF THE PAGE”</p>
-<p>description: |</p>
-<p>DESCRIPTION OF THE PAGE</p>
-<p>date: “r Sys.Date()”</p>
-<p>output: distill::distill_article</p>
-<h2 id="resources">Resources</h2>
-<p>In each section or sub-section, resources are included in markdown tables included two columns: Name &amp; Links. the Name column include the description of the resources. This description should include the minimum information listed below. In the Links column, resources are classified by type (course, book, website…) and level (begin, intermediate, expert, everyone) in order to guide readers towards what they are looking for faster.</p>
-<h4 id="type">Type</h4>
-<p>Types are classified according to the following table. Links to resources can be included using the function <em>ilink(“type”,urladresslink,lvl)</em>. For each resource, please follow this formating:</p>
-<table>
-<colgroup>
-<col style="width: 15%" />
-<col style="width: 43%" />
-<col style="width: 31%" />
-<col style="width: 8%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>type</th>
-<th>Name: resource formating</th>
-<th>Links:code</th>
-<th>Links</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>full course</td>
-<td><strong>Title</strong> <em>Author</em> – short description</td>
-<td><em>ilink(“course”, “url”,lvl=0)</em></td>
-<td><a href="url" class="iconlink0"><i class="fas fa-chalkboard-teacher"></i></a></td>
-</tr>
-<tr class="even">
-<td>video</td>
-<td><strong>Title</strong> <em>Author</em> – short description</td>
-<td><em>ilink(“video”, “url”,lvl=0)</em></td>
-<td><a href="url" class="iconlink0"><i class="fas fa-video"></i></a></td>
-</tr>
-<tr class="odd">
-<td>open book</td>
-<td><strong>Title</strong> <em>Author</em> – short description</td>
-<td><em>ilink(“tuto”, “url”,lvl=0)</em></td>
-<td><a href="url" class="iconlink0"><i class="fas fa-list-alt"></i></a></td>
-</tr>
-<tr class="even">
-<td>book (not free)</td>
-<td><strong>Title</strong> <em>Author</em> – short description</td>
-<td><em>ilink(“book”, “url”,lvl=0)</em></td>
-<td><a href="url" class="iconlink0"><i class="fas fa-book"></i></a></td>
-</tr>
-<tr class="odd">
-<td>article</td>
-<td><strong>Title</strong> <em>First Author et al.</em> – year</td>
-<td><em>ilink(“article”, “url”,lvl=0)</em></td>
-<td><a href="url" class="iconlink0"><i class="far fa-sticky-note"></i></a></td>
-</tr>
-<tr class="even">
-<td>website</td>
-<td><strong>Title</strong> – short description</td>
-<td><em>ilink(“site”, “url”,lvl=0)</em></td>
-<td><a href="url" class="iconlink0"><i class="fas fa-globe"></i></a></td>
-</tr>
-<tr class="odd">
-<td>practical</td>
-<td><strong>Title</strong> – short description</td>
-<td><em>ilink(“exo”, “url”,lvl=0)</em></td>
-<td><a href="url" class="iconlink0"><i class="fas fa-edit"></i></a></td>
-</tr>
-</tbody>
-</table>
-<h4 id="level">level</h4>
-<p>Levels are defined by color and can be attributed to any type of resources, using the argument “lvl” of the function ilink().</p>
-<table>
-<colgroup>
-<col style="width: 12%" />
-<col style="width: 42%" />
-<col style="width: 32%" />
-<col style="width: 12%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>level</th>
-<th>i.e.</th>
-<th>code for link</th>
-<th>link</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>begin</td>
-<td>resources to start with</td>
-<td><em>ilink(“tuto”, “url”, lvl=1)</em></td>
-<td><a href="url" class="iconlink1"><i class="fas fa-list-alt"></i></a></td>
-</tr>
-<tr class="even">
-<td>intermediate</td>
-<td>resources to progress in the field</td>
-<td><em>ilink(“tuto”, “url”, lvl=2)</em></td>
-<td><a href="url" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
-</tr>
-<tr class="odd">
-<td>advanced</td>
-<td>resources for researchers already in the field</td>
-<td><em>ilink(“tuto”, “url”, lvl=3)</em></td>
-<td><a href="url" class="iconlink3"><i class="fas fa-list-alt"></i></a></td>
-</tr>
-<tr class="even">
-<td>everyone</td>
-<td>resources for everyone</td>
-<td><em>ilink(“tuto”, “url”)</em></td>
-<td><a href="url" class="iconlink0"><i class="fas fa-list-alt"></i></a></td>
-</tr>
-</tbody>
-</table>
-<h1 id="manage-and-modify-your-page">Manage and modify your page</h1>
-<h3 id="modify-your-page">Modify your page</h3>
-<p>1- Pull the repository from github. (<a href="https://happygitwithr.com/rstudio-git-github.html#clone-the-test-github-repository-to-your-computer-via-rstudio">see here for help</a>)</p>
-<p>2- Create a branch to work on for your page, so you can work on it before it appears online. (<a href="https://aberdeenstudygroup.github.io/studyGroup/lessons/SG-T1-GitHubVersionControl/VersionControl/#2.3.">see section 2.4.2 here for help</a>)</p>
-<p>3- Install and source the package distill (and rmarkdown).</p>
-<p>4- Open and edit the .Rmd file of your page. You never need to open the .html file. (see rmarkdown <a href="https://www.rstudio.com/blog/the-r-markdown-cheat-sheet/">cheatsheet</a> &amp; <a href="https://www.markdownguide.org/extended-syntax/#tables">tables</a> for help)</p>
-<p>4- Use the function rmarkdown::render_site(“yourpage.Rmd”) to update the associated .html file in the docs folder.</p>
-<p>5- Save, commit and push on your branch (<a href="https://aberdeenstudygroup.github.io/studyGroup/lessons/SG-T1-GitHubVersionControl/VersionControl/#2.3.">see section 2.4.3 here for help</a>)</p>
-<p>6- When your page is ready to be published online or has new modifications that you want to appear online, ask for merging your branch with the master branch using pull request. (<a href="https://aberdeenstudygroup.github.io/studyGroup/lessons/SG-T1-GitHubVersionControl/VersionControl/#2.3.">see section 2.4.4 here for help</a>)</p>
-<h3 id="manage-your-page">Manage your page</h3>
-<p>This part is not ready yet!!!</p>
-<p>Other contributors will probably ask you to add some resources on your page. For this, they have two solutions: Use pull request or Fill the online formulaire.</p>
-<h4 id="using-pull-request">Using pull request</h4>
-<p>First you will need to open a new pull request for your page. You have to do it to be sure that all requests on this branch go directly to you.</p>
-<p>go in the pull_request page……………..</p>
-<p>When someone will</p>
-<h4 id="using-formulaire">Using formulaire</h4>
-<p>If people use the formulaire online, you will receive an email including the suggested resource to add on your page (only one by one). This email should already include all needed information and appear in the right format. So eventually, you will only have to check the resource and copy-paste the row to one of the tables in your page.</p>
+<div>
+<label for="section">Section within the page</label>
+<input type="text" id="section" name="section" placeholder="CMR">
+</div>
+<div>
+<label for="title">Title/Name of the resource</label>
+<input type="text" id="title" name="title" placeholder="Hands-On Programming with R" required>
+</div>
+<div>
+<label for="type">Type</label>
+<select name="type" id="type" required>
+<option value="" disabled selected hidden>chose among the following</option>
+<option value="article">article</option>
+<option value="course">full course</option>
+<option value="video">video</option>
+<option value="tuto">tutorial/openbook</option>
+<option value="book">book</option>
+<option value="site">website</option>
+<option value="exo">practical</option>
+</select>
+</div>
+<div>
+<label for="level">Level</label>
+<select name="type" id="type" required>
+<option value="" disabled selected hidden>chose among the following</option>
+<option value="1">Beginner</option>
+<option value="2">Intermediate</option>
+<option value="3">Expert</option>
+<option value="0">For everybody</option>
+</select>
+</div>
+<div>
+<label for="author">Author (First author et al.)</label>
+<input type="text" id="author" name="author" placeholder="G Grolemund et al." required>
+</div>
+<div>
+<label for="year">Year</label>
+<input type="text" id="year" name="year" placeholder="2021">
+</div>
+<div>
+<label for="description">Provide a short description</label>
+<input type="text" id="description" name="description" placeholder="A practical guide to start programming with R" required>
+</div>
+<div>
+<label for="url">URL Link</label>
+<input type="text" id="url" name="url" placeholder="https://github.com/oliviergimenez/statistics-for-ecologists-Master-courses" required>
+</div>
+<div>
+<label for="message">If you want to add something</label>
+<textarea id="message" name="message" placeholder=""></textarea>
+</div>
+<div>
+<button type="submit">Submit</button>
+</div>
+</form>
+</div>
+
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
