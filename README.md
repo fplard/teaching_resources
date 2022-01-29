@@ -21,5 +21,4 @@ V Miele, D Zeleny
 
 ## To be done:
 - update read me to contribute for the in charge person  
-- add levels/icons in each page at the top or in the legend
 - create formulaire to fill and how to contribute in the website
