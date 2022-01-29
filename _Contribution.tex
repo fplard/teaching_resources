@@ -1,0 +1,1497 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Contribution},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+<!--radix_placeholder_navigation_in_header-->
+<meta name="distill:offset" content=""/>
+
+<script type="application/javascript">
+
+  window.headroom_prevent_pin = false;
+
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+
+    // initialize headroom for banner
+    var header = $('header').get(0);
+    var headerHeight = header.offsetHeight;
+    var headroom = new Headroom(header, {
+      tolerance: 5,
+      onPin : function() {
+        if (window.headroom_prevent_pin) {
+          window.headroom_prevent_pin = false;
+          headroom.unpin();
+        }
+      }
+    });
+    headroom.init();
+    if(window.location.hash)
+      headroom.unpin();
+    $(header).addClass('headroom--transition');
+
+    // offset scroll location for banner on hash change
+    // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
+    window.addEventListener("hashchange", function(event) {
+      window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
+    });
+
+    // responsive menu
+    $('.distill-site-header').each(function(i, val) {
+      var topnav = $(this);
+      var toggle = topnav.find('.nav-toggle');
+      toggle.on('click', function() {
+        topnav.toggleClass('responsive');
+      });
+    });
+
+    // nav dropdowns
+    $('.nav-dropbtn').click(function(e) {
+      $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
+      $(this).parent().siblings('.nav-dropdown')
+         .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
+    });
+    $("body").click(function(e){
+      $('.nav-dropdown-content').removeClass('nav-dropdown-active');
+    });
+    $(".nav-dropdown").click(function(e){
+      e.stopPropagation();
+    });
+  });
+</script>
+
+<style type="text/css">
+
+/* Theme (user-documented overrideables for nav appearance) */
+
+.distill-site-nav {
+  color: rgba(255, 255, 255, 0.8);
+  background-color: #0F2E3D;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.distill-site-nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.distill-site-nav a:hover {
+  color: white;
+}
+
+@media print {
+  .distill-site-nav {
+    display: none;
+  }
+}
+
+.distill-site-header {
+
+}
+
+.distill-site-footer {
+
+}
+
+
+/* Site Header */
+
+.distill-site-header {
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 3;
+}
+
+.distill-site-header .nav-left {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .distill-site-header .nav-left {
+    margin-left: 0;
+  }
+}
+
+
+.distill-site-header .nav-right {
+  float: right;
+  margin-right: 8px;
+}
+
+.distill-site-header a,
+.distill-site-header .title {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 10px 14px 10px;
+}
+
+.distill-site-header .title {
+  font-size: 18px;
+  min-width: 150px;
+}
+
+.distill-site-header .logo {
+  padding: 0;
+}
+
+.distill-site-header .logo img {
+  display: none;
+  max-height: 20px;
+  width: auto;
+  margin-bottom: -4px;
+}
+
+.distill-site-header .nav-image img {
+  max-height: 18px;
+  width: auto;
+  display: inline-block;
+  margin-bottom: -3px;
+}
+
+
+
+@media screen and (min-width: 1000px) {
+  .distill-site-header .logo img {
+    display: inline-block;
+  }
+  .distill-site-header .nav-left {
+    margin-left: 20px;
+  }
+  .distill-site-header .nav-right {
+    margin-right: 20px;
+  }
+  .distill-site-header .title {
+    padding-left: 12px;
+  }
+}
+
+
+.distill-site-header .nav-toggle {
+  display: none;
+}
+
+.nav-dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.nav-dropdown .nav-dropbtn {
+  border: none;
+  outline: none;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 16px 10px;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  margin-top: 1px;
+  z-index: 2;
+}
+
+.nav-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 200px;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 4px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+  z-index: 1;
+  margin-top: 2px;
+  white-space: nowrap;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.nav-dropdown-content hr {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav-dropdown-active {
+  display: block;
+}
+
+.nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
+  color: black;
+  padding: 6px 24px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.nav-dropdown-content .nav-dropdown-header {
+  display: block;
+  padding: 5px 24px;
+  padding-bottom: 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #999999;
+  white-space: nowrap;
+}
+
+.nav-dropdown:hover .nav-dropbtn {
+  color: white;
+}
+
+.nav-dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.nav-right .nav-dropdown-content {
+  margin-left: -45%;
+  right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
+  .distill-site-header a.nav-toggle {
+    float: right;
+    display: block;
+  }
+  .distill-site-header .title {
+    margin-left: 0;
+  }
+  .distill-site-header .nav-right {
+    margin-right: 0;
+  }
+  .distill-site-header {
+    overflow: hidden;
+  }
+  .nav-right .nav-dropdown-content {
+    margin-left: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .distill-site-header.responsive {position: relative; min-height: 500px; }
+  .distill-site-header.responsive a.nav-toggle {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .distill-site-header.responsive a,
+  .distill-site-header.responsive .nav-dropdown {
+    display: block;
+    text-align: left;
+  }
+  .distill-site-header.responsive .nav-left,
+  .distill-site-header.responsive .nav-right {
+    width: 100%;
+  }
+  .distill-site-header.responsive .nav-dropdown {float: none;}
+  .distill-site-header.responsive .nav-dropdown-content {position: relative;}
+  .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/* Site Footer */
+
+.distill-site-footer {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  z-index: 3;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+/* Headroom */
+
+d-title {
+  padding-top: 6rem;
+}
+
+@media print {
+  d-title {
+    padding-top: 4rem;
+  }
+}
+
+.headroom {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.headroom--transition {
+  transition: all .4s ease-in-out;
+}
+
+.headroom--unpinned {
+  top: -100px;
+}
+
+.headroom--pinned {
+  top: 0;
+}
+
+/* adjust viewport for navbar height */
+/* helps vertically center bootstrap (non-distill) content */
+.min-vh-100 {
+  min-height: calc(100vh - 100px) !important;
+}
+
+</style>
+
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
+<script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
+<script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
+<script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
+
+<script type="application/javascript">
+
+function getMeta(metaName) {
+  var metas = document.getElementsByTagName('meta');
+  for (let i = 0; i < metas.length; i++) {
+    if (metas[i].getAttribute('name') === metaName) {
+      return metas[i].getAttribute('content');
+    }
+  }
+  return '';
+}
+
+function offsetURL(url) {
+  var offset = getMeta('distill:offset');
+  return offset ? offset + '/' + url : url;
+}
+
+function createFuseIndex() {
+
+  // create fuse index
+  var options = {
+    keys: [
+      { name: 'title', weight: 20 },
+      { name: 'categories', weight: 15 },
+      { name: 'description', weight: 10 },
+      { name: 'contents', weight: 5 },
+    ],
+    ignoreLocation: true,
+    threshold: 0
+  };
+  var fuse = new window.Fuse([], options);
+
+  // fetch the main search.json
+  return fetch(offsetURL('search.json'))
+    .then(function(response) {
+      if (response.status == 200) {
+        return response.json().then(function(json) {
+          // index main articles
+          json.articles.forEach(function(article) {
+            fuse.add(article);
+          });
+          // download collections and index their articles
+          return Promise.all(json.collections.map(function(collection) {
+            return fetch(offsetURL(collection)).then(function(response) {
+              if (response.status === 200) {
+                return response.json().then(function(articles) {
+                  articles.forEach(function(article) {
+                    fuse.add(article);
+                  });
+                })
+              } else {
+                return Promise.reject(
+                  new Error('Unexpected status from search index request: ' +
+                            response.status)
+                );
+              }
+            });
+          })).then(function() {
+            return fuse;
+          });
+        });
+
+      } else {
+        return Promise.reject(
+          new Error('Unexpected status from search index request: ' +
+                      response.status)
+        );
+      }
+    });
+}
+
+window.document.addEventListener("DOMContentLoaded", function (event) {
+
+  // get search element (bail if we don't have one)
+  var searchEl = window.document.getElementById('distill-search');
+  if (!searchEl)
+    return;
+
+  createFuseIndex()
+    .then(function(fuse) {
+
+      // make search box visible
+      searchEl.classList.remove('hidden');
+
+      // initialize autocomplete
+      var options = {
+        autoselect: true,
+        hint: false,
+        minLength: 2,
+      };
+      window.autocomplete(searchEl, options, [{
+        source: function(query, callback) {
+          const searchOptions = {
+            isCaseSensitive: false,
+            shouldSort: true,
+            minMatchCharLength: 2,
+            limit: 10,
+          };
+          var results = fuse.search(query, searchOptions);
+          callback(results
+            .map(function(result) { return result.item; })
+          );
+        },
+        templates: {
+          suggestion: function(suggestion) {
+            var img = suggestion.preview && Object.keys(suggestion.preview).length > 0
+              ? `<img src="${offsetURL(suggestion.preview)}"</img>`
+              : '';
+            var html = `
+              <div class="search-item">
+                <h3>${suggestion.title}</h3>
+                <div class="search-item-description">
+                  ${suggestion.description || ''}
+                </div>
+                <div class="search-item-preview">
+                  ${img}
+                </div>
+              </div>
+            `;
+            return html;
+          }
+        }
+      }]).on('autocomplete:selected', function(event, suggestion) {
+        window.location.href = offsetURL(suggestion.path);
+      });
+      // remove inline display style on autocompleter (we want to
+      // manage responsive display via css)
+      $('.algolia-autocomplete').css("display", "");
+    })
+    .catch(function(error) {
+      console.log(error);
+    });
+
+});
+
+</script>
+
+<style type="text/css">
+
+.nav-search {
+  font-size: x-small;
+}
+
+/* Algolioa Autocomplete */
+
+.algolia-autocomplete {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: sub;
+  background-color: white;
+  color: black;
+  padding: 6px;
+  padding-top: 8px;
+  padding-bottom: 0;
+  border-radius: 6px;
+  border: 1px #0F2E3D solid;
+  width: 180px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .distill-site-nav .algolia-autocomplete {
+    display: none;
+    visibility: hidden;
+  }
+  .distill-site-nav.responsive .algolia-autocomplete {
+    display: inline-block;
+    visibility: visible;
+  }
+  .distill-site-nav.responsive .algolia-autocomplete .aa-dropdown-menu {
+    margin-left: 0;
+    width: 400px;
+    max-height: 400px;
+  }
+}
+
+.algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
+  width: 90%;
+  outline: none;
+  border: none;
+}
+
+.algolia-autocomplete .aa-hint {
+  color: #999;
+}
+.algolia-autocomplete .aa-dropdown-menu {
+  width: 550px;
+  max-height: 70vh;
+  overflow-x: visible;
+  overflow-y: scroll;
+  padding: 5px;
+  margin-top: 3px;
+  margin-left: -150px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #999;
+  border-top: none;
+}
+
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
+  cursor: pointer;
+  padding: 5px 4px;
+  border-bottom: 1px solid #eee;
+}
+
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion:last-of-type {
+  border-bottom: none;
+  margin-bottom: 2px;
+}
+
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item {
+  overflow: hidden;
+  font-size: 0.8em;
+  line-height: 1.4em;
+}
+
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item h3 {
+  font-size: 1rem;
+  margin-block-start: 0;
+  margin-block-end: 5px;
+}
+
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-description {
+  display: inline-block;
+  overflow: hidden;
+  height: 2.8em;
+  width: 80%;
+  margin-right: 4%;
+}
+
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview {
+  display: inline-block;
+  width: 15%;
+}
+
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img {
+  height: 3em;
+  width: auto;
+  display: none;
+}
+
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img[src] {
+  display: initial;
+}
+
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
+  background-color: #eee;
+}
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+</style>
+
+
+<!--/radix_placeholder_navigation_in_header-->
+<!--radix_placeholder_site_in_header-->
+<!--/radix_placeholder_site_in_header-->
+
+<style type="text/css">
+body {
+  padding-top: 60px;
+}
+</style>
+<style type="text/css">
+/* base variables */
+
+/* Edit the CSS properties in this file to create a custom
+   Distill theme. Only edit values in the right column
+   for each row; values shown are the CSS defaults.
+   To return any property to the default,
+   you may set its value to: unset
+   All rows must end with a semi-colon.                      */
+
+/* Optional: embed custom fonts here with `@import`          */
+/* This must remain at the top of this file.                 */
+
+
+
+html {
+  /*-- Main font sizes --*/
+  --title-size:      50px;
+  --body-size:       1.06rem;
+  --code-size:       14px;
+  --aside-size:      12px;
+  --fig-cap-size:    13px;
+  /*-- Main font colors --*/
+  --title-color:     #000000;
+  --header-color:    rgba(0, 0, 0, 0.8);
+  --body-color:      rgba(0, 0, 0, 0.8);
+  --aside-color:     rgba(0, 0, 0, 0.6);
+  --fig-cap-color:   rgba(0, 0, 0, 0.6);
+  /*-- Specify custom fonts ~~~ must be imported above   --*/
+  --heading-font:    sans-serif;
+  --mono-font:       monospace;
+  --body-font:       sans-serif;
+  --navbar-font:     sans-serif;  /* websites + blogs only */
+}
+
+/*-- ARTICLE METADATA --*/
+d-byline {
+  --heading-size:    0.6rem;
+  --heading-color:   rgba(0, 0, 0, 0.5);
+  --body-size:       0.8rem;
+  --body-color:      rgba(0, 0, 0, 0.8);
+}
+
+/*-- ARTICLE TABLE OF CONTENTS --*/
+.d-contents {
+  --heading-size:    18px;
+  --contents-size:   13px;
+}
+
+/*-- ARTICLE APPENDIX --*/
+d-appendix {
+  --heading-size:    15px;
+  --heading-color:   rgba(0, 0, 0, 0.65);
+  --text-size:       0.8em;
+  --text-color:      rgba(0, 0, 0, 0.5);
+}
+
+/*-- WEBSITE HEADER + FOOTER --*/
+/* These properties only apply to Distill sites and blogs  */
+
+.distill-site-header {
+  --title-size:       18px;
+  --text-color:       rgba(255, 255, 255, 0.8);
+  --text-size:        15px;
+  --hover-color:      white;
+  --bkgd-color:       #0F2E3D;
+}
+
+.distill-site-footer {
+  --text-color:       rgba(255, 255, 255, 0.8);
+  --text-size:        15px;
+  --hover-color:      white;
+  --bkgd-color:       #0F2E3D;
+}
+
+/*-- Additional custom styles --*/
+/* Add any additional CSS rules below                      */
+</style>
+<style type="text/css">
+/* base variables */
+
+/* Edit the CSS properties in this file to create a custom
+   Distill theme. Only edit values in the right column
+   for each row; values shown are the CSS defaults.
+   To return any property to the default,
+   you may set its value to: unset
+   All rows must end with a semi-colon.                      */
+
+/* Optional: embed custom fonts here with `@import`          */
+/* This must remain at the top of this file.                 */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Lora');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC');
+
+
+html {
+  /*-- Main font sizes --*/
+  --title-size:      50px;
+  --body-size:       1.06rem;
+  --code-size:       14px;
+  --aside-size:      12px;
+  --fig-cap-size:    13px;
+  /*-- Main font colors --*/
+  --title-color:     #57590C;
+  --header-color:    #222601;
+  --body-color:      rgba(0, 0, 0, 0.8);
+  --aside-color:     rgba(0, 0, 0, 0.6);
+  --fig-cap-color:   rgba(0, 0, 0, 0.6);
+  /*-- Specify custom fonts ~~~ must be imported above   --*/
+  --heading-font:    "Open Sans", sans-serif;
+  --mono-font:       "Inconsolata", monospace;
+  --body-font:       "Lora", serif;
+  --navbar-font:     "Overlock SC", sans-serif;  /* websites + blogs only */
+}
+
+/*-- ARTICLE METADATA --*/
+d-byline {
+  --heading-size:    0.6rem;
+  --heading-color:   rgba(0, 0, 0, 0.5);
+  --body-size:       0.8rem;
+  --body-color:      rgba(0, 0, 0, 0.8);
+}
+
+/*-- ARTICLE TABLE OF CONTENTS --*/
+.d-contents {
+  --heading-size:    18px;
+  --contents-size:   13px;
+}
+
+/*-- ARTICLE APPENDIX --*/
+d-appendix {
+  --heading-size:    15px;
+  --heading-color:   rgba(0, 0, 0, 0.65);
+  --text-size:       0.8em;
+  --text-color:      rgba(0, 0, 0, 0.5);
+}
+
+/*-- WEBSITE HEADER + FOOTER --*/
+/* These properties only apply to Distill sites and blogs  */
+
+.distill-site-header {
+   padding: 10px 0px;
+  --title-size:       20px;
+  --text-color:       #88A61C;
+  --text-size:        20px;
+  --hover-color:      white;
+  --bkgd-color:       #222601;
+}
+
+.distill-site-footer {
+  --text-color:       rgba(255, 255, 255, 0.8);
+  --text-size:        15px;
+  --hover-color:      white;
+  --bkgd-color:       #0F2E3D;
+}
+
+/*-- Additional custom styles --*/
+/* Add any additional CSS rules below                      */
+.iconlink0 {
+    background-color: #222601;
+    color: #f1f2eb;
+    padding: 3px 5px 3px 5px;
+    margin: 0 2px 0 2px;
+    border-radius: 5px; /* Rounded edges */
+}
+.iconlink1 {
+    background-color: #222601;
+    color: #88A61C;
+    padding: 3px 5px 3px 5px;
+    margin: 0 2px 0 2px;
+    border-radius: 5px; /* Rounded edges */
+}
+.iconlink2 {
+    background-color: #222601;
+    color: #D5D977;
+    padding: 3px 5px 3px 5px;
+    margin: 0 2px 0 2px;
+    border-radius: 5px; /* Rounded edges */
+}
+
+.iconlink3 {
+    background-color: #222601;
+    color: #ad6705;
+    padding: 3px 5px 3px 5px;
+    margin: 0 2px 0 2px;
+    border-radius: 5px; /* Rounded edges */
+}
+.iconlink0:hover {
+    background-color: #D5D977;
+    color: #222601;
+}
+.iconlink1:hover {
+    background-color: #D5D977;
+    color: #222601;
+}
+.iconlink2:hover {
+    background-color: #D5D977;
+    color: #222601;
+}
+.iconlink3:hover {
+    background-color: #D5D977;
+    color: #222601;
+}
+</style>
+<style type="text/css">
+/* base style */
+
+/* FONT FAMILIES */
+
+:root {
+  --heading-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  --mono-default: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  --body-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+body,
+.posts-list .post-preview p,
+.posts-list .description p {
+  font-family: var(--body-font), var(--body-default);
+}
+
+h1, h2, h3, h4, h5, h6,
+.posts-list .post-preview h2,
+.posts-list .description h2 {
+  font-family: var(--heading-font), var(--heading-default);
+}
+
+d-article div.sourceCode code,
+d-article pre code {
+  font-family: var(--mono-font), var(--mono-default);
+}
+
+
+/*-- TITLE --*/
+d-title h1,
+.posts-list > h1 {
+  color: var(--title-color, black);
+}
+
+d-title h1 {
+  font-size: var(--title-size, 50px);
+}
+
+/*-- HEADERS --*/
+d-article h1,
+d-article h2,
+d-article h3,
+d-article h4,
+d-article h5,
+d-article h6 {
+  color: var(--header-color, rgba(0, 0, 0, 0.8));
+}
+
+/*-- BODY --*/
+d-article > p,  /* only text inside of <p> tags */
+d-article > ul, /* lists */
+d-article > ol {
+  color: var(--body-color, rgba(0, 0, 0, 0.8));
+  font-size: var(--body-size, 1.06rem);
+}
+
+
+/*-- CODE --*/
+d-article div.sourceCode code,
+d-article pre code {
+  font-size: var(--code-size, 14px);
+}
+
+/*-- ASIDE --*/
+d-article aside {
+  font-size: var(--aside-size, 12px);
+  color: var(--aside-color, rgba(0, 0, 0, 0.6));
+}
+
+/*-- FIGURE CAPTIONS --*/
+figure .caption,
+figure figcaption,
+.figure .caption {
+  font-size: var(--fig-cap-size, 13px);
+  color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
+}
+
+/*-- METADATA --*/
+d-byline h3 {
+  font-size: var(--heading-size, 0.6rem);
+  color: var(--heading-color, rgba(0, 0, 0, 0.5));
+}
+
+d-byline {
+  font-size: var(--body-size, 0.8rem);
+  color: var(--body-color, rgba(0, 0, 0, 0.8));
+}
+
+d-byline a,
+d-article d-byline a {
+  color: var(--body-color, rgba(0, 0, 0, 0.8));
+}
+
+/*-- TABLE OF CONTENTS --*/
+.d-contents nav h3 {
+  font-size: var(--heading-size, 18px);
+}
+
+.d-contents nav a {
+  font-size: var(--contents-size, 13px);
+}
+
+/*-- APPENDIX --*/
+d-appendix h3 {
+  font-size: var(--heading-size, 15px);
+  color: var(--heading-color, rgba(0, 0, 0, 0.65));
+}
+
+d-appendix {
+  font-size: var(--text-size, 0.8em);
+  color: var(--text-color, rgba(0, 0, 0, 0.5));
+}
+
+d-appendix d-footnote-list a.footnote-backlink {
+  color: var(--text-color, rgba(0, 0, 0, 0.5));
+}
+
+/*-- WEBSITE HEADER + FOOTER --*/
+.distill-site-header .title {
+  font-size: var(--title-size, 18px);
+  font-family: var(--navbar-font), var(--heading-default);
+}
+
+.distill-site-header a,
+.nav-dropdown .nav-dropbtn {
+  font-family: var(--navbar-font), var(--heading-default);
+}
+
+.nav-dropdown .nav-dropbtn {
+  color: var(--text-color, rgba(255, 255, 255, 0.8));
+  font-size: var(--text-size, 15px);
+}
+
+.distill-site-header a:hover,
+.nav-dropdown:hover .nav-dropbtn {
+  color: var(--hover-color, white);
+}
+
+.distill-site-header {
+  font-size: var(--text-size, 15px);
+  color: var(--text-color, rgba(255, 255, 255, 0.8));
+  background-color: var(--bkgd-color, #0F2E3D);
+}
+
+.distill-site-footer {
+  font-size: var(--text-size, 15px);
+  color: var(--text-color, rgba(255, 255, 255, 0.8));
+  background-color: var(--bkgd-color, #0F2E3D);
+}
+
+.distill-site-footer a:hover {
+  color: var(--hover-color, white);
+}</style>
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\title{Contribution}
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+\maketitle
+
+<!--radix_placeholder_navigation_before_body-->
+<header class="header header--fixed" role="banner">
+<nav class="distill-site-nav distill-site-header">
+<div class="nav-left">
+<a href="index.html" class="title">Learn EcoStat</a>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+BASICS
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="basics_r.html">R</a>
+<a href="basics_ethics.html">Ethics</a>
+<a href="basics_data.html">Data</a>
+<a href="basics_stats.html">Stats</a>
+<a href="basics_maths.html">Maths</a>
+</div>
+</div>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+MODELING
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="modeling_regression.html">Regression</a>
+<a href="modeling_bayesian.html">Bayesian Approach</a>
+<a href="modeling_multivariate.html">Multivariate Analyses</a>
+<a href="modeling_machinelearning.html">Machine Learning</a>
+</div>
+</div>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+byFIELD
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="byfield_demography.html">Demography</a>
+<a href="byfield_population.html">Population Dynamics</a>
+<a href="byfield_spatial.html">Spatial Analyses</a>
+<a href="byfield_community.html">Community Analyses</a>
+</div>
+</div>
+<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
+</div>
+<div class="nav-right">
+<a href="others.html">Others</a>
+<a href="forms.html">Contribute</a>
+<a href="about.html">About</a>
+<a href="https://github.com/fplard/teaching_resources.git">
+<i class="fab fa-github" aria-hidden="true"></i>
+</a>
+<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
+</div>
+</nav>
+</header>
+<!--/radix_placeholder_navigation_before_body-->
+
+<!--radix_placeholder_site_before_body-->
+<!--/radix_placeholder_site_before_body-->
+
+If you are in charge of a page, you should appear in the first section
+of this document and should have been granted with access to the source
+code. If not, please send an email to
+\href{mailto:floriane.c.plard@gmail.com}{\nolinkurl{floriane.c.plard@gmail.com}}.
+
+\hypertarget{organisation-of-the-website}{%
+\section{Organisation of the
+website}\label{organisation-of-the-website}}
+
+\hypertarget{site-plan}{%
+\subsection{site plan}\label{site-plan}}
+
+\hypertarget{basics}{%
+\subsubsection{Basics}\label{basics}}
+
+\hypertarget{r-vincent-miele}{%
+\subparagraph{\texorpdfstring{\href{basics_r.html}{R}: Vincent
+Miele?}{R: Vincent Miele?}}\label{r-vincent-miele}}
+
+\emph{contribute: I think there is already enough online on basic stuff
+but we need more advanced resources about coding}
+
+\hypertarget{ethics-sandra-hamel}{%
+\subparagraph{\texorpdfstring{\href{basics_ethics.html}{Ethics}:
+\textbf{Sandra
+Hamel}}{Ethics: Sandra Hamel}}\label{ethics-sandra-hamel}}
+
+\emph{contribute: V Amrhein, A Gelman, S Nakagawa
+(\href{https://www.sortee.org/people/}{Founding Members of Sortee}), }
+
+\hypertarget{data}{%
+\subparagraph{\texorpdfstring{\href{basics_data.html}{Data}:}{Data:}}\label{data}}
+
+\emph{contribute: already a lot of things to add from the web}
+
+\hypertarget{stats-gilles-yoccoz}{%
+\subparagraph{\texorpdfstring{\href{basics_stats.html}{Stats}:
+\textbf{Gilles
+Yoccoz}}{Stats: Gilles Yoccoz}}\label{stats-gilles-yoccoz}}
+
+\hypertarget{maths-fred}{%
+\subparagraph{\texorpdfstring{\href{basics_maths.html}{Maths}:
+Fred?}{Maths: Fred?}}\label{maths-fred}}
+
+\emph{contribute: J Matthiopoulos, B McGill, S Otto, F Débarre, Lyon
+teachers?,
+\href{https://www.zoo.ox.ac.uk/people/professor-michael-bonsall?filter_types-1860401\%5B\%5D=\&filter_series-1860401\%5B\%5D=\#tab-1860396}{M
+Bonsall}}
+
+There are things online but I did not find really ecologist friendly
+courses so far.
+
+\hypertarget{modeling}{%
+\subsubsection{Modeling}\label{modeling}}
+
+\hypertarget{regression-gilles-yoccoz}{%
+\subparagraph{\texorpdfstring{\href{modeling_regression.html}{Regression}:
+\textbf{Gilles
+Yoccoz}}{Regression: Gilles Yoccoz}}\label{regression-gilles-yoccoz}}
+
+\emph{contribute: RA Poldrack, Mickael Clark, William A Link,
+\href{https://qcnr.usu.edu/directory/adler_peter}{Peter Adler}, B
+Bolker, M Brooks, JD Hadfield, L Crespin, D Westneat, G Simpson, B
+Shipley, J Lefcheck, PB Conn, M Hooten, N T Hobbs, C Dormann, F Hartig}
+
+\hypertarget{bayesian-approach-olivier-gimenez}{%
+\subparagraph{\texorpdfstring{\href{modeling_bayesian.html}{Bayesian
+Approach}: \textbf{Olivier
+Gimenez}}{Bayesian Approach: Olivier Gimenez}}\label{bayesian-approach-olivier-gimenez}}
+
+\emph{contribute: R McElreath, F. Korner, P deValpine, T Hobbs}
+
+Already some very good courses in this part and a lot of resources that
+can be indexed in the more specific folders from these courses \& the
+web.
+
+\hypertarget{multivariate-analyses-stuxe9phane-dray}{%
+\subparagraph{\texorpdfstring{\href{modeling_multivariate.html}{Multivariate
+Analyses}: \textbf{Stéphane
+Dray}}{Multivariate Analyses: Stéphane Dray}}\label{multivariate-analyses-stuxe9phane-dray}}
+
+\emph{contribute: S Jadhav, M Palmer, F Husson, AB Dufour, J Thioulouse,
+P Legendre, P Peres-Neto, M Anderson, S Holmes, C ter Braak }
+
+\hypertarget{machine-learning}{%
+\subparagraph{\texorpdfstring{\href{modeling_machinelearning.html}{Machine
+Learning}:}{Machine Learning:}}\label{machine-learning}}
+
+\emph{contribute: JL Parouty, L Jacob? }
+
+wrote a book: \emph{Grant Humphries, Dawn R. Magness, Falk Huettmann,
+Pablo Casas}
+
+wrote scientific articles as first or last author about application in
+Ecology: \emph{\href{https://timcdlucas.github.io/}{Tim C D Lucas},
+André C Ferreira, Sylvain Christin, Nicolas Lecomte, Marek Borowiec,
+Alexander E white, Michael A Tabak, Ryan S. Miller}
+
+wrote blog about deep learning for Ecology: \emph{Patrick Gray,
+\href{https://jonlefcheck.net/}{J Lefneck}}
+
+\hypertarget{byfield}{%
+\subsubsection{byField}\label{byfield}}
+
+\hypertarget{demography-sarah-cubaynes}{%
+\subparagraph{\texorpdfstring{\href{byfield_demography.html}{Demography}:
+\textbf{Sarah
+Cubaynes}}{Demography: Sarah Cubaynes}}\label{demography-sarah-cubaynes}}
+
+\emph{contribute: M Gamelon, C Bonenfant, S Bouwhuis, O Jones,
+\href{https://www.kent.ac.uk/mathematics-statistics-actuarial-science/people/1039/matechou-eleni}{E.
+Matechou}, F. colchero, R Chandler, M Schaub, G Péron, B Morgan, RS
+McCrea, D Fletcher, J Rotella}
+
+\hypertarget{population-dynamics-olivier-gimenez}{%
+\subparagraph{\texorpdfstring{\href{byfield_population.html}{Population
+Dynamics}: \textbf{Olivier
+Gimenez}}{Population Dynamics: Olivier Gimenez}}\label{population-dynamics-olivier-gimenez}}
+
+\emph{contribute: C Nater, E Simmonds,
+\href{http://canuck.dnr.cornell.edu/teaching/}{Evan Cooch}, H Caswell, Y
+Vindenes, S Engen, A Lee, V Grotan, B O'Hara, D Koons, BE Saether, T
+Coulson, S Ellner, D Childs, M Schaub, T Besbeas, E Zipkin, V Radchuk,
+A. Kuparinen, M Paniw, C Coste, P Klepac, CJ Metcalf, A de Roos, T van
+Dooren}
+
+\hypertarget{spatial-analyses}{%
+\subparagraph{\texorpdfstring{\href{byfield_spatial.html}{Spatial
+Analyses}:}{Spatial Analyses:}}\label{spatial-analyses}}
+
+\emph{contribute: G Péron, CJ Brown, A Royle, M Kéry, E Zipkin, B
+Gardner, J Lahoz-Monfort,
+\href{https://fieberg-lab.cfans.umn.edu/people/john-fieberg}{J Fieberg},
+R Kays, R.
+\href{https://www.uni-bielefeld.de/fakultaeten/wirtschaftswissenschaften/lehrbereiche/stats/team/prof.-dr.-roland-langrock/}{Langrock},
+B McClintock, N Ranc}
+
+\hypertarget{community-analyses-d-zeleny}{%
+\subparagraph{\texorpdfstring{\href{byfield_community.html}{Community
+Analyses}: D Zeleny
+?}{Community Analyses: D Zeleny ?}}\label{community-analyses-d-zeleny}}
+
+\emph{contribute: D Borcard, F Gillet, D Zelený, G Blanchet, J Oksanen,
+GL Simpson, D. Roberts, Otso Ovoskainen, Francis Hui, David Warton}
+
+\hypertarget{cross-species-analysis}{%
+\subparagraph{Cross-species Analysis:}\label{cross-species-analysis}}
+
+\emph{contribute: JF Lemaitre, S Nakagawa, V Ronget} Meta-Analysis,
+Allometric models, Phylogeny
+
+\hypertarget{quantitative-genetics-p-de-villemereuil}{%
+\subparagraph{Quantitative Genetics: P De Villemereuil
+?}\label{quantitative-genetics-p-de-villemereuil}}
+
+\emph{contribute: LM Chevin, A Kuparinen, B Walsh, M Morrissey, T
+Bonnet}
+
+Already \href{https://www.youtube.com/watch?v=U-MTfNw7IvM}{courses} from
+B Walsh that can be added
+
+\hypertarget{network-analysis}{%
+\subparagraph{Network Analysis:}\label{network-analysis}}
+
+\emph{contribute: }
+
+\hypertarget{organisation-of-the-website-1}{%
+\subsection{Organisation of the
+website}\label{organisation-of-the-website-1}}
+
+Resources are classified using three main parts in the website: Basics,
+Modeling, and byField. Each part contains several pages, one per topic.
+
+The website was created using distill website and Rmarkdown. Each page
+is a Rmarkdown page named ``partname\_topicname.Rmd''. For instance, the
+page R in the part Basics can be edited from \emph{basics\_r.Rmd}. You
+can open this file and use it as an example.
+
+There is one page named \href{others.html}{others}. This page can be
+used to add interesting links that we do not know where to include.
+
+\hypertarget{organisation-of-each-page}{%
+\subsection{Organisation of each page}\label{organisation-of-each-page}}
+
+Each page is written in Rmarkdown and rendered into a webpage using
+\emph{render\_site()} from the package rmarkdown.
+
+Each page must be divided into informative sections. Sections are
+separated by the title of each section using markdown headings (\# \#\#
+\#\#\# \ldots). You can introduce each section using short sentences.
+Then resources are presented in simple markdown tables as in
+\href{basics_r.html}{the example page: useful resources to use R}.
+
+Example of resources in a table:
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.88}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.12}}@{}}
+\toprule
+Name & Links \\
+\midrule
+\endhead
+\textbf{First steps in R} \emph{Institut Pasteur \& USR 3756} -- A very
+basic tutorial to start R & \\
+\textbf{Hands-On Programming with R} \emph{G Grolemund} -- A practical
+guide to start programming with R & \\
+\textbf{R studio cheatsheets} -- Very useful synthetic sheets to find
+the function you need & \\
+\textbf{Rstudio youtube channel} & \\
+\bottomrule
+\end{longtable}
+
+\hypertarget{heading}{%
+\subsection{Heading}\label{heading}}
+
+The yaml (or heading) of each .Rmd file includes title and description
+of the page that can be edited.
+
+title: ``TITLE OF THE PAGE''
+
+description: \textbar{}
+
+DESCRIPTION OF THE PAGE
+
+date: ``r Sys.Date()''
+
+output: distill::distill\_article
+
+\hypertarget{resources}{%
+\subsection{Resources}\label{resources}}
+
+In each section or sub-section, resources are included in markdown
+tables. Each includes two columns: Name \& Links. the Name column
+include the description of the resources. This description should
+include the minimum information listed below. In the Links column,
+resources are classified by type (course, book, website\ldots) and level
+(begin, intermediate, expert, everyone) in order to guide readers
+towards what they are looking for faster.
+
+\hypertarget{type}{%
+\paragraph{Type}\label{type}}
+
+Types are classified according to the following table. Links to
+resources can be included using the function
+\emph{ilink(``type'',urladresslink,lvl)}. For each resource, please
+follow this formating:
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.16}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.44}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.32}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.09}}@{}}
+\toprule
+type & Name: resource formating & Links:code & Links \\
+\midrule
+\endhead
+full course & \textbf{Title} \emph{Author} -- short description &
+\emph{ilink(``course'', ``url'',lvl=0)} & \\
+video & \textbf{Title} \emph{Author} -- short description &
+\emph{ilink(``video'', ``url'',lvl=0)} & \\
+open book & \textbf{Title} \emph{Author} -- short description &
+\emph{ilink(``tuto'', ``url'',lvl=0)} & \\
+book (not free) & \textbf{Title} \emph{Author} -- short description &
+\emph{ilink(``book'', ``url'',lvl=0)} & \\
+article & \textbf{Title} \emph{First Author et al.} -- year &
+\emph{ilink(``article'', ``url'',lvl=0)} & \\
+website & \textbf{Title} -- short description & \emph{ilink(``site'',
+``url'',lvl=0)} & \\
+practical & \textbf{Title} -- short description & \emph{ilink(``exo'',
+``url'',lvl=0)} & \\
+\bottomrule
+\end{longtable}
+
+\hypertarget{level}{%
+\paragraph{level}\label{level}}
+
+Levels are defined by color and can be attributed to any type of
+resources, using the argument ``lvl'' of the function ilink().
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.12}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.42}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.32}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.12}}@{}}
+\toprule
+level & i.e. & code for link & link \\
+\midrule
+\endhead
+begin & resources to start with & \emph{ilink(``tuto'', ``url'', lvl=1)}
+& \\
+intermediate & resources to progress in the field &
+\emph{ilink(``tuto'', ``url'', lvl=2)} & \\
+advanced & resources for researchers already in the field &
+\emph{ilink(``tuto'', ``url'', lvl=3)} & \\
+everyone & resources for everyone & \emph{ilink(``tuto'', ``url'')} & \\
+\bottomrule
+\end{longtable}
+
+\hypertarget{manage-and-modify-your-page}{%
+\section{Manage and modify your
+page}\label{manage-and-modify-your-page}}
+
+\hypertarget{modify-your-page}{%
+\subsubsection{Modify your page}\label{modify-your-page}}
+
+1- Pull the repository from github.
+(\href{https://happygitwithr.com/rstudio-git-github.html\#clone-the-test-github-repository-to-your-computer-via-rstudio}{see
+here for help})
+
+2- Create a branch to work on for your page, so you can work on it
+before it appears online
+(\href{https://aberdeenstudygroup.github.io/studyGroup/lessons/SG-T1-GitHubVersionControl/VersionControl/\#2.3.}{see
+section 2.4.2 here for help}).
+
+3- Install and source the package distill (and rmarkdown).
+
+4- Open and edit the .Rmd file of your page. You never need to open the
+.html file. (see rmarkdown
+\href{https://www.rstudio.com/blog/the-r-markdown-cheat-sheet/}{cheatsheet}
+\& \href{https://www.markdownguide.org/extended-syntax/\#tables}{tables}
+for help)
+
+4- Use the function rmarkdown::render\_site(``yourpage.Rmd'') to update
+the associated .html file in the docs folder.
+
+5- Save, commit and push on your branch
+(\href{https://aberdeenstudygroup.github.io/studyGroup/lessons/SG-T1-GitHubVersionControl/VersionControl/\#2.3.}{see
+section 2.4.3 here for help})
+
+6- When your page is ready to be published online or has new
+modifications that you want to appear online, ask for merging your
+branch with the master branch using pull request.
+(\href{https://aberdeenstudygroup.github.io/studyGroup/lessons/SG-T1-GitHubVersionControl/VersionControl/\#2.3.}{see
+section 2.4.4 here for help})
+
+7- Do not delete your branch as it will be used by others to suggest
+modifications/new resources on your page.
+
+\hypertarget{manage-your-page}{%
+\subsubsection{Manage your page}\label{manage-your-page}}
+
+Other contributors will probably ask you to add some resources on your
+page. For this, they have two solutions: Use pull request or Fill the
+online formulaire.
+
+\hypertarget{using-pull-request}{%
+\paragraph{Using pull request}\label{using-pull-request}}
+
+If other contributors use pull requests, they should make pull requests
+on your branch (names after the name of your page) and you will be
+automatically notified by email. In the pull request, you will directly
+see the modifications suggested on your page. Please check the
+relevance, suitability and link of the resources suggested before
+accepting the suggested changes. See here for documentation about how to
+\href{https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews}{review}
+and
+\href{https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges}{accept}
+a pull request.
+
+\hypertarget{using-formulaire}{%
+\paragraph{Using formulaire}\label{using-formulaire}}
+
+This part is not ready yet!!!
+
+If people use the formulaire online, you will receive an email including
+the suggested resource to add on your page (only one by one). This email
+should already include all needed information and appear in the right
+format. So eventually, you will only have to check the resource and
+modify your page by copy-paste the line to one of the tables in your
+page.
+
+<!--radix_placeholder_site_after_body-->
+<!--/radix_placeholder_site_after_body-->
+
+<!--radix_placeholder_navigation_after_body-->
+<!--/radix_placeholder_navigation_after_body-->
+
+\end{document}
