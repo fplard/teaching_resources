@@ -119,6 +119,7 @@ website`r ilink("site", "https:/xcelab.net/rm/statistical-rethinking/")`
 #### [Hierarchical Models](byfield_community.html#hierarchical-models)
 #### [Vegan](byfield_community.html#vegan)
 
+### [Quantitative Genetics](byfield_quantgenetics.html)
 
 
 <!---

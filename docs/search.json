@@ -6,7 +6,7 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-29T08:07:00+01:00"
+      "last_modified": "2022-02-05T13:49:38+01:00"
     },
     {
       "path": "basics_data.html",
@@ -15,7 +15,7 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n\r\nContents\r\nData Science\r\nData Manipulation\r\nData Visualization\r\nShiny\r\n\r\n\r\nIcon Legend:\r\nType: full course  video  exo  open book, tutorial, manual  book (not free)  article website\r\nlevel: begin  intermediate  advanced \r\nData Science\r\nGlobal resources to start data science including introductory and intermediate material on data manipulation, exploration, visualization and analysis.\r\nName\r\nLinks\r\nSTAT 545 J Bryan – A course about data wrangling, exploration, and analysis with R\r\n\r\nR for Data Science H Wickham, G Grolemund Introduction to data science: import, transform, visualize and model data with literate programming and reproducible research\r\n \r\nModernDive C Ismay, A Y Kim – A textbook about statistical inference via data science\r\n\r\nIntroduction to Data Science R A Irizarry – A textbook from R basics to an introduction to machine learning, through data manipulation and statistics in R\r\n\r\nR Programming 101 – A youtube channel about data cleaning, manipulation & visualization\r\n\r\nExploratory Data Analysis J Helveston – A course to learn how to import, manipulate, clean, explore, visualize, and export data in R\r\n\r\nData Manipulation\r\nName\r\nLinks\r\nData Wrangling with R and the Tidyverse G. Grolemund – An introductory playlist\r\n\r\nCleaning ecological survey data for conservation scientists C J Brown, C Buelow\r\n\r\ndplyr R Programming - DDS – an introductory playlist to dplyr and its functions\r\n\r\nData Visualization\r\nName\r\nLinks\r\nFundamentals of Data Visualization C . Wilke – Theory on how to make right and nice figures, not R focused\r\n\r\nR Graphics Cookbook W. Chang – A practical guide to help you generate high-quality graphs\r\n\r\nR for Ecologists – a youtube channel including basics on R and visualization\r\n\r\nggplot2 H. Wickham – focus on explaining the grammar of graphics that ggplot2 uses, it is not a cookbook\r\n\r\nVisualization – a R studio youtube playlist\r\n\r\nShiny\r\nName\r\nLinks\r\nShiny gallery – Find ideas about what is possible to do\r\n\r\nA shiny workshop to start D Valle and others – A full course to start with shiny\r\n\r\nMastering Shiny Hadley Wickham – Designed to take you from knowing nothing about Shiny to being an expert developer\r\n\r\nEngineering Production-Grade Shiny Apps C Fay, S Rochette, V Guyader, C Girard – learn the process of building an application that will later be sent to production\r\n\r\nShiny Developer Series – a youtube channel\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-29T08:07:02+01:00"
+      "last_modified": "2022-02-05T13:49:39+01:00"
     },
     {
       "path": "basics_ethics.html",
@@ -24,7 +24,7 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n\r\nContents\r\nReproducibility\r\nTidyverse\r\nRmarkdown\r\nGit\r\n\r\nEthics\r\nOpen science\r\n\r\nIcon Legend:\r\nType: full course  video  exo  open book, tutorial, manual  book (not free)  article website\r\nlevel: begin  intermediate  advanced \r\nReproducibility\r\nName\r\nLinks\r\nReproducible science workshop O Gimenez – A full overview to start making your analyses reproducible\r\n\r\nTidyverse\r\nName\r\nLinks\r\nTidy Modeling with R M Kuhn, J Silge – Introduction to how to use Tidyverse\r\n\r\nRmarkdown\r\nName\r\nLinks\r\nR Markdown: The Definitive Guide Y Xie, J J Allaire, G Grolemund – A complete and introducing reference book to use R Markdown\r\n\r\nR Markdown Cookbook Y Xie, C Dervieux, E Riederer – A practical reference book for R Markdown\r\n\r\nTables generator – Create a markdown table\r\n\r\nGit\r\nName\r\nLinks\r\nHappy Git and GitHub for the useR – Learn how to start and integrate git into your daily work with R and Markdown\r\n\r\nGithub Docs – Official documentation\r\n\r\nEthics\r\nName\r\nLinks\r\n\r\n\r\nOpen science\r\nName\r\nLinks\r\nSORTEE Society for Open, Reliable, and Transparent Ecology and Evolutionary biology\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-29T08:07:04+01:00"
+      "last_modified": "2022-02-05T13:49:40+01:00"
     },
     {
       "path": "basics_maths.html",
@@ -33,7 +33,7 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n\r\nContents\r\nCalculus\r\nProbability\r\nAlgebra\r\nTeaching Mathematics in Ecology\r\n\r\nIcon Legend:\r\nType: full course  video  exo  open book, tutorial, manual  book (not free)  article website\r\nlevel: begin  intermediate  advanced \r\nCalculus\r\nName\r\nLinks\r\nLearning Centennial College M Cheung – Definitions of useful words\r\n\r\nDerivatives of Common Functions – Cheatsheet\r\n\r\nProbability\r\nName\r\nLinks\r\nProbability S Jadhav – Probability theory & description of main distributions, not really ecologist friendly…\r\n\r\nAlgebra\r\nName\r\nLinks\r\nLearning Centennial College M Cheung – Definitions of useful words in linear algebra\r\n\r\nTeaching Mathematics in Ecology\r\nName\r\nLinks\r\nWhat math should ecologists teach? B McGill – Opinion in a blog, 2014\r\n\r\nLack of quantitative training among early-career ecologists: a survey of the problem and potential solutions F Barraquand et al. 2014\r\n\r\nWriting mathematical ecology: A guide for authors and readers L G Shoemaker et al 2021\r\n\r\nMathematical Ecology: A Century of Progress, and Challenges for the Next Century S Levin – a lecture in 2017\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-29T08:07:06+01:00"
+      "last_modified": "2022-02-05T13:49:41+01:00"
     },
     {
       "path": "basics_r.html",
@@ -42,7 +42,7 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n\r\nContents\r\nProgramming in R\r\nData science in R\r\nPackages\r\nOthers\r\n\r\nIcon Legend:\r\nType: full course  video  exo  open book, tutorial, manual  book (not free)  article website\r\nlevel: begin  intermediate  advanced \r\nProgramming in R\r\nName\r\nLinks\r\nFirst steps in R Institut Pasteur & USR 3756 – A very basic tutorial to start R\r\n\r\nHands-On Programming with R G Grolemund – A practical guide to start programming with R\r\n\r\nIntroduction to Programming with R R Stauffer et al. – Basics R, writing, coding & manipulating data\r\n\r\nIntro to Programming for Analytics J Helveston – Basics in R, include an introduction to Python\r\n\r\nR introduction J Mathys VIB – A simple tutorial to start with R, only\r\n\r\nHow to R – A youtube channel incuding short videos on basics R, data manipulation and visualization\r\n\r\nAdvanced R H Wickham –\r\n\r\nEfficient R programming C Gillespie R Lovelace – Increase the amount of work you can do with R in a given amount of time\r\n\r\nAvoid for loops R programming DDS – Learn how to make your code faster\r\n\r\nData science in R\r\nName\r\nLinks\r\nStatistics and Data Science with R M Marin – A complete course to start statistics with R. 5 series: getting started, descriptive statistics, probability distribution, bivariate analysis, linear regression with R\r\n\r\nIntroduction to Data Science R A Irizarry – A complete guide including R basics, data wrangling, data visualisation, statistics and machine learning\r\n\r\nR Programming for Data Science R D Peng – Start with R, load and manipulate your data\r\n\r\nLearning statistics with R D Navarro – A tutorial for beginners to start statistics and simple tests with R\r\n\r\nApplied Quantitative Methods D McGlinn – A more advanced course introducing R programming, version control, SQL, GIS, spatial statistics, multivariate statistics\r\n\r\nPackages\r\nName\r\nLinks\r\nR Packages H Wickham, J Bryan\r\n\r\nOthers\r\nName\r\nLinks\r\nR studio cheatsheets – Very useful synthetic sheets to find the function you need\r\n\r\nRstudio youtube channel\r\n\r\nR Reference Card – Quick access & definition to simple R functions\r\n\r\nR-Uni – A list of R tutorials and resources in university webpages\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-29T08:07:11+01:00"
+      "last_modified": "2022-02-05T13:49:44+01:00"
     },
     {
       "path": "basics_stats.html",
@@ -51,7 +51,7 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n\r\nContents\r\nOverview\r\nDistributions\r\n\r\nIcon Legend:\r\nType: full course  video  exo  open book, tutorial, manual  book (not free)  article website\r\nlevel: begin  intermediate  advanced \r\nOverview\r\nName\r\nLinks\r\nStats 101 B Foltz – Complete videos for an introduction to statistics including descriptive statistics, hypothesis testing, distributions, regression\r\n\r\nMarinStatsLectures M Marin – A full course with 3 series: descriptive statistics, univariate analysis, bivariate analysis\r\n\r\nStatistical Inference for biology McClatchy, Churchill – a course about inferential statistics\r\n\r\nStatistics Simple Learning pro – Basics videos to start statistics\r\n\r\nZedstatistics – a youtube channel including simple playlists about descriptive statistics, distribution, inferential statistics, regression\r\n\r\nLearning Centennial College M Cheung – Definitions of useful words in statistics\r\n\r\nBiology for life G von Bargen – Descriptions of simple statistical concepts and tests used in biology\r\n\r\nSTAT506 Penn State College – a full course about sampling design\r\n\r\nDistributions\r\nName\r\nLinks\r\nThe distribution zoo B Lambert, F Cooper – A ShinyApp to visualize distributions\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-29T08:07:12+01:00"
+      "last_modified": "2022-02-05T13:49:45+01:00"
     },
     {
       "path": "byfield_community.html",
@@ -60,7 +60,7 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n\r\nContents\r\nOverview\r\nHierarchical Models\r\nVegan\r\n\r\nIcon Legend:\r\nType: full course  video  exo  open book, tutorial, manual  book (not free)  article website\r\nlevel: begin  intermediate  advanced \r\nOverview\r\nName\r\nLinks\r\nAnalysis of community ecology data in R D Zelený – A wiki giving an introductory overview of relevant theory, real community datasets and example R scripts\r\n\r\nNumerical Ecology P Legendre, L Legendre – Reference textbook\r\n\r\nNumerical Ecology with R D Borcard, F Gillet, P Legendre – Exploration of the methods by means of applied and extensively commented examples\r\n\r\nHierarchical Models\r\nVegan\r\nA R package for community analysis\r\nName\r\nLinks\r\nIntroduction to multivariate data analysis using vegan G Simpson – a practical introduction to some of the most useful functions in vegan\r\n\r\nMultivariate Analysis of Ecological Communities in R: vegan tutorial J. Oksanen – demostrates the use of ordination methods in Rpackage vegan, assumes familiarity both with R and with community ordination\r\n\r\nA Vegan Tutorial P Clark – Quick introduction to useful functions\r\n\r\nAdvanced community data analysis using the vegan package in R G Simpson N Zimmerman – a follow-up to the “Introduction to vegan” session teaching when and how to use multivariate methods including constrained ordination as well as between-group tests\r\n\r\nVegan cheat sheet A Bui – an introductory workshop to useful functions in vegan\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-29T08:07:14+01:00"
+      "last_modified": "2022-02-05T13:49:46+01:00"
     },
     {
       "path": "byfield_demography.html",
@@ -69,7 +69,7 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n\r\nContents\r\nSurvival\r\nCMR\r\n\r\nReproduction\r\nGrowth\r\n\r\nIcon Legend:\r\nType: full course  video  exo  open book, tutorial, manual  book (not free)  article website\r\nlevel: begin  intermediate  advanced \r\nSurvival\r\nCMR\r\nName\r\nLinks\r\nBayesian capture-recapture inference with hidden Markov models O Gimenez, C R Nater, S Cubaynes, P de Valpine, M Quéroué – A two-day workshop with R and Nimble to learn about how to infer demographic parameters (e.g. survival, dispersal)\r\n\r\nReproduction\r\nGrowth\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-29T08:07:16+01:00"
+      "last_modified": "2022-02-05T13:49:47+01:00"
     },
     {
       "path": "byfield_population.html",
@@ -78,7 +78,16 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n\r\nContents\r\nOverview\r\nEquilibrium\r\nStochastic\r\nTransient\r\nDensity-Dependent\r\nIntegral Projection Models\r\nIntegrated Population Models\r\nIndividual Based Models\r\nSocial Species\r\nDEB\r\nEpidemio\r\n\r\nIcon Legend:\r\nType: full course  video  exo  open book, tutorial, manual  book (not free)  article website\r\nlevel: begin  intermediate  advanced \r\nOverview\r\nName\r\nLinks\r\n** ** * * –\r\n\r\nEquilibrium\r\nStochastic\r\nTransient\r\nDensity-Dependent\r\nIntegral Projection Models\r\nIntegrated Population Models\r\nIndividual Based Models\r\nName\r\nLinks\r\nIndividual-based modeling with NetLogoR S Bauduin, O Gimenez, O Grente, N Santostasi – A 2 Day workshop giving an introduction to individual based models\r\n\r\nSocial Species\r\nDEB\r\nEpidemio\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-29T08:07:18+01:00"
+      "last_modified": "2022-02-05T13:49:48+01:00"
+    },
+    {
+      "path": "byfield_quantgenetics.html",
+      "title": "Quantitative Genetics",
+      "description": "Resources to apply quantitative genetics\n",
+      "author": [],
+      "date": "`r Sys.Date()`",
+      "contents": "\r\n\r\nContents\r\nOverview\r\n\r\nIcon Legend:\r\nType: full course  video  exo  open book, tutorial, manual  book (not free)  article website\r\nlevel: begin  intermediate  advanced \r\nOverview\r\nName\r\nLinks\r\nStatistics for ecologists O. Gimenez – A master course introducing likelihoods, hypothesis testing, Bayesian inference, GLM, GLMM, GAM\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-02-05T13:49:49+01:00"
     },
     {
       "path": "byfield_spatial.html",
@@ -87,15 +96,15 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n\r\nContents\r\nGIS & Data\r\nDistribution and Abundance\r\nHabitat Selection\r\nMovement\r\n\r\nIcon Legend:\r\nType: full course  video  exo  open book, tutorial, manual  book (not free)  article website\r\nlevel: begin  intermediate  advanced \r\nGIS & Data\r\nName\r\nLinks\r\nIntroduction to GIS and mapping in R using the sf package O. Gimenez – Helpful slides to start mapping in R\r\n\r\nData wrangling for spatial analysis C J Brown, D Schoeman, A J Richardson, B Venables – Introduction to spatial analysis with sf\r\n\r\nDistribution and Abundance\r\nName\r\nLinks\r\nCurrent approaches to species distribution modelling with R C. Brown Introduction to build, run and visualize species distribution models\r\n\r\nHabitat Selection\r\nMovement\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-29T08:07:24+01:00"
+      "last_modified": "2022-02-05T13:49:52+01:00"
     },
     {
       "path": "index.html",
       "title": "Learn EcoStat",
       "description": "A useful list of resources to teach and learn ecological statistics\n",
       "author": [],
-      "contents": "\r\n\r\nContents\r\nBasics\r\nR\r\nEthics\r\nData\r\nStats\r\nMaths\r\n\r\nModeling\r\nRegression\r\nBayesian Approach\r\nMultivariate Analyses\r\nMachine Learning\r\n\r\nbyField\r\nDemography\r\nPopulation Dynamics\r\nSpatial Analyses\r\nCommunity Analyses\r\n\r\n\r\nIcon Legend:\r\nType: full course  video  exo  open book, tutorial, manual  book (not free)  article website\r\nlevel: begin  intermediate  advanced \r\nBasics\r\nR\r\nProgramming in R\r\nData science in R\r\nPackages\r\nOthers\r\nEthics\r\nReproducibility\r\nEthics\r\nOpen science\r\nData\r\nData Science\r\nData Manipulation\r\nData Visualization\r\nStats\r\nOverview\r\nDistributions\r\nMaths\r\nCalculus\r\nProbability\r\nAlgebra\r\nTeaching Mathematics in Ecology\r\nModeling\r\nRegression\r\nOverview\r\nLinear models\r\nMixed models\r\nGAMM\r\nStructural Equation Modeling\r\nPlot your model\r\nCheck your model\r\nModel selection\r\nModel averaging\r\nBayesian Approach\r\nOverview\r\nPriors\r\nConvergence and Identifiability\r\nMCMC\r\nPackages and Software\r\nMultivariate Analyses\r\nOverview\r\nOrdination methods\r\nClustering\r\nMachine Learning\r\nbyField\r\nDemography\r\nSurvival\r\nCMR\r\nReproduction\r\nGrowth\r\nPopulation Dynamics\r\nEquilibrium\r\nStochastic\r\nTransient\r\nDensity-Dependent\r\nIntegral Projection Models\r\nIntegrated Population Models\r\nIndividual Based Models\r\nSocial species\r\nEpidemio\r\nDEB\r\nSpatial Analyses\r\nGIS & Data\r\nDistribution and Abundance\r\nHabitat Selection\r\nMovement\r\nCommunity Analyses\r\nOverview\r\nHierarchical Models\r\nVegan\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-29T08:07:30+01:00"
+      "contents": "\r\n\r\nContents\r\nBasics\r\nR\r\nEthics\r\nData\r\nStats\r\nMaths\r\n\r\nModeling\r\nRegression\r\nBayesian Approach\r\nMultivariate Analyses\r\nMachine Learning\r\n\r\nbyField\r\nDemography\r\nPopulation Dynamics\r\nSpatial Analyses\r\nCommunity Analyses\r\nQuantitative Genetics\r\n\r\n\r\nIcon Legend:\r\nType: full course  video  exo  open book, tutorial, manual  book (not free)  article website\r\nlevel: begin  intermediate  advanced \r\nBasics\r\nR\r\nProgramming in R\r\nData science in R\r\nPackages\r\nOthers\r\nEthics\r\nReproducibility\r\nEthics\r\nOpen science\r\nData\r\nData Science\r\nData Manipulation\r\nData Visualization\r\nStats\r\nOverview\r\nDistributions\r\nMaths\r\nCalculus\r\nProbability\r\nAlgebra\r\nTeaching Mathematics in Ecology\r\nModeling\r\nRegression\r\nOverview\r\nLinear models\r\nMixed models\r\nGAMM\r\nStructural Equation Modeling\r\nPlot your model\r\nCheck your model\r\nModel selection\r\nModel averaging\r\nBayesian Approach\r\nOverview\r\nPriors\r\nConvergence and Identifiability\r\nMCMC\r\nPackages and Software\r\nMultivariate Analyses\r\nOverview\r\nOrdination methods\r\nClustering\r\nMachine Learning\r\nbyField\r\nDemography\r\nSurvival\r\nCMR\r\nReproduction\r\nGrowth\r\nPopulation Dynamics\r\nEquilibrium\r\nStochastic\r\nTransient\r\nDensity-Dependent\r\nIntegral Projection Models\r\nIntegrated Population Models\r\nIndividual Based Models\r\nSocial species\r\nEpidemio\r\nDEB\r\nSpatial Analyses\r\nGIS & Data\r\nDistribution and Abundance\r\nHabitat Selection\r\nMovement\r\nCommunity Analyses\r\nOverview\r\nHierarchical Models\r\nVegan\r\nQuantitative Genetics\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-02-05T13:49:53+01:00"
     },
     {
       "path": "modeling_bayesian.html",
@@ -104,7 +113,7 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n\r\nContents\r\nOverview\r\nPriors\r\nMCMC\r\nConvergence and Identifiability\r\nPackages and software\r\nJAGS\r\nStan\r\nNimble\r\n\r\n\r\nIcon Legend:\r\nType: full course  video  exo  open book, tutorial, manual  book (not free)  article website\r\nlevel: begin  intermediate  advanced \r\nOverview\r\nName\r\nLinks\r\nBayesian statistics with R O. Gimenez – A clear introduction to Bayesian analysis using R and jags\r\n\r\nStatistical Rethinking R McElreath – A complete course about Bayesian inference and regression, including covariance structure, using stan\r\n \r\nBayesian Modeling for Socio-Environmental Data T Hobbs, M Collins, C Che-Castaldo – A course with r and jags providing an understanding to Bayesian methods, statistical concepts and methodology\r\n\r\nBayesian statistics course F. Barraquand – A full Master course to learn Baysian statistics including MCMC, Anova, GLMM, non-linear models, occupancy models and model selection\r\n\r\nBiogecoBayes – A collection of useful workshops created by a group of researchers & students who want to progress together in their learning\r\n\r\nBayesian Models: A Statistical Primer for Ecologists T Hobbs, M Hooten – Presents the mathematical and statistical foundations of Bayesian modeling in language accessible to non-statisticians\r\n\r\nLearning Bayesian Statistics – a podcast channel presenting scientists, their approach and thinking\r\n\r\nPriors\r\nName\r\nLinks\r\nMCMC\r\nName\r\nLinks\r\nThe Markov-chain Monte Carlo Interactive Gallery – view algorithms\r\n\r\nConvergence and Identifiability\r\nName\r\nLinks\r\nPackages and software\r\nJAGS\r\nStan\r\nName\r\nLinks\r\nBecome a Bayesian with R & Stan M Clark – an introduction to the probabilistic programming language Stan\r\n\r\nStan for Ecology – location for all types of works in ecology that use the software Stan for Bayesian inference\r\n\r\nStan User Guide Stan Development Team –\r\n\r\nNimble\r\nName\r\nLinks\r\nnimble-training C Paciorek, D Turek, P de Valpine – several workshops to learn programming with nimble\r\n\r\nnimble manual NIMBLE Development Team – official & useful manual\r\n\r\nnimble cheatsheet\r\n\r\nnimble NIMBLE Development Team – nimble website, download, find examples and documentation\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-29T08:07:35+01:00"
+      "last_modified": "2022-02-05T13:49:54+01:00"
     },
     {
       "path": "modeling_machinelearning.html",
@@ -113,7 +122,7 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\nIcon Legend:\r\nType: full course  video  exo  open book, tutorial, manual  book (not free)  article website\r\nlevel: begin  intermediate  advanced \r\nName\r\nLinks\r\nA practical guide to machine learning in ecology J Lefcheck – blog introducing machine learning to ecologists\r\n\r\nDeep Learning for Ecology P Gray – a brief overview of the applications of deep learning to ecology and remote sensing\r\n\r\nData Science Live Book P Casas – a book about data preparation, data analysis and machine learning\r\n\r\nMachine Learning for Ecology and Sustainable Natural Resource Management G Humphries, D R Magness, F Huettmann – Shows ecologists cutting-edge methods that can help in understanding complex systems with multiple interacting variables to form predictive hypotheses from large datasets\r\n\r\nMachine Learning Mastery – A site including tutorials for machine learning from beginners to advanced levels\r\n\r\nIn-depth introduction to machine learning T Hastie and R Tibshirani – 2014, A full introduction to start machine learning\r\n\r\nOxford Machine Learning N de Freitas, B Shillingford, M Moczulsky a maths course to introduce numerical computation, statistics and optimization to be able to design and implement machine learning algorithms, prerequisites in maths and programming\r\n\r\nA translucent box: interpretable machine learning in ecology T C D Lucas\r\n\r\nApplications for deep learning in ecology S Christin, E Hervet, N Lecomte\r\n\r\nDeep learning as a tool for ecology and evolution Borowiec et al.\r\n\r\nMachine learning to classify animal species in camera trap images: Applications in ecology Tabac et al.\r\n\r\nAwesome Machine Learning – A list of machine learning frameworks, libraries and software\r\n\r\nHave a look also to wikistat (Insa Toulouse, but in french)\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-29T08:07:39+01:00"
+      "last_modified": "2022-02-05T13:49:55+01:00"
     },
     {
       "path": "modeling_multivariate.html",
@@ -122,7 +131,7 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n\r\nContents\r\nOverview\r\nOrdination Methods\r\nClustering\r\n\r\nIcon Legend:\r\nType: full course  video  exo  open book, tutorial, manual  book (not free)  article website\r\nlevel: begin  intermediate  advanced \r\nOverview\r\nName\r\nLinks\r\nMultivariate Analysis S. Jadhav A list of videos introducing r, multivariate analysis, PCA and clustering\r\n\r\nExploratory Multivariate Data Analysis F Husson, J Pagès, M Houée-Bigot – a MOOC including PCA, CA, MCA and clustering\r\n\r\nGusta Me – a website describing range of analysis techniques used in microbial ecology including data preparation, ordination and clustering methods\r\n\r\nApplied Multivariate Statistical Analysis Penn State College – a full course examining a variety of statistical methods for multivariate data, including multivariate extensions of t-tests and analysis of variance, dimension reduction techniques such as principal component analysis, factor analysis, canonical correlation analysis, and classification and clustering methods.\r\n\r\nMultivariate Analysis S Dray – Slides from a Master course including PCA, correspondance analysis & two-table analysis\r\n\r\nOrdination Methods\r\nName\r\nLinks\r\nOrdination Methods for Ecologists M. Palmer – A full presentation of theory and main ordination methods\r\n\r\nrelated links: http://ordination.okstate.edu/otherlinks.html\r\nClustering\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-29T08:07:41+01:00"
+      "last_modified": "2022-02-05T13:49:56+01:00"
     },
     {
       "path": "modeling_regression.html",
@@ -131,7 +140,7 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n\r\nContents\r\nOverview\r\nLinear models\r\nMixed models\r\nGAMM\r\nStructural Equation Modeling\r\nPlot your model\r\nCheck your model\r\nModel Selection\r\nModel Averaging\r\n\r\nIcon Legend:\r\nType: full course  video  exo  open book, tutorial, manual  book (not free)  article website\r\nlevel: begin  intermediate  advanced \r\nOverview\r\nName\r\nLinks\r\nStatistics for ecologists O. Gimenez – A master course introducing likelihoods, hypothesis testing, Bayesian inference, GLM, GLMM, GAM\r\n\r\nStatistical Thinking for the 21st Century R A Poldrack – focuses on understanding the basic ideas of statistical thinking, about how we describe the world and use data in the context of the inherent uncertainty that exists in the real world\r\n\r\nMichael Clark site – A series of open introductory workshops in bayesian analysis, mixed models, GAM, SEM and machine learning\r\n\r\nBeyond Multiple Linear Regression P Roback, J Legler – A full textbook to apply generalized linear models and multilevel models in R\r\n\r\nLinear models\r\nName\r\nLinks\r\nRegression Methods I Pardoe, Penn State College – a full course on linear regression, also introducing generalized linear regression\r\n\r\nMixed models\r\nName\r\nLinks\r\nGLMM course S. Anderson – a 2 day workshop including a full introduction, regression, random intercepts and slopes, spatial and temporal autocorrelation\r\n\r\nGLMM FAQ B.Bolker et al.\r\n\r\nRpubs B. Bolker – “blog form”, A collection of short tuto on specific subjects\r\n\r\nGeneralized linear mixed models: a practical guide for ecology and evolution B.Bolker et al.\r\n\r\nHow to Make Models Add Up — A Primer on GLMMs R O’Hara\r\n\r\nSIMR: an R package for power analysis of generalized linear mixed models by simulation P Greenet al. – 2016\r\n\r\nBeyond Power Calculations: Assessing Type S (Sign) and Type M (Magnitude) Errors A Gelman, J Carlin – 2014\r\n\r\nIntroduction to mixed models H Brown – March 2016. Series of videos giving a general but quick & unfriendly introduction\r\n\r\nGLMM for ecologists and evolutionary biologists B.Bolker et al. – a wiki including resources on the practical use of GLMM\r\n\r\nGAMM\r\nName\r\nLinks\r\nIntroduction to Generalized Additive Models with R and mgcv G Simpson a 3h course introducing how to fit and check GAM\r\n\r\nmgcv course G Simpson, N Ross, Slides and exercices from a day workshop introducing how to fit and check GAM\r\n\r\nStructural Equation Modeling\r\nName\r\nLinks\r\nAn Introduction to Structural Equation Modeling J Lefcheck – A complete book introducing SEM and the piecewiseSEM package\r\n\r\nStructural equation modeling and natural systems JB Grace – 2006\r\n\r\nCause and Correlation in Biology: A User’s Guide to Path Analysis, Structural Equations and Causal Inference with R B Shipley – 2016\r\n\r\nPlot your model\r\nName\r\nLinks\r\nCheck your model\r\nName\r\nLinks\r\nModel Selection\r\nName\r\nLinks\r\nA practical guide to selecting models for exploration, inference, and prediction in ecology Tredennick et al.\r\n\r\nModel Averaging\r\nName\r\nLinks\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-29T08:07:43+01:00"
+      "last_modified": "2022-02-05T13:49:57+01:00"
     },
     {
       "path": "others.html",
@@ -140,7 +149,7 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\nIcon Legend:\r\nType: full course  video  exo  open book, tutorial, manual  book (not free)  article website\r\nlevel: begin  intermediate  advanced \r\nName\r\nLinks\r\nCross-Validated – The statistical forum\r\n\r\nOurcodingclub – Many different tutorial made by a group of student and researcher from the University of Edinburgh\r\n\r\nEcological Applications in R – a youtube channel creating for the Covid\r\n\r\nConservation hackers – forum, blog and courses for conservation scientists\r\n\r\nR4DS – a community of R learners at all skill levels working together to improve their skills\r\n\r\nDiscdown – regrouping courses such as Data Analytic, programming in R and Flexible Regressions\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-29T08:07:45+01:00"
+      "last_modified": "2022-02-05T13:49:58+01:00"
     }
   ],
   "collections": []

@@ -39,6 +39,8 @@ navbar:
           href: byfield_spatial.html
         - text: "Community Analyses" 
           href: byfield_community.html
+        - text: "Quantitative Genetics" 
+          href: byfield_quantgenetics.html
 
   right:
     - text: "Others"

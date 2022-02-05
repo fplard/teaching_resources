@@ -36,7 +36,7 @@ If you are in charge of a page, you should appear in the first section of this d
 
 ##### [Stats](basics_stats.html): **Gilles Yoccoz**
 
-##### [Maths](basics_maths.html): Fred?
+##### [Maths](basics_maths.html): **Fred Barraquand**
 
 *contribute: J Matthiopoulos, B McGill, S Otto, F Débarre, Lyon teachers?, [M Bonsall](https://www.zoo.ox.ac.uk/people/professor-michael-bonsall?filter_types-1860401[]=&filter_series-1860401[]=#tab-1860396)*
 
@@ -100,7 +100,7 @@ Already some very good courses in this part and a lot of resources that can be i
 Meta-Analysis, Allometric models, Phylogeny
 
 
-#####  Quantitative Genetics: P De Villemereuil ?
+#####  [Quantitative Genetics](byfield_quantgenetics.html): **Pierre de Villemereuil**  ?
 
 *contribute: LM Chevin, A Kuparinen, B Walsh, M Morrissey, T Bonnet*
 
