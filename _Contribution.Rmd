@@ -209,7 +209,7 @@ Levels are defined by color and can be attributed to any type of resources, usin
  
  6- When your page is ready to be published online or has new modifications that you want to appear online, ask for merging your branch with the master branch using pull request. ([see section 2.4.4 here for help](https://aberdeenstudygroup.github.io/studyGroup/lessons/SG-T1-GitHubVersionControl/VersionControl/#2.3.))
  
- 7- Do not delete your branch as it will be used by others to suggest modifications/new resources on your page.
+ 7- Do not delete your branch as it will be used by others to suggest modifications/new resources on your page
 
 ### Manage your page
 
