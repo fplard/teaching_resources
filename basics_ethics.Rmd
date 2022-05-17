@@ -59,7 +59,7 @@ website`r ilink("site", "https:/xcelab.net/rm/statistical-rethinking/")`
 
 | Name                                      | Links |
 |-------------------------------------------|-------|
-|   |`r ilink("site", " ")`|
+|**Ethical Guidelines for Statistical Practice** -- Valuable advice for anyone who engage in statistical practice|`r ilink("site", "https://www.amstat.org/your-career/ethical-guidelines-for-statistical-practice")`|
 
 
 ## Open science
