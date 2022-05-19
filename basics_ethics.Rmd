@@ -20,7 +20,7 @@ book (not free) `r ilink("book", "https:/xcelab.net/rm/statistical-rethinking/")
 article`r ilink("article", "https:/xcelab.net/rm/statistical-rethinking/")`
 website`r ilink("site", "https:/xcelab.net/rm/statistical-rethinking/")`
 
-**level**: begin `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lvl=1)` intermediate `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lvl=2)` advanced `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lvl=3)`
+**level**: begi `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lvl=1)` intermediate `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lvl=2)` advanced `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lvl=3)`
 
 
 ## Reproducibility 
