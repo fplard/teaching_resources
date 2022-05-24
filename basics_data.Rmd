@@ -2,6 +2,8 @@
 title: "Data manipulation and visualization"
 description: |
   Resources to learn and improve data manipulation, exploration and visualization in R.
+  
+  maintained by : *Volunteer wanted* [Click [here to contribute](forms.html)]{style="float:right"}
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
@@ -66,3 +68,9 @@ Global resources to start data science including introductory and intermediate m
 |**Mastering Shiny** *Hadley Wickham* --  Designed to take you from knowing nothing about Shiny to being an expert developer|`r ilink("tuto", "https://mastering-shiny.org/", lvl=2)`|
 |**Engineering Production-Grade Shiny Apps** *C Fay, S Rochette, V Guyader, C Girard* -- learn the process of building an application that will later be sent to production  |`r ilink("tuto", "https://engineering-shiny.org/index.html", lvl=2)`|
 |**Shiny Developer Series** -- a youtube channel  |`r ilink("video", "https://www.youtube.com/c/ShinyDeveloperSeries/videos", lvl=2)`|
+
+
+
+
+
+

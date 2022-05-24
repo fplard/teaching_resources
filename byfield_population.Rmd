@@ -2,6 +2,9 @@
 title: "Population dynamics"
 description: |
   Resource to model population dynamics
+        
+  maintained by : *Volunteer Wanted* [Click [here to contribute](forms.html)]{style="float:right"}
+
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---

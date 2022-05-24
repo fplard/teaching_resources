@@ -2,6 +2,9 @@
 title: "Demography"
 description: |
   Resources to model survival, reproduction and growth
+        
+  maintained by : **Sarah Cubaynes** [Click [here to contribute](forms.html)]{style="float:right"}
+
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---

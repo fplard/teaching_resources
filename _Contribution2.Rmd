@@ -1,0 +1,189 @@
+---
+title: "Contribution"
+description: |
+  How to manage the page you are in charge of
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source(file.path("R", "functions.R"))
+```
+
+
+If you are in charge of a page, you should appear in the first section of this document and should have been granted with access to the source code. If not, please send an email to floriane.c.plard@gmail.com.
+
+# Organisation of the website
+
+## site plan
+
+
+### Basics
+
+##### [R](basics_r.html): 
+
+
+##### [Ethics](basics_ethics.html): **Sandra Hamel**
+
+
+##### [Data](basics_data.html): 
+
+##### [Stats](basics_stats.html): 
+
+##### [Maths](basics_maths.html): **Fred Barraquand**
+
+
+
+### Modeling
+
+##### [Regression](modeling_regression.html): **Gilles Yoccoz**
+
+##### [Bayesian Approach](modeling_bayesian.html): **Olivier Gimenez**
+
+
+##### [Multivariate Analyses](modeling_multivariate.html): **Stéphane Dray**
+
+
+##### [Machine Learning](modeling_machinelearning.html): 
+
+
+
+### byField
+
+##### [Demography](byfield_demography.html): **Sarah Cubaynes**
+
+
+##### [Population Dynamics](byfield_population.html): 
+
+
+##### [Spatial Analyses](byfield_spatial.html): 
+
+##### [Community Analyses](byfield_community.html):
+
+#####  Cross-species Analysis:
+
+#####  [Quantitative Genetics](byfield_quantgenetics.html): **Pierre de Villemereuil** 
+
+
+##### Network Analysis
+
+
+
+## Organisation of the website
+
+Resources are classified using three main parts in the website: Basics, Modeling, and byField. Each part contains several pages, one per topic. 
+
+The website was created using distill website and Rmarkdown. Each page is a Rmarkdown page named "partname_topicname.Rmd". For instance, the page R in the part Basics can be edited from *basics_r.Rmd*. You can open this file and use it as an example.
+
+There is one page named [others](others.html). This page can be used to add interesting links that we do not know where to include.
+
+## Organisation of each page
+
+Each page is written in Rmarkdown and rendered into a webpage using *render_site()* from the package rmarkdown.
+
+Each page must be divided into informative sections. Sections are separated by the title of each section using markdown headings (# ## ### ...). You can introduce each section using short sentences. Then resources are presented in simple markdown tables as in [the example page: useful resources to use R](basics_r.html).
+
+Example of resources in a table:
+
+
+|Name                                       |Links |
+|-------------------------------------------|------|
+|**First steps in R** *Institut Pasteur & USR 3756* -- A very basic tutorial to start R |`r ilink("tuto", "https://hub-courses.pages.pasteur.fr/R_pasteur_phd/First_steps_RStudio.html", lvl=1)`|
+|**Hands-On Programming with R** *G Grolemund* -- A practical guide to start programming with R|`r ilink("tuto", "https://rstudio-education.github.io/hopr/",lvl=1)`|
+|**R studio cheatsheets** -- Very useful synthetic sheets to find the function you need|`r ilink("site", "https://www.rstudio.com/resources/cheatsheets/")`|
+|**Rstudio youtube channel** |`r ilink("video", "https://www.youtube.com/c/RStudioPBC/playlists")`|
+
+
+
+
+## Heading
+
+The yaml (or heading) of each .Rmd file includes title, description, and maintainer of the page that can be edited, plus a direct link to the contribution page for other people that want to suggest new ressources on the page.
+
+
+title: "TITLE OF THE PAGE"
+
+description: |
+
+ DESCRIPTION OF THE PAGE
+ 
+   maintained by : **Your Name**
+  
+  [Click here to [contribute](forms.html)]{style="float:right"}
+ 
+date: "r Sys.Date()"
+
+output: distill::distill_article
+
+
+
+## Resources
+
+In each section or sub-section, resources are included in markdown tables. Each includes two columns: Name & Links. the Name column include the description of the resources. This description should include the minimum information listed below. In the Links column, resources are classified by type (course, book, website...) and level (begin, intermediate, expert, everyone) in order to guide readers towards what they are looking for faster.
+
+
+#### Type
+
+Types are classified according to the following table. Links to resources can be included using the function *ilink("type",urladresslink,lvl)*. For each resource, please follow this formating:
+
+
+|type     |Name: resource formating |Links:code        |Links|
+|---------|-------------------------|------------------|-----|
+|full course|**Title** *Author* -- short description |*ilink("course", "url",lvl=0)*|`r ilink("course", "url",lvl=0)`|
+|video|**Title** *Author* -- short description |*ilink("video", "url",lvl=0)*|`r ilink("video", "url",lvl=0)`|
+|open book| **Title** *Author* -- short description |*ilink("tuto", "url",lvl=0)*|`r ilink("tuto", "url",lvl=0)`|
+|book (not free)|**Title** *Author* -- short description |*ilink("book", "url",lvl=0)*|`r ilink("book", "url",lvl=0)`|
+|article|**Title** *First Author et al.* -- year |*ilink("article", "url",lvl=0)*|`r ilink("article", "url",lvl=0)`|
+|website|**Title** -- short description |*ilink("site", "url",lvl=0)*|`r ilink("site", "url",lvl=0)`|
+|practical|**Title** -- short description | *ilink("exo", "url",lvl=0)*|`r ilink("exo", "url",lvl=0)`|
+
+
+#### level
+
+Levels are defined by color and can be attributed to any type of resources, using the argument "lvl" of the function ilink(). 
+
+|level|i.e.             |code for link|link |
+|-----|-----------------|-------------|-----|
+|begin|resources to start with|*ilink("tuto", "url", lvl=1)*|`r ilink("tuto", "url", lvl=1)`|
+|intermediate|resources to progress in the field|*ilink("tuto", "url", lvl=2)*|`r ilink("tuto", "url", lvl=2)`|
+|advanced |resources for researchers already in the field|*ilink("tuto", "url", lvl=3)*|`r ilink("tuto", "url", lvl=3)`|
+|everyone|resources for everyone|*ilink("tuto", "url")*|`r ilink("tuto", "url")`|
+
+
+
+# Manage and modify your page
+
+
+### Modify your page
+ 
+ 1- Pull the repository from github. ([see here for help](https://happygitwithr.com/rstudio-git-github.html#clone-the-test-github-repository-to-your-computer-via-rstudio))
+ 
+ 2- Create a branch to work on for your page, so you can work on it before it appears online ([see section 2.4.2 here for help](https://aberdeenstudygroup.github.io/studyGroup/lessons/SG-T1-GitHubVersionControl/VersionControl/#2.3.)).
+ 
+ 3- Install and source the package distill (and rmarkdown).
+ 
+ 4- Open and edit the .Rmd file of your page. You never need to open the .html file. (see rmarkdown [cheatsheet](https://www.rstudio.com/blog/the-r-markdown-cheat-sheet/) & [tables](https://www.markdownguide.org/extended-syntax/#tables) for help)
+ 
+ 4- Use the function rmarkdown::render_site("yourpage.Rmd") to update the associated .html file in the docs folder.
+ 
+ 5- Save, commit and push on your branch ([see section 2.4.3 here for help](https://aberdeenstudygroup.github.io/studyGroup/lessons/SG-T1-GitHubVersionControl/VersionControl/#2.3.))
+ 
+ 6- When your page is ready to be published online or has new modifications that you want to appear online, ask for merging your branch with the main branch using pull request. ([see section 2.4.4 here for help](https://aberdeenstudygroup.github.io/studyGroup/lessons/SG-T1-GitHubVersionControl/VersionControl/#2.3.))
+ 
+ 7- Do not delete your branch and try to keep it open as it will be used by others to suggest modifications/new resources on your page
+
+### Manage your page
+
+Other contributors will probably ask you to add some resources on your page. For this, they have two solutions: Use pull request or Fill the online formulaire.
+
+#### Using pull request
+
+If other contributors use pull requests, they should make pull requests on your branch (names after the name of your page) and you will be automatically notified by email. In the pull request, you will directly see the modifications suggested on your page. Please check the relevance, suitability and link of the resources suggested before accepting the suggested changes. See here for documentation about how to [review](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews) and [accept](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges) a pull request.
+
+#### Using formulaire
+This part is not ready yet!!!
+
+If people use the formulaire online, you will receive an email including the suggested resource to add on your page (only one by one). This email should already include all needed information and appear in the right format. So eventually, you will only have to check the resource and modify your page by copy-paste the line to one of the tables in your page.
+

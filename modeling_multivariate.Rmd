@@ -1,7 +1,9 @@
 ---
 title: "Multivariate Analysis"
 description: |
-  Resources to learn and develop multivariate analyses
+  Resources to learn and develop multivariate analyses  
+  
+  maintained by : **Stéphane Dray**  [Click [here to contribute](forms.html)]{style="float:right"}
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---

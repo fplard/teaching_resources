@@ -2,6 +2,9 @@
 title: "Mathematics"
 description: |
   Resources on mathematical concepts useful for ecological statistics
+        
+  maintained by : **Frederic Barraquand** [Click [here to contribute](forms.html)]{style="float:right"}
+
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---

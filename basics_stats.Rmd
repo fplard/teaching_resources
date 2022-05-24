@@ -2,6 +2,9 @@
 title: "Statistics"
 description: |
   Resources for a general introduction to descriptive and inferentials statistics
+        
+  maintained by : *Volunteer Wanted* [Click [here to contribute](forms.html)]{style="float:right"}
+
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---

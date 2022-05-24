@@ -8,39 +8,74 @@ $lvl = $_POST["level"];
 $author = $_POST["author"];
 $year = $_POST["year"];
 $url = $_POST["url"];
+$name = $_POST["name"];
+$email = $_POST["email"];
 $desc = $_POST["description"];
 $mess = $_POST["message"];
 
-$messsage=<<<EOF
+$message=<<<EOF
 This is an email from LearnEcoStat.
 A new resource has been suggested for your page. Could you please check the following suggestion and add it to your page if suitable.
 Thanks for your help.
 All the best,
 The learnecostat team
 
-$page: "$section:"
+"$page": "$section:"
 
 |*"$title"** *"$author"* -- "$desc" |`r ilink("$type", "$url", lvl="$lvl")`|
+suggestion made by:  "$name" ("$email")
 
-Any include message: "$mess"
+Any included message: "$mess"
 
 EOF;
 // to be change for destinataire
 switch ($page) {
-    case 0:
-        $d= "a";
+    case "r":
+        $dest= "floriane.c.plard@gmail.com";
         break;
-    case 1:
-        echo "i égal 1";
+    case "ethics":
+        $dest= "sandra.hamel@bio.ulaval.ca"
         break;
-    case 2:
-        echo "i égal 2";
+    case "data":
+        $dest= "floriane.c.plard@gmail.com";
+        break;
+    case "stats":
+        $dest= "floriane.c.plard@gmail.com";
+        break;
+    case "maths":
+        $dest= "frederic.barraquand@u-bordeaux.fr";
+        break;
+    case "regression":
+        $dest= "nigel.yoccoz@uit.no";
+        break;
+    case "bayesian":
+        $dest= "olivier.gimenez@cefe.cnrs.fr";
+        break;
+   case "multivariate":
+        $dest= "stephane.dray@univ-lyon1.fr";
+        break;
+    case "machine":
+        $dest= "floriane.c.plard@gmail.com";
+        break;
+    case "demography":
+        $dest= "sarah.cubaynes@cefe.cnrs.fr";
+        break;
+    case "population":
+        $dest= "floriane.c.plard@gmail.com";
+        break;
+   case "spatial":
+        $dest= "floriane.c.plard@gmail.com";
+        break;
+   case "community":
+        $dest= "floriane.c.plard@gmail.com";
+        break;
+   case "qgenetics":
+        $dest= "pierre.devillemereuil@ephe.psl.eu";
         break;
 }
-$dest="floriane.c.plard@gmail.com"
 
 // envoi d'un email
-mail($dest, "New resource to check on $page", $message);
+mail($dest, "New resource to check on Learn EcoStats", $message);
 
 
 ?>
