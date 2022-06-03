@@ -18,15 +18,15 @@ source(file.path("R", "functions.R"))
 
 ###### **Icon Legend**:
 **Type**:
-full course `r ilink("course", "https:/xcelab.net/rm/statistical-rethinking/")`
-video `r ilink("video", "https:/xcelab.net/rm/statistical-rethinking/")`
-exo `r ilink("exo", "https:/xcelab.net/rm/statistical-rethinking/")`
-open book, tutorial, manual `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/")`
-book (not free) `r ilink("book", "https:/xcelab.net/rm/statistical-rethinking/")`
-article`r ilink("article", "https:/xcelab.net/rm/statistical-rethinking/")`
-website`r ilink("site", "https:/xcelab.net/rm/statistical-rethinking/")`
+full course `r ilink("course", "")`
+video `r ilink("video", "")`
+exo `r ilink("exo", "")`
+open book, tutorial, manual `r ilink("tuto", "")`
+book (not free) `r ilink("book", "")`
+article`r ilink("article", "")`
+website`r ilink("site", "")`
 
-**level**: begin `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lvl=1)` intermediate `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lvl=2)` advanced `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lvl=3)`
+**level**: begin `r ilink("tuto", "", lvl=1)` intermediate `r ilink("tuto", "", lvl=2)` advanced `r ilink("tuto", "", lvl=3)`
 
 ### Programming in R
 
