@@ -9,16 +9,12 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Aim
 
-The aim of this website is to propose an open platform offering key and relevant resources to teach and learn Statistics in the different fields of Ecology. 
-
-### Initative
-
-This site is a collaborative work on the initiative of [Sandra Hamel](https://sites.google.com/site/sandrahamel18/) (Université Laval) and [Nigel Yoccoz](https://en.uit.no/ansatte/person?p_document_id=41160) (The Arctic University of Norway). It has been created by [Floriane Plard](https://florianeplard.com/) (Université La Rochelle). 
+The aim of this website is to provide an online educational platform offering key and relevant resources for learning and teaching statistics in ecology and evolution. 
 
 
 ### Contributors
 
-Each page is moderated by a volunteer researcher but everybody can propose new contributions and ressources.
+Each page is moderated by a volunteer researcher but everybody can propose new contributions and resources.
 Current moderators: 
 
 * [Frédéric Barraquand](https://sites.google.com/site/fredbarraquand) (Institut de Mathématiques de Bordeaux)
@@ -31,6 +27,12 @@ Current moderators:
 * [Nigel Yoccoz](https://en.uit.no/ansatte/person?p_document_id=41160) (The Arctic University of Norway)
 
 
+### Initiative
+
+This site is a collaborative work on the initiative of [Sandra Hamel](https://sites.google.com/site/sandrahamel18/) (Université Laval) and [Nigel Yoccoz](https://en.uit.no/ansatte/person?p_document_id=41160) (The Arctic University of Norway). It has been created by [Floriane Plard](https://florianeplard.com/) (Université La Rochelle). 
+
+
+
 ### Funding
 
-To start this project, the creation of the website has been funded by the [GDR 3645 Ecologie Statistique](https://sites.google.com/site/gdrecostat/)
+To start the project, the creation of the website has been funded by the [GDR 3645 Ecologie Statistique](https://sites.google.com/site/gdrecostat/)
