@@ -86,27 +86,24 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   <!--radix_placeholder_meta_tags-->
   <title>Learn EcoStat: About this site</title>
 
-  <meta property="description" itemprop="description" content="Some additional details about the website"/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Learn EcoStat: About this site"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Some additional details about the website"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Learn EcoStat"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
   <meta property="twitter:title" content="Learn EcoStat: About this site"/>
-  <meta property="twitter:description" content="Some additional details about the website"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["About this site"]},{"type":"character","attributes":{},"value":["Some additional details about the website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["About this site"]},{"type":"NULL"}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -1027,10 +1024,6 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
     margin-top: 1.5em;
   }
 
-  .figure img {
-    width: 100%;
-  }
-
   .figure .caption {
     color: rgba(0, 0, 0, 0.6);
     font-size: 12px;
@@ -1860,6 +1853,12 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
+        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
+          var fn = $(this).children()[0]
+          $(this).html(fn.shadowRoot.querySelector("sup"))
+          $(this).id = fn.id
+          fn.remove()
+        }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
           return "<p>" + $('#ref-' + ref).html() + "</p>";
@@ -1874,6 +1873,31 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
           placement: 'bottom-start'
         });
       });
+
+      // fix footnotes in tables (#411)
+      // replacing broken distill.pub feature
+      $('table d-footnote').each(function() {
+        // we replace internal showAtNode methode which is triggered when hovering a footnote
+        this.hoverBox.showAtNode = function(node) {
+          // ported from https://github.com/distillpub/template/pull/105/files
+          calcOffset = function(elem) {
+              let x = elem.offsetLeft;
+              let y = elem.offsetTop;
+              // Traverse upwards until an `absolute` element is found or `elem`
+              // becomes null.
+              while (elem = elem.offsetParent && elem.style.position != 'absolute') {
+                  x += elem.offsetLeft;
+                  y += elem.offsetTop;
+              }
+
+              return { left: x, top: y };
+          }
+          // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
+          const bbox = node.getBoundingClientRect();
+          const offset = calcOffset(node);
+          this.show([offset.left + bbox.width, offset.top + bbox.height]);
+        }
+      })
 
       // clear polling timer
       clearInterval(tid);
@@ -1973,6 +1997,8 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
     // mark non-body figures created by knitr chunks as 100% width
     $('.layout-chunk').each(function(i, val) {
       var figures = $(this).find('img, .html-widget');
+      // ignore leaflet img layers (#106)
+      figures = figures.filter(':not(img[class*="leaflet"])')
       if ($(this).attr('data-layout') !== "l-body") {
         figures.css('width', '100%');
       } else {
@@ -1995,7 +2021,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
     // get rid of index.html references in header
     if (window.location.protocol !== "file:") {
       $('.distill-site-header a[href]').each(function(i,val) {
-        $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
+        $(this).attr('href', $(this).attr('href').replace(/^index[.]html/, "./"));
       });
     }
 
@@ -2413,7 +2439,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"About this site","description":"Some additional details about the website","authors":[]}
+{"title":"About this site","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2484,11 +2510,40 @@ byFIELD
 <h1>About this site</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Some additional details about the website</p></p>
+
 </div>
 
 
 <div class="d-article">
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
+<ul>
+<li><a href="#aim">Aim</a></li>
+<li><a href="#initative">Initative</a></li>
+<li><a href="#contributors">Contributors</a></li>
+<li><a href="#funding">Funding</a></li>
+</ul>
+</nav>
+</div>
+<h3 id="aim">Aim</h3>
+<p>The aim of this website is to propose an open platform offering key and relevant resources to teach and learn Statistics in the different fields of Ecology.</p>
+<h3 id="initative">Initative</h3>
+<p>This site is a collaborative work on the initiative of <a href="https://sites.google.com/site/sandrahamel18/">Sandra Hamel</a> (Université Laval) and <a href="https://en.uit.no/ansatte/person?p_document_id=41160">Nigel Yoccoz</a> (The Arctic University of Norway). It has been created by <a href="https://florianeplard.com/">Floriane Plard</a> (Université La Rochelle).</p>
+<h3 id="contributors">Contributors</h3>
+<p>Each page is moderated by a volunteer researcher but everybody can propose new contributions and ressources. Current moderators:</p>
+<ul>
+<li><a href="https://sites.google.com/site/fredbarraquand">Frédéric Barraquand</a> (Institut de Mathématiques de Bordeaux)</li>
+<li><a href="https://www.cefe.cnrs.fr/fr/recherche/bc/bbp/1052-ec/3841-sarah-cubaynes">Sarah Cubaynes</a> (Centre d’Ecologie Fonctionnelle et Evolutive)</li>
+<li><a href="https://lbbe.univ-lyon1.fr/fr/annuaire-des-membres/dray-stephane">Stéphane Dray</a> (Université CB Lyon 1)</li>
+<li><a href="https://oliviergimenez.github.io/">Olivier Gimenez</a> (Centre d’Ecologie Fonctionnelle et Evolutive)</li>
+<li><a href="https://sites.google.com/site/sandrahamel18/">Sandra Hamel</a> (Université Laval)</li>
+<li><a href="https://florianeplard.com/">Floriane Plard</a> (Université La Rochelle)</li>
+<li><a href="https://devillemereuil.legtux.org/fr/a-propos/">Pierre de Villemereuil</a> (Institut de Systématique, Évolution, Biodiversité)</li>
+<li><a href="https://en.uit.no/ansatte/person?p_document_id=41160">Nigel Yoccoz</a> (The Arctic University of Norway)</li>
+</ul>
+<h3 id="funding">Funding</h3>
+<p>To start this project, the creation of the website has been funded by the <a href="https://sites.google.com/site/gdrecostat/">GDR 3645 Ecologie Statistique</a></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
