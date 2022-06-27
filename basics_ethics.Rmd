@@ -23,31 +23,41 @@ website`r ilink("site", "https:/xcelab.net/rm/statistical-rethinking/")`
 **level**: begin `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lvl=1)` intermediate `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lvl=2)` advanced `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lvl=3)`
 
 
-## Reproducibility 
+## Reproducibility & replicability
 
 
 | Name                                      | Links |
 |-------------------------------------------|-------|
 |**Reproducible science workshop** *O Gimenez* -- A full overview to start making your analyses reproducible |`r ilink("course", "https://oliviergimenez.github.io/reproducible-science-workshop/", lvl=1)`|
+|**A better approach for dealing with reproducibility and replicability in science** *JD Nichols et al.* -- An opinion paper to emphasise the need for replicability in addition to reproducibility |`r ilink("article", "https://www.pnas.org/doi/10.1073/pnas.2100769118", lvl=1)`|
+|**A Beginner's Guide to Conducting Reproducible Research** *JM Alston & JA Rick* -- Describe why we should and and how we can conduct reproducible research |`r ilink("article", "https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/bes2.1801", lvl=1)`|
+|**Comments on reproducibility** *K Broman* -- Some do's and don'ts for improving reproducibility when using R Markdown|`r ilink("site", "https://kbroman.org/knitr_knutshell/pages/reproducible.html
+", lvl=2)`|
+
 
 ### Tidyverse
 
 
 | Name                                      | Links |
 |-------------------------------------------|-------|
+|**Introduction to the Tidyverse** *datacamp* -- Introduction to R and Tidyverse  |`r ilink("course", "https://www.datacamp.com/courses/introduction-to-the-tidyverse?utm_source=adwords_ppc&utm_medium=cpc&utm_campaignid=897699256&utm_adgroupid=47591961031&utm_device=c&utm_keyword=tidyverse&utm_matchtype=p&utm_network=g&utm_adpostion=&utm_creative=340731356356&utm_targetid=aud-517318242147:kwd-642175809013&utm_loc_interest_ms=&utm_loc_physical_ms=9000264&gclid=CjwKCAjwquWVBhBrEiwAt1KmwtG0cQsVll7o1lISih-Gbgyzgm3qRoYZhg2ZZWjn7t-dPpMnlFRCtxoCdTYQAvD_BwE", lvl=1)`|
 |**Tidy Modeling with R** *M Kuhn, J Silge* -- Introduction to how to use Tidyverse  |`r ilink("tuto", "https://www.tmwr.org/", lvl=2)`|
 
-### Rmarkdown
+
+
+### R Markdown & bookdown
 
 | Name                                      | Links |
 |-------------------------------------------|-------|
+|**Using R Markdown in RStudio** *R Peng* -- A quick demo on R markdown in RStudio|`r ilink("video", "https://www.youtube.com/watch?v=DNS7i2m4sB0", lvl=1)`|
+|**Getting started with R Markdown** *G Grolemund & RStudio* -- A detailed webinar on using R Markdown|`r ilink("video", "https://www.rstudio.com/resources/webinars/getting-started-with-r-markdown/", lvl=1)`|
 |**R Markdown: The Definitive Guide** *Y Xie, J J Allaire, G Grolemund* -- A complete and introducing reference book to use R Markdown|`r ilink("tuto", "https://bookdown.org/yihui/rmarkdown/")`|
 |**R Markdown Cookbook** *Y Xie, C Dervieux, E Riederer* -- A practical reference book for R Markdown|`r ilink("tuto", "https://bookdown.org/yihui/rmarkdown-cookbook/", lvl=2)`|
+|**bookdown: Authoring Books and Technical Documents with R Markdown** *Y Xie* -- A complete reference book for R bookdown|`r ilink("tuto", "https://bookdown.org/yihui/bookdown/", lvl=3)`|
 |**Tables generator** -- Create a markdown table|`r ilink("site", "https://www.tablesgenerator.com/markdown_tables")`|
 
 
-
-### Git
+### Git & GitHub
 
 | Name                                      | Links |
 |-------------------------------------------|-------|
@@ -59,6 +69,7 @@ website`r ilink("site", "https:/xcelab.net/rm/statistical-rethinking/")`
 
 | Name                                      | Links |
 |-------------------------------------------|-------|
+|**ASA Statement on Statistical Significance and P-Values** *RL Wasserstein & American Statistical Association* -- Six principles underlying the proper use and interpretation of the p-value|`r ilink("article", "https://amstat.tandfonline.com/doi/full/10.1080/00031305.2016.1154108#.Yrn-02ApCqf")`|
 |**Ethical Guidelines for Statistical Practice** -- Valuable advice for anyone who engage in statistical practice|`r ilink("site", "https://www.amstat.org/your-career/ethical-guidelines-for-statistical-practice")`|
 
 
@@ -67,4 +78,7 @@ website`r ilink("site", "https:/xcelab.net/rm/statistical-rethinking/")`
 | Name                                      | Links |
 |-------------------------------------------|-------|
 |**SORTEE** *Society for Open, Reliable, and Transparent Ecology and Evolutionary biology*|`r ilink("site", "https://www.sortee.org/")`|
+|**The TOP Guidelines** *Center for Open Science - OSF*|`r ilink("site", "https://www.cos.io/initiatives/top-guidelines")``r ilink("article", "https://osf.io/ud578")`|
+
+
 
