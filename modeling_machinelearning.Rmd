@@ -19,8 +19,9 @@ video `r ilink("video", "")`
 exo `r ilink("exo", "")`
 open book `r ilink("tuto", "")`
 book `r ilink("book", "")`
-article`r ilink("article", "")`
-website`r ilink("site", "")`
+article `r ilink("article", "")`
+git repo `r ilink("github", "")`
+website `r ilink("site", "")`
 
 **level**: 
 begin `r ilink("tuto", "", lvl=1)` intermediate `r ilink("tuto", "", lvl=2)` advanced `r ilink("tuto", "", lvl=3)`
