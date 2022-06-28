@@ -50,6 +50,15 @@ Global resources to start data science including introductory and intermediate m
 |**dplyr** *R Programming - DDS* -- an introductory playlist to dplyr and its functions|`r ilink("video", "https://www.youtube.com/watch?v=rm0BQSWoJlc&list=PLyogaPCPr32W9wbszOANRJiAvUbbymcCS", lvl=1)`|
 
 
+### Tidyverse
+
+
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**Introduction to the Tidyverse** *datacamp* -- Introduction to R and Tidyverse  |`r ilink("course", "https://www.datacamp.com/courses/introduction-to-the-tidyverse?utm_source=adwords_ppc&utm_medium=cpc&utm_campaignid=897699256&utm_adgroupid=47591961031&utm_device=c&utm_keyword=tidyverse&utm_matchtype=p&utm_network=g&utm_adpostion=&utm_creative=340731356356&utm_targetid=aud-517318242147:kwd-642175809013&utm_loc_interest_ms=&utm_loc_physical_ms=9000264&gclid=CjwKCAjwquWVBhBrEiwAt1KmwtG0cQsVll7o1lISih-Gbgyzgm3qRoYZhg2ZZWjn7t-dPpMnlFRCtxoCdTYQAvD_BwE", lvl=1)`|
+|**Tidy Modeling with R** *M Kuhn, J Silge* -- Introduction to how to use Tidyverse  |`r ilink("tuto", "https://www.tmwr.org/", lvl=2)`|
+
+
 ## Data Visualization
 | Name                                      | Links |
 |-------------------------------------------|-------|
