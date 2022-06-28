@@ -2438,7 +2438,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   }
   
   form div > input::placeholder, form div > textarea::placeholder {
-  color: #222601;
+  color: white;
   }
   
   form div > select:invalid {
@@ -2538,6 +2538,7 @@ byFIELD
 <a href="byfield_population.html">Population Dynamics</a>
 <a href="byfield_spatial.html">Spatial Analyses</a>
 <a href="byfield_community.html">Community Analyses</a>
+<a href="byfield_quantgenetics.html">Quantitative Genetics</a>
 </div>
 </div>
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
@@ -2568,11 +2569,17 @@ byFIELD
 <div class="d-article">
   
   
-<p> If you want to propose new resources to add in the website, you can directly send a pull request on our github. Alternatively, you can fill the form at the bottom of the page to propose a new resource. </p>
+<p> If you want to propose new resources to add in the website, you can directly send a pull request on our github. Alternatively, you can fill the form just below to propose a new resource. </p>
+
+ <p> If you want to make a suggestion, please write at the bottom of the page in the box provided for this purpose <p>
+
+
 
 <h2>Pull-request</h2>
 
-<p> 1- Go on our repository and fork the project<p> 
+<p> 1- Go on our repository <a href="https://github.com/fplard/teaching_resources.git">
+<i class="fab fa-github" aria-hidden="true"></i> and fork the project
+</a><p>
 <p> 2- Create a new branch<p> 
 <p> 3- Add the new suggested resources on the correct page<p> 
 <p> 4- Save, commit and push on your branch<p> 
@@ -2583,10 +2590,26 @@ byFIELD
 <h2>Fill the form</h2>
 
 <div class="contribute">
-<form action="/page-traitement-donnees" method="post">
+<form action="POST" data-netlify="true">
 <div>
 <label for="page">Page where to add the resource</label>
-<input type="text" id="page" name="page" placeholder="Demography" required>
+<select name="type" id="type" required>
+<option value="" disabled selected hidden>chose among the following</option>
+<option value="r">R</option>
+<option value="ethics">Ethics</option>
+<option value="data">Data</option>
+<option value="stats">Stats</option>
+<option value="maths">Maths</option>
+<option value="regression">Regression</option>
+<option value="bayesian">Bayesian Approach</option>
+<option value="multivariate">Multivariate Analyses</option>
+<option value="machine">Machine Learning</option>
+<option value="demography">Demography</option>
+<option value="population">Population Dynamics</option>
+<option value="spatial">Spatial Analyses</option>
+<option value="community">Community Analyses</option>
+<option value="qgenetics">Quantitative Genetics</option>
+</select>
 </div>
 <div>
 <label for="section">Section within the page</label>
@@ -2640,10 +2663,46 @@ byFIELD
 <textarea id="message" name="message" placeholder=""></textarea>
 </div>
 <div>
+<label for="name">Your name</label>
+<input type="text" id="name" name="name" placeholder="C. Darwin" required>
+</div>
+<div>
+<label for="email">Your email</label>
+<input type="text" id="email" name="email" placeholder="cdarwin@galapagos.edu" required>
+</div>
+<div>
 <button type="submit">Submit</button>
 </div>
 </form>
 </div>
+
+
+
+<h2>Suggestion</h2>
+
+ <p> If you have any suggestion or idea to improve this website, please share it here. <p>
+
+<div class="contribute">
+<form action="POST" data-netlify="true">
+<div>
+<label for="name">Your name</label>
+<input type="text" id="name" name="name" placeholder="C. Darwin" required>
+</div>
+<div>
+<label for="email">Your email</label>
+<input type="text" id="email" name="email" placeholder="cdarwin@galapagos.edu" required>
+</div>
+<div>
+<label for="message">Message</label>
+<textarea id="message" name="message" placeholder=""></textarea>
+</div>
+<div>
+<button type="submit">Submit</button>
+</div>
+</form>
+</div>
+
+
 
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->

@@ -2,6 +2,8 @@
 title: "Data manipulation and visualization"
 description: |
   Resources to learn and improve data manipulation, exploration and visualization in R.
+  
+  maintained by : *Volunteer wanted* [Click [here to contribute](forms.html)]{style="float:right"}
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
@@ -13,15 +15,17 @@ source(file.path("R", "functions.R"))
 ```
 ###### **Icon Legend**:
 **Type**:
-full course `r ilink("course", "https:/xcelab.net/rm/statistical-rethinking/")`
-video `r ilink("video", "https:/xcelab.net/rm/statistical-rethinking/")`
-exo `r ilink("exo", "https:/xcelab.net/rm/statistical-rethinking/")`
-open book, tutorial, manual `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/")`
-book (not free) `r ilink("book", "https:/xcelab.net/rm/statistical-rethinking/")`
-article`r ilink("article", "https:/xcelab.net/rm/statistical-rethinking/")`
-website`r ilink("site", "https:/xcelab.net/rm/statistical-rethinking/")`
+course `r ilink("course", "")`
+video `r ilink("video", "")`
+exo `r ilink("exo", "")`
+open book `r ilink("tuto", "")`
+book `r ilink("book", "")`
+article`r ilink("article", "")`
+website`r ilink("site", "")`
 
-**level**: begin `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lvl=1)` intermediate `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lvl=2)` advanced `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lvl=3)`
+**level**: 
+begin `r ilink("tuto", "", lvl=1)` intermediate `r ilink("tuto", "", lvl=2)` advanced `r ilink("tuto", "", lvl=3)`
+
 
 
 ## Data Science
@@ -66,3 +70,9 @@ Global resources to start data science including introductory and intermediate m
 |**Mastering Shiny** *Hadley Wickham* --  Designed to take you from knowing nothing about Shiny to being an expert developer|`r ilink("tuto", "https://mastering-shiny.org/", lvl=2)`|
 |**Engineering Production-Grade Shiny Apps** *C Fay, S Rochette, V Guyader, C Girard* -- learn the process of building an application that will later be sent to production  |`r ilink("tuto", "https://engineering-shiny.org/index.html", lvl=2)`|
 |**Shiny Developer Series** -- a youtube channel  |`r ilink("video", "https://www.youtube.com/c/ShinyDeveloperSeries/videos", lvl=2)`|
+
+
+
+
+
+

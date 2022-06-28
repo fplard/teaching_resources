@@ -2,6 +2,9 @@
 title: "Quantitative Genetics"
 description: |
   Resources to apply quantitative genetics
+  
+  maintained by : **Pierre de Villemereuil** [Click [here to contribute](forms.html)]{style="float:right"}
+
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
@@ -12,18 +15,35 @@ source(file.path("R", "functions.R"))
 ```
 ###### **Icon Legend**:
 **Type**:
-full course `r ilink("course", "https:/xcelab.net/rm/statistical-rethinking/")`
-video `r ilink("video", "https:/xcelab.net/rm/statistical-rethinking/")`
-exo `r ilink("exo", "https:/xcelab.net/rm/statistical-rethinking/")`
-open book, tutorial, manual `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/")`
-book (not free) `r ilink("book", "https:/xcelab.net/rm/statistical-rethinking/")`
-article`r ilink("article", "https:/xcelab.net/rm/statistical-rethinking/")`
-website`r ilink("site", "https:/xcelab.net/rm/statistical-rethinking/")`
+course `r ilink("course", "")`
+video `r ilink("video", "")`
+exo `r ilink("exo", "")`
+open book `r ilink("tuto", "")`
+book `r ilink("book", "")`
+article`r ilink("article", "")`
+website`r ilink("site", "")`
 
-**level**: begin `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lvl=1)` intermediate `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lvl=2)` advanced `r ilink("tuto", "https:/xcelab.net/rm/statistical-rethinking/", lvl=3)`
+**level**: 
+begin `r ilink("tuto", "", lvl=1)` intermediate `r ilink("tuto", "", lvl=2)` advanced `r ilink("tuto", "", lvl=3)`
 
-## Overview
+
+
+## Theory in quantitative genetics
 
 | Name                                      | Links |
 |-------------------------------------------|-------|
-|**Statistics for ecologists** *O. Gimenez* -- A master course introducing likelihoods, hypothesis testing, Bayesian inference, GLM, GLMM, GAM|`r ilink("course", "https://github.com/oliviergimenez/statistics-for-ecologists-Master-courses", lvl=1)`|
+|**Quantitative genetics in the wild** *A. Charmantier, D. Garant & L. EB Kruuk*, 2014 -- A very nice and approachable collection of questions tackled by evolutionary quantitative genetics to study wild populations|`r ilink("book", "https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780199674237.001.0001/acprof-9780199674237", lvl=1)`|
+|**An ecologist's guide to the animal model** *Wilson, A. J., D. Reale, M. N. Clements, M. M. Morrissey, E. Postma, C. A. Walling, L. E. B. Kruuk, and D. H. Nussey.*, 2011 -- A very thorough paper on the various subtelties of animal models and how to use them to study wild populations|`r ilink("article", "http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2656.2009.01639.x/abstract", lvl=1)`|
+|**Quantitative Genetics** *B. Walsh*, 2016 -- A series of online videos of lectures on evolutionary quantitative genetics, tackling the bases, selection, QTL mapping and many other topics |`r ilink("video", "https://youtube.com/playlist?list=PLtRJ1Uje1ST4aPn6QRQel0rKj1yd_X2RS", lvl=1)`|
+|**Genetics and analysis of quantitative traits** *M. Lynch & B. Walsh*, 1998 -- A thorough and in-depth textbook introducing the main concepts of quantitative genetics|`r ilink("book", "https://global.oup.com/ushe/product/genetics-and-analysis-of-quantitative-traits-9780878934812", lvl=2)`|
+|**Evolution and selection of quantitative traits** *B. Walsh & M. Lynch*, 2018 -- A more recent update, and extremely thorough textbook on the evolutionary aspects of quantitative genetics |`r ilink("book", "https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198830870.001.0001/oso-9780198830870", lvl=3)`|
+
+
+## Statistical models
+
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**Estimation of a biological trait heritability using the animal model and MCMCglmm** *P. de Villemereuil*, 2021 -- A hands-on tutorial on performing quantitative genetics using a Bayesian method|`r ilink("tuto", "https://devillemereuil.legtux.org/downloads/#h2tutorial", lvl=1)`|
+|**Quantitative genetics using the sommer package** *Giovanny Covarrubias-Pazaran*, 2022 -- A guide on how to use the sommer package to perform quantitative genetics |`r ilink("tuto", "https://cran.r-project.org/web/packages/sommer/vignettes/v3.sommer.qg.pdf", lvl=2)`|
+|**Wild animal model wiki** *M. Clements, M. Morrissey, A. Wilson, E. Postma, D. Nussey & A. Husby*, 2011 -- A wiki on diverse packages to implement quantitative genetics models. The website is not maintained and contains a few errors, but contains useful "starter code" for some packages.|`r ilink("site", "http://wildanimalmodels.org/tiki-index.php", lvl=1)`|
+

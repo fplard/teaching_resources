@@ -1,10 +1,38 @@
 ---
 title: "About this site"
 description: |
-  Some additional details about the website
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+### Aim
+
+The aim of this website is to provide an online educational platform offering key and relevant resources for learning and teaching statistics in ecology and evolution. 
+
+
+### Contributors
+
+Each page is moderated by a volunteer researcher but everybody can propose new contributions and resources.
+Current moderators: 
+
+* [Frédéric Barraquand](https://sites.google.com/site/fredbarraquand) (Institut de Mathématiques de Bordeaux)
+* [Sarah Cubaynes](https://www.cefe.cnrs.fr/fr/recherche/bc/bbp/1052-ec/3841-sarah-cubaynes) (Centre d'Ecologie Fonctionnelle et Evolutive)
+* [Stéphane Dray](https://lbbe.univ-lyon1.fr/fr/annuaire-des-membres/dray-stephane) (Université CB Lyon 1)
+* [Olivier Gimenez](https://oliviergimenez.github.io/) (Centre d'Ecologie Fonctionnelle et Evolutive)
+* [Sandra Hamel](https://sites.google.com/site/sandrahamel18/) (Université Laval)
+* [Floriane Plard](https://florianeplard.com/) (Université La Rochelle)
+* [Pierre de Villemereuil](https://devillemereuil.legtux.org/fr/a-propos/) (Institut de Systématique, Évolution, Biodiversité) 
+* [Nigel Yoccoz](https://en.uit.no/ansatte/person?p_document_id=41160) (The Arctic University of Norway)
+
+
+### Initiative
+
+This site is a collaborative work on the initiative of [Sandra Hamel](https://sites.google.com/site/sandrahamel18/) (Université Laval) and [Nigel Yoccoz](https://en.uit.no/ansatte/person?p_document_id=41160) (The Arctic University of Norway). It has been created by [Floriane Plard](https://florianeplard.com/) (Université La Rochelle). 
+
+
+
+### Funding
+
+To start the project, the creation of the website has been funded by the [GDR 3645 Ecologie Statistique](https://sites.google.com/site/gdrecostat/)
