@@ -197,7 +197,7 @@ Levels are defined by color and can be attributed to any type of resources, usin
  
  1- Pull the repository from github. ([see here for help](https://happygitwithr.com/rstudio-git-github.html#clone-the-test-github-repository-to-your-computer-via-rstudio))
  
- 2- Create a branch to work on for your page, so you can work on it before it appears online ([see section 2.4.2 here for help](https://aberdeenstudygroup.github.io/studyGroup/lessons/SG-T1-GitHubVersionControl/VersionControl/#2.3.)).
+ 2- Create a branch to work on for your page, so you can work on it before it appears online ([see section 2.4.2 here for help](https://aberdeenstudygroup.github.io/studyGroup/lessons/SG-T1-GitHubVersionControl/VersionControl/#2.3.)). **Please, name the branch the same name as your page.**
  
  3- Install and source the package distill (and rmarkdown).
  
