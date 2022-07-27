@@ -57,7 +57,7 @@ begin `r ilink("tuto", "", lvl=1)` intermediate `r ilink("tuto", "", lvl=2)` adv
 |**Beyond Power Calculations: Assessing Type S (Sign) and Type M (Magnitude) Errors** *A Gelman, J Carlin* -- 2014|`r ilink("article", "https://journals.sagepub.com/doi/10.1177/1745691614551642?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed")`| 
 |**Introduction to mixed models** *H Brown* -- March 2016. Series of videos giving a general but quick & unfriendly introduction|`r ilink("video", "https://www.youtube.com/playlist?list=PLbyRmcun-giuz5hW11nD64zeiJZSDV4aD", lvl=2)`|
 |**GLMM for ecologists and evolutionary biologists** *B.Bolker et al.* -- a wiki including resources on the practical use of GLMM |`r ilink("tuto", "http://glmm.wikidot.com/start")`|
-
+|**SQuID** *H. Allegue et al.* R package using a shiny app for learning about mixed models|`r ilink("tuto", "https://github.com/squidgroup/squid", lvl=3)`|
 
 
 
