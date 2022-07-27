@@ -33,6 +33,7 @@ begin `r ilink("tuto", "", lvl=1)` intermediate `r ilink("tuto", "", lvl=2)` adv
 
 | Name                                      | Links |
 |-------------------------------------------|-------|
+|**Bayes Rules! An Introduction to Applied Bayesian Modeling** *A Jonhson et al.* -- To start Bayesian analyses gently |`r ilink("tuto", "https://www.bayesrulesbook.com/", lvl=1)`|
 |**Bayesian statistics with R** *O. Gimenez* -- A clear introduction to Bayesian analysis using R and jags| `r ilink("course", "https://oliviergimenez.github.io/bayesian-stats-with-R/", lvl=1)`|
 |**Statistical Rethinking** *R McElreath* -- A complete course about Bayesian inference and regression, including covariance structure, using stan |`r ilink("course", "https://github.com/rmcelreath/statrethinking_winter2019", lvl=1)` `r ilink("book", "https:/xcelab.net/rm/statistical-rethinking/")`|
 |**Bayesian Modeling for Socio-Environmental Data** *T Hobbs, M Collins, C Che-Castaldo* -- A course with r and jags providing an understanding to Bayesian methods, statistical concepts and methodology|`r ilink("course", "https://cchecastaldo.github.io/BayesianShortCourse/index.html", lvl=1)`|
