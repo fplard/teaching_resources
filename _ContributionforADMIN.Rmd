@@ -180,7 +180,9 @@ Other contributors will probably ask you to add some resources on your page. For
 
 #### Using pull request
 
-If other contributors use pull requests, they should make pull requests on the main branch and you will be automatically notified by email. In the pull request, you will directly see the modifications suggested on your page. Please check the relevance, suitability and link of the resources suggested before accepting the suggested changes. See here for documentation about how to [review](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews) and [accept](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges) a pull request.
+If other contributors use pull requests, they should make pull requests on the main branch and you will be automatically notified by email. In the pull request, you will directly see the modifications suggested on your page. Please check the relevance, suitability and link of the resources suggested before approving the suggested changes on your page.
+
+See here for documentation about how to [review](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews) and [accept](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges) a pull request.
 
 #### Using formulaire
 This part is not ready yet!!!
