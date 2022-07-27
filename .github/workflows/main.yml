@@ -9,7 +9,8 @@ jobs:
     runs-on: macOS-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: r-lib/actions/setup-r@main
+      - uses: r-lib/actions/setup-r@master
+      - uses: r-lib/actions/setup-pandoc@master
       - name: Install dependencies
         run: |
           install.packages("rmarkdown")
