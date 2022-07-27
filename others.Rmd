@@ -33,4 +33,5 @@ begin `r ilink("tuto", "", lvl=1)` intermediate `r ilink("tuto", "", lvl=2)` adv
 |**Conservation hackers** -- forum, blog and courses for conservation scientists  |`r ilink("site", "https://www.conservationhackers.org/")``r ilink("video", "https://www.youtube.com/channel/UCSH4ctGD-waPSI_4w6PlTBg")`|
 |**R4DS** -- a community of R learners at all skill levels working together to improve their skills  |`r ilink("video", "https://www.youtube.com/c/R4DSOnlineLearningCommunity/featured")`|
 |**Discdown** -- regrouping courses such as Data Analytic, programming in R and Flexible Regressions  |`r ilink("site", "https://discdown.org/index.php")`|
+|**Ourcodingclub** -- Many different tutorial made by a group of student and researcher from the University of Edinburgh |`r ilink("site", "https://ourcodingclub.github.io/tutorials.html")`|
 
