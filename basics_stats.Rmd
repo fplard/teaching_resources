@@ -42,7 +42,7 @@ begin `r ilink("tuto", "", lvl=1)` intermediate `r ilink("tuto", "", lvl=2)` adv
 |**Learning Centennial College** *M Cheung* -- Definitions of useful words in statistics|`r ilink("tuto", "https://libraryguides.centennialcollege.ca/c.php?g=717168&p=5116851", lvl=1)`|
 |**Biology for life** *G von Bargen* --  Descriptions of simple statistical concepts and tests used in biology |`r ilink("site", "https://www.biologyforlife.com/statistics.html", lvl=1)`|
 |**STAT506** *Penn State College* -- a full course  about sampling design|`r ilink("tuto", "https://online.stat.psu.edu/stat506/", lvl=1)`|
-
+|**Statistics for Ecologists** *J Fieberg* --  An open-source textbook covering a variety of regression methods in both Bayesian and frequentist frameworks|`r ilink("tuto", "https://fw8051statistics4ecologists.netlify.app/", lvl=2)`|
 
 
 
