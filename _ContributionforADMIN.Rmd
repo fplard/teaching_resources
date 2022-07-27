@@ -15,7 +15,7 @@ source(file.path("R", "functions.R"))
 
 If you are in charge of a page, you should appear in the first section of this document and should have been granted with access to the source code. If not, please send an email to floriane.c.plard@gmail.com.
 
-# Organisation of the website
+# website
 
 ## site plan
 
@@ -71,7 +71,7 @@ If you are in charge of a page, you should appear in the first section of this d
 
 
 
-## Organisation of the website
+# Organisation of the website
 
 Resources are classified using three main parts in the website: Basics, Modeling, and byField. Each part contains several pages, one per topic. 
 

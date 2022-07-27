@@ -12,6 +12,6 @@ Learn more [Here](https://learnecostat.netlify.app/forms.html)
 
 ## For Persons in charge of page
 
-Please look at [_ContributionforADMIN](https://github.com/fplard/teaching_resources/tree/main/docs/_ContributionforADMIN.html) to learn how to manage your page
+Please look at [_ContributionforADMIN](https://github.com/fplard/teaching_resources/tree/main/docs/_ContributionforADMIN.Rmd) to learn how to manage your page
 
 
