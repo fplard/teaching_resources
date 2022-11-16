@@ -45,6 +45,8 @@ begin `r ilink("tuto", "", lvl=1)` intermediate `r ilink("tuto", "", lvl=2)` adv
 |**Advanced R** *H Wickham* --|`r ilink("tuto","http://adv-r.had.co.nz/",lvl=2)`|
 |**Efficient R programming** *C Gillespie R Lovelace* -- Increase the amount of work you can do with R in a given amount of time|`r ilink("tuto", "https://csgillespie.github.io/efficientR/", lvl=2)`|
 |**Avoid for loops** *R programming DDS* -- Learn how to make your code faster|`r ilink("video", "https://www.youtube.com/watch?v=dhfM4xeHVHI&list=PLyogaPCPr32UaTp-9Fsj4tb_aIcAQ3jKb", lvl=2)`|
+|**Tutorials** *Our Coding Club* -- Basic coding and statistics tutorials in R |`r ilink("site", "https://ourcodingclub.github.io/tutorials.html", lvl=1)`|
+|**Coding etiquette** *G Daskalova* -- Writing clear, informative and easy to use code |`r ilink("site", "https://ourcodingclub.github.io/tutorials/etiquette/", lvl=1)`|  
 
 
 ### Data science in R
