@@ -67,13 +67,13 @@ Global resources to start data science including introductory and intermediate m
 |**R for Ecologists** -- a youtube channel including basics on R and visualization |`r ilink("video", "https://www.youtube.com/c/RforEcologists/videos", lvl=1)`|
 |**ggplot2** *H. Wickham* -- focus on explaining the grammar of graphics that ggplot2 uses, it is not a cookbook|`r ilink("tuto", "https://ggplot2-book.org/index.html", lvl=2)`|
 |**Visualization** -- a R studio youtube playlist  |`r ilink("video", "https://www.youtube.com/playlist?list=PL9HYL-VRX0oQlhD34UPQq0nCR1k1-NjwE")`|
+|**Data visualization** *A Heiss* -- Interactive lessons for data visualization with R|`r ilink("tuto", "https://datavizm20.classes.andrewheiss.com/syllabus/#course-materials", lvl=1)`|
 
-
-
-### Shiny
+### Interactive Resources
 
 | Name                                      | Links |
 |-------------------------------------------|-------|
+|**Interactive charts** *Y Holtz* -- Create interactive charts in R|`r ilink("tuto", "https://r-graph-gallery.com/interactive-charts.html", lvl=2)`|
 |**Shiny gallery** -- Find ideas about what is possible to do |`r ilink("site", "https://shiny.rstudio.com/gallery/")`|
 |**A shiny workshop to start** *D Valle and others* -- A full course to start with shiny |`r ilink("course", "https://lsw5077.github.io/shiny_workshop/", lvl=1)`|
 |**Mastering Shiny** *Hadley Wickham* --  Designed to take you from knowing nothing about Shiny to being an expert developer|`r ilink("tuto", "https://mastering-shiny.org/", lvl=2)`|
