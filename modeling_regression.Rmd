@@ -36,6 +36,8 @@ begin `r ilink("tuto", "", lvl=1)` intermediate `r ilink("tuto", "", lvl=2)` adv
 |**Statistical Thinking for the 21st Century** *R A Poldrack* -- focuses on understanding the basic ideas of statistical thinking, about how we describe the world and use data in the context of the inherent uncertainty that exists in the real world|`r ilink("site", "https://statsthinking21.github.io/statsthinking21-core-site/index.html", lvl=2)`|
 |**Michael Clark site** -- A series of open introductory workshops in bayesian analysis, mixed models, GAM, SEM and machine learning |`r ilink("site", "https://m-clark.github.io/documents.html", lvl=1)`|
 |**Beyond Multiple Linear Regression** *P Roback, J Legler* -- A full textbook to apply generalized linear models and multilevel models in R |`r ilink("tuto", "https://bookdown.org/roback/bookdown-BeyondMLR/", lvl=1)`|
+|**Statistics for Ecologists** *J Fieberg* -- An open-source textbook covering a variety of regression methods in both Bayesian and frequentist frameworks|`r ilink("tuto", "https://fw8051statistics4ecologists.netlify.app/", lvl=1)`|
+|**Statistical Methods Seminar Series** -- Seminars on different statistical methods|`r ilink("video", "https://ecoforecast.org/workshops/statistical-methods-seminar-series/", lvl=2)`|
 
 
 ## Linear models
@@ -76,6 +78,8 @@ begin `r ilink("tuto", "", lvl=1)` intermediate `r ilink("tuto", "", lvl=2)` adv
 |**An Introduction to Structural Equation Modeling** *J Lefcheck* -- A complete book introducing SEM and the piecewiseSEM package|`r ilink("tuto", "https://jslefche.github.io/sem_book/", lvl=1)`|
 |**Structural equation modeling and natural systems** *JB Grace* -- 2006|`r ilink("book", "https://www.cambridge.org/core/books/structural-equation-modeling-and-natural-systems/D05B2328107F91AF772182F3AF88EB12", lvl=1)`|
 |**Cause and Correlation in Biology: A User's Guide to Path Analysis, Structural Equations and Causal Inference with R** *B Shipley* -- 2016|`r ilink("book", "https://www.cambridge.org/fr/academic/subjects/life-sciences/ecology-and-conservation/cause-and-correlation-biology-users-guide-path-analysis-structural-equations-and-causal-inference-r-2nd-edition?format=PB&isbn=9781107442597", lvl=1)`|
+|**Structural equation modeling** *J Lefcheck* -- Familiarize with the philosophy and practice of structural equation modeling|`r ilink("course", "https://jonlefcheck.net/teaching/", lvl=1)`|
+
 
 ## Plot your model
 | Name                                      | Links |
