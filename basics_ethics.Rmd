@@ -37,10 +37,13 @@ begin `r ilink("tuto", "", lvl=1)` intermediate `r ilink("tuto", "", lvl=2)` adv
 |**Reproducible science workshop** *O Gimenez* -- A full overview to start making your analyses reproducible |`r ilink("course", "https://oliviergimenez.github.io/reproducible-science-workshop/", lvl=1)`|
 |**A better approach for dealing with reproducibility and replicability in science** *JD Nichols et al.* -- An opinion paper to emphasise the need for replicability in addition to reproducibility |`r ilink("article", "https://www.pnas.org/doi/10.1073/pnas.2100769118", lvl=1)`|
 |**A Beginner's Guide to Conducting Reproducible Research** *JM Alston & JA Rick* -- Describe why we should and and how we can conduct reproducible research |`r ilink("article", "https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/bes2.1801", lvl=1)`|
-|**Comments on reproducibility** *K Broman* -- Some do's and don'ts for improving reproducibility when using R Markdown|`r ilink("site", "https://kbroman.org/knitr_knutshell/pages/reproducible.html
-", lvl=2)`|
+|**Comments on reproducibility** *K Broman* -- Some do's and don'ts for improving reproducibility when using R Markdown|`r ilink("site", "https://kbroman.org/knitr_knutshell/pages/reproducible.html", lvl=2)`|
+|**Computational notebooks** *L Figueiredo, C Scherer, A T Navarro* -- A simple kit to use computational notebooks|`r ilink("github", "https://github.com/FellowsFreiesWissen/computational_notebooks", lvl=2)`|
+|**Jupyterhub** -- Interactive environment for notebooks, code, and data|`r ilink("site", "https://jupyter.org/hub", lvl=1)`|
+|**Best practices for accessible and reproducible code** *L Graham, A Halbritter, F Frassinelli* -- Open science lab on writing accessible and reproducible code|`r ilink("video", "https://www.youtube.com/watch?v=fSx71dX88qk&t=1939s", lvl=1)`|
+|**A guide to reproducible code in ecology and evolution** *British Ecological Society* -- Basic tools and information for more reproducible code|`r ilink("book", "https://www.britishecologicalsociety.org/wp-content/uploads/2017/12/guide-to-reproducible-code.pdf", lvl=1)`|
 
-
+*For links on tidyverse, to help code reproducibility, see section Data Manipulation in Basics section.*
 
 
 ### R Markdown & bookdown
@@ -69,6 +72,7 @@ begin `r ilink("tuto", "", lvl=1)` intermediate `r ilink("tuto", "", lvl=2)` adv
 |-------------------------------------------|-------|
 |**ASA Statement on Statistical Significance and P-Values** *RL Wasserstein & American Statistical Association* -- Six principles underlying the proper use and interpretation of the p-value|`r ilink("article", "https://amstat.tandfonline.com/doi/full/10.1080/00031305.2016.1154108#.Yrn-02ApCqf")`|
 |**Ethical Guidelines for Statistical Practice** -- Valuable advice for anyone who engage in statistical practice|`r ilink("site", "https://www.amstat.org/your-career/ethical-guidelines-for-statistical-practice")`|
+|**Ten simple rules for good research practice** *S Schwab* -- Good research practices for planning, execution, and reporting of research|`r ilink("article", "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010139", lvl=1)`|
 
 
 ## Open science
