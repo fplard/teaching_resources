@@ -36,7 +36,7 @@ begin `r ilink("tuto", "", lvl=1)` intermediate `r ilink("tuto", "", lvl=2)` adv
 
 | Name                                      | Links |
 |-------------------------------------------|-------|
-|** ** * * -- |`r ilink("tuto", "")`|
+|**Quantitative methods for population dynamics** *O Gimenez, A Besnard, S Cubaynes* -- Analysis and modelling of population dynamics|`r ilink("video", "https://oliviergimenez.github.io/popdyn-workshop/", lvl=1)`|
 
 
 
