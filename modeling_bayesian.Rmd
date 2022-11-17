@@ -40,6 +40,7 @@ begin `r ilink("tuto", "", lvl=1)` intermediate `r ilink("tuto", "", lvl=2)` adv
 |**BiogecoBayes** -- A collection of useful workshops created by a group of researchers & students who want to progress together in their learning|`r ilink("tuto", "https://github.com/JulietteArchambeau/BiogecoBayes", lvl=1)`|
 |**Bayesian Models: A Statistical Primer for Ecologists** *T Hobbs, M Hooten* -- Presents the mathematical and statistical foundations of Bayesian modeling in language accessible to non-statisticians|`r ilink("book", "https://www.amazon.com/Bayesian-Models-Statistical-Primer-Ecologists/dp/0691159289", lvl=1)`|
 |**Learning Bayesian Statistics** -- a podcast channel presenting scientists, their approach and thinking|`r ilink("site", "https://www.learnbayesstats.com/", lvl=2)`|
+|**Multilevel regression and poststratification** *J Lopez-Martin, J H Phillips, A Gelman* -- Case studies of multilevel modeling and poststratification|`r ilink("tuto", "https://bookdown.org/jl5522/MRP-case-studies/", lvl=2)`|
 
 
 ## Priors
@@ -81,3 +82,18 @@ begin `r ilink("tuto", "", lvl=1)` intermediate `r ilink("tuto", "", lvl=2)` adv
 |**nimble manual** *NIMBLE Development Team* -- official & useful manual |`r ilink("tuto", "https://r-nimble.org/manuals/NimbleUserManual.pdf")`|
 |**nimble cheatsheet** |`r ilink("tuto", "https://r-nimble.org/cheatsheets/NimbleCheatSheet.pdf")`|
 |**nimble** *NIMBLE Development Team* -- nimble website, download, find examples and documentation |`r ilink("site", "https://r-nimble.org/")`|
+
+
+### INLA
+
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**Spatial regression in R: INLA** *L Hertzog* -- Spatial regression with INLA package|`r ilink("site", "https://datascienceplus.com/spatial-regression-in-r-part-2-inla", lvl=2)`|
+|**The R-INLA project** *H Rue* -- Latent-models with INLA package|`r ilink("tuto", "https://sites.google.com/a/r-inla.org/www/models/latent-models", lvl=2)`|
+
+
+### Tidybayes
+
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**tidybayes** *M Kay* -- Integrate Bayesian modeling methods into a tidy data and ggplot workflow|`r ilink("tuto", "http://mjskay.github.io/tidybayes/", lvl=2)`|
