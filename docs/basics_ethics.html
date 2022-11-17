@@ -90,8 +90,8 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
 
   <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2022-07-27"/>
-  <meta property="article:created" itemprop="dateCreated" content="2022-07-27"/>
+  <meta property="article:published" itemprop="datePublished" content="2022-11-16"/>
+  <meta property="article:created" itemprop="dateCreated" content="2022-11-16"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Learn EcoStat: Ethical Statistics"/>
@@ -109,7 +109,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Ethical Statistics"]},{"type":"character","attributes":{},"value":["Resources for reproducible and ethical statistics.\n      \nmaintained by : **Sandra Hamel** [Click [here to contribute](forms.html)]{style=\"float:right\"}\n"]},{"type":"character","attributes":{},"value":["2022-07-27"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Ethical Statistics"]},{"type":"character","attributes":{},"value":["Resources for reproducible and ethical statistics.\n      \nmaintained by : **Sandra Hamel** [Click [here to contribute](forms.html)]{style=\"float:right\"}\n"]},{"type":"character","attributes":{},"value":["2022-11-16"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -787,6 +787,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1859,15 +1860,21 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-          var fn = $(this).children()[0]
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
           $(this).html(fn.shadowRoot.querySelector("sup"))
           $(this).id = fn.id
           fn.remove()
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -2425,7 +2432,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2445,7 +2452,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Ethical Statistics","description":"Resources for reproducible and ethical statistics.\n      \nmaintained by : **Sandra Hamel** [Click [here to contribute](forms.html)]{style=\"float:right\"}","authors":[],"publishedDate":"2022-07-27T00:00:00.000+02:00"}
+{"title":"Ethical Statistics","description":"Resources for reproducible and ethical statistics.\n      \nmaintained by : **Sandra Hamel** [Click [here to contribute](forms.html)]{style=\"float:right\"}","authors":[],"publishedDate":"2022-11-16T00:00:00.000-05:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2526,19 +2533,28 @@ byFIELD
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#reproducibility-replicability">Reproducibility &amp; replicability</a>
+<li><a href="#reproducibility-replicability" id="toc-reproducibility-replicability">Reproducibility &amp; replicability</a>
 <ul>
-<li><a href="#r-markdown-bookdown">R Markdown &amp; bookdown</a></li>
-<li><a href="#git-github">Git &amp; GitHub</a></li>
+<li><a href="#r-markdown-bookdown" id="toc-r-markdown-bookdown">R Markdown &amp; bookdown</a></li>
+<li><a href="#git-github" id="toc-git-github">Git &amp; GitHub</a></li>
 </ul></li>
-<li><a href="#ethics">Ethics</a></li>
-<li><a href="#open-science">Open science</a></li>
+<li><a href="#ethics" id="toc-ethics">Ethics</a></li>
+<li><a href="#open-science" id="toc-open-science">Open science</a></li>
 </ul>
 </nav>
 </div>
 <h6 id="icon-legend"><strong>Icon Legend</strong>:</h6>
-<p><strong>Type</strong>: course <a href="" class="iconlink0"><i class="fas fa-chalkboard-teacher"></i></a> video <a href="" class="iconlink0"><i class="fas fa-video"></i></a> exo <a href="" class="iconlink0"><i class="fas fa-edit"></i></a> open book <a href="" class="iconlink0"><i class="fas fa-list-alt"></i></a> book <a href="" class="iconlink0"><i class="fas fa-book"></i></a> article <a href="" class="iconlink0"><i class="far fa-sticky-note"></i></a> git repo <a href="" class="iconlink0"><i class="fab fa-github"></i></a> website <a href="" class="iconlink0"><i class="fas fa-globe"></i></a></p>
-<p><strong>level</strong>: begin <a href="" class="iconlink1"><i class="fas fa-list-alt"></i></a> intermediate <a href="" class="iconlink2"><i class="fas fa-list-alt"></i></a> advanced <a href="" class="iconlink3"><i class="fas fa-list-alt"></i></a></p>
+<p><strong>Type</strong>:
+course <a href="" class="iconlink0"><i class="fas fa-chalkboard-teacher"></i></a>
+video <a href="" class="iconlink0"><i class="fas fa-video"></i></a>
+exo <a href="" class="iconlink0"><i class="fas fa-edit"></i></a>
+open book <a href="" class="iconlink0"><i class="fas fa-list-alt"></i></a>
+book <a href="" class="iconlink0"><i class="fas fa-book"></i></a>
+article <a href="" class="iconlink0"><i class="far fa-sticky-note"></i></a>
+git repo <a href="" class="iconlink0"><i class="fab fa-github"></i></a>
+website <a href="" class="iconlink0"><i class="fas fa-globe"></i></a></p>
+<p><strong>level</strong>:
+begin <a href="" class="iconlink1"><i class="fas fa-list-alt"></i></a> intermediate <a href="" class="iconlink2"><i class="fas fa-list-alt"></i></a> advanced <a href="" class="iconlink3"><i class="fas fa-list-alt"></i></a></p>
 <h2 id="reproducibility-replicability">Reproducibility &amp; replicability</h2>
 <table>
 <colgroup>
@@ -2566,10 +2582,27 @@ byFIELD
 </tr>
 <tr class="even">
 <td><strong>Comments on reproducibility</strong> <em>K Broman</em> – Some do’s and don’ts for improving reproducibility when using R Markdown</td>
-<td><a href="https://kbroman.org/knitr_knutshell/pages/reproducible.html&#10;" class="iconlink2"><i class="fas fa-globe"></i></a></td>
+<td><a href="https://kbroman.org/knitr_knutshell/pages/reproducible.html" class="iconlink2"><i class="fas fa-globe"></i></a></td>
+</tr>
+<tr class="odd">
+<td><strong>Computational notebooks</strong> <em>L Figueiredo, C Scherer, A T Navarro</em> – A simple kit to use computational notebooks</td>
+<td><a href="https://github.com/FellowsFreiesWissen/computational_notebooks" class="iconlink2"><i class="fab fa-github"></i></a></td>
+</tr>
+<tr class="even">
+<td><strong>Jupyterhub</strong> – Interactive environment for notebooks, code, and data</td>
+<td><a href="https://jupyter.org/hub" class="iconlink1"><i class="fas fa-globe"></i></a></td>
+</tr>
+<tr class="odd">
+<td><strong>Best practices for accessible and reproducible code</strong> <em>L Graham, A Halbritter, F Frassinelli</em> – Open science lab on writing accessible and reproducible code</td>
+<td><a href="https://www.youtube.com/watch?v=fSx71dX88qk&amp;t=1939s" class="iconlink1"><i class="fas fa-video"></i></a></td>
+</tr>
+<tr class="even">
+<td><strong>A guide to reproducible code in ecology and evolution</strong> <em>British Ecological Society</em> – Basic tools and information for more reproducible code</td>
+<td><a href="https://www.britishecologicalsociety.org/wp-content/uploads/2017/12/guide-to-reproducible-code.pdf" class="iconlink1"><i class="fas fa-book"></i></a></td>
 </tr>
 </tbody>
 </table>
+<p><em>For links on tidyverse, to help code reproducibility, see section Data Manipulation in Basics section.</em></p>
 <h3 id="r-markdown-bookdown">R Markdown &amp; bookdown</h3>
 <table>
 <colgroup>
@@ -2652,6 +2685,10 @@ byFIELD
 <tr class="even">
 <td><strong>Ethical Guidelines for Statistical Practice</strong> – Valuable advice for anyone who engage in statistical practice</td>
 <td><a href="https://www.amstat.org/your-career/ethical-guidelines-for-statistical-practice" class="iconlink0"><i class="fas fa-globe"></i></a></td>
+</tr>
+<tr class="odd">
+<td><strong>Ten simple rules for good research practice</strong> <em>S Schwab</em> – Good research practices for planning, execution, and reporting of research</td>
+<td><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010139" class="iconlink1"><i class="far fa-sticky-note"></i></a></td>
 </tr>
 </tbody>
 </table>
