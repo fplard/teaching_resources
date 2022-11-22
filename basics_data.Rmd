@@ -69,7 +69,7 @@ Global resources to start data science including introductory and intermediate m
 |**Visualization** -- a R studio youtube playlist  |`r ilink("video", "https://www.youtube.com/playlist?list=PL9HYL-VRX0oQlhD34UPQq0nCR1k1-NjwE")`|
 |**Data visualization** *A Heiss* -- Interactive lessons for data visualization with R|`r ilink("tuto", "https://datavizm20.classes.andrewheiss.com/syllabus/#course-materials", lvl=1)`|
 
-### Interactive Resources
+### Interactive Applications & Plots
 
 | Name                                      | Links |
 |-------------------------------------------|-------|

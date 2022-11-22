@@ -30,9 +30,6 @@ begin `r ilink("tuto", "", lvl=1)` intermediate `r ilink("tuto", "", lvl=2)` adv
 
 ## Overview
 
-| Name                                      | Links |
-|-------------------------------------------|-------|
-|**Distance sampling course** *CREEM, University of St Andrews* -- Introduction to distance sampling concepts, survey design, field methods and data analysis|`r ilink("course", "http://workshops.distancesampling.org/online-course/", lvl=1)`|
 
 ## Survival
 

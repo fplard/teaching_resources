@@ -84,13 +84,6 @@ begin `r ilink("tuto", "", lvl=1)` intermediate `r ilink("tuto", "", lvl=2)` adv
 |**nimble** *NIMBLE Development Team* -- nimble website, download, find examples and documentation |`r ilink("site", "https://r-nimble.org/")`|
 
 
-### INLA
-
-| Name                                      | Links |
-|-------------------------------------------|-------|
-|**Spatial regression in R: INLA** *L Hertzog* -- Spatial regression with INLA package|`r ilink("site", "https://datascienceplus.com/spatial-regression-in-r-part-2-inla", lvl=2)`|
-|**The R-INLA project** *H Rue* -- Latent-models with INLA package|`r ilink("tuto", "https://sites.google.com/a/r-inla.org/www/models/latent-models", lvl=2)`|
-
 
 ### Tidybayes
 
