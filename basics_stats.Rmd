@@ -43,7 +43,7 @@ begin `r ilink("tuto", "", lvl=1)` intermediate `r ilink("tuto", "", lvl=2)` adv
 |**Biology for life** *G von Bargen* --  Descriptions of simple statistical concepts and tests used in biology |`r ilink("site", "https://www.biologyforlife.com/statistics.html", lvl=1)`|
 |**STAT506** *Penn State College* -- a full course  about sampling design|`r ilink("tuto", "https://online.stat.psu.edu/stat506/", lvl=1)`|
 |**Statistics for Ecologists** *J Fieberg* --  An open-source textbook covering a variety of regression methods in both Bayesian and frequentist frameworks|`r ilink("tuto", "https://fw8051statistics4ecologists.netlify.app/", lvl=2)`|
-
+|**Visualizing statistics** *M Whitlock* -- Interactive activities to learn basic statistics|`r ilink("site", "https://www.zoology.ubc.ca/~whitlock/Kingfisher/KFhomepage.htm", lvl=1)`|
 
 
 ## Distributions
