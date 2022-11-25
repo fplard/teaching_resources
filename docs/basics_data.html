@@ -90,8 +90,8 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
 
   <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2022-07-27"/>
-  <meta property="article:created" itemprop="dateCreated" content="2022-07-27"/>
+  <meta property="article:published" itemprop="datePublished" content="2022-11-16"/>
+  <meta property="article:created" itemprop="dateCreated" content="2022-11-16"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Learn EcoStat: Data manipulation and visualization"/>
@@ -109,7 +109,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Data manipulation and visualization"]},{"type":"character","attributes":{},"value":["Resources to learn and improve data manipulation, exploration and visualization in R.\n\nmaintained by : *Volunteer wanted* [Click [here to contribute](forms.html)]{style=\"float:right\"}\n"]},{"type":"character","attributes":{},"value":["2022-07-27"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Data manipulation and visualization"]},{"type":"character","attributes":{},"value":["Resources to learn and improve data manipulation, exploration and visualization in R.\n\nmaintained by : *Volunteer wanted* [Click [here to contribute](forms.html)]{style=\"float:right\"}\n"]},{"type":"character","attributes":{},"value":["2022-11-16"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -787,6 +787,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1859,15 +1860,21 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-          var fn = $(this).children()[0]
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
           $(this).html(fn.shadowRoot.querySelector("sup"))
           $(this).id = fn.id
           fn.remove()
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -2425,7 +2432,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2445,7 +2452,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Data manipulation and visualization","description":"Resources to learn and improve data manipulation, exploration and visualization in R.\n\nmaintained by : *Volunteer wanted* [Click [here to contribute](forms.html)]{style=\"float:right\"}","authors":[],"publishedDate":"2022-07-27T00:00:00.000+02:00"}
+{"title":"Data manipulation and visualization","description":"Resources to learn and improve data manipulation, exploration and visualization in R.\n\nmaintained by : *Volunteer wanted* [Click [here to contribute](forms.html)]{style=\"float:right\"}","authors":[],"publishedDate":"2022-11-16T00:00:00.000-05:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2526,20 +2533,30 @@ byFIELD
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#data-science">Data Science</a></li>
-<li><a href="#data-manipulation">Data Manipulation</a>
+<li><a href="#data-science" id="toc-data-science">Data Science</a></li>
+<li><a href="#data-manipulation" id="toc-data-manipulation">Data Manipulation</a>
 <ul>
-<li><a href="#tidyverse">Tidyverse</a></li>
+<li><a href="#tidyverse" id="toc-tidyverse">Tidyverse</a></li>
 </ul></li>
-<li><a href="#data-visualization">Data Visualization</a>
+<li><a href="#data-visualization" id="toc-data-visualization">Data Visualization</a>
 <ul>
-<li><a href="#shiny">Shiny</a></li>
+<li><a href="#interactive-resources" id="toc-interactive-resources">Interactive Resources</a></li>
 </ul></li>
 </ul>
 </nav>
 </div>
 <h6 id="icon-legend"><strong>Icon Legend</strong>:</h6>
-<p><strong>Type</strong>: course <a href="" class="iconlink0"><i class="fas fa-chalkboard-teacher"></i></a> video <a href="" class="iconlink0"><i class="fas fa-video"></i></a> exo <a href="" class="iconlink0"><i class="fas fa-edit"></i></a> open book <a href="" class="iconlink0"><i class="fas fa-list-alt"></i></a> book <a href="" class="iconlink0"><i class="fas fa-book"></i></a> article <a href="" class="iconlink0"><i class="far fa-sticky-note"></i></a> git repo <a href="" class="iconlink0"><i class="fab fa-github"></i></a> website <a href="" class="iconlink0"><i class="fas fa-globe"></i></a> <strong>level</strong>: begin <a href="" class="iconlink1"><i class="fas fa-list-alt"></i></a> intermediate <a href="" class="iconlink2"><i class="fas fa-list-alt"></i></a> advanced <a href="" class="iconlink3"><i class="fas fa-list-alt"></i></a></p>
+<p><strong>Type</strong>:
+course <a href="" class="iconlink0"><i class="fas fa-chalkboard-teacher"></i></a>
+video <a href="" class="iconlink0"><i class="fas fa-video"></i></a>
+exo <a href="" class="iconlink0"><i class="fas fa-edit"></i></a>
+open book <a href="" class="iconlink0"><i class="fas fa-list-alt"></i></a>
+book <a href="" class="iconlink0"><i class="fas fa-book"></i></a>
+article <a href="" class="iconlink0"><i class="far fa-sticky-note"></i></a>
+git repo <a href="" class="iconlink0"><i class="fab fa-github"></i></a>
+website <a href="" class="iconlink0"><i class="fas fa-globe"></i></a>
+<strong>level</strong>:
+begin <a href="" class="iconlink1"><i class="fas fa-list-alt"></i></a> intermediate <a href="" class="iconlink2"><i class="fas fa-list-alt"></i></a> advanced <a href="" class="iconlink3"><i class="fas fa-list-alt"></i></a></p>
 <h2 id="data-science">Data Science</h2>
 <p>Global resources to start data science including introductory and intermediate material on data manipulation, exploration, visualization and analysis.</p>
 <table>
@@ -2663,9 +2680,13 @@ byFIELD
 <td><strong>Visualization</strong> – a R studio youtube playlist</td>
 <td><a href="https://www.youtube.com/playlist?list=PL9HYL-VRX0oQlhD34UPQq0nCR1k1-NjwE" class="iconlink0"><i class="fas fa-video"></i></a></td>
 </tr>
+<tr class="even">
+<td><strong>Data visualization</strong> <em>A Heiss</em> – Interactive lessons for data visualization with R</td>
+<td><a href="https://datavizm20.classes.andrewheiss.com/syllabus/#course-materials" class="iconlink1"><i class="fas fa-list-alt"></i></a></td>
+</tr>
 </tbody>
 </table>
-<h3 id="shiny">Shiny</h3>
+<h3 id="interactive-resources">Interactive Resources</h3>
 <table>
 <colgroup>
 <col style="width: 86%" />
@@ -2679,22 +2700,26 @@ byFIELD
 </thead>
 <tbody>
 <tr class="odd">
+<td><strong>Interactive charts</strong> <em>Y Holtz</em> – Create interactive charts in R</td>
+<td><a href="https://r-graph-gallery.com/interactive-charts.html" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
+</tr>
+<tr class="even">
 <td><strong>Shiny gallery</strong> – Find ideas about what is possible to do</td>
 <td><a href="https://shiny.rstudio.com/gallery/" class="iconlink0"><i class="fas fa-globe"></i></a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>A shiny workshop to start</strong> <em>D Valle and others</em> – A full course to start with shiny</td>
 <td><a href="https://lsw5077.github.io/shiny_workshop/" class="iconlink1"><i class="fas fa-chalkboard-teacher"></i></a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>Mastering Shiny</strong> <em>Hadley Wickham</em> – Designed to take you from knowing nothing about Shiny to being an expert developer</td>
 <td><a href="https://mastering-shiny.org/" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>Engineering Production-Grade Shiny Apps</strong> <em>C Fay, S Rochette, V Guyader, C Girard</em> – learn the process of building an application that will later be sent to production</td>
 <td><a href="https://engineering-shiny.org/index.html" class="iconlink2"><i class="fas fa-list-alt"></i></a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>Shiny Developer Series</strong> – a youtube channel</td>
 <td><a href="https://www.youtube.com/c/ShinyDeveloperSeries/videos" class="iconlink2"><i class="fas fa-video"></i></a></td>
 </tr>
