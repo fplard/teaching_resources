@@ -33,15 +33,25 @@ begin `r ilink("tuto", "", lvl=1)` intermediate `r ilink("tuto", "", lvl=2)` adv
 |-------------------------------------------|-------|
 |**Introduction to GIS and mapping in R using the sf package** *O. Gimenez* -- Helpful slides to start mapping in R|`r ilink("course", "https://github.com/oliviergimenez/intro_spatialR#introduction-to-gis-and-mapping-in-r-using-the-sf-package", lvl=1)`|
 |**Data wrangling for spatial analysis** *C J Brown, D Schoeman, A J Richardson, B Venables* -- Introduction to spatial analysis with sf |`r ilink("tuto", "https://www.seascapemodels.org/Advanced-spatial-analysis-2021/Advanced-spatial-analysis-2021.html", lvl=1)`|
-
+|**Spatial data in R** *D Zurell* -- Introduction to spatial data in R|`r ilink("tuto", "https://damariszurell.github.io/CLEWS-EDB/0_setup.html", lvl=1)`|
+|**Geospatial vector data in R with sf** *B Karabaliev* -- Create static and interactive maps with spatial data|`r ilink("site", "https://ourcodingclub.github.io/tutorials/spatial-vector-sf/", lvl=1)`|
+|**Spatial regression in R** *L Hertzog* -- Introduction to spatial regression models|`r ilink("site", "https://datascienceplus.com/spatial-regression-in-r-part-1-spamm-vs-glmmtmb/", lvl=1)`|
 
 
 ## Distribution and Abundance
 
 | Name                                      | Links |
 |-------------------------------------------|-------|
-|**Current approaches to species distribution modelling with R** *C. Brown* Introduction to build, run and visualize species distribution models|`r ilink("tuto", "https://www.seascapemodels.org/SDM-fish-course-notes/", lvl=1)`|
-
+|**Current approaches to species distribution modelling with R** *C. Brown* -- Introduction to build, run and visualize species distribution models|`r ilink("tuto", "https://www.seascapemodels.org/SDM-fish-course-notes/", lvl=1)`|
+|**Distance sampling course** *CREEM, University of St Andrews* -- Introduction to distance sampling concepts, survey design, field methods and data analysis|`r ilink("course", "http://workshops.distancesampling.org/online-course/", lvl=1)`|
 
 ## Habitat Selection
 ## Movement
+
+
+## INLA
+
+| Name                                      | Links |
+|-------------------------------------------|-------|
+|**Spatial regression in R: INLA** *L Hertzog* -- Spatial regression with INLA package|`r ilink("site", "https://datascienceplus.com/spatial-regression-in-r-part-2-inla", lvl=2)`|
+|**The R-INLA project** *H Rue* -- Latent-models with INLA package|`r ilink("tuto", "https://sites.google.com/a/r-inla.org/www/models/latent-models", lvl=2)`|
